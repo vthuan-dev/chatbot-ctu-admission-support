@@ -1,0 +1,910 @@
+{
+  "total_urls": 123,
+  "high_priority_urls": 102,
+  "url_categories": {
+    "chi_tieu": {
+      "total": 4,
+      "high_priority": 4
+    },
+    "nganh_hoc": {
+      "total": 4,
+      "high_priority": 4
+    },
+    "phuong_thuc_xet_tuyen": {
+      "total": 17,
+      "high_priority": 17
+    },
+    "thong_tin_tuyen_sinh": {
+      "total": 74,
+      "high_priority": 74
+    },
+    "chuong_trinh": {
+      "total": 3,
+      "high_priority": 3
+    },
+    "chuong_trinh_khac": {
+      "total": 10,
+      "high_priority": 0
+    },
+    "de_an": {
+      "total": 1,
+      "high_priority": 0
+    },
+    "external": {
+      "total": 5,
+      "high_priority": 0
+    },
+    "ktx_csvc": {
+      "total": 2,
+      "high_priority": 0
+    },
+    "thong_tin_chung": {
+      "total": 3,
+      "high_priority": 0
+    }
+  },
+  "urls": [
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/thong-tin-tuyen-sinh.html",
+      "text": "Thông tin tuyển sinh",
+      "type": "markdown_link",
+      "category": "chi_tieu",
+      "priority": 1
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/895-diem-uu-tien.html",
+      "text": "Điểm ưu tiên trong tuyển sinh",
+      "type": "markdown_link",
+      "category": "chi_tieu",
+      "priority": 1
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/images/upload/TT_TS/2024/tailieuhuongdanhethongxettuyenchung.pdf",
+      "text": "Hướng dẫn đăng ký nguyện vọng trên cổng tuyển sinh của Bộ GD&ĐT",
+      "type": "markdown_link",
+      "category": "chi_tieu",
+      "priority": 1
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/images/upload/TT_TS/2024/qd464_quychenangkhieu.pdf",
+      "text": "Quy chế thi môn năng khiếu trong tuyển sinh",
+      "type": "markdown_link",
+      "category": "chi_tieu",
+      "priority": 1
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/177-thong-tin/841-danh-muc-nganh-va-chi-tieu-tuyen-sinh-dhcq.html",
+      "text": "Dự kiến ngành và chỉ tiêu tuyển sinh đại học chính quy năm 2025",
+      "type": "markdown_link",
+      "category": "nganh_hoc",
+      "priority": 1
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/841-danh-muc-nganh-va-chi-tieu-tuyen-sinh-dhcq.html",
+      "text": "Dự kiến ngành và chỉ tiêu tuyển sinh năm 2025",
+      "type": "markdown_link",
+      "category": "nganh_hoc",
+      "priority": 1
+    },
+    {
+      "url": "https://www.ctu.edu.vn/images/upload/vbdh/vbct/QD6599_Quy_che_tuyen_sinh_dao_tao_dai_hoc_chinh_quy.pdf",
+      "text": "Quy chế tuyển sinh đào tạo trình độ đại học hình thức chính quy",
+      "type": "markdown_link",
+      "category": "nganh_hoc",
+      "priority": 1
+    },
+    {
+      "url": "https://www.ctu.edu.vn/dao-tao/ctdt-dai-hoc.html",
+      "text": "Chương trình đào tạo đại học",
+      "type": "markdown_link",
+      "category": "nganh_hoc",
+      "priority": 1
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/177-thong-tin/943-phuong-thuc-xet-tuyen.html",
+      "text": "Phương thức xét tuyển đại học chính quy năm 2025",
+      "type": "markdown_link",
+      "category": "phuong_thuc_xet_tuyen",
+      "priority": 1
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/phuong-thuc-xet-tuyen/940-phuong-thuc-6.html",
+      "text": "Phương thức 6: Xét tuyển thẳng vào học bổ sung kiến thức",
+      "type": "markdown_link",
+      "category": "phuong_thuc_xet_tuyen",
+      "priority": 1
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/phuong-thuc-xet-tuyen/937-phuong-thuc-1.html",
+      "text": "PHƯƠNG THỨC 1: Tuyển thẳng, ưu tiên xét tuyển",
+      "type": "markdown_link",
+      "category": "phuong_thuc_xet_tuyen",
+      "priority": 1
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/phuong-thuc-xet-tuyen/938-phuong-thuc-2.html",
+      "text": "PHƯƠNG THỨC 2: Xét tuyển điểm Kỳ thi tốt nghiệp THPT năm 2025",
+      "type": "markdown_link",
+      "category": "phuong_thuc_xet_tuyen",
+      "priority": 1
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/phuong-thuc-xet-tuyen/939-phuong-thuc-3.html",
+      "text": "PHƯƠNG THỨC 3: Xét tuyển điểm học bạ THPT",
+      "type": "markdown_link",
+      "category": "phuong_thuc_xet_tuyen",
+      "priority": 1
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/phuong-thuc-xet-tuyen/947-phuong-thuc-4.html",
+      "text": "PHƯƠNG THỨC 4: Xét điểm thi V-SAT",
+      "type": "markdown_link",
+      "category": "phuong_thuc_xet_tuyen",
+      "priority": 1
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/phuong-thuc-xet-tuyen/1046-phuong-thuc-5.html",
+      "text": "PHƯƠNG THỨC 5: Tuyển chọn vào chương trình tiên tiến và chất lượng cao",
+      "type": "markdown_link",
+      "category": "phuong_thuc_xet_tuyen",
+      "priority": 1
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/thong-tin-tuyen-sinh/1102-xet-tuy-n-th-ng-vao-h-c-b-sung-ki-n-th-c-nam-2025-phuong-th-c-6.html",
+      "text": "Xét tuyển thẳng vào học bổ sung kiến thức năm 2025 (Phương thức 6)",
+      "type": "markdown_link",
+      "category": "phuong_thuc_xet_tuyen",
+      "priority": 1
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/thong-tin-tuyen-sinh/1087-lich-to-chuc-ky-thi-vsat-nam-2025.html",
+      "text": "Lịch tổ chức kỳ thi V-SAT năm 2025 tại Trường Đại học Cần Thơ",
+      "type": "markdown_link",
+      "category": "phuong_thuc_xet_tuyen",
+      "priority": 1
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/841-danh-muc-nganh-va-chi-tieu-tuyen-sinh-dhcq.html#cttt-clc",
+      "text": "Chỉ tiêu và tổ hợp xét tuyển",
+      "type": "markdown_link",
+      "category": "phuong_thuc_xet_tuyen",
+      "priority": 1
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/images/upload/TT_TS/2025/De-an-to-chuc-Ky-thi-danh-gia-dau-vao-dai-hoc-tren-may-tinh-phuc-vu-tuyen-sinh-dai-hoc-V-SAT-cua-Truong-DHCT-nam-2025.pdf",
+      "text": "Quyết định ban hành đề án tổ chức thi V-SAT | Đề án",
+      "type": "markdown_link",
+      "category": "phuong_thuc_xet_tuyen",
+      "priority": 1
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/images/upload/TT_TS/2025/QD111_Quy-che-thi-V-SAT.pdf",
+      "text": "Quy chế thi V-SAT",
+      "type": "markdown_link",
+      "category": "phuong_thuc_xet_tuyen",
+      "priority": 1
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/images/upload/TT_TS/2025/387_4.-Thong-bao-lich-to-chuc-thi-VSAT-nam-2025_chinh-thuc.signed.signed.signed.pdf \"Lịch thi VSAT năm 2025\"",
+      "text": "Lịch thi VSAT năm 2025",
+      "type": "markdown_link",
+      "category": "phuong_thuc_xet_tuyen",
+      "priority": 1
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/thong-tin-tuyen-sinh/1087-lich-to-chuc-ky-thi-vsat-nam-2025.html)",
+      "text": "https://tuyensinh.ctu.edu.vn/thong-tin-tuyen-sinh/1087-lich-to-chuc-ky-thi-vsat-nam-2025.html)",
+      "type": "direct_url",
+      "category": "phuong_thuc_xet_tuyen",
+      "priority": 1
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/images/upload/TT_TS/2025/De-an-to-chuc-Ky-thi-danh-gia-dau-vao-dai-hoc-tren-may-tinh-phuc-vu-tuyen-sinh-dai-hoc-V-SAT-cua-Truong-DHCT-nam-2025.pdf)",
+      "text": "https://tuyensinh.ctu.edu.vn/images/upload/TT_TS/2025/De-an-to-chuc-Ky-thi-danh-gia-dau-vao-dai-hoc-tren-may-tinh-phuc-vu-tuyen-sinh-dai-hoc-V-SAT-cua-Truong-DHCT-nam-2025.pdf)",
+      "type": "direct_url",
+      "category": "phuong_thuc_xet_tuyen",
+      "priority": 1
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/images/upload/TT_TS/2025/QD111_Quy-che-thi-V-SAT.pdf)",
+      "text": "https://tuyensinh.ctu.edu.vn/images/upload/TT_TS/2025/QD111_Quy-che-thi-V-SAT.pdf)",
+      "type": "direct_url",
+      "category": "phuong_thuc_xet_tuyen",
+      "priority": 1
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/images/upload/TT_TS/2025/387_4.-Thong-bao-lich-to-chuc-thi-VSAT-nam-2025_chinh-thuc.signed.signed.signed.pdf",
+      "text": "https://tuyensinh.ctu.edu.vn/images/upload/TT_TS/2025/387_4.-Thong-bao-lich-to-chuc-thi-VSAT-nam-2025_chinh-thuc.signed.signed.signed.pdf",
+      "type": "direct_url",
+      "category": "phuong_thuc_xet_tuyen",
+      "priority": 1
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy.html",
+      "text": "Đại học chính quy",
+      "type": "markdown_link",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 1
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/chuong-trinh-tien-tien.html",
+      "text": "Chương trình tiên tiến",
+      "type": "markdown_link",
+      "category": "chuong_trinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/chuong-trinh-chat-luong-cao.html",
+      "text": "Chương trình chất lượng cao",
+      "type": "markdown_link",
+      "category": "chuong_trinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/841-danh-muc-nganh-va-chi-tieu-tuyen-sinh-dhcq.html#cttt-clc)",
+      "text": "https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/841-danh-muc-nganh-va-chi-tieu-tuyen-sinh-dhcq.html#cttt-clc)",
+      "type": "direct_url",
+      "category": "chuong_trinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/",
+      "text": "Trang chủ",
+      "type": "markdown_link",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/templates/jd_chicago/images/logo.png",
+      "text": "![Thong tin tuyen sinh",
+      "type": "markdown_link",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/images/tab-icon3.png",
+      "text": "icon",
+      "type": "markdown_link",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/images/tab-icon1.png",
+      "text": "icon",
+      "type": "markdown_link",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/images/upload/ttts-ctdt.png",
+      "text": "![",
+      "type": "markdown_link",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/images/upload/cndttt.png",
+      "text": "![",
+      "type": "markdown_link",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/943-phuong-thuc-xet-tuyen.html",
+      "text": "Phương thức xét tuyển năm 2025",
+      "type": "markdown_link",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/images/upload/new.gif",
+      "text": "![",
+      "type": "markdown_link",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/images/upload/ttts-b2.png",
+      "text": "![",
+      "type": "markdown_link",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1003-an-toan-thong-tin.html",
+      "text": "An toàn thông tin",
+      "type": "markdown_link",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/470-bao-ve-thuc-vat.html",
+      "text": "Bảo vệ thực vật",
+      "type": "markdown_link",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/520-benh-hoc-thuy-san.html",
+      "text": "Bệnh học thủy sản",
+      "type": "markdown_link",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/465-chan-nuoi.html",
+      "text": "Chăn nuôi",
+      "type": "markdown_link",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/images/upload/10_ly-do.mp4",
+      "text": "Video",
+      "type": "markdown_link",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/gioi-thieu/839-ly-do-de-hoc-tai-truong-dhct.html",
+      "text": "Xem chi tiết",
+      "type": "markdown_link",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/cau-hoi-pho-bien/874-dang-ky-xet-tuyen-vao-dai-hoc-can-tho.html",
+      "text": "→ Xem chi tiết",
+      "type": "markdown_link",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/cau-hoi-pho-bien/875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.html",
+      "text": "→ Xem chi tiết",
+      "type": "markdown_link",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/cau-hoi-pho-bien/877-chuong-trinh-chat-luong-cao-khac-voi-chuong-trinh-dai-tra.html",
+      "text": "→ Xem chi tiết",
+      "type": "markdown_link",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/images/upload/DATS2024_TCT.pdf",
+      "text": "2024",
+      "type": "markdown_link",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/images/upload/TT_TS/2023/DATS2023_TCT.pdf",
+      "text": "2023",
+      "type": "markdown_link",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/images/upload/TT_TS/2022/DATS-2022_DHCT_Chinh-thuc.pdf",
+      "text": "2022",
+      "type": "markdown_link",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/images/upload/TT_TS/2021/DATS2021_TCT_280521.pdf",
+      "text": "2021",
+      "type": "markdown_link",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/images/upload/DATS2020_DHCT_Chinh-thuc.pdf",
+      "text": "2020",
+      "type": "markdown_link",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/images/upload/TT_TS/TCT_DATS_2019_270319.pdf",
+      "text": "2019",
+      "type": "markdown_link",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/images/upload/TT_TS/TCT_DATS_060718.pdf",
+      "text": "2018",
+      "type": "markdown_link",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/images/upload/TT_TS/TCT_DA_TS_2017.pdf",
+      "text": "2017",
+      "type": "markdown_link",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/images/upload/qr-code.png",
+      "text": "",
+      "type": "markdown_link",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/)",
+      "text": "https://tuyensinh.ctu.edu.vn/)",
+      "type": "direct_url",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy.html)",
+      "text": "https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy.html)",
+      "type": "direct_url",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/thong-tin-tuyen-sinh.html)",
+      "text": "https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/thong-tin-tuyen-sinh.html)",
+      "type": "direct_url",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/chuong-trinh-tien-tien.html)",
+      "text": "https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/chuong-trinh-tien-tien.html)",
+      "type": "direct_url",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/chuong-trinh-chat-luong-cao.html)",
+      "text": "https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/chuong-trinh-chat-luong-cao.html)",
+      "type": "direct_url",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/177-thong-tin/841-danh-muc-nganh-va-chi-tieu-tuyen-sinh-dhcq.html)",
+      "text": "https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/177-thong-tin/841-danh-muc-nganh-va-chi-tieu-tuyen-sinh-dhcq.html)",
+      "type": "direct_url",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/177-thong-tin/943-phuong-thuc-xet-tuyen.html)",
+      "text": "https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/177-thong-tin/943-phuong-thuc-xet-tuyen.html)",
+      "type": "direct_url",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/templates/jd_chicago/images/logo.png)",
+      "text": "https://tuyensinh.ctu.edu.vn/templates/jd_chicago/images/logo.png)",
+      "type": "direct_url",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/phuong-thuc-xet-tuyen/940-phuong-thuc-6.html)",
+      "text": "https://tuyensinh.ctu.edu.vn/phuong-thuc-xet-tuyen/940-phuong-thuc-6.html)",
+      "type": "direct_url",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/177-thong-tin/897-ky-tuc-xa.html)",
+      "text": "https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/177-thong-tin/897-ky-tuc-xa.html)",
+      "type": "direct_url",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/images/tab-icon3.png)",
+      "text": "https://tuyensinh.ctu.edu.vn/images/tab-icon3.png)",
+      "type": "direct_url",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/images/tab-icon1.png)",
+      "text": "https://tuyensinh.ctu.edu.vn/images/tab-icon1.png)",
+      "type": "direct_url",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/images/upload/ttts-ctdt.png)",
+      "text": "https://tuyensinh.ctu.edu.vn/images/upload/ttts-ctdt.png)",
+      "type": "direct_url",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/gioi-thieu/839-ly-do-de-hoc-tai-truong-dhct.html)",
+      "text": "https://tuyensinh.ctu.edu.vn/gioi-thieu/839-ly-do-de-hoc-tai-truong-dhct.html)",
+      "type": "direct_url",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/images/upload/cndttt.png)",
+      "text": "https://tuyensinh.ctu.edu.vn/images/upload/cndttt.png)",
+      "type": "direct_url",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/943-phuong-thuc-xet-tuyen.html)",
+      "text": "https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/943-phuong-thuc-xet-tuyen.html)",
+      "type": "direct_url",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/phuong-thuc-xet-tuyen/937-phuong-thuc-1.html)",
+      "text": "https://tuyensinh.ctu.edu.vn/phuong-thuc-xet-tuyen/937-phuong-thuc-1.html)",
+      "type": "direct_url",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/phuong-thuc-xet-tuyen/938-phuong-thuc-2.html)",
+      "text": "https://tuyensinh.ctu.edu.vn/phuong-thuc-xet-tuyen/938-phuong-thuc-2.html)",
+      "type": "direct_url",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/phuong-thuc-xet-tuyen/939-phuong-thuc-3.html)",
+      "text": "https://tuyensinh.ctu.edu.vn/phuong-thuc-xet-tuyen/939-phuong-thuc-3.html)",
+      "type": "direct_url",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/phuong-thuc-xet-tuyen/947-phuong-thuc-4.html)",
+      "text": "https://tuyensinh.ctu.edu.vn/phuong-thuc-xet-tuyen/947-phuong-thuc-4.html)",
+      "type": "direct_url",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/phuong-thuc-xet-tuyen/1046-phuong-thuc-5.html)",
+      "text": "https://tuyensinh.ctu.edu.vn/phuong-thuc-xet-tuyen/1046-phuong-thuc-5.html)",
+      "type": "direct_url",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/thong-tin-tuyen-sinh/1102-xet-tuy-n-th-ng-vao-h-c-b-sung-ki-n-th-c-nam-2025-phuong-th-c-6.html)",
+      "text": "https://tuyensinh.ctu.edu.vn/thong-tin-tuyen-sinh/1102-xet-tuy-n-th-ng-vao-h-c-b-sung-ki-n-th-c-nam-2025-phuong-th-c-6.html)",
+      "type": "direct_url",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/images/upload/new.gif)",
+      "text": "https://tuyensinh.ctu.edu.vn/images/upload/new.gif)",
+      "type": "direct_url",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/841-danh-muc-nganh-va-chi-tieu-tuyen-sinh-dhcq.html)",
+      "text": "https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/841-danh-muc-nganh-va-chi-tieu-tuyen-sinh-dhcq.html)",
+      "type": "direct_url",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/895-diem-uu-tien.html)",
+      "text": "https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/895-diem-uu-tien.html)",
+      "type": "direct_url",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/images/upload/ttts-b2.png)",
+      "text": "https://tuyensinh.ctu.edu.vn/images/upload/ttts-b2.png)",
+      "type": "direct_url",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1003-an-toan-thong-tin.html)",
+      "text": "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1003-an-toan-thong-tin.html)",
+      "type": "direct_url",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/470-bao-ve-thuc-vat.html)",
+      "text": "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/470-bao-ve-thuc-vat.html)",
+      "type": "direct_url",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/520-benh-hoc-thuy-san.html)",
+      "text": "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/520-benh-hoc-thuy-san.html)",
+      "type": "direct_url",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/465-chan-nuoi.html)",
+      "text": "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/465-chan-nuoi.html)",
+      "type": "direct_url",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/images/upload/10_ly-do.mp4)",
+      "text": "https://tuyensinh.ctu.edu.vn/images/upload/10_ly-do.mp4)",
+      "type": "direct_url",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/cau-hoi-pho-bien/874-dang-ky-xet-tuyen-vao-dai-hoc-can-tho.html)",
+      "text": "https://tuyensinh.ctu.edu.vn/cau-hoi-pho-bien/874-dang-ky-xet-tuyen-vao-dai-hoc-can-tho.html)",
+      "type": "direct_url",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/cau-hoi-pho-bien/875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.html)",
+      "text": "https://tuyensinh.ctu.edu.vn/cau-hoi-pho-bien/875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.html)",
+      "type": "direct_url",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/cau-hoi-pho-bien/877-chuong-trinh-chat-luong-cao-khac-voi-chuong-trinh-dai-tra.html)",
+      "text": "https://tuyensinh.ctu.edu.vn/cau-hoi-pho-bien/877-chuong-trinh-chat-luong-cao-khac-voi-chuong-trinh-dai-tra.html)",
+      "type": "direct_url",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/images/upload/TT_TS/2024/tailieuhuongdanhethongxettuyenchung.pdf)",
+      "text": "https://tuyensinh.ctu.edu.vn/images/upload/TT_TS/2024/tailieuhuongdanhethongxettuyenchung.pdf)",
+      "type": "direct_url",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/images/upload/DATS2024_TCT.pdf)",
+      "text": "https://tuyensinh.ctu.edu.vn/images/upload/DATS2024_TCT.pdf)",
+      "type": "direct_url",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/images/upload/TT_TS/2023/DATS2023_TCT.pdf)",
+      "text": "https://tuyensinh.ctu.edu.vn/images/upload/TT_TS/2023/DATS2023_TCT.pdf)",
+      "type": "direct_url",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/images/upload/TT_TS/2022/DATS-2022_DHCT_Chinh-thuc.pdf)",
+      "text": "https://tuyensinh.ctu.edu.vn/images/upload/TT_TS/2022/DATS-2022_DHCT_Chinh-thuc.pdf)",
+      "type": "direct_url",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/images/upload/TT_TS/2021/DATS2021_TCT_280521.pdf)",
+      "text": "https://tuyensinh.ctu.edu.vn/images/upload/TT_TS/2021/DATS2021_TCT_280521.pdf)",
+      "type": "direct_url",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/images/upload/DATS2020_DHCT_Chinh-thuc.pdf)",
+      "text": "https://tuyensinh.ctu.edu.vn/images/upload/DATS2020_DHCT_Chinh-thuc.pdf)",
+      "type": "direct_url",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/images/upload/TT_TS/TCT_DATS_2019_270319.pdf)",
+      "text": "https://tuyensinh.ctu.edu.vn/images/upload/TT_TS/TCT_DATS_2019_270319.pdf)",
+      "type": "direct_url",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/images/upload/TT_TS/TCT_DATS_060718.pdf)",
+      "text": "https://tuyensinh.ctu.edu.vn/images/upload/TT_TS/TCT_DATS_060718.pdf)",
+      "type": "direct_url",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/images/upload/TT_TS/TCT_DA_TS_2017.pdf)",
+      "text": "https://tuyensinh.ctu.edu.vn/images/upload/TT_TS/TCT_DA_TS_2017.pdf)",
+      "type": "direct_url",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/images/upload/TT_TS/2024/DA468_thinangkhieu.pdf)",
+      "text": "https://tuyensinh.ctu.edu.vn/images/upload/TT_TS/2024/DA468_thinangkhieu.pdf)",
+      "type": "direct_url",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/images/upload/TT_TS/2024/qd464_quychenangkhieu.pdf)",
+      "text": "https://tuyensinh.ctu.edu.vn/images/upload/TT_TS/2024/qd464_quychenangkhieu.pdf)",
+      "type": "direct_url",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/images/upload/qr-code.png)",
+      "text": "https://tuyensinh.ctu.edu.vn/images/upload/qr-code.png)",
+      "type": "direct_url",
+      "category": "thong_tin_tuyen_sinh",
+      "priority": 2
+    },
+    {
+      "url": "https://ctc.ctu.edu.vn/tuyen-sinh/tuyen-sinh-he-vua-lam-vua-hoc.html",
+      "text": "Vừa làm vừa học",
+      "type": "markdown_link",
+      "category": "chuong_trinh_khac",
+      "priority": 3
+    },
+    {
+      "url": "https://ctc.ctu.edu.vn/tuyen-sinh/tuyen-sinh-he-tu-xa.html",
+      "text": "Từ xa",
+      "type": "markdown_link",
+      "category": "chuong_trinh_khac",
+      "priority": 3
+    },
+    {
+      "url": "https://gs.ctu.edu.vn",
+      "text": "Sau đại học",
+      "type": "markdown_link",
+      "category": "chuong_trinh_khac",
+      "priority": 3
+    },
+    {
+      "url": "https://ctc.ctu.edu.vn",
+      "text": "",
+      "type": "markdown_link",
+      "category": "chuong_trinh_khac",
+      "priority": 3
+    },
+    {
+      "url": "https://gs.ctu.edu.vn/",
+      "text": "",
+      "type": "markdown_link",
+      "category": "chuong_trinh_khac",
+      "priority": 3
+    },
+    {
+      "url": "https://ctc.ctu.edu.vn/tuyen-sinh/tuyen-sinh-he-vua-lam-vua-hoc.html)",
+      "text": "https://ctc.ctu.edu.vn/tuyen-sinh/tuyen-sinh-he-vua-lam-vua-hoc.html)",
+      "type": "direct_url",
+      "category": "chuong_trinh_khac",
+      "priority": 3
+    },
+    {
+      "url": "https://ctc.ctu.edu.vn/tuyen-sinh/tuyen-sinh-he-tu-xa.html)",
+      "text": "https://ctc.ctu.edu.vn/tuyen-sinh/tuyen-sinh-he-tu-xa.html)",
+      "type": "direct_url",
+      "category": "chuong_trinh_khac",
+      "priority": 3
+    },
+    {
+      "url": "https://gs.ctu.edu.vn)",
+      "text": "https://gs.ctu.edu.vn)",
+      "type": "direct_url",
+      "category": "chuong_trinh_khac",
+      "priority": 3
+    },
+    {
+      "url": "https://ctc.ctu.edu.vn)",
+      "text": "https://ctc.ctu.edu.vn)",
+      "type": "direct_url",
+      "category": "chuong_trinh_khac",
+      "priority": 3
+    },
+    {
+      "url": "https://gs.ctu.edu.vn/)",
+      "text": "https://gs.ctu.edu.vn/)",
+      "type": "direct_url",
+      "category": "chuong_trinh_khac",
+      "priority": 3
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/images/upload/TT_TS/2024/DA468_thinangkhieu.pdf",
+      "text": "Đề án tổ chức thi môn năng khiếu 2024",
+      "type": "markdown_link",
+      "category": "de_an",
+      "priority": 3
+    },
+    {
+      "url": "https://aptech.cusc.vn/",
+      "text": "Lập trình viên quốc tế",
+      "type": "markdown_link",
+      "category": "external",
+      "priority": 3
+    },
+    {
+      "url": "https://www.facebook.com/ctu.tvts/",
+      "text": "https://www.facebook.com/ctu.tvts",
+      "type": "markdown_link",
+      "category": "external",
+      "priority": 3
+    },
+    {
+      "url": "https://aptech.cusc.vn/)",
+      "text": "https://aptech.cusc.vn/)",
+      "type": "direct_url",
+      "category": "external",
+      "priority": 3
+    },
+    {
+      "url": "https://www.facebook.com/ctu.tvts",
+      "text": "https://www.facebook.com/ctu.tvts",
+      "type": "direct_url",
+      "category": "external",
+      "priority": 3
+    },
+    {
+      "url": "https://www.facebook.com/ctu.tvts/)",
+      "text": "https://www.facebook.com/ctu.tvts/)",
+      "type": "direct_url",
+      "category": "external",
+      "priority": 3
+    },
+    {
+      "url": "https://tansinhvien.ctu.edu.vn",
+      "text": "Tân sinh viên",
+      "type": "markdown_link",
+      "category": "ktx_csvc",
+      "priority": 3
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/177-thong-tin/897-ky-tuc-xa.html",
+      "text": "Ký túc xá",
+      "type": "markdown_link",
+      "category": "ktx_csvc",
+      "priority": 3
+    },
+    {
+      "url": "https://tansinhvien.ctu.edu.vn)",
+      "text": "https://tansinhvien.ctu.edu.vn)",
+      "type": "direct_url",
+      "category": "thong_tin_chung",
+      "priority": 3
+    },
+    {
+      "url": "https://www.ctu.edu.vn/images/upload/vbdh/vbct/QD6599_Quy_che_tuyen_sinh_dao_tao_dai_hoc_chinh_quy.pdf)",
+      "text": "https://www.ctu.edu.vn/images/upload/vbdh/vbct/QD6599_Quy_che_tuyen_sinh_dao_tao_dai_hoc_chinh_quy.pdf)",
+      "type": "direct_url",
+      "category": "thong_tin_chung",
+      "priority": 3
+    },
+    {
+      "url": "https://www.ctu.edu.vn/dao-tao/ctdt-dai-hoc.html)",
+      "text": "https://www.ctu.edu.vn/dao-tao/ctdt-dai-hoc.html)",
+      "type": "direct_url",
+      "category": "thong_tin_chung",
+      "priority": 3
+    }
+  ],
+  "generated_date": "2025-01-27"
+}

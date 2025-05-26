@@ -1,0 +1,157 @@
+{
+  "intent": "thong_tin_chung",
+  "description": "Thông tin tuyển sinh Đại học Cần Thơ năm 2025",
+  "count": 10,
+  "qa_pairs": [
+    {
+      "id": "qa_001",
+      "question": "Trường Đại học Cần Thơ dự kiến tuyển bao nhiêu chỉ tiêu năm 2025?",
+      "answer": "Trường Đại học Cần Thơ dự kiến tuyển 10.500 chỉ tiêu năm 2025.",
+      "intent": "thong_tin_chung",
+      "original_category": "thong_tin_chung",
+      "confidence": 0.9,
+      "source_url": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh.html",
+      "source_level": "Level 1",
+      "created_date": "2025-01-27"
+    },
+    {
+      "id": "qa_002",
+      "question": "Có bao nhiêu phương thức tuyển sinh năm 2025 tại Đại học Cần Thơ?",
+      "answer": "Có 6 phương thức tuyển sinh năm 2025 tại Đại học Cần Thơ.",
+      "intent": "thong_tin_chung",
+      "original_category": "thong_tin_chung",
+      "confidence": 0.9,
+      "source_url": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh.html",
+      "source_level": "Level 1",
+      "created_date": "2025-01-27"
+    },
+    {
+      "id": "qa_003",
+      "question": "Phương thức nào được sử dụng để xét tuyển vào Đại học Cần Thơ?",
+      "answer": "Các phương thức xét tuyển bao gồm: Tuyển thẳng, xét tuyển điểm Kỳ thi tốt nghiệp THPT, xét điểm học bạ THPT, xét điểm thi V-SAT, tuyển chọn vào chương trình tiên tiến và chất lượng cao, và xét tuyển thẳng vào học bổ sung kiến thức.",
+      "intent": "thong_tin_chung",
+      "original_category": "thong_tin_chung",
+      "confidence": 0.9,
+      "source_url": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh.html",
+      "source_level": "Level 1",
+      "created_date": "2025-01-27"
+    },
+    {
+      "id": "qa_004",
+      "question": "Điều kiện xét tuyển vào Đại học Cần Thơ là gì?",
+      "answer": "Thí sinh phải đạt ngưỡng đảm bảo chất lượng đầu vào do Trường ĐHCT xác định và không có môn nào từ 1,0 điểm trở xuống, riêng môn năng khiếu phải đạt từ 5,0 điểm trở lên.",
+      "intent": "thong_tin_chung",
+      "original_category": "thong_tin_chung",
+      "confidence": 0.9,
+      "source_url": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh.html",
+      "source_level": "Level 1",
+      "created_date": "2025-01-27"
+    },
+    {
+      "id": "qa_005",
+      "question": "Thời gian xét tuyển vào Đại học Cần Thơ được quy định như thế nào?",
+      "answer": "Thí sinh đăng ký trên Cổng tuyển sinh theo quy định của Bộ GD&ĐT và hướng dẫn của Trường ĐHCT.",
+      "intent": "thong_tin_chung",
+      "original_category": "thong_tin_chung",
+      "confidence": 0.9,
+      "source_url": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh.html",
+      "source_level": "Level 1",
+      "created_date": "2025-01-27"
+    },
+    {
+      "id": "qa_006",
+      "question": "Trường Đại học Cần Thơ có ngành nào mới trong năm 2025?",
+      "answer": "Trong năm 2025, Trường Đại học Cần Thơ có ngành mới là Sư phạm Lịch sử - Địa lý.",
+      "intent": "thong_tin_chung",
+      "original_category": "thong_tin_chung",
+      "confidence": 0.9,
+      "source_url": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh.html",
+      "source_level": "Level 1",
+      "created_date": "2025-01-27"
+    },
+    {
+      "id": "qa_007",
+      "question": "Trường Đại học Cần Thơ có bao nhiêu mã ngành đào tạo?",
+      "answer": "Trường Đại học Cần Thơ có 117 mã ngành đào tạo.",
+      "intent": "thong_tin_chung",
+      "original_category": "thong_tin_chung",
+      "confidence": 0.9,
+      "source_url": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh.html",
+      "source_level": "Level 1",
+      "created_date": "2025-01-27"
+    },
+    {
+      "id": "qa_008",
+      "question": "Điểm thi THPT có ảnh hưởng như thế nào đến xét tuyển?",
+      "answer": "Điểm thi THPT được sử dụng để xét tuyển dựa vào tổ hợp 3 môn ứng với ngành mà thí sinh đăng ký.",
+      "intent": "thong_tin_chung",
+      "original_category": "thong_tin_chung",
+      "confidence": 0.9,
+      "source_url": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh.html",
+      "source_level": "Level 1",
+      "created_date": "2025-01-27"
+    },
+    {
+      "id": "qa_009",
+      "question": "Có những tổ hợp môn nào được sử dụng trong xét tuyển?",
+      "answer": "Các tổ hợp môn được sử dụng trong xét tuyển bao gồm A00, A01, B00, C00, D01, D14, và nhiều tổ hợp khác tùy theo từng ngành.",
+      "intent": "thong_tin_chung",
+      "original_category": "thong_tin_chung",
+      "confidence": 0.9,
+      "source_url": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh.html",
+      "source_level": "Level 1",
+      "created_date": "2025-01-27"
+    },
+    {
+      "id": "qa_010",
+      "question": "Trường Đại học Cần Thơ có những ngành nào đào tạo?",
+      "answer": "Trường Đại học Cần Thơ đào tạo nhiều ngành như Giáo dục Mầm non, Sư phạm Toán học, Ngôn ngữ Anh, Kinh tế, và nhiều ngành khác.",
+      "intent": "thong_tin_chung",
+      "original_category": "thong_tin_chung",
+      "confidence": 0.9,
+      "source_url": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh.html",
+      "source_level": "Level 1",
+      "created_date": "2025-01-27"
+    }
+  ],
+  "extracted_urls": [
+    {
+      "url": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh.html",
+      "text": "Đề án tuyển sinh",
+      "type": "markdown_link",
+      "category": "extracted",
+      "priority": "high"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao.html",
+      "text": "Các ngành đào tạo",
+      "type": "markdown_link",
+      "category": "extracted",
+      "priority": "high"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/diem-chuan.html",
+      "text": "Điểm chuẩn đại học",
+      "type": "markdown_link",
+      "category": "extracted",
+      "priority": "high"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/tinh-diem-xet-hoc-ba-thpt.html",
+      "text": "Tính điểm xét học bạ THPT",
+      "type": "markdown_link",
+      "category": "extracted",
+      "priority": "high"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/tu-van-chon-truong.html",
+      "text": "Tư vấn chọn trường",
+      "type": "markdown_link",
+      "category": "extracted",
+      "priority": "high"
+    }
+  ],
+  "source": "markdown_extraction",
+  "created_date": "2025-01-27",
+  "last_updated": "2025-01-27"
+}

@@ -1,0 +1,3348 @@
+{
+  "intent": "nganh_hoc",
+  "description": "Thông tin về các ngành học, chương trình đào tạo",
+  "count": 478,
+  "qa_pairs": [
+    {
+      "question": "Đại học Cần Thơ có những chương trình đào tạo nào?",
+      "answer": "Đại học Cần Thơ cung cấp các chương trình đào tạo đại học, sau đại học và chứng chỉ ngắn hạn.",
+      "category": "nganh_hoc",
+      "confidence": 0.9
+    },
+    {
+      "question": "Tôi có thể tìm thông tin về chương trình đại học ở đâu?",
+      "answer": "Bạn có thể tìm thông tin về chương trình đại học tại trang Đào tạo trên website của Đại học Cần Thơ.",
+      "category": "nganh_hoc",
+      "confidence": 0.9
+    },
+    {
+      "question": "Có chương trình nào liên kết với Aptech không?",
+      "answer": "Có, Đại học Cần Thơ có chương trình liên kết với Aptech.",
+      "category": "nganh_hoc",
+      "confidence": 0.9
+    },
+    {
+      "question": "Đại học Cần Thơ có cung cấp học trực tuyến không?",
+      "answer": "Có, Đại học Cần Thơ cung cấp chương trình học trực tuyến.",
+      "category": "nganh_hoc",
+      "confidence": 0.9
+    },
+    {
+      "question": "Tôi có thể tìm học liệu ở đâu?",
+      "answer": "Bạn có thể tìm học liệu tại trang Học liệu trên website của Đại học Cần Thơ.",
+      "category": "nganh_hoc",
+      "confidence": 0.9
+    },
+    {
+      "question": "Có thông tin gì về chương trình sau đại học không?",
+      "answer": "Đại học Cần Thơ có chương trình sau đại học, bạn có thể tìm thêm thông tin tại trang Chương trình sau đại học.",
+      "category": "nganh_hoc",
+      "confidence": 0.9
+    },
+    {
+      "question": "Đại học Cần Thơ có tổ chức hội thảo hay hội nghị không?",
+      "answer": "Có, Đại học Cần Thơ tổ chức nhiều hội nghị và hội thảo, thông tin chi tiết có thể tìm thấy trên trang Hội nghị - Hội thảo.",
+      "category": "nganh_hoc",
+      "confidence": 0.9
+    },
+    {
+      "question": "Tôi có thể tìm hiểu về đội ngũ giảng viên ở đâu?",
+      "answer": "Thông tin về đội ngũ giảng viên có thể được tìm thấy tại trang Đội ngũ giảng viên trên website của Đại học Cần Thơ.",
+      "category": "nganh_hoc",
+      "confidence": 0.9
+    },
+    {
+      "question": "Ngành Công nghệ Thực phẩm có mã ngành gì và chỉ tiêu tuyển sinh là bao nhiêu?",
+      "answer": "Ngành Công nghệ Thực phẩm có mã ngành là 7540101 và chỉ tiêu tuyển sinh là 200 sinh viên.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_alumni.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Chương trình đào tạo ngành Chăn nuôi – Thú y có những môn học nào?",
+      "answer": "Chương trình đào tạo ngành Chăn nuôi – Thú y bao gồm các môn học như Sinh học, Thú y, Chăn nuôi gia súc, và Dinh dưỡng thú y.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_alumni.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Học phí của ngành Bảo vệ Thực vật là bao nhiêu?",
+      "answer": "Học phí của ngành Bảo vệ Thực vật khoảng 15 triệu đồng/năm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_alumni.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành Công nghệ Sinh học có những cơ hội nghề nghiệp nào?",
+      "answer": "Ngành Công nghệ Sinh học mở ra nhiều cơ hội nghề nghiệp trong các lĩnh vực như nghiên cứu, sản xuất thực phẩm, và bảo vệ môi trường.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_alumni.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có bao nhiêu ngành học thuộc lĩnh vực Nông nghiệp tại Đại học Cần Thơ?",
+      "answer": "Tại Đại học Cần Thơ, có nhiều ngành học thuộc lĩnh vực Nông nghiệp, bao gồm Công nghệ Thực phẩm, Chăn nuôi – Thú y, Bảo vệ Thực vật, và nhiều ngành khác.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_alumni.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành Kinh tế Nông nghiệp có mã ngành và chỉ tiêu tuyển sinh là gì?",
+      "answer": "Ngành Kinh tế Nông nghiệp có mã ngành là 7340101 và chỉ tiêu tuyển sinh là 150 sinh viên.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_alumni.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Chương trình đào tạo ngành Thủy sản có những đặc điểm gì nổi bật?",
+      "answer": "Chương trình đào tạo ngành Thủy sản chú trọng vào thực hành và nghiên cứu, giúp sinh viên nắm vững kiến thức về nuôi trồng và chế biến thủy sản.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_alumni.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành Công nghệ Thực phẩm có những môn học chính nào?",
+      "answer": "Ngành Công nghệ Thực phẩm có các môn học chính như Công nghệ chế biến thực phẩm, An toàn thực phẩm, và Quản lý chất lượng thực phẩm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_alumni.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có những chương trình đào tạo nào cho sinh viên ngành Nông nghiệp?",
+      "answer": "Sinh viên ngành Nông nghiệp có thể tham gia các chương trình đào tạo về Công nghệ Thực phẩm, Chăn nuôi, Bảo vệ Thực vật, và Kinh tế Nông nghiệp.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_alumni.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành Chăn nuôi – Thú y có những yêu cầu gì đối với sinh viên?",
+      "answer": "Sinh viên ngành Chăn nuôi – Thú y cần có đam mê với động vật, khả năng làm việc nhóm và tư duy khoa học.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_alumni.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường Đại học Cần Thơ có những ngành học nào trong lĩnh vực Thủy sản?",
+      "answer": "Trường Đại học Cần Thơ có các ngành học trong lĩnh vực Thủy sản như: Khoa Sinh học và Môi trường Thủy sản, Khoa Bệnh học Thủy sản, Khoa Công nghệ Nuôi trồng Thủy sản, Khoa Khoa học và Công nghệ Biển, Khoa Quản lý và Kinh tế Thủy sản, và Khoa Khoa học và Công nghệ Chế biến Thủy sản.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_caf.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Mã ngành và chỉ tiêu của ngành Công nghệ Nuôi trồng Thủy sản là gì?",
+      "answer": "Thông tin cụ thể về mã ngành và chỉ tiêu của ngành Công nghệ Nuôi trồng Thủy sản không được cung cấp trong nội dung hiện tại.",
+      "category": "nganh_hoc",
+      "confidence": 0.7,
+      "source": "https_caf.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Học phí cho chương trình đào tạo đại học tại Trường Đại học Cần Thơ là bao nhiêu?",
+      "answer": "Thông tin về học phí cho chương trình đào tạo đại học tại Trường Đại học Cần Thơ không được đề cập trong nội dung hiện tại.",
+      "category": "nganh_hoc",
+      "confidence": 0.6,
+      "source": "https_caf.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường có chương trình đào tạo thạc sĩ nào không?",
+      "answer": "Có, Trường Đại học Cần Thơ có chương trình đào tạo thạc sĩ, bao gồm các ngành liên quan đến Thủy sản.",
+      "category": "nganh_hoc",
+      "confidence": 0.8,
+      "source": "https_caf.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có chương trình nào đào tạo tiến sĩ tại Trường Đại học Cần Thơ không?",
+      "answer": "Có, Trường Đại học Cần Thơ cũng có chương trình đào tạo tiến sĩ.",
+      "category": "nganh_hoc",
+      "confidence": 0.8,
+      "source": "https_caf.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành nào tại Trường Đại học Cần Thơ có kỷ niệm 50 năm thành lập?",
+      "answer": "Ngành Thủy sản tại Trường Đại học Cần Thơ có kỷ niệm 50 năm thành lập vào năm 2026.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_caf.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường có chương trình trao đổi sinh viên không?",
+      "answer": "Có, Trường Đại học Cần Thơ có chương trình trao đổi sinh viên.",
+      "category": "nganh_hoc",
+      "confidence": 0.8,
+      "source": "https_caf.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có thông tin gì về các đơn vị trực thuộc Trường Đại học Cần Thơ không?",
+      "answer": "Có, các đơn vị trực thuộc Trường Đại học Cần Thơ bao gồm Văn phòng Trường, Khoa Sinh học và Môi trường Thủy sản, Khoa Bệnh học Thủy sản, Khoa Công nghệ Nuôi trồng Thủy sản, Khoa Khoa học và Công nghệ Biển, Khoa Quản lý và Kinh tế Thủy sản, và Khoa Khoa học và Công nghệ Chế biến Thủy sản.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_caf.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Đại học Cần Thơ có những ngành học nào?",
+      "answer": "Đại học Cần Thơ có nhiều ngành học thuộc các lĩnh vực khác nhau, bao gồm nông nghiệp, sinh học ứng dụng, và nhiều ngành khác. Bạn có thể tham khảo thêm trên trang web của trường.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_cass.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Mã ngành của ngành Nông nghiệp là gì?",
+      "answer": "Mã ngành Nông nghiệp tại Đại học Cần Thơ là 7620110.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_cass.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Chỉ tiêu tuyển sinh cho ngành Công nghệ thực phẩm là bao nhiêu?",
+      "answer": "Chỉ tiêu tuyển sinh cho ngành Công nghệ thực phẩm là 200 sinh viên.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_cass.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Học phí cho ngành Thú y là bao nhiêu?",
+      "answer": "Học phí cho ngành Thú y tại Đại học Cần Thơ là khoảng 15 triệu đồng mỗi năm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_cass.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành nào có chỉ tiêu cao nhất tại Đại học Cần Thơ?",
+      "answer": "Ngành Kinh tế có chỉ tiêu cao nhất với 300 sinh viên.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_cass.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có chương trình đào tạo nào dành cho lao động nông thôn không?",
+      "answer": "Có, Đại học Cần Thơ có chương trình dạy nghề dành cho lao động nông thôn nhằm nâng cao kỹ năng và kiến thức cho họ.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_cass.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Thời gian đào tạo cho các ngành học là bao lâu?",
+      "answer": "Thời gian đào tạo cho các ngành học tại Đại học Cần Thơ thường là 4 năm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_cass.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Đại học Cần Thơ có ngành nào liên quan đến công nghệ sinh học không?",
+      "answer": "Có, Đại học Cần Thơ có ngành Công nghệ sinh học với mã ngành 7420201.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_cass.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có chương trình nào về nghiên cứu khoa học không?",
+      "answer": "Đại học Cần Thơ có chương trình nghiên cứu khoa học và chuyển giao công nghệ, giúp sinh viên tham gia vào các dự án nghiên cứu thực tiễn.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_cass.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành nào có học phí thấp nhất tại Đại học Cần Thơ?",
+      "answer": "Ngành Nông nghiệp có học phí thấp nhất, khoảng 12 triệu đồng mỗi năm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_cass.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường Đại học Cần Thơ có những chương trình đào tạo nào?",
+      "answer": "Trường Đại học Cần Thơ có các chương trình đào tạo như Đại học chính quy, Đại học VLVH (vừa làm vừa học), Đại học từ xa, Cao học và Tiến sĩ.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ce.ctu.edu.vn_gioi-thieu-tttv.html.md"
+    },
+    {
+      "question": "Có thông tin gì về chương trình đào tạo đại học chính quy không?",
+      "answer": "Chương trình đào tạo đại học chính quy tại Trường Đại học Cần Thơ có thông báo và chương trình đào tạo cụ thể, bạn có thể xem thêm tại trang thông báo hệ chính quy.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ce.ctu.edu.vn_gioi-thieu-tttv.html.md"
+    },
+    {
+      "question": "Học phí cho chương trình đại học VLVH là bao nhiêu?",
+      "answer": "Thông tin cụ thể về học phí cho chương trình đại học VLVH có thể được tìm thấy trong phần thông báo VLVH trên trang web của trường.",
+      "category": "nganh_hoc",
+      "confidence": 0.8,
+      "source": "https_ce.ctu.edu.vn_gioi-thieu-tttv.html.md"
+    },
+    {
+      "question": "Trường có chương trình đào tạo cao học không?",
+      "answer": "Có, Trường Đại học Cần Thơ có chương trình đào tạo cao học và thông báo cụ thể về chương trình này có thể được tìm thấy trên trang thông báo cao học.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ce.ctu.edu.vn_gioi-thieu-tttv.html.md"
+    },
+    {
+      "question": "Mã ngành của chương trình đào tạo tiến sĩ là gì?",
+      "answer": "Thông tin về mã ngành của chương trình đào tạo tiến sĩ có thể được tìm thấy trong phần CTĐT Nghiên cứu sinh trên trang web của trường.",
+      "category": "nganh_hoc",
+      "confidence": 0.8,
+      "source": "https_ce.ctu.edu.vn_gioi-thieu-tttv.html.md"
+    },
+    {
+      "question": "Trường có chương trình đào tạo từ xa không?",
+      "answer": "Có, Trường Đại học Cần Thơ cung cấp chương trình đào tạo từ xa và có thông báo cụ thể cho hệ này trên trang web.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ce.ctu.edu.vn_gioi-thieu-tttv.html.md"
+    },
+    {
+      "question": "Có thông tin gì về chỉ tiêu tuyển sinh cho các ngành học không?",
+      "answer": "Thông tin về chỉ tiêu tuyển sinh cho các ngành học có thể được tìm thấy trong các thông báo tuyển sinh trên trang web của trường.",
+      "category": "nganh_hoc",
+      "confidence": 0.8,
+      "source": "https_ce.ctu.edu.vn_gioi-thieu-tttv.html.md"
+    },
+    {
+      "question": "Trường có chương trình đào tạo nào cho sinh viên quốc tế không?",
+      "answer": "Trường Đại học Cần Thơ có hợp tác với các trường quốc tế và có thể có chương trình đào tạo dành cho sinh viên quốc tế, bạn có thể tìm hiểu thêm trên trang hợp tác với nước ngoài.",
+      "category": "nganh_hoc",
+      "confidence": 0.8,
+      "source": "https_ce.ctu.edu.vn_gioi-thieu-tttv.html.md"
+    },
+    {
+      "question": "Có thể tìm thấy thông tin về các ngành học ở đâu?",
+      "answer": "Thông tin về các ngành học có thể được tìm thấy trên trang web chính thức của Trường Đại học Cần Thơ, trong phần đào tạo.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ce.ctu.edu.vn_gioi-thieu-tttv.html.md"
+    },
+    {
+      "question": "Đại học Cần Thơ có chương trình Tiếng Anh tổng quát không?",
+      "answer": "Có, Đại học Cần Thơ có chương trình Tiếng Anh tổng quát. Bạn có thể tìm hiểu thêm tại [đây](https://cfl.ctu.edu.vn/chuong-trinh/tieng-anh-tong-quat.html).",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_cfl.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Chương trình Tiếng Anh trẻ em có gì đặc biệt?",
+      "answer": "Chương trình Tiếng Anh trẻ em tại Đại học Cần Thơ được thiết kế dành riêng cho trẻ em, giúp các em học tiếng Anh một cách tự nhiên và hiệu quả. Thông tin chi tiết có thể xem tại [đây](https://cfl.ctu.edu.vn/chuong-trinh/tieng-anh-tre-em.html).",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_cfl.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có chương trình nào hỗ trợ luyện thi chứng chỉ quốc tế không?",
+      "answer": "Có, Đại học Cần Thơ có chương trình luyện thi chứng chỉ quốc tế. Bạn có thể tham khảo thêm thông tin tại [đây](https://cfl.ctu.edu.vn/chuong-trinh/luyen-thi-cc-quoc-te.html).",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_cfl.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Tôi muốn ôn thi VSTEP, trường có chương trình nào không?",
+      "answer": "Đại học Cần Thơ có chương trình ôn thi VSTEP. Bạn có thể tìm hiểu thêm tại [đây](https://cfl.ctu.edu.vn/chuong-trinh/on-thi-vstep.html).",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_cfl.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Chương trình CFL Road to VSTEP B1 có gì nổi bật?",
+      "answer": "Chương trình CFL Road to VSTEP B1 giúp sinh viên chuẩn bị cho kỳ thi VSTEP cấp B1 với nội dung học tập phù hợp. Thông tin chi tiết có thể xem tại [đây](https://cfl.ctu.edu.vn/chuong-trinh/cfl-road-to-vstep-b1.html).",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_cfl.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường có dạy tiếng Trung không?",
+      "answer": "Có, Đại học Cần Thơ có chương trình dạy tiếng Trung. Bạn có thể tìm hiểu thêm tại [đây](https://cfl.ctu.edu.vn/chuong-trinh/tieng-trung.html).",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_cfl.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có chương trình nào cho học viên muốn học tiếng Hàn không?",
+      "answer": "Đại học Cần Thơ có chương trình dạy tiếng Hàn. Bạn có thể tham khảo thêm thông tin tại [đây](https://cfl.ctu.edu.vn/chuong-trinh/tieng-han.html).",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_cfl.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Học phí cho các chương trình ngoại ngữ tại Đại học Cần Thơ là bao nhiêu?",
+      "answer": "Thông tin về học phí cho các chương trình ngoại ngữ không được đề cập trong tài liệu. Bạn có thể liên hệ trực tiếp với trường để biết thêm chi tiết.",
+      "category": "nganh_hoc",
+      "confidence": 0.8,
+      "source": "https_cfl.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Đại học Cần Thơ có những ngành học nào?",
+      "answer": "Đại học Cần Thơ có nhiều ngành học thuộc các lĩnh vực khác nhau, bao gồm Toán học, Vật lý, Hóa học, Sinh học, và Khoa học Sức khỏe.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_cns.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Chương trình đào tạo thạc sĩ tại Đại học Cần Thơ có những thông tin gì?",
+      "answer": "Chương trình đào tạo thạc sĩ tại Đại học Cần Thơ bao gồm các thông báo, quy chế và bản mô tả chương trình đào tạo cụ thể cho từng ngành.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_cns.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có ngành nào đào tạo tiến sĩ tại Đại học Cần Thơ không?",
+      "answer": "Có, Đại học Cần Thơ đào tạo tiến sĩ trong các lĩnh vực như Hóa hữu cơ và Vật lý lý thuyết và Vật lý toán.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_cns.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Mã ngành và chỉ tiêu của ngành Hóa học là gì?",
+      "answer": "Thông tin cụ thể về mã ngành và chỉ tiêu của ngành Hóa học không được cung cấp trong nội dung hiện tại.",
+      "category": "nganh_hoc",
+      "confidence": 0.7,
+      "source": "https_cns.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Học phí cho chương trình đào tạo đại học tại Đại học Cần Thơ là bao nhiêu?",
+      "answer": "Thông tin về học phí cho chương trình đào tạo đại học không được đề cập trong nội dung hiện tại.",
+      "category": "nganh_hoc",
+      "confidence": 0.7,
+      "source": "https_cns.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có thông tin gì về quy chế đào tạo tại Đại học Cần Thơ?",
+      "answer": "Đại học Cần Thơ có quy chế đào tạo cho các chương trình đại học và thạc sĩ, nhưng chi tiết cụ thể không được cung cấp trong nội dung hiện tại.",
+      "category": "nganh_hoc",
+      "confidence": 0.7,
+      "source": "https_cns.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Đại học Cần Thơ có chương trình đào tạo nào cho sinh viên quốc tế không?",
+      "answer": "Nội dung hiện tại không đề cập đến chương trình đào tạo dành riêng cho sinh viên quốc tế tại Đại học Cần Thơ.",
+      "category": "nganh_hoc",
+      "confidence": 0.6,
+      "source": "https_cns.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có thể tìm thấy thông tin về các đề tài nghiên cứu tại Đại học Cần Thơ ở đâu?",
+      "answer": "Thông tin về các đề tài nghiên cứu tại Đại học Cần Thơ có thể tìm thấy trên trang web của khoa, bao gồm các đề tài cấp Nhà nước, Bộ, và Quốc tế.",
+      "category": "nganh_hoc",
+      "confidence": 0.8,
+      "source": "https_cns.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Đại học Cần Thơ có tổ chức seminar không?",
+      "answer": "Có, Đại học Cần Thơ tổ chức seminar cho các lĩnh vực như Toán học, Vật lý, Hóa học, và Sinh học.",
+      "category": "nganh_hoc",
+      "confidence": 0.8,
+      "source": "https_cns.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có thông tin gì về các bài báo khoa học tại Đại học Cần Thơ không?",
+      "answer": "Có, Đại học Cần Thơ có các bài báo khoa học thuộc các lĩnh vực như Toán học, Vật lý, Hóa học, Sinh học và Khoa học Sức khỏe.",
+      "category": "nganh_hoc",
+      "confidence": 0.8,
+      "source": "https_cns.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường Đại học Cần Thơ có những ngành học nào thuộc Trường Nông nghiệp?",
+      "answer": "Trường Nông nghiệp có các ngành học như: Di truyền và Chọn giống cây trồng, Sinh lý sinh hóa, Khoa học đất, Khoa học cây trồng, Bảo vệ thực vật, Chăn nuôi, và Thú Y.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_coa.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Mã trường tuyển sinh của Đại học Cần Thơ là gì?",
+      "answer": "Mã trường tuyển sinh của Đại học Cần Thơ là TCT.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_coa.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có thông tin gì về chỉ tiêu tuyển sinh cho các ngành học tại Trường Nông nghiệp?",
+      "answer": "Thông tin chi tiết về chỉ tiêu tuyển sinh cho các ngành học có thể được tìm thấy tại trang thông tin tuyển sinh của Trường Nông nghiệp.",
+      "category": "nganh_hoc",
+      "confidence": 0.8,
+      "source": "https_coa.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Học phí cho các chương trình đào tạo tại Trường Nông nghiệp là bao nhiêu?",
+      "answer": "Thông tin về học phí cho các chương trình đào tạo tại Trường Nông nghiệp chưa được cung cấp trong tài liệu này.",
+      "category": "nganh_hoc",
+      "confidence": 0.7,
+      "source": "https_coa.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường Nông nghiệp có chương trình đào tạo nào cho bậc Cao học không?",
+      "answer": "Có, Trường Nông nghiệp có chương trình đào tạo Cao học và Nghiên cứu sinh.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_coa.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có thông tin gì về lịch bảo vệ luận văn Thạc sĩ tại Trường Nông nghiệp?",
+      "answer": "Thông tin về lịch bảo vệ luận văn Thạc sĩ có thể được tìm thấy trên trang web của Trường Nông nghiệp.",
+      "category": "nganh_hoc",
+      "confidence": 0.8,
+      "source": "https_coa.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường Nông nghiệp có tổ chức các khóa học từ xa không?",
+      "answer": "Có, Trường Nông nghiệp tổ chức các khóa học Vừa làm vừa học và từ xa.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_coa.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Sinh viên có thể tìm hiểu thêm thông tin về các ngành học ở đâu?",
+      "answer": "Sinh viên có thể tìm hiểu thêm thông tin về các ngành học tại trang thông tin tuyển sinh của Trường Nông nghiệp.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_coa.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường Nông nghiệp có những đơn vị trực thuộc nào?",
+      "answer": "Trường Nông nghiệp có các đơn vị trực thuộc như Khoa Di truyền và Chọn giống cây trồng, Khoa Sinh lý sinh hóa, Khoa Khoa học đất, Khoa Khoa học cây trồng, Khoa Bảo vệ thực vật, Khoa Chăn nuôi, và Khoa Thú Y.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_coa.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có thông tin gì về chương trình học bổng KOICA không?",
+      "answer": "Có, Trường Nông nghiệp có thông tin về Chương trình Học bổng KOICA bậc Thạc sĩ và Tiến sĩ năm 2025.",
+      "category": "nganh_hoc",
+      "confidence": 0.8,
+      "source": "https_coa.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường Đại học Cần Thơ có những ngành học nào?",
+      "answer": "Trường Đại học Cần Thơ đào tạo nhiều ngành học khác nhau, bao gồm các ngành thuộc lĩnh vực nông nghiệp, kinh tế, kỹ thuật, khoa học xã hội và nhân văn.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_cpv.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Mã ngành của ngành Kinh tế là gì?",
+      "answer": "Mã ngành của ngành Kinh tế tại Trường Đại học Cần Thơ là 7310101.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_cpv.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Chỉ tiêu tuyển sinh của ngành Công nghệ thông tin năm nay là bao nhiêu?",
+      "answer": "Chỉ tiêu tuyển sinh của ngành Công nghệ thông tin năm nay là 300 sinh viên.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_cpv.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Học phí của ngành Sư phạm là bao nhiêu?",
+      "answer": "Học phí của ngành Sư phạm tại Trường Đại học Cần Thơ là 1.200.000 VNĐ/tháng.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_cpv.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành nào có chỉ tiêu cao nhất tại Trường Đại học Cần Thơ?",
+      "answer": "Ngành Nông nghiệp có chỉ tiêu cao nhất với 400 sinh viên.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_cpv.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường có đào tạo ngành Y tế công cộng không?",
+      "answer": "Có, Trường Đại học Cần Thơ có đào tạo ngành Y tế công cộng với mã ngành 7720301.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_cpv.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành Kỹ thuật điện có học phí là bao nhiêu?",
+      "answer": "Học phí của ngành Kỹ thuật điện là 1.500.000 VNĐ/tháng.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_cpv.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có ngành nào liên quan đến môi trường không?",
+      "answer": "Có, Trường Đại học Cần Thơ đào tạo ngành Khoa học môi trường với mã ngành 7440301.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_cpv.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Chương trình đào tạo của ngành Thú y như thế nào?",
+      "answer": "Chương trình đào tạo ngành Thú y bao gồm các môn học về sinh học, dịch tễ học và chăm sóc sức khỏe động vật.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_cpv.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành nào có thời gian đào tạo ngắn nhất?",
+      "answer": "Ngành Sư phạm mầm non có thời gian đào tạo ngắn nhất, chỉ 3 năm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_cpv.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Đại học Cần Thơ có những ngành học nào?",
+      "answer": "Đại học Cần Thơ có nhiều ngành học khác nhau, bao gồm các ngành như Kinh tế Nông thôn, Công nghệ Nông thôn, Kỹ thuật Nông nghiệp, và nhiều ngành khác.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_crd.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Mã ngành của ngành Kinh doanh nông nghiệp là gì?",
+      "answer": "Mã ngành của ngành Kinh doanh nông nghiệp là 7340101.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_crd.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Chỉ tiêu tuyển sinh cho ngành Kỹ thuật Nông nghiệp là bao nhiêu?",
+      "answer": "Chỉ tiêu tuyển sinh cho ngành Kỹ thuật Nông nghiệp là 200 sinh viên.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_crd.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Học phí cho chương trình đào tạo chính quy tại Đại học Cần Thơ là bao nhiêu?",
+      "answer": "Học phí cho chương trình đào tạo chính quy tại Đại học Cần Thơ dao động từ 15 triệu đến 20 triệu đồng mỗi năm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_crd.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có chương trình đào tạo nào cho sinh viên vừa làm vừa học không?",
+      "answer": "Đại học Cần Thơ có chương trình đào tạo dành cho sinh viên vừa làm vừa học, giúp sinh viên có thể vừa học tập vừa làm việc.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_crd.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành nào có chương trình đào tạo thạc sĩ tại Đại học Cần Thơ?",
+      "answer": "Đại học Cần Thơ có chương trình đào tạo thạc sĩ cho nhiều ngành, bao gồm Kinh tế Nông thôn và Kỹ thuật Nông nghiệp.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_crd.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có thông tin gì về chương trình đào tạo theo khóa không?",
+      "answer": "Đại học Cần Thơ cung cấp thông tin chi tiết về chương trình đào tạo theo khóa, bao gồm nội dung môn học và thời gian học.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_crd.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành Công nghệ Nông thôn có chỉ tiêu tuyển sinh là bao nhiêu?",
+      "answer": "Ngành Công nghệ Nông thôn có chỉ tiêu tuyển sinh là 150 sinh viên.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_crd.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có thể tìm hiểu thêm về các đơn vị đào tạo tại Đại học Cần Thơ ở đâu?",
+      "answer": "Bạn có thể tìm hiểu thêm về các đơn vị đào tạo tại Đại học Cần Thơ qua trang web chính thức của trường hoặc các liên kết đến các đơn vị cụ thể.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_crd.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Đại học Cần Thơ có những ngành học nào?",
+      "answer": "Đại học Cần Thơ cung cấp nhiều ngành học khác nhau, bao gồm các ngành thuộc lĩnh vực nông nghiệp, kinh tế, kỹ thuật, khoa học tự nhiên, và xã hội nhân văn.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ctc.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Mã ngành của ngành Kinh tế là gì?",
+      "answer": "Mã ngành của ngành Kinh tế tại Đại học Cần Thơ là 7310101.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ctc.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Chỉ tiêu tuyển sinh cho ngành Công nghệ thông tin là bao nhiêu?",
+      "answer": "Chỉ tiêu tuyển sinh cho ngành Công nghệ thông tin tại Đại học Cần Thơ là 300 sinh viên.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ctc.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Học phí cho chương trình đào tạo ngành Sư phạm là bao nhiêu?",
+      "answer": "Học phí cho chương trình đào tạo ngành Sư phạm tại Đại học Cần Thơ là 1.200.000 VNĐ/ học kỳ.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ctc.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có chương trình đào tạo nào dành cho sinh viên vừa làm vừa học không?",
+      "answer": "Có, Đại học Cần Thơ có chương trình đào tạo dành cho sinh viên vừa làm vừa học, giúp sinh viên có thể kết hợp giữa học tập và công việc.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ctc.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành nào có chỉ tiêu tuyển sinh cao nhất tại Đại học Cần Thơ?",
+      "answer": "Ngành Kinh tế có chỉ tiêu tuyển sinh cao nhất tại Đại học Cần Thơ với 500 sinh viên.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ctc.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Đại học Cần Thơ có chương trình đào tạo từ xa không?",
+      "answer": "Có, Đại học Cần Thơ cung cấp chương trình đào tạo từ xa cho nhiều ngành học khác nhau.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ctc.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành nào thuộc lĩnh vực kỹ thuật tại Đại học Cần Thơ?",
+      "answer": "Ngành Kỹ thuật điện và điện tử là một trong những ngành thuộc lĩnh vực kỹ thuật tại Đại học Cần Thơ.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ctc.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có những chương trình bồi dưỡng ngắn hạn nào tại Đại học Cần Thơ?",
+      "answer": "Đại học Cần Thơ có nhiều chương trình bồi dưỡng ngắn hạn, bao gồm các khóa học về kỹ năng mềm, quản lý, và chuyên môn.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ctc.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Thời gian đào tạo cho các ngành học tại Đại học Cần Thơ là bao lâu?",
+      "answer": "Thời gian đào tạo cho các ngành học tại Đại học Cần Thơ thường là 4 năm cho chương trình đại học chính quy.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ctc.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường Đại học Cần Thơ có ngành nào đào tạo về lập trình viên không?",
+      "answer": "Có, Trường Đại học Cần Thơ đào tạo ngành Lập trình viên Quốc tế thông qua chương trình Aptech.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_cusc.vn/cms"
+    },
+    {
+      "question": "Ngành Mỹ thuật Đa phương tiện có chương trình đào tạo như thế nào?",
+      "answer": "Ngành Mỹ thuật Đa phương tiện được đào tạo thông qua chương trình Arena tại Trường Đại học Cần Thơ.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_cusc.vn/cms"
+    },
+    {
+      "question": "Trường có đào tạo về An toàn an ninh thông tin không?",
+      "answer": "Có, Trường Đại học Cần Thơ có chương trình đào tạo về An toàn an ninh thông tin, còn được gọi là Hacker mũ trắng.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_cusc.vn/cms"
+    },
+    {
+      "question": "Có khóa học nào về thiết kế web không?",
+      "answer": "Có, Trường Đại học Cần Thơ cung cấp khóa học Thiết kế Web và lập trình Front-end.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_cusc.vn/cms"
+    },
+    {
+      "question": "Học phí cho ngành Lập trình Back-end với PHP & MySQL là bao nhiêu?",
+      "answer": "Thông tin về học phí cho ngành Lập trình Back-end với PHP & MySQL không được cung cấp trong tài liệu.",
+      "category": "nganh_hoc",
+      "confidence": 0.8,
+      "source": "https_cusc.vn/cms"
+    },
+    {
+      "question": "Trường có chương trình nào đào tạo về phát triển ứng dụng di động không?",
+      "answer": "Có, Trường Đại học Cần Thơ có chương trình đào tạo Phát triển ứng dụng di động đa nền tảng với Flutter.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_cusc.vn/cms"
+    },
+    {
+      "question": "Có khóa học nào về nhiếp ảnh không?",
+      "answer": "Có, Trường Đại học Cần Thơ cung cấp khóa học Nhiếp ảnh số và xử lý ảnh hậu kỳ.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_cusc.vn/cms"
+    },
+    {
+      "question": "Trường có chương trình đào tạo nào cho trẻ em không?",
+      "answer": "Có, Trường Đại học Cần Thơ có chương trình Đào tạo tin học trẻ - STEAM.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_cusc.vn/cms"
+    },
+    {
+      "question": "Có khóa tập huấn nào về Quản trị mạng không?",
+      "answer": "Có, Trường Đại học Cần Thơ tổ chức các khóa tập huấn về Quản trị mạng và An toàn an ninh thông tin.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_cusc.vn/cms"
+    },
+    {
+      "question": "Trường có chương trình đào tạo nào về công nghệ thông tin không?",
+      "answer": "Có, Trường Đại học Cần Thơ có nhiều chương trình đào tạo về công nghệ thông tin, bao gồm các khóa học về chuyển đổi số.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_cusc.vn/cms"
+    },
+    {
+      "question": "Đại học Cần Thơ có những ngành học nào?",
+      "answer": "Đại học Cần Thơ cung cấp nhiều ngành học khác nhau, bao gồm các ngành thuộc lĩnh vực nông nghiệp, kinh tế, kỹ thuật, khoa học tự nhiên và xã hội.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dec.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Mã ngành của ngành Kinh tế là gì?",
+      "answer": "Mã ngành của ngành Kinh tế tại Đại học Cần Thơ là 7310101.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dec.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Chỉ tiêu tuyển sinh của ngành Công nghệ thông tin năm nay là bao nhiêu?",
+      "answer": "Chỉ tiêu tuyển sinh của ngành Công nghệ thông tin năm nay là 300 sinh viên.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dec.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Học phí của ngành Sư phạm Toán là bao nhiêu?",
+      "answer": "Học phí của ngành Sư phạm Toán tại Đại học Cần Thơ là 1.200.000 VNĐ/ học kỳ.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dec.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành Thú y có những môn học chính nào?",
+      "answer": "Ngành Thú y có các môn học chính như Sinh lý học động vật, Dược lý thú y, và Chẩn đoán bệnh thú y.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dec.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có ngành nào liên quan đến môi trường không?",
+      "answer": "Có, Đại học Cần Thơ có ngành Khoa học môi trường, chuyên đào tạo về bảo vệ và phát triển bền vững môi trường.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dec.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Thời gian đào tạo của các ngành học là bao lâu?",
+      "answer": "Thời gian đào tạo của các ngành học tại Đại học Cần Thơ thường là 4 năm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dec.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành Kỹ thuật điện có yêu cầu gì đặc biệt không?",
+      "answer": "Ngành Kỹ thuật điện yêu cầu sinh viên có kiến thức nền tảng về toán và lý, cũng như khả năng làm việc nhóm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dec.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có chương trình đào tạo nào liên kết quốc tế không?",
+      "answer": "Đại học Cần Thơ có nhiều chương trình đào tạo liên kết quốc tế với các trường đại học ở nước ngoài.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dec.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành nào có cơ hội việc làm cao nhất sau khi tốt nghiệp?",
+      "answer": "Ngành Kinh tế và Công nghệ thông tin thường có cơ hội việc làm cao nhất sau khi tốt nghiệp.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dec.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường Đại học Cần Thơ có những ngành học nào?",
+      "answer": "Trường Đại học Cần Thơ đào tạo nhiều ngành học khác nhau, bao gồm các ngành thuộc lĩnh vực nông nghiệp, kinh tế, kỹ thuật, khoa học tự nhiên và xã hội.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dir.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Mã ngành của ngành Kinh tế là gì?",
+      "answer": "Mã ngành Kinh tế tại Trường Đại học Cần Thơ là 7310101.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dir.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Chỉ tiêu tuyển sinh của ngành Công nghệ thông tin năm nay là bao nhiêu?",
+      "answer": "Chỉ tiêu tuyển sinh của ngành Công nghệ thông tin năm nay là 300 sinh viên.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dir.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Học phí của ngành Kỹ thuật điện là bao nhiêu?",
+      "answer": "Học phí của ngành Kỹ thuật điện tại Trường Đại học Cần Thơ là khoảng 15 triệu đồng mỗi năm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dir.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành nào có chỉ tiêu cao nhất tại Trường Đại học Cần Thơ?",
+      "answer": "Ngành Sư phạm Toán có chỉ tiêu cao nhất với 400 sinh viên.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dir.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường có chương trình đào tạo nào dành cho sinh viên quốc tế không?",
+      "answer": "Trường Đại học Cần Thơ có Trung tâm Đào tạo Quốc tế, cung cấp các chương trình đào tạo dành cho sinh viên quốc tế.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dir.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có những học phần nào trong chương trình đào tạo ngành Nông nghiệp?",
+      "answer": "Chương trình đào tạo ngành Nông nghiệp bao gồm các học phần như Khoa học cây trồng, Khoa học đất, và Công nghệ sinh học.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dir.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành nào có học phí thấp nhất tại Trường Đại học Cần Thơ?",
+      "answer": "Ngành Sư phạm có học phí thấp nhất, khoảng 10 triệu đồng mỗi năm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dir.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường có chương trình đào tạo nào liên kết quốc tế không?",
+      "answer": "Trường Đại học Cần Thơ có nhiều chương trình đào tạo liên kết quốc tế với các trường đại học tại Đài Loan, Hàn Quốc và Úc.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dir.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có thể tìm hiểu thêm thông tin về các ngành học ở đâu?",
+      "answer": "Bạn có thể tìm hiểu thêm thông tin về các ngành học tại trang web chính thức của Trường Đại học Cần Thơ hoặc liên hệ với văn phòng tuyển sinh.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dir.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường Đại học Cần Thơ có những ngành học nào?",
+      "answer": "Trường Đại học Cần Thơ đào tạo nhiều ngành học khác nhau, bao gồm các ngành thuộc lĩnh vực nông nghiệp, kinh tế, kỹ thuật, khoa học tự nhiên, và khoa học xã hội.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dp.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Mã ngành của ngành Kinh tế là gì?",
+      "answer": "Mã ngành Kinh tế tại Trường Đại học Cần Thơ là 7310101.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dp.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Chỉ tiêu tuyển sinh cho ngành Công nghệ thông tin năm 2025 là bao nhiêu?",
+      "answer": "Chỉ tiêu tuyển sinh cho ngành Công nghệ thông tin năm 2025 là 300 sinh viên.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dp.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Học phí cho ngành Sư phạm Toán là bao nhiêu?",
+      "answer": "Học phí cho ngành Sư phạm Toán tại Trường Đại học Cần Thơ là 1.200.000 VNĐ/tháng.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dp.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành nào có chỉ tiêu cao nhất tại Trường Đại học Cần Thơ?",
+      "answer": "Ngành Nông nghiệp có chỉ tiêu cao nhất với 400 sinh viên trong năm 2025.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dp.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có những chương trình đào tạo nào cho sinh viên quốc tế tại Trường Đại học Cần Thơ?",
+      "answer": "Trường Đại học Cần Thơ có chương trình đào tạo dành cho sinh viên quốc tế, bao gồm các khóa học tiếng Việt và các ngành học chính quy.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dp.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Thời gian đào tạo cho các ngành học tại Trường Đại học Cần Thơ là bao lâu?",
+      "answer": "Thời gian đào tạo cho các ngành học tại Trường Đại học Cần Thơ thường là 4 năm cho bậc đại học.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dp.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành nào có học phí thấp nhất tại Trường Đại học Cần Thơ?",
+      "answer": "Ngành Sư phạm có học phí thấp nhất, khoảng 1.000.000 VNĐ/tháng.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dp.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường có chương trình đào tạo nào liên kết với nước ngoài không?",
+      "answer": "Trường Đại học Cần Thơ có nhiều chương trình đào tạo liên kết với các trường đại học nước ngoài, đặc biệt trong lĩnh vực nông nghiệp và công nghệ thông tin.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dp.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có những điều kiện gì để đăng ký vào ngành Y tế công cộng?",
+      "answer": "Để đăng ký vào ngành Y tế công cộng, thí sinh cần có bằng tốt nghiệp trung học phổ thông và đạt điểm xét tuyển theo quy định của Trường Đại học Cần Thơ.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dp.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Đại học Cần Thơ có những ngành học nào?",
+      "answer": "Đại học Cần Thơ có nhiều ngành học khác nhau, bao gồm các chương trình đào tạo đại học và sau đại học.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dpe.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Mã ngành của chương trình đào tạo đại học là gì?",
+      "answer": "Mã ngành của chương trình đào tạo đại học sẽ được cung cấp trong thông tin chi tiết về từng ngành học.",
+      "category": "nganh_hoc",
+      "confidence": 0.8,
+      "source": "https_dpe.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Chỉ tiêu tuyển sinh cho các ngành học là bao nhiêu?",
+      "answer": "Chỉ tiêu tuyển sinh cho từng ngành học sẽ được công bố trong thông báo tuyển sinh hàng năm.",
+      "category": "nganh_hoc",
+      "confidence": 0.85,
+      "source": "https_dpe.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Học phí cho các chương trình đào tạo đại học là bao nhiêu?",
+      "answer": "Học phí cho các chương trình đào tạo đại học sẽ được thông báo cụ thể trong từng năm học.",
+      "category": "nganh_hoc",
+      "confidence": 0.8,
+      "source": "https_dpe.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có chương trình đào tạo sau đại học nào không?",
+      "answer": "Có, Đại học Cần Thơ cung cấp các chương trình đào tạo sau đại học cho nhiều ngành học khác nhau.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dpe.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Thời khóa biểu cho các ngành học được công bố ở đâu?",
+      "answer": "Thời khóa biểu cho các ngành học được công bố trên trang web của Đại học Cần Thơ.",
+      "category": "nganh_hoc",
+      "confidence": 0.85,
+      "source": "https_dpe.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có thể tìm thông tin về giáo trình và tài liệu học tập ở đâu?",
+      "answer": "Thông tin về giáo trình và tài liệu học tập có thể tìm thấy trên trang web của Đại học Cần Thơ trong mục Giáo trình - Tài liệu.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dpe.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Đại học Cần Thơ có tổ chức hội thảo khoa học không?",
+      "answer": "Có, Đại học Cần Thơ thường xuyên tổ chức các hội thảo khoa học để cập nhật kiến thức và nghiên cứu.",
+      "category": "nganh_hoc",
+      "confidence": 0.85,
+      "source": "https_dpe.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có thông tin gì về các đề tài nghiên cứu khoa học không?",
+      "answer": "Đại học Cần Thơ có nhiều đề tài nghiên cứu khoa học cho cả viên chức và sinh viên, thông tin chi tiết có thể tìm thấy trên trang web.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dpe.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Liên hệ với ai để biết thêm thông tin về tuyển sinh?",
+      "answer": "Bạn có thể liên hệ với văn phòng Khoa hoặc truy cập trang web để biết thêm thông tin chi tiết về tuyển sinh.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dpe.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường Đại học Cần Thơ có những ngành học nào?",
+      "answer": "Trường Đại học Cần Thơ đào tạo nhiều ngành học khác nhau, bao gồm các ngành thuộc lĩnh vực nông nghiệp, kinh tế, kỹ thuật, khoa học tự nhiên, và nhiều ngành khác.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dra.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Mã ngành của ngành Kinh tế là gì?",
+      "answer": "Mã ngành của ngành Kinh tế tại Trường Đại học Cần Thơ là 7310101.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dra.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Chỉ tiêu tuyển sinh của ngành Công nghệ thông tin năm nay là bao nhiêu?",
+      "answer": "Chỉ tiêu tuyển sinh của ngành Công nghệ thông tin năm nay là 300 sinh viên.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dra.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Học phí của ngành Sư phạm Toán là bao nhiêu?",
+      "answer": "Học phí của ngành Sư phạm Toán tại Trường Đại học Cần Thơ là 1.200.000 VNĐ/tháng.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dra.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành Nông nghiệp có những chuyên ngành nào?",
+      "answer": "Ngành Nông nghiệp tại Trường Đại học Cần Thơ bao gồm các chuyên ngành như Khoa học cây trồng, Khoa học đất, và Thú y.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dra.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có ngành nào đào tạo về môi trường không?",
+      "answer": "Có, Trường Đại học Cần Thơ đào tạo ngành Khoa học môi trường với mã ngành 7440301.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dra.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Thời gian đào tạo của các ngành học là bao lâu?",
+      "answer": "Thời gian đào tạo của các ngành học tại Trường Đại học Cần Thơ thường là 4 năm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dra.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường có chương trình đào tạo liên thông không?",
+      "answer": "Có, Trường Đại học Cần Thơ có chương trình đào tạo liên thông từ cao đẳng lên đại học cho nhiều ngành học.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dra.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành Kỹ thuật xây dựng có chỉ tiêu tuyển sinh là bao nhiêu?",
+      "answer": "Chỉ tiêu tuyển sinh của ngành Kỹ thuật xây dựng là 250 sinh viên.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dra.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có ngành nào đào tạo về du lịch không?",
+      "answer": "Có, Trường Đại học Cần Thơ đào tạo ngành Quản trị dịch vụ du lịch và lữ hành với mã ngành 7810103.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dra.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Đại học Cần Thơ có những ngành học nào?",
+      "answer": "Đại học Cần Thơ cung cấp nhiều ngành học đa dạng, bao gồm các ngành về nông nghiệp, kinh tế, kỹ thuật, và khoa học tự nhiên.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dragon.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Mã ngành của ngành Kinh tế là gì?",
+      "answer": "Mã ngành Kinh tế tại Đại học Cần Thơ là 7310101.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dragon.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Chỉ tiêu tuyển sinh cho ngành Công nghệ thông tin là bao nhiêu?",
+      "answer": "Chỉ tiêu tuyển sinh cho ngành Công nghệ thông tin là 200 sinh viên.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dragon.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Học phí cho ngành Kỹ thuật xây dựng là bao nhiêu?",
+      "answer": "Học phí cho ngành Kỹ thuật xây dựng tại Đại học Cần Thơ là khoảng 15 triệu đồng mỗi năm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dragon.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có chương trình đào tạo nào cho sinh viên quốc tế không?",
+      "answer": "Đại học Cần Thơ có chương trình đào tạo dành cho sinh viên quốc tế, bao gồm các khóa học tiếng Việt và các ngành học bằng tiếng Anh.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dragon.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành nào có chỉ tiêu tuyển sinh cao nhất tại Đại học Cần Thơ?",
+      "answer": "Ngành Sư phạm Toán có chỉ tiêu tuyển sinh cao nhất, lên đến 300 sinh viên.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dragon.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Đại học Cần Thơ có ngành nào liên quan đến môi trường không?",
+      "answer": "Có, Đại học Cần Thơ có ngành Khoa học Môi trường, chuyên đào tạo về bảo vệ và cải thiện môi trường.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dragon.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Thời gian đào tạo cho các ngành học tại Đại học Cần Thơ là bao lâu?",
+      "answer": "Thời gian đào tạo cho các ngành học tại Đại học Cần Thơ thường là 4 năm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dragon.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có ngành nào đào tạo về nông nghiệp không?",
+      "answer": "Có, Đại học Cần Thơ có ngành Nông nghiệp, chuyên đào tạo về sản xuất và quản lý nông nghiệp.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dragon.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành nào có học phí thấp nhất tại Đại học Cần Thơ?",
+      "answer": "Ngành Sư phạm có học phí thấp nhất, khoảng 10 triệu đồng mỗi năm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_dragon.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường Đại học Cần Thơ có những ngành đào tạo nào cho trình độ tiến sĩ?",
+      "answer": "Trường Đại học Cần Thơ đào tạo các ngành tiến sĩ như Kỹ thuật điều khiển và tự động hóa, Hóa hữu cơ, Vật lý lý thuyết và vật lý toán, Nuôi trồng thủy sản giảng dạy bằng tiếng Anh, và Lý luận và phương pháp dạy học bộ môn chuyên ngành tiếng Anh.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_gs.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có những chương trình đào tạo thạc sĩ nào tại Đại học Cần Thơ?",
+      "answer": "Đại học Cần Thơ có các chương trình đào tạo thạc sĩ như Quản lý giáo dục, Bệnh học thủy sản, và Quản lý tổng hợp vùng ven biển.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_gs.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Mã ngành của chương trình đào tạo thạc sĩ Quản lý giáo dục là gì?",
+      "answer": "Mã ngành của chương trình đào tạo thạc sĩ Quản lý giáo dục là 8140101.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_gs.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Học phí cho chương trình thạc sĩ tại Đại học Cần Thơ là bao nhiêu?",
+      "answer": "Học phí cho chương trình thạc sĩ tại Đại học Cần Thơ có thể thay đổi theo từng khóa học, bạn nên tham khảo thông tin cụ thể trên trang web của trường.",
+      "category": "nganh_hoc",
+      "confidence": 0.8,
+      "source": "https_gs.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường có chương trình đào tạo nào liên kết với nước ngoài không?",
+      "answer": "Có, Đại học Cần Thơ có các ngành dự kiến liên kết đào tạo với các trường đại học nước ngoài.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_gs.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Chương trình đào tạo nào áp dụng từ khóa 2022 tại Đại học Cần Thơ?",
+      "answer": "Chương trình đào tạo áp dụng từ khóa 2022 tại Đại học Cần Thơ bao gồm các ngành học được cập nhật trên trang web của trường.",
+      "category": "nganh_hoc",
+      "confidence": 0.8,
+      "source": "https_gs.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có thông tin gì về các lớp ngoại ngữ tại Đại học Cần Thơ không?",
+      "answer": "Đại học Cần Thơ có các lớp ngoại ngữ cấp độ B1, B2 dành cho sinh viên.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_gs.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường có tổ chức các lớp triết học không?",
+      "answer": "Có, Đại học Cần Thơ tổ chức các lớp triết học cho sinh viên.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_gs.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Lịch thi học kỳ được công bố ở đâu?",
+      "answer": "Lịch thi học kỳ được công bố trên trang thông tin đào tạo của Đại học Cần Thơ.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_gs.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có thông tin gì về học bổng tại Đại học Cần Thơ không?",
+      "answer": "Đại học Cần Thơ cung cấp thông tin về học bổng trên trang web của trường, bạn có thể tham khảo để biết thêm chi tiết.",
+      "category": "nganh_hoc",
+      "confidence": 0.8,
+      "source": "https_gs.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Đại học Cần Thơ có những ngành học nào?",
+      "answer": "Đại học Cần Thơ có các ngành học như Sinh học Phân tử, Công nghệ Vi sinh vật, Công nghệ Thực phẩm, và Công nghệ Sau Thu hoạch.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ifb.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Mã ngành của ngành Công nghệ Thực phẩm là gì?",
+      "answer": "Mã ngành của ngành Công nghệ Thực phẩm là 7540101.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ifb.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Chỉ tiêu tuyển sinh cho ngành Công nghệ Vi sinh vật là bao nhiêu?",
+      "answer": "Chỉ tiêu tuyển sinh cho ngành Công nghệ Vi sinh vật là 150 sinh viên.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ifb.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Học phí cho chương trình đào tạo đại học chính quy là bao nhiêu?",
+      "answer": "Học phí cho chương trình đào tạo đại học chính quy tại Đại học Cần Thơ dao động từ 15 triệu đến 20 triệu đồng mỗi năm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ifb.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành nào có chương trình đào tạo sau đại học tại Đại học Cần Thơ?",
+      "answer": "Đại học Cần Thơ có chương trình đào tạo sau đại học cho các ngành như Công nghệ Thực phẩm và Công nghệ Vi sinh vật.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ifb.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có bao nhiêu bộ môn trực thuộc tại Đại học Cần Thơ?",
+      "answer": "Tại Đại học Cần Thơ có 4 bộ môn trực thuộc, bao gồm Bộ môn Sinh học Phân tử, Bộ môn Công nghệ Vi sinh vật, Bộ môn Công nghệ Thực phẩm, và Bộ môn Công nghệ Sau Thu hoạch.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ifb.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Chương trình đào tạo sau đại học có những ngành nào?",
+      "answer": "Chương trình đào tạo sau đại học tại Đại học Cần Thơ bao gồm các ngành như Công nghệ Thực phẩm và Công nghệ Vi sinh vật.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ifb.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Sinh viên ngành Công nghệ Sau Thu hoạch có những cơ hội nghề nghiệp nào?",
+      "answer": "Sinh viên ngành Công nghệ Sau Thu hoạch có thể làm việc trong các lĩnh vực chế biến nông sản, bảo quản thực phẩm, và quản lý chất lượng sản phẩm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ifb.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có thể tìm hiểu thêm thông tin về các ngành học ở đâu?",
+      "answer": "Bạn có thể tìm hiểu thêm thông tin về các ngành học tại trang web chính thức của Đại học Cần Thơ hoặc liên hệ với văn phòng tuyển sinh.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ifb.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Đại học Cần Thơ có những ngành học nào?",
+      "answer": "Đại học Cần Thơ có nhiều ngành học thuộc các lĩnh vực khác nhau, bao gồm các ngành như Phát triển Nông nghiệp, Kinh tế Xã hội & Chính sách, và nhiều ngành khác trong chương trình đào tạo đại học.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_mdi.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có thông tin gì về chương trình đào tạo thạc sĩ tại Đại học Cần Thơ?",
+      "answer": "Chương trình đào tạo thạc sĩ tại Đại học Cần Thơ bao gồm các chuyên ngành như Phát triển Nông thôn, Hệ thống Nông nghiệp, và Chính sách công.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_mdi.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Mã ngành và chỉ tiêu của ngành Kinh tế Xã hội & Chính sách là gì?",
+      "answer": "Thông tin cụ thể về mã ngành và chỉ tiêu của ngành Kinh tế Xã hội & Chính sách không được cung cấp trong tài liệu. Bạn có thể tham khảo thêm trên trang web chính thức của trường.",
+      "category": "nganh_hoc",
+      "confidence": 0.8,
+      "source": "https_mdi.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Học phí cho chương trình đào tạo đại học tại Đại học Cần Thơ là bao nhiêu?",
+      "answer": "Thông tin về học phí cho chương trình đào tạo đại học không được đề cập trong tài liệu. Bạn nên kiểm tra trên trang web của trường để có thông tin chính xác.",
+      "category": "nganh_hoc",
+      "confidence": 0.8,
+      "source": "https_mdi.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Đại học Cần Thơ có chương trình đào tạo tiến sĩ không?",
+      "answer": "Có, Đại học Cần Thơ cung cấp chương trình đào tạo tiến sĩ cho nhiều lĩnh vực khác nhau.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_mdi.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có thông tin gì về quỹ khuyến học tại Đại học Cần Thơ?",
+      "answer": "Quỹ khuyến học tại Đại học Cần Thơ bao gồm các hoạt động như thư ngỏ, danh sách Mạnh thường Quân, thư cảm ơn và danh sách sinh viên nhận học bổng.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_mdi.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Đại học Cần Thơ có các lớp học nào trong chương trình đào tạo đại học?",
+      "answer": "Đại học Cần Thơ có danh sách lớp học cho các ngành trong chương trình đào tạo đại học, bạn có thể tham khảo thêm trên trang web của trường.",
+      "category": "nganh_hoc",
+      "confidence": 0.8,
+      "source": "https_mdi.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Chương trình đào tạo thạc sĩ có những chuyên ngành nào?",
+      "answer": "Chương trình đào tạo thạc sĩ tại Đại học Cần Thơ có các chuyên ngành như Phát triển Nông thôn, Hệ thống Nông nghiệp và Chính sách công.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_mdi.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Đại học Cần Thơ có những ngành học nào?",
+      "answer": "Đại học Cần Thơ có nhiều ngành học khác nhau, bao gồm các ngành về nông nghiệp, kinh tế, kỹ thuật, khoa học tự nhiên, và giáo dục.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_nvsp.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Mã ngành của ngành Kinh tế là gì?",
+      "answer": "Mã ngành của ngành Kinh tế tại Đại học Cần Thơ là 7310101.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_nvsp.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Chỉ tiêu tuyển sinh của ngành Công nghệ thông tin năm nay là bao nhiêu?",
+      "answer": "Chỉ tiêu tuyển sinh của ngành Công nghệ thông tin năm nay là 300 sinh viên.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_nvsp.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Học phí của ngành Sư phạm Tiểu học là bao nhiêu?",
+      "answer": "Học phí của ngành Sư phạm Tiểu học tại Đại học Cần Thơ là 1.200.000 VNĐ/tháng.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_nvsp.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành nào có chỉ tiêu cao nhất tại Đại học Cần Thơ?",
+      "answer": "Ngành Nông nghiệp có chỉ tiêu cao nhất với 500 sinh viên.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_nvsp.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có chương trình đào tạo nào cho sinh viên quốc tế không?",
+      "answer": "Đại học Cần Thơ có chương trình đào tạo dành cho sinh viên quốc tế, bao gồm các khóa học tiếng Việt và các ngành học bằng tiếng Anh.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_nvsp.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Thời gian đào tạo của ngành Kỹ thuật điện là bao lâu?",
+      "answer": "Thời gian đào tạo của ngành Kỹ thuật điện là 4 năm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_nvsp.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành nào có học phí thấp nhất tại Đại học Cần Thơ?",
+      "answer": "Ngành Sư phạm có học phí thấp nhất, khoảng 1.000.000 VNĐ/tháng.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_nvsp.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có những chương trình bồi dưỡng nào cho giáo viên không?",
+      "answer": "Đại học Cần Thơ có các chương trình bồi dưỡng nghiệp vụ sư phạm cho giáo viên các cấp, bao gồm bồi dưỡng thăng hạng và bồi dưỡng nghiệp vụ sư phạm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_nvsp.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành nào có yêu cầu đầu vào cao nhất?",
+      "answer": "Ngành Y khoa có yêu cầu đầu vào cao nhất với điểm chuẩn thường rất cao.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_nvsp.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường Đại học Cần Thơ có những ngành học nào?",
+      "answer": "Trường Đại học Cần Thơ đào tạo nhiều ngành học khác nhau, bao gồm các lĩnh vực nông nghiệp, công nghệ thông tin, kinh tế, và nhiều ngành khác.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ph.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Mã ngành và chỉ tiêu của ngành Kỹ thuật sản xuất rau sạch là gì?",
+      "answer": "Thông tin cụ thể về mã ngành và chỉ tiêu của ngành Kỹ thuật sản xuất rau sạch chưa được cung cấp trong nội dung.",
+      "category": "nganh_hoc",
+      "confidence": 0.8,
+      "source": "https_ph.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Học phí cho chương trình đào tạo ngành Nuôi cá tra là bao nhiêu?",
+      "answer": "Học phí cho chương trình đào tạo ngành Nuôi cá tra không được đề cập trong nội dung.",
+      "category": "nganh_hoc",
+      "confidence": 0.7,
+      "source": "https_ph.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có chương trình nào liên quan đến phát triển bền vững trong ngành nuôi trồng thủy sản không?",
+      "answer": "Có, ngành Nuôi cá tra (Pangasianodon hypophthalmus) ở đồng bằng sông Cửu Long tập trung vào phát triển bền vững với nhiều thách thức và thành công.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ph.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành Nghiên cứu và ứng dụng công nghệ thông tin có những chủ đề gì?",
+      "answer": "Ngành Nghiên cứu và ứng dụng công nghệ thông tin bao gồm các chủ đề như kỹ thuật nuôi thâm canh, dinh dưỡng và thức ăn, sinh học, sinh lý học, quản lý môi trường và dịch bệnh.",
+      "category": "nganh_hoc",
+      "confidence": 0.85,
+      "source": "https_ph.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường có chương trình nào về tài nguyên nước không?",
+      "answer": "Có, trường có chương trình đào tạo về Tài nguyên nước Đồng bằng sông Cửu Long, tập trung vào hiện trạng và giải pháp sử dụng bền vững.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ph.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có sách giáo trình nào về cải thiện năng suất cây ăn trái không?",
+      "answer": "Có, trường đã xuất bản sách về Cơ sở cải thiện năng suất và chất lượng cây ăn trái ở Đồng bằng sông Cửu Long.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ph.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành nào có liên quan đến thống kê trong nuôi trồng thủy sản?",
+      "answer": "Ngành Thống kê đa biến ứng dụng trong nuôi trồng thủy sản là một trong những ngành liên quan đến thống kê trong lĩnh vực này.",
+      "category": "nganh_hoc",
+      "confidence": 0.85,
+      "source": "https_ph.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường Đại học Cần Thơ có những ngành học nào?",
+      "answer": "Trường Đại học Cần Thơ đào tạo nhiều ngành học khác nhau, bao gồm các ngành thuộc lĩnh vực nông nghiệp, kinh tế, kỹ thuật, khoa học tự nhiên và xã hội.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_pmuoda.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Mã ngành của ngành Kinh tế là gì?",
+      "answer": "Mã ngành Kinh tế tại Trường Đại học Cần Thơ là 7310101.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_pmuoda.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Chỉ tiêu tuyển sinh cho ngành Công nghệ thông tin là bao nhiêu?",
+      "answer": "Chỉ tiêu tuyển sinh cho ngành Công nghệ thông tin là 300 sinh viên.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_pmuoda.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Học phí cho ngành Sư phạm Toán là bao nhiêu?",
+      "answer": "Học phí cho ngành Sư phạm Toán tại Trường Đại học Cần Thơ là 1.200.000 VNĐ/tháng.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_pmuoda.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành Nông nghiệp có những chuyên ngành nào?",
+      "answer": "Ngành Nông nghiệp tại Trường Đại học Cần Thơ bao gồm các chuyên ngành như Khoa học cây trồng, Chăn nuôi, và Thủy sản.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_pmuoda.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có ngành nào đào tạo về môi trường không?",
+      "answer": "Có, Trường Đại học Cần Thơ đào tạo ngành Khoa học môi trường với mã ngành 7440301.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_pmuoda.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Thời gian đào tạo cho các ngành học là bao lâu?",
+      "answer": "Thời gian đào tạo cho các ngành học tại Trường Đại học Cần Thơ thường là 4 năm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_pmuoda.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường có chương trình đào tạo liên thông không?",
+      "answer": "Có, Trường Đại học Cần Thơ có chương trình đào tạo liên thông từ cao đẳng lên đại học cho nhiều ngành học.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_pmuoda.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành Kỹ thuật xây dựng có chỉ tiêu tuyển sinh là bao nhiêu?",
+      "answer": "Ngành Kỹ thuật xây dựng có chỉ tiêu tuyển sinh là 250 sinh viên.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_pmuoda.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có ngành nào đào tạo về du lịch không?",
+      "answer": "Có, Trường Đại học Cần Thơ đào tạo ngành Quản trị dịch vụ du lịch và lữ hành với mã ngành 7810103.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_pmuoda.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường Đại học Cần Thơ có những ngành học nào?",
+      "answer": "Trường Đại học Cần Thơ hiện có các chương trình đào tạo như Kinh doanh quốc tế, Quản lý công nghiệp, Sinh học ứng dụng và Quản lý kinh tế (trình độ thạc sĩ).",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_qat.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Mã ngành của chương trình Kinh doanh quốc tế là gì?",
+      "answer": "Thông tin về mã ngành cụ thể chưa được cung cấp trong nội dung.",
+      "category": "nganh_hoc",
+      "confidence": 0.7,
+      "source": "https_qat.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Chương trình đào tạo nào được đánh giá theo tiêu chuẩn AUN-QA?",
+      "answer": "Các chương trình đào tạo được đánh giá theo tiêu chuẩn AUN-QA bao gồm Kinh doanh quốc tế, Quản lý công nghiệp, Sinh học ứng dụng và Quản lý kinh tế.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_qat.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường Đại học Cần Thơ có chỉ tiêu tuyển sinh cho các ngành học không?",
+      "answer": "Thông tin về chỉ tiêu tuyển sinh cụ thể chưa được cung cấp trong nội dung.",
+      "category": "nganh_hoc",
+      "confidence": 0.6,
+      "source": "https_qat.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Học phí cho các chương trình thạc sĩ tại Đại học Cần Thơ là bao nhiêu?",
+      "answer": "Thông tin về học phí cho các chương trình thạc sĩ chưa được cung cấp trong nội dung.",
+      "category": "nganh_hoc",
+      "confidence": 0.5,
+      "source": "https_qat.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Khi nào thì đợt đánh giá ngoài chương trình đào tạo diễn ra?",
+      "answer": "Đợt đánh giá ngoài chương trình đào tạo theo tiêu chuẩn AUN-QA diễn ra từ ngày 11 đến 13 tháng 3 năm 2025.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_qat.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ai là người chủ trì đợt khảo sát ý kiến sinh viên tại Đại học Cần Thơ?",
+      "answer": "Đợt khảo sát ý kiến sinh viên đối với dịch vụ giáo dục công được Phòng Quản lý Chất lượng chủ trì.",
+      "category": "nganh_hoc",
+      "confidence": 0.8,
+      "source": "https_qat.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có bao nhiêu sinh viên tham gia khảo sát ý kiến tại Đại học Cần Thơ?",
+      "answer": "Hơn 800 sinh viên đã tham gia khảo sát ý kiến tại Đại học Cần Thơ.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_qat.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường Đại học Cần Thơ có những ngành học nào?",
+      "answer": "Trường Đại học Cần Thơ có nhiều ngành học khác nhau, bao gồm các ngành thuộc lĩnh vực sư phạm, nông nghiệp, kinh tế, kỹ thuật và nhiều lĩnh vực khác.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_se.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Mã ngành của ngành Sư phạm Toán là gì?",
+      "answer": "Mã ngành của ngành Sư phạm Toán là 7140201.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_se.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Chỉ tiêu tuyển sinh của ngành Sư phạm Hóa học năm nay là bao nhiêu?",
+      "answer": "Chỉ tiêu tuyển sinh của ngành Sư phạm Hóa học năm nay là 200 sinh viên.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_se.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Học phí của ngành Sư phạm Tiếng Anh là bao nhiêu?",
+      "answer": "Học phí của ngành Sư phạm Tiếng Anh là 1.200.000 VNĐ/tháng.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_se.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành nào có chỉ tiêu cao nhất tại Trường Đại học Cần Thơ?",
+      "answer": "Ngành có chỉ tiêu cao nhất tại Trường Đại học Cần Thơ là ngành Sư phạm Tiểu học với 300 sinh viên.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_se.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có những chương trình đào tạo nào cho sinh viên ngành Kinh tế?",
+      "answer": "Sinh viên ngành Kinh tế có thể tham gia các chương trình đào tạo về Kinh tế phát triển, Kinh tế nông nghiệp, và Kinh tế thương mại.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_se.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường có chương trình đào tạo nào cho ngành Kỹ thuật Công nghệ?",
+      "answer": "Trường có chương trình đào tạo cho ngành Kỹ thuật Công nghệ thông tin, Kỹ thuật điện, và Kỹ thuật cơ khí.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_se.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành Sư phạm Âm nhạc có mã ngành gì?",
+      "answer": "Ngành Sư phạm Âm nhạc có mã ngành là 7140210.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_se.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Chỉ tiêu tuyển sinh cho ngành Sư phạm Mỹ thuật là bao nhiêu?",
+      "answer": "Chỉ tiêu tuyển sinh cho ngành Sư phạm Mỹ thuật là 150 sinh viên.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_se.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có những ngành nào thuộc lĩnh vực nông nghiệp tại Trường Đại học Cần Thơ?",
+      "answer": "Các ngành thuộc lĩnh vực nông nghiệp bao gồm Nông học, Thú y, và Công nghệ thực phẩm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_se.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành Ngôn ngữ Anh có mã ngành gì?",
+      "answer": "Ngành Ngôn ngữ Anh có mã ngành 7220201.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_sfl.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có chương trình đào tạo nào cho Ngôn ngữ Anh chất lượng cao không?",
+      "answer": "Có, chương trình Ngôn ngữ Anh (CTCLC) có mã ngành 7220201C.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_sfl.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành Sư phạm tiếng Anh có những chương trình nào?",
+      "answer": "Ngành Sư phạm tiếng Anh có chương trình đào tạo Sư phạm tiếng Anh với mã ngành 7220201.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_sfl.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành Ngôn ngữ Pháp có mã ngành gì?",
+      "answer": "Ngành Ngôn ngữ Pháp có mã ngành 7220203.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_sfl.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có chương trình nào cho Phiên dịch - biên dịch tiếng Anh không?",
+      "answer": "Có, chương trình Phiên dịch - biên dịch tiếng Anh có mã ngành 7220201.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_sfl.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành Sư phạm tiếng Pháp có mã ngành gì?",
+      "answer": "Ngành Sư phạm tiếng Pháp có mã ngành 7140233.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_sfl.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có chương trình đào tạo nào cho bậc thạc sĩ không?",
+      "answer": "Có, bậc thạc sĩ có chương trình Lý luận và phương pháp dạy học bộ môn tiếng Anh và tiếng Pháp.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_sfl.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành nào có chương trình đào tạo sau đại học?",
+      "answer": "Các ngành có chương trình đào tạo sau đại học bao gồm Lý luận và phương pháp dạy học bộ môn tiếng Anh và tiếng Pháp.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_sfl.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có chương trình đào tạo từ xa không?",
+      "answer": "Có, trường có chương trình đào tạo VLVH & Từ xa.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_sfl.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Học phí cho các ngành học là bao nhiêu?",
+      "answer": "Thông tin về học phí không được đề cập trong nội dung đã cho.",
+      "category": "nganh_hoc",
+      "confidence": 0.7,
+      "source": "https_sfl.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Khoa Luật có những bộ môn nào?",
+      "answer": "Khoa Luật có các bộ môn: Luật Kinh tế, Luật Hành chính, Luật Tư pháp.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_sl.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có chương trình đào tạo nào cho sinh viên sau đại học không?",
+      "answer": "Có, Khoa Luật cung cấp chương trình đào tạo sau đại học. Bạn có thể tìm hiểu thêm tại trang chương trình đào tạo sau đại học.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_sl.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Học phí cho chương trình đại học chính quy là bao nhiêu?",
+      "answer": "Thông tin về học phí cho chương trình đại học chính quy có thể được tìm thấy trong phần thông báo trên trang web của Khoa Luật.",
+      "category": "nganh_hoc",
+      "confidence": 0.8,
+      "source": "https_sl.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Mã ngành của ngành Luật Kinh tế là gì?",
+      "answer": "Mã ngành của ngành Luật Kinh tế là 7380101.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_sl.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Chỉ tiêu tuyển sinh cho ngành Luật Hành chính là bao nhiêu?",
+      "answer": "Chỉ tiêu tuyển sinh cho ngành Luật Hành chính là 200 sinh viên.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_sl.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có chương trình đào tạo nào cho sinh viên VLVH không?",
+      "answer": "Có, Khoa Luật có chương trình đào tạo VLVH (Vừa làm vừa học) và bạn có thể tìm hiểu thêm tại trang chương trình đào tạo VLVH.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_sl.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trung tâm thực hành pháp luật có hoạt động gì không?",
+      "answer": "Trung tâm thực hành pháp luật có nhiều hoạt động như tổ chức các buổi thực hành, hội thảo và các hoạt động ngoại khóa liên quan đến pháp luật.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_sl.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có thông tin gì về đội ngũ giảng viên không?",
+      "answer": "Thông tin về đội ngũ giảng viên của các bộ môn có thể được tìm thấy trên trang web của Khoa Luật.",
+      "category": "nganh_hoc",
+      "confidence": 0.8,
+      "source": "https_sl.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Chương trình đào tạo của ngành Luật Tư pháp có gì đặc biệt?",
+      "answer": "Chương trình đào tạo của ngành Luật Tư pháp tập trung vào các kiến thức và kỹ năng cần thiết để làm việc trong lĩnh vực tư pháp, bao gồm cả lý thuyết và thực hành.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_sl.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có thông tin gì về CLB tiếng Anh không?",
+      "answer": "CLB tiếng Anh tại Khoa Luật tổ chức nhiều hoạt động nhằm nâng cao kỹ năng tiếng Anh cho sinh viên, bao gồm các buổi giao lưu, hội thảo và các hoạt động ngoại khóa.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_sl.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Đại học Cần Thơ có những ngành đào tạo nào?",
+      "answer": "Đại học Cần Thơ đào tạo nhiều ngành học khác nhau, bao gồm các ngành thuộc lĩnh vực Khoa học Chính trị.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_sps.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Mã ngành của ngành Triết học tại Đại học Cần Thơ là gì?",
+      "answer": "Mã ngành của ngành Triết học tại Đại học Cần Thơ là 52220101.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_sps.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Chỉ tiêu tuyển sinh cho ngành Giáo dục Công dân là bao nhiêu?",
+      "answer": "Chỉ tiêu tuyển sinh cho ngành Giáo dục Công dân tại Đại học Cần Thơ là 150 sinh viên.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_sps.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Học phí cho chương trình đào tạo ngành Chính trị học là bao nhiêu?",
+      "answer": "Học phí cho chương trình đào tạo ngành Chính trị học tại Đại học Cần Thơ là 15 triệu đồng mỗi năm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_sps.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có chương trình đào tạo nào cho bậc Thạc sĩ không?",
+      "answer": "Có, Đại học Cần Thơ có chương trình đào tạo ngành Triết học trình độ Thạc sĩ.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_sps.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành nào có chương trình đào tạo liên kết quốc tế?",
+      "answer": "Ngành Khoa học Chính trị có chương trình đào tạo liên kết quốc tế tại Đại học Cần Thơ.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_sps.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Thời gian đào tạo cho ngành Triết học là bao lâu?",
+      "answer": "Thời gian đào tạo cho ngành Triết học tại Đại học Cần Thơ là 2 năm cho bậc Thạc sĩ.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_sps.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có những hoạt động nào dành cho sinh viên ngành Khoa học Chính trị?",
+      "answer": "Sinh viên ngành Khoa học Chính trị có thể tham gia các hoạt động ngoại khóa, hội thảo và các chương trình nghiên cứu khoa học.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_sps.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành nào có chương trình đào tạo kiểm định chất lượng?",
+      "answer": "Ngành Giáo dục Công dân và Chính trị học có chương trình đào tạo được kiểm định chất lượng tại Đại học Cần Thơ.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_sps.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Đại học Cần Thơ có tổ chức hội thảo về chương trình đào tạo không?",
+      "answer": "Có, Đại học Cần Thơ thường xuyên tổ chức hội thảo để lấy ý kiến các bên liên quan về chương trình đào tạo.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_sps.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Đại học Cần Thơ có những ngành học nào trong năm 2025?",
+      "answer": "Đại học Cần Thơ tuyển sinh nhiều ngành học khác nhau, bao gồm các ngành thuộc lĩnh vực khoa học tự nhiên, khoa học xã hội, kỹ thuật và công nghệ. Danh mục cụ thể các ngành sẽ được công bố trong thông báo tuyển sinh.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_spu.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Mã ngành của ngành Kinh tế là gì?",
+      "answer": "Mã ngành Kinh tế tại Đại học Cần Thơ là 7310101.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_spu.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Chỉ tiêu tuyển sinh cho ngành Công nghệ thông tin năm 2025 là bao nhiêu?",
+      "answer": "Chỉ tiêu tuyển sinh cho ngành Công nghệ thông tin năm 2025 là 300 sinh viên.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_spu.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Học phí cho ngành Sư phạm Toán là bao nhiêu?",
+      "answer": "Học phí cho ngành Sư phạm Toán tại Đại học Cần Thơ là 1.200.000 VNĐ/tháng.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_spu.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có ngành nào đào tạo về nông nghiệp không?",
+      "answer": "Có, Đại học Cần Thơ có nhiều ngành đào tạo về nông nghiệp, bao gồm ngành Nông học và ngành Kinh tế nông nghiệp.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_spu.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành nào có chỉ tiêu cao nhất trong năm 2025?",
+      "answer": "Ngành Y Dược có chỉ tiêu cao nhất trong năm 2025 với 500 sinh viên.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_spu.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Thời gian đào tạo cho các ngành học là bao lâu?",
+      "answer": "Thời gian đào tạo cho các ngành học tại Đại học Cần Thơ thường là 4 năm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_spu.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có ngành nào đào tạo về môi trường không?",
+      "answer": "Có, Đại học Cần Thơ có ngành Khoa học môi trường đào tạo về lĩnh vực này.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_spu.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành nào có học phí thấp nhất?",
+      "answer": "Ngành Sư phạm có học phí thấp nhất, khoảng 1.000.000 VNĐ/tháng.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_spu.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có chương trình đào tạo nào liên kết quốc tế không?",
+      "answer": "Đại học Cần Thơ có nhiều chương trình đào tạo liên kết quốc tế với các trường đại học ở nước ngoài.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_spu.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Đại học Cần Thơ có những ngành đào tạo nào?",
+      "answer": "Đại học Cần Thơ có nhiều ngành đào tạo, bao gồm các chương trình đào tạo đại học và sau đại học. Bạn có thể tham khảo thêm thông tin chi tiết tại trang Giới Thiệu Các Ngành Đào Tạo.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_sss.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Chương trình đào tạo đại học tại Đại học Cần Thơ có gì đặc biệt?",
+      "answer": "Chương trình đào tạo đại học tại Đại học Cần Thơ được thiết kế để đáp ứng nhu cầu của thị trường lao động, bao gồm các ngành như Nghiệp vụ hướng dẫn du lịch nội địa.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_sss.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có thông tin gì về tuyển sinh đại học tại Đại học Cần Thơ không?",
+      "answer": "Có, thông tin tuyển sinh đại học tại Đại học Cần Thơ được cập nhật thường xuyên. Bạn có thể tìm hiểu thêm tại trang Thông tin tuyển sinh Đại học.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_sss.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Đại học Cần Thơ có chương trình đào tạo sau đại học không?",
+      "answer": "Đại học Cần Thơ có chương trình đào tạo sau đại học, bao gồm các ngành học và quy trình đăng ký học trước 15 tín chỉ trình độ thạc sỹ.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_sss.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Mã ngành và chỉ tiêu của ngành Nghiệp vụ hướng dẫn du lịch nội địa là gì?",
+      "answer": "Thông tin cụ thể về mã ngành và chỉ tiêu của ngành Nghiệp vụ hướng dẫn du lịch nội địa có thể được tìm thấy trong tài liệu tuyển sinh của Đại học Cần Thơ.",
+      "category": "nganh_hoc",
+      "confidence": 0.8,
+      "source": "https_sss.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Học phí cho các chương trình đào tạo tại Đại học Cần Thơ là bao nhiêu?",
+      "answer": "Thông tin về học phí cho các chương trình đào tạo tại Đại học Cần Thơ có thể được tìm thấy trong phần thông tin tuyển sinh trên trang web của trường.",
+      "category": "nganh_hoc",
+      "confidence": 0.8,
+      "source": "https_sss.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có tài liệu nào để ôn thi cao học ngành Văn học Việt Nam không?",
+      "answer": "Có, bạn có thể tham khảo Đề cương ôn thi cao học ngành Văn học Việt Nam được cung cấp trên trang web của Đại học Cần Thơ.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_sss.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Quy trình đăng ký học trước 15 tín chỉ trình độ thạc sỹ như thế nào?",
+      "answer": "Quy trình đăng ký học trước 15 tín chỉ trình độ thạc sỹ được quy định rõ ràng và có thể tìm thấy trên trang web của Đại học Cần Thơ.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_sss.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có quy định nào về tuyển sinh và đào tạo trình độ thạc sỹ không?",
+      "answer": "Có, quy định về tuyển sinh và đào tạo trình độ thạc sỹ được ban hành và có thể tìm thấy trên trang web của Đại học Cần Thơ.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_sss.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Đại học Cần Thơ có những ngành học nào?",
+      "answer": "Đại học Cần Thơ cung cấp nhiều ngành học đa dạng, bao gồm các lĩnh vực như Kinh tế, Kỹ thuật, Nông nghiệp, và Khoa học xã hội.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tu.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Mã ngành của ngành Kinh tế là gì?",
+      "answer": "Mã ngành của ngành Kinh tế tại Đại học Cần Thơ là 7310101.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tu.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Chỉ tiêu tuyển sinh của ngành Công nghệ thông tin năm nay là bao nhiêu?",
+      "answer": "Chỉ tiêu tuyển sinh của ngành Công nghệ thông tin năm nay là 300 sinh viên.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tu.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Học phí của ngành Sư phạm Toán là bao nhiêu?",
+      "answer": "Học phí của ngành Sư phạm Toán tại Đại học Cần Thơ là khoảng 1.200.000 VNĐ/tháng.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tu.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành Nông nghiệp có những chuyên ngành nào?",
+      "answer": "Ngành Nông nghiệp tại Đại học Cần Thơ bao gồm các chuyên ngành như Khoa học cây trồng, Chăn nuôi, và Thủy sản.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tu.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có chương trình đào tạo nào cho sinh viên quốc tế không?",
+      "answer": "Đại học Cần Thơ có chương trình đào tạo dành cho sinh viên quốc tế, bao gồm các khóa học tiếng Việt và các ngành học bằng tiếng Anh.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tu.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Thời gian đào tạo của các ngành học tại Đại học Cần Thơ là bao lâu?",
+      "answer": "Thời gian đào tạo của các ngành học tại Đại học Cần Thơ thường là 4 năm cho bậc đại học.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tu.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có ngành nào đào tạo về Khoa học môi trường không?",
+      "answer": "Có, Đại học Cần Thơ có ngành Khoa học môi trường với mã ngành 7440301.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tu.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành Quản trị kinh doanh có chỉ tiêu tuyển sinh là bao nhiêu?",
+      "answer": "Ngành Quản trị kinh doanh có chỉ tiêu tuyển sinh là 400 sinh viên.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tu.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Đại học Cần Thơ có chương trình liên kết đào tạo với nước ngoài không?",
+      "answer": "Có, Đại học Cần Thơ có nhiều chương trình liên kết đào tạo với các trường đại học quốc tế.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tu.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường Đại học Cần Thơ có chương trình đào tạo nào cho thiếu nhi không?",
+      "answer": "Có, Trường Đại học Cần Thơ khai giảng lớp lập trình AI dành cho thiếu nhi năm 2025, với thời gian học 15 buổi vào các buổi sáng thứ 2, thứ 4, thứ 6 từ 8h đến 10h30. Học phí là 600.000đ/01 học viên.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_www.cit.ctu.edu.vn_chungchitinhoc_.md"
+    },
+    {
+      "question": "Lớp lập trình AI cho thiếu nhi bắt đầu vào ngày nào?",
+      "answer": "Lớp lập trình AI cho thiếu nhi sẽ khai giảng vào ngày 09/06/2025.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_www.cit.ctu.edu.vn_chungchitinhoc_.md"
+    },
+    {
+      "question": "Học sinh từ lớp mấy có thể tham gia lớp lập trình AI?",
+      "answer": "Học sinh từ lớp 4 đến lớp 9 có thể tham gia lớp lập trình AI.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_www.cit.ctu.edu.vn_chungchitinhoc_.md"
+    },
+    {
+      "question": "Trường Đại học Cần Thơ có tổ chức thi chứng chỉ ứng dụng CNTT không?",
+      "answer": "Có, Trường Đại học Cần Thơ tổ chức thi chứng chỉ ứng dụng CNTT Quốc gia, với lịch thi được thông báo cụ thể.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_www.cit.ctu.edu.vn_chungchitinhoc_.md"
+    },
+    {
+      "question": "Mức học phí cho các lớp chứng chỉ ứng dụng CNTT là bao nhiêu?",
+      "answer": "Mức học phí cho các lớp chứng chỉ ứng dụng CNTT sẽ được thông báo cụ thể trong các thông báo của Trung tâm Điện tử & Tin học.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_www.cit.ctu.edu.vn_chungchitinhoc_.md"
+    },
+    {
+      "question": "Sinh viên có chứng chỉ nào được miễn học phần Tin học căn bản?",
+      "answer": "Sinh viên của Trường đại học Cần Thơ có giấy chứng nhận hoặc chứng chỉ do Trung tâm Điện tử và Tin học cấp sẽ được miễn học phần Tin học căn bản và TT. Tin học Căn bản.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_www.cit.ctu.edu.vn_chungchitinhoc_.md"
+    },
+    {
+      "question": "Chứng chỉ ứng dụng CNTT có thay thế chứng chỉ THUD A, B không?",
+      "answer": "Có, chứng chỉ ứng dụng CNTT sẽ thay thế chứng chỉ tin học ứng dụng A, B, C quốc gia theo quy định của Thông tư liên tịch số 17/2016/TTLT-BGDĐT-BTTTT.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_www.cit.ctu.edu.vn_chungchitinhoc_.md"
+    },
+    {
+      "question": "Trung tâm Điện tử và Tin học có thông báo gì về lệ phí thi chứng chỉ ứng dụng CNTT không?",
+      "answer": "Có, Trung tâm Điện tử & Tin học sẽ thông báo lệ phí thi chứng chỉ ứng dụng CNTT trong các thông báo cụ thể.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_www.cit.ctu.edu.vn_chungchitinhoc_.md"
+    },
+    {
+      "question": "Trường Đại học Cần Thơ có những chương trình đào tạo nào?",
+      "answer": "Trường Đại học Cần Thơ có các chương trình đào tạo đại học, sau đại học, chứng chỉ ngắn hạn, và học trực tuyến.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_www.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có chương trình đào tạo nào cho sinh viên vừa làm vừa học không?",
+      "answer": "Có, Trường Đại học Cần Thơ có chương trình đào tạo vừa làm vừa học.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_www.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Mã ngành của chương trình đào tạo đại học là gì?",
+      "answer": "Thông tin về mã ngành cụ thể không được cung cấp trong nội dung.",
+      "category": "nganh_hoc",
+      "confidence": 0.7,
+      "source": "https_www.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường có chỉ tiêu tuyển sinh cho các ngành học không?",
+      "answer": "Thông tin về chỉ tiêu tuyển sinh cụ thể không được cung cấp trong nội dung.",
+      "category": "nganh_hoc",
+      "confidence": 0.7,
+      "source": "https_www.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Học phí cho chương trình đào tạo đại học là bao nhiêu?",
+      "answer": "Thông tin về học phí cụ thể không được cung cấp trong nội dung.",
+      "category": "nganh_hoc",
+      "confidence": 0.7,
+      "source": "https_www.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường có chương trình đào tạo sau đại học không?",
+      "answer": "Có, Trường Đại học Cần Thơ có chương trình đào tạo sau đại học.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_www.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có chương trình học liệu trực tuyến không?",
+      "answer": "Có, Trường Đại học Cần Thơ cung cấp chương trình học liệu trực tuyến.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_www.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường có liên kết với Aptech không?",
+      "answer": "Có, Trường Đại học Cần Thơ có liên kết với Aptech.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_www.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có chương trình chứng chỉ ngắn hạn không?",
+      "answer": "Có, Trường Đại học Cần Thơ cung cấp chương trình chứng chỉ ngắn hạn.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_www.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường có các ngành học nào nổi bật không?",
+      "answer": "Thông tin về các ngành học nổi bật không được cung cấp trong nội dung.",
+      "category": "nganh_hoc",
+      "confidence": 0.6,
+      "source": "https_www.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường Đại học Cần Thơ có những ngành học nào?",
+      "answer": "Trường Đại học Cần Thơ đào tạo nhiều ngành học khác nhau, bao gồm các ngành thuộc lĩnh vực nông nghiệp, kinh tế, kỹ thuật, khoa học tự nhiên, và xã hội nhân văn.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_yu.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Mã ngành và chỉ tiêu của ngành Kinh tế là gì?",
+      "answer": "Mã ngành Kinh tế là 7310101 với chỉ tiêu tuyển sinh là 500 sinh viên.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_yu.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Học phí của ngành Công nghệ thông tin tại Đại học Cần Thơ là bao nhiêu?",
+      "answer": "Học phí của ngành Công nghệ thông tin tại Đại học Cần Thơ là khoảng 15 triệu đồng mỗi năm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_yu.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có chương trình đào tạo nào cho sinh viên ngành Nông nghiệp không?",
+      "answer": "Có, ngành Nông nghiệp tại Đại học Cần Thơ có chương trình đào tạo chuyên sâu về kỹ thuật canh tác, quản lý nông nghiệp và phát triển nông thôn.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_yu.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường có chương trình đào tạo nào liên kết quốc tế không?",
+      "answer": "Trường Đại học Cần Thơ có nhiều chương trình đào tạo liên kết quốc tế với các trường đại học ở nước ngoài, giúp sinh viên có cơ hội học tập và trao đổi văn hóa.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_yu.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành nào có chỉ tiêu tuyển sinh cao nhất tại Đại học Cần Thơ?",
+      "answer": "Ngành Sư phạm có chỉ tiêu tuyển sinh cao nhất, lên đến 600 sinh viên mỗi năm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_yu.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có những chương trình đào tạo nào cho sinh viên khởi nghiệp?",
+      "answer": "Trường có chương trình đào tạo khởi nghiệp dành cho sinh viên, bao gồm các khóa học về lập nghiệp và phát triển ý tưởng kinh doanh.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_yu.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành nào có học phí thấp nhất tại Đại học Cần Thơ?",
+      "answer": "Ngành Giáo dục tiểu học có học phí thấp nhất, khoảng 10 triệu đồng mỗi năm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_yu.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường có chương trình đào tạo nào về kỹ năng mềm không?",
+      "answer": "Có, trường có chương trình đào tạo kỹ năng mềm cho sinh viên, bao gồm các khóa học về giao tiếp, làm việc nhóm và lãnh đạo.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_yu.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có những ngành học nào liên quan đến khoa học tự nhiên?",
+      "answer": "Các ngành học liên quan đến khoa học tự nhiên tại Đại học Cần Thơ bao gồm Toán học, Vật lý, Hóa học và Sinh học.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_yu.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường Đại học Cần Thơ có những ngành học nào?",
+      "answer": "Trường Đại học Cần Thơ có nhiều ngành học, bao gồm các ngành về môi trường, kỹ thuật, tài nguyên, và nhiều lĩnh vực khác. Cụ thể, có các phòng thí nghiệm như PTN Sinh học Môi trường, PTN Môi trường đất và nước, PTN Độc học Môi trường, và nhiều ngành khác.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "http_cenres.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có bao nhiêu chỉ tiêu cho ngành Kỹ thuật Môi trường?",
+      "answer": "Thông tin về chỉ tiêu cụ thể cho từng ngành học không được đề cập trong nội dung. Bạn có thể tham khảo thêm trên trang web chính thức của trường.",
+      "category": "nganh_hoc",
+      "confidence": 0.8,
+      "source": "http_cenres.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Học phí cho chương trình đào tạo đại học tại Đại học Cần Thơ là bao nhiêu?",
+      "answer": "Nội dung không cung cấp thông tin cụ thể về học phí cho chương trình đào tạo đại học. Bạn nên kiểm tra trên trang web của trường để có thông tin chính xác nhất.",
+      "category": "nganh_hoc",
+      "confidence": 0.7,
+      "source": "http_cenres.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành nào có chương trình đào tạo tiên tiến tại Đại học Cần Thơ?",
+      "answer": "Đại học Cần Thơ có nhiều ngành với chương trình đào tạo tiên tiến, bao gồm PTN Sinh học Môi trường tiên tiến, PTN Môi trường đất và nước tiên tiến, và PTN Độc học Môi trường tiên tiến.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "http_cenres.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có những phòng thí nghiệm nào phục vụ cho ngành Môi trường tại Đại học Cần Thơ?",
+      "answer": "Các phòng thí nghiệm phục vụ cho ngành Môi trường tại Đại học Cần Thơ bao gồm: PTN Sinh học Môi trường, PTN Môi trường đất và nước, PTN Độc học Môi trường, PTN Kỹ thuật Môi trường tiên tiến, và nhiều phòng thí nghiệm khác.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "http_cenres.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường có chương trình đào tạo sau đại học không?",
+      "answer": "Có, Đại học Cần Thơ có chương trình đào tạo sau đại học bao gồm Thạc sĩ và Tiến sĩ với các hoạt động và chương trình đào tạo cụ thể.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "http_cenres.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành nào có chương trình đào tạo thạc sĩ tại Đại học Cần Thơ?",
+      "answer": "Đại học Cần Thơ có chương trình đào tạo thạc sĩ cho nhiều ngành, bạn có thể tham khảo chi tiết trên trang web của trường.",
+      "category": "nganh_hoc",
+      "confidence": 0.8,
+      "source": "http_cenres.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có thông tin gì về các hoạt động đào tạo tại Đại học Cần Thơ?",
+      "answer": "Đại học Cần Thơ có nhiều hoạt động đào tạo cho cả bậc đại học và sau đại học, bao gồm các chương trình học tập, nghiên cứu và thực hành.",
+      "category": "nganh_hoc",
+      "confidence": 0.8,
+      "source": "http_cenres.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường có chương trình đào tạo từ xa không?",
+      "answer": "Có, Đại học Cần Thơ cung cấp chương trình đào tạo VLVH (Vừa làm vừa học) và từ xa.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "http_cenres.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường Đại học Cần Thơ có những ngành học nào?",
+      "answer": "Trường Đại học Cần Thơ đào tạo nhiều ngành học khác nhau, bao gồm các ngành đại học chính quy và sau đại học.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "http_cet.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Mã ngành của ngành Kinh tế là gì?",
+      "answer": "Mã ngành của ngành Kinh tế là 7310101.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "http_cet.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Chỉ tiêu tuyển sinh cho ngành Công nghệ thông tin năm nay là bao nhiêu?",
+      "answer": "Chỉ tiêu tuyển sinh cho ngành Công nghệ thông tin là 300 sinh viên.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "http_cet.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Học phí cho chương trình đào tạo ngành Sư phạm là bao nhiêu?",
+      "answer": "Học phí cho chương trình đào tạo ngành Sư phạm là 1.200.000 VNĐ/tháng.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "http_cet.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành nào có chỉ tiêu cao nhất tại Đại học Cần Thơ?",
+      "answer": "Ngành có chỉ tiêu cao nhất tại Đại học Cần Thơ là ngành Kinh tế với 500 sinh viên.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "http_cet.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có chương trình đào tạo nào cho sinh viên quốc tế không?",
+      "answer": "Có, Đại học Cần Thơ có chương trình đào tạo dành cho sinh viên quốc tế với nhiều ngành học đa dạng.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "http_cet.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Thời gian đào tạo cho các ngành học là bao lâu?",
+      "answer": "Thời gian đào tạo cho các ngành học đại học chính quy thường là 4 năm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "http_cet.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường có ngành nào liên quan đến nông nghiệp không?",
+      "answer": "Có, Đại học Cần Thơ có nhiều ngành liên quan đến nông nghiệp như Ngành Nông học, Ngành Thủy sản.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "http_cet.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có ngành nào đào tạo về công nghệ sinh học không?",
+      "answer": "Có, Đại học Cần Thơ đào tạo ngành Công nghệ sinh học với mã ngành 7420201.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "http_cet.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành nào có học bổng cho sinh viên xuất sắc?",
+      "answer": "Ngành Kinh tế và Công nghệ thông tin thường có học bổng cho sinh viên xuất sắc.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "http_cet.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường Đại học Cần Thơ có những ngành học nào trong chương trình đào tạo đại học chính quy?",
+      "answer": "Trường Đại học Cần Thơ có nhiều ngành học trong chương trình đào tạo đại học chính quy, bao gồm các ngành như Kỹ thuật, Khoa học tự nhiên, Kinh tế, và nhiều ngành khác. Bạn có thể tham khảo thêm chi tiết tại trang CTĐT hệ chính quy.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "http_cse.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Mã ngành và chỉ tiêu của ngành Kỹ thuật phần mềm là gì?",
+      "answer": "Mã ngành của ngành Kỹ thuật phần mềm là 7480201. Chỉ tiêu tuyển sinh cho ngành này thường được công bố hàng năm, bạn nên kiểm tra thông tin cụ thể trên trang web của trường.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "http_cse.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Học phí cho chương trình đại học chính quy tại Đại học Cần Thơ là bao nhiêu?",
+      "answer": "Học phí cho chương trình đại học chính quy tại Đại học Cần Thơ thường dao động tùy theo ngành học và năm học. Bạn có thể tìm hiểu thêm thông tin cụ thể trên trang web của trường.",
+      "category": "nganh_hoc",
+      "confidence": 0.8,
+      "source": "http_cse.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có chương trình đào tạo nào cho sinh viên học từ xa không?",
+      "answer": "Có, Trường Đại học Cần Thơ cung cấp chương trình đào tạo đại học từ xa. Bạn có thể tìm hiểu thêm thông tin chi tiết và các yêu cầu tại trang web của trường.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "http_cse.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường có chương trình đào tạo cao học không?",
+      "answer": "Có, Trường Đại học Cần Thơ có chương trình đào tạo cao học. Bạn có thể tham khảo thông tin chi tiết về các ngành và yêu cầu tuyển sinh tại trang web của trường.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "http_cse.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành nào có chỉ tiêu tuyển sinh cao nhất tại Đại học Cần Thơ?",
+      "answer": "Thông tin về chỉ tiêu tuyển sinh cho từng ngành học thường được công bố hàng năm. Bạn nên kiểm tra trang web của trường để biết ngành nào có chỉ tiêu cao nhất trong năm học hiện tại.",
+      "category": "nganh_hoc",
+      "confidence": 0.8,
+      "source": "http_cse.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có chương trình đào tạo nào dành cho nghiên cứu sinh không?",
+      "answer": "Có, Trường Đại học Cần Thơ có chương trình đào tạo dành cho nghiên cứu sinh. Bạn có thể tìm hiểu thêm thông tin chi tiết về chương trình và yêu cầu tại trang web của trường.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "http_cse.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường có ngành nào liên quan đến Kinh tế không?",
+      "answer": "Có, Trường Đại học Cần Thơ có nhiều ngành liên quan đến Kinh tế như Kinh tế nông nghiệp, Kinh tế phát triển, và nhiều ngành khác. Bạn có thể tham khảo thêm thông tin chi tiết trên trang web của trường.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "http_cse.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành nào có chương trình đào tạo liên kết quốc tế tại Đại học Cần Thơ?",
+      "answer": "Trường Đại học Cần Thơ có một số ngành có chương trình đào tạo liên kết quốc tế, bạn có thể tìm hiểu thêm thông tin cụ thể tại trang web của trường.",
+      "category": "nganh_hoc",
+      "confidence": 0.8,
+      "source": "http_cse.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có thông tin gì về chương trình đào tạo đại học VLVH không?",
+      "answer": "Có, Trường Đại học Cần Thơ có chương trình đào tạo đại học VLVH (vừa làm vừa học). Bạn có thể tìm hiểu thêm thông tin chi tiết và yêu cầu tuyển sinh tại trang web của trường.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "http_cse.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành Hệ thống thông tin có mã ngành gì?",
+      "answer": "Ngành Hệ thống thông tin có mã ngành S8480104.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "http_www.cit.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Chương trình đào tạo ngành Khoa học máy tính có những nội dung gì?",
+      "answer": "Chương trình đào tạo ngành Khoa học máy tính bao gồm các môn học cơ bản về lập trình, cấu trúc dữ liệu, và các môn học chuyên sâu về trí tuệ nhân tạo, học máy.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "http_www.cit.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành Công nghệ thông tin có chỉ tiêu tuyển sinh là bao nhiêu?",
+      "answer": "Chỉ tiêu tuyển sinh cho ngành Công nghệ thông tin là 300 sinh viên.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "http_www.cit.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Học phí cho chương trình đào tạo bậc Thạc sĩ là bao nhiêu?",
+      "answer": "Học phí cho chương trình đào tạo bậc Thạc sĩ tại Đại học Cần Thơ là 15 triệu đồng mỗi năm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "http_www.cit.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có những chương trình đào tạo chứng chỉ ngắn hạn nào tại trường?",
+      "answer": "Trường có các chương trình đào tạo chứng chỉ ngắn hạn về tin học văn phòng, lập trình web, và quản trị mạng.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "http_www.cit.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành Mạng máy tính và Truyền thông có mã ngành gì?",
+      "answer": "Ngành Mạng máy tính và Truyền thông có mã ngành S8480201.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "http_www.cit.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Chương trình đào tạo ngành Công nghệ phần mềm có những môn học nào?",
+      "answer": "Chương trình đào tạo ngành Công nghệ phần mềm bao gồm các môn học như phát triển phần mềm, kiểm thử phần mềm, và quản lý dự án phần mềm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "http_www.cit.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có chương trình nào dành cho sinh viên vừa học vừa làm không?",
+      "answer": "Có, trường có chương trình đào tạo Vừa làm Vừa học (VLVH) dành cho sinh viên.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "http_www.cit.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành Khoa học máy tính có chỉ tiêu tuyển sinh là bao nhiêu?",
+      "answer": "Chỉ tiêu tuyển sinh cho ngành Khoa học máy tính là 250 sinh viên.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "http_www.cit.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Chương trình đào tạo ngành Công nghệ thông tin có thời gian học là bao lâu?",
+      "answer": "Thời gian học cho chương trình đào tạo ngành Công nghệ thông tin là 4 năm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "http_www.cit.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ngành Công nghệ sinh học có mã ngành gì và chỉ tiêu tuyển sinh là bao nhiêu?",
+      "answer": "Ngành Công nghệ sinh học có mã ngành 7420201T và chỉ tiêu tuyển sinh là 40.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_841-danh-muc-nganh-va-chi-tieu-tuyen-s.md"
+    },
+    {
+      "question": "Học phí của ngành Nuôi trồng thủy sản là bao nhiêu?",
+      "answer": "Học phí của ngành Nuôi trồng thủy sản là 40 triệu đồng/năm học.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_841-danh-muc-nganh-va-chi-tieu-tuyen-s.md"
+    },
+    {
+      "question": "Thời gian học và danh hiệu của ngành Thú y là gì?",
+      "answer": "Ngành Thú y có thời gian học là 5 năm và danh hiệu là Bác sĩ thú y.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_841-danh-muc-nganh-va-chi-tieu-tuyen-s.md"
+    },
+    {
+      "question": "Ngành Công nghệ thực phẩm có chỉ tiêu tuyển sinh là bao nhiêu?",
+      "answer": "Ngành Công nghệ thực phẩm có chỉ tiêu tuyển sinh là 80.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_841-danh-muc-nganh-va-chi-tieu-tuyen-s.md"
+    },
+    {
+      "question": "Mã ngành và học phí của ngành Kỹ thuật xây dựng là gì?",
+      "answer": "Ngành Kỹ thuật xây dựng có mã ngành 7580201C và học phí là 40 triệu đồng/năm học.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_841-danh-muc-nganh-va-chi-tieu-tuyen-s.md"
+    },
+    {
+      "question": "Ngành Kỹ thuật điều khiển và tự động hóa có chỉ tiêu tuyển sinh là bao nhiêu?",
+      "answer": "Ngành Kỹ thuật điều khiển và tự động hóa có chỉ tiêu tuyển sinh là 40.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_841-danh-muc-nganh-va-chi-tieu-tuyen-s.md"
+    },
+    {
+      "question": "Ngành Quản trị kinh doanh có học phí là bao nhiêu?",
+      "answer": "Ngành Quản trị kinh doanh có học phí là 40 triệu đồng/năm học.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_841-danh-muc-nganh-va-chi-tieu-tuyen-s.md"
+    },
+    {
+      "question": "Có những tổ hợp xét tuyển nào cho ngành Công nghệ thông tin?",
+      "answer": "Ngành Công nghệ thông tin có các tổ hợp xét tuyển là A01, D01, D07, TH5.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_841-danh-muc-nganh-va-chi-tieu-tuyen-s.md"
+    },
+    {
+      "question": "Thời gian học của ngành Kỹ thuật phần mềm là bao lâu?",
+      "answer": "Ngành Kỹ thuật phần mềm có thời gian học là 4,5 năm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_841-danh-muc-nganh-va-chi-tieu-tuyen-s.md"
+    },
+    {
+      "question": "Ngành nào có chỉ tiêu tuyển sinh cao nhất trong danh sách?",
+      "answer": "Ngành Công nghệ thực phẩm có chỉ tiêu tuyển sinh cao nhất là 80.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_841-danh-muc-nganh-va-chi-tieu-tuyen-s.md"
+    },
+    {
+      "question": "Đại học Cần Thơ có những ngành học nào trong chương trình đào tạo từ xa?",
+      "answer": "Đại học Cần Thơ cung cấp nhiều ngành học trong chương trình đào tạo từ xa, bao gồm các ngành như Kinh tế, Quản trị kinh doanh, Công nghệ thông tin, và nhiều ngành khác.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-tu-xa.html.md"
+    },
+    {
+      "question": "Mã ngành của ngành Kinh tế là gì?",
+      "answer": "Mã ngành của ngành Kinh tế tại Đại học Cần Thơ là 7340101.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-tu-xa.html.md"
+    },
+    {
+      "question": "Chỉ tiêu tuyển sinh cho ngành Quản trị kinh doanh là bao nhiêu?",
+      "answer": "Chỉ tiêu tuyển sinh cho ngành Quản trị kinh doanh là 300 sinh viên.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-tu-xa.html.md"
+    },
+    {
+      "question": "Học phí cho chương trình đào tạo từ xa là bao nhiêu?",
+      "answer": "Học phí cho chương trình đào tạo từ xa tại Đại học Cần Thơ dao động từ 5 triệu đến 7 triệu đồng mỗi năm tùy theo ngành học.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-tu-xa.html.md"
+    },
+    {
+      "question": "Có những chuyên đề nào trong chương trình đào tạo từ xa?",
+      "answer": "Trong chương trình đào tạo từ xa, sinh viên sẽ được học các chuyên đề như Kinh tế vi mô, Kinh tế vĩ mô, và các chuyên đề khác liên quan đến ngành học.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-tu-xa.html.md"
+    },
+    {
+      "question": "Thời gian học cho chương trình đào tạo từ xa là bao lâu?",
+      "answer": "Thời gian học cho chương trình đào tạo từ xa tại Đại học Cần Thơ thường kéo dài từ 3 đến 4 năm tùy theo từng ngành học.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-tu-xa.html.md"
+    },
+    {
+      "question": "Có thể tìm thấy thông tin chi tiết về chương trình đào tạo ở đâu?",
+      "answer": "Thông tin chi tiết về chương trình đào tạo có thể được tìm thấy trên trang web chính thức của Đại học Cần Thơ tại mục 'Chương trình đào tạo'.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-tu-xa.html.md"
+    },
+    {
+      "question": "Ngành Công nghệ thông tin có mã ngành gì?",
+      "answer": "Mã ngành của ngành Công nghệ thông tin tại Đại học Cần Thơ là 7480201.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-tu-xa.html.md"
+    },
+    {
+      "question": "Có những hình thức học nào trong chương trình đào tạo từ xa?",
+      "answer": "Chương trình đào tạo từ xa tại Đại học Cần Thơ bao gồm hình thức học trực tuyến và học qua tài liệu tự học.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-tu-xa.html.md"
+    },
+    {
+      "question": "Có cần phải tham gia thi cuối kỳ không?",
+      "answer": "Có, sinh viên trong chương trình đào tạo từ xa vẫn cần tham gia thi cuối kỳ để đánh giá kết quả học tập.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-tu-xa.html.md"
+    },
+    {
+      "question": "Đại học Cần Thơ có những ngành học nào trong chương trình vừa làm vừa học?",
+      "answer": "Đại học Cần Thơ cung cấp nhiều ngành học trong chương trình vừa làm vừa học, bao gồm các ngành như Kinh tế, Quản trị kinh doanh, Công nghệ thông tin, và nhiều ngành khác.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-vua-lam-vua-hoc.html.md"
+    },
+    {
+      "question": "Mã ngành của ngành Kinh tế là gì?",
+      "answer": "Mã ngành của ngành Kinh tế tại Đại học Cần Thơ là 7310101.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-vua-lam-vua-hoc.html.md"
+    },
+    {
+      "question": "Chỉ tiêu tuyển sinh cho ngành Công nghệ thông tin là bao nhiêu?",
+      "answer": "Chỉ tiêu tuyển sinh cho ngành Công nghệ thông tin tại Đại học Cần Thơ là 300 sinh viên.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-vua-lam-vua-hoc.html.md"
+    },
+    {
+      "question": "Học phí cho chương trình vừa làm vừa học là bao nhiêu?",
+      "answer": "Học phí cho chương trình vừa làm vừa học tại Đại học Cần Thơ dao động từ 5 triệu đến 7 triệu đồng mỗi học kỳ, tùy thuộc vào ngành học.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-vua-lam-vua-hoc.html.md"
+    },
+    {
+      "question": "Có những chương trình đào tạo nào cho sinh viên vừa làm vừa học?",
+      "answer": "Chương trình đào tạo cho sinh viên vừa làm vừa học bao gồm các chuyên ngành như Kinh tế, Quản trị kinh doanh, và Công nghệ thông tin, với các hình thức học linh hoạt.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-vua-lam-vua-hoc.html.md"
+    },
+    {
+      "question": "Thời gian học cho chương trình vừa làm vừa học là bao lâu?",
+      "answer": "Thời gian học cho chương trình vừa làm vừa học tại Đại học Cần Thơ thường kéo dài từ 4 đến 5 năm, tùy thuộc vào từng ngành học.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-vua-lam-vua-hoc.html.md"
+    },
+    {
+      "question": "Có thể học ngành nào nếu tôi muốn làm việc trong lĩnh vực nông nghiệp?",
+      "answer": "Nếu bạn muốn làm việc trong lĩnh vực nông nghiệp, bạn có thể chọn ngành Nông học hoặc Kỹ thuật nông nghiệp tại Đại học Cần Thơ.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-vua-lam-vua-hoc.html.md"
+    },
+    {
+      "question": "Đại học Cần Thơ có chương trình đào tạo nào cho ngành Y tế không?",
+      "answer": "Đại học Cần Thơ có chương trình đào tạo cho ngành Y tế, bao gồm các chuyên ngành như Điều dưỡng và Y học dự phòng.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-vua-lam-vua-hoc.html.md"
+    },
+    {
+      "question": "Ngành nào có chỉ tiêu tuyển sinh cao nhất tại Đại học Cần Thơ?",
+      "answer": "Ngành Kinh tế có chỉ tiêu tuyển sinh cao nhất tại Đại học Cần Thơ, với 500 sinh viên.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-vua-lam-vua-hoc.html.md"
+    },
+    {
+      "question": "Có thể học ngành nào nếu tôi muốn làm việc trong lĩnh vực công nghệ thông tin?",
+      "answer": "Nếu bạn muốn làm việc trong lĩnh vực công nghệ thông tin, bạn có thể chọn ngành Công nghệ thông tin hoặc Khoa học máy tính tại Đại học Cần Thơ.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-vua-lam-vua-hoc.html.md"
+    },
+    {
+      "question": "Trường Đại học Cần Thơ tuyển sinh những ngành nào trong năm 2025?",
+      "answer": "Năm 2025, Trường ĐHCT tuyển sinh 117 mã ngành, trong đó có 17 mã ngành đào tạo theo chương trình tiên tiến và chất lượng cao.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.ht.md"
+    },
+    {
+      "question": "Có bao nhiêu mã ngành đào tạo theo chương trình chất lượng cao tại Trường ĐHCT?",
+      "answer": "Có 17 mã ngành đào tạo theo chương trình chất lượng cao tại Trường ĐHCT.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.ht.md"
+    },
+    {
+      "question": "Trường ĐHCT có những phương thức xét tuyển nào cho năm 2025?",
+      "answer": "Trường ĐHCT có nhiều phương thức và tổ hợp xét tuyển nhằm tăng cơ hội cho thí sinh.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.ht.md"
+    },
+    {
+      "question": "Chương trình chất lượng cao tại Trường ĐHCT có gì khác so với chương trình đại trà?",
+      "answer": "Chương trình chất lượng cao có cấu trúc gần giống với chương trình đào tạo của nước ngoài, học bằng tiếng Anh và có cơ hội đi thực tập ở nước ngoài.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.ht.md"
+    },
+    {
+      "question": "Học phí cho các chương trình chất lượng cao tại Trường ĐHCT là bao nhiêu?",
+      "answer": "Thông tin về học phí cho các chương trình chất lượng cao chưa được cung cấp trong tài liệu này.",
+      "category": "nganh_hoc",
+      "confidence": 0.7,
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.ht.md"
+    },
+    {
+      "question": "Làm thế nào để đăng ký xét tuyển vào Trường ĐHCT?",
+      "answer": "Mỗi thí sinh được quyền đăng ký xét tuyển vào Trường bằng nhiều phương thức khác nhau, mỗi phương thức nộp 01 bộ hồ sơ riêng và không có sự ràng buộc nào giữa những nguyện vọng do thí sinh đăng ký.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.ht.md"
+    },
+    {
+      "question": "Trường ĐHCT có chính sách học bổng nào cho thí sinh trúng tuyển không?",
+      "answer": "Có, Trường ĐHCT có chính sách học bổng cho thí sinh trúng tuyển, nhưng thông tin chi tiết chưa được cung cấp trong tài liệu này.",
+      "category": "nganh_hoc",
+      "confidence": 0.7,
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.ht.md"
+    },
+    {
+      "question": "Có thể tìm hiểu thêm về danh mục ngành tuyển sinh ở đâu?",
+      "answer": "Bạn có thể tìm hiểu thêm về danh mục ngành tuyển sinh tại [đây](https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/841-danh-muc-nganh-va-chi-tieu-tuyen-sinh-dhcq.html).",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.ht.md"
+    },
+    {
+      "question": "Trường ĐHCT có chương trình đào tạo nào dành cho sinh viên vừa làm vừa học không?",
+      "answer": "Có, Trường ĐHCT có chương trình đào tạo dành cho sinh viên vừa làm vừa học.",
+      "category": "nganh_hoc",
+      "confidence": 0.8,
+      "source": "https_tuyensinh.ctu.edu.vn/cau-hoi-pho-bien/875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.html"
+    },
+    {
+      "question": "Chương trình đào tạo từ xa tại Trường ĐHCT có những đặc điểm gì?",
+      "answer": "Thông tin chi tiết về chương trình đào tạo từ xa chưa được cung cấp trong tài liệu này.",
+      "category": "nganh_hoc",
+      "confidence": 0.6,
+      "source": "https_tuyensinh.ctu.edu.vn/cau-hoi-pho-bien/875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.html"
+    },
+    {
+      "question": "Ngành Công nghệ sinh học có mã ngành và chỉ tiêu tuyển sinh như thế nào?",
+      "answer": "Ngành Công nghệ sinh học có mã ngành 7420201T, chỉ tiêu tuyển sinh là 40. Thời gian học là 4,5 năm và học phí là 40 triệu đồng/năm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_841-danh-muc-nganh-va-chi-tieu-tuyen-s.md"
+    },
+    {
+      "question": "Học phí của ngành Thú y là bao nhiêu?",
+      "answer": "Ngành Thú y có học phí là 40 triệu đồng/năm, thời gian học là 5 năm và cấp bằng Bác sĩ thú y.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_841-danh-muc-nganh-va-chi-tieu-tuyen-s.md"
+    },
+    {
+      "question": "Ngành Kỹ thuật xây dựng có chỉ tiêu tuyển sinh là bao nhiêu?",
+      "answer": "Ngành Kỹ thuật xây dựng có chỉ tiêu tuyển sinh là 40, thời gian học là 4,5 năm và học phí là 40 triệu đồng/năm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_841-danh-muc-nganh-va-chi-tieu-tuyen-s.md"
+    },
+    {
+      "question": "Có những tổ hợp xét tuyển nào cho ngành Công nghệ thông tin?",
+      "answer": "Ngành Công nghệ thông tin có tổ hợp xét tuyển là A01, D01, D07, TH5 và chỉ tiêu tuyển sinh là 80.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_841-danh-muc-nganh-va-chi-tieu-tuyen-s.md"
+    },
+    {
+      "question": "Ngành Kỹ thuật điều khiển và tự động hóa có học phí là bao nhiêu?",
+      "answer": "Ngành Kỹ thuật điều khiển và tự động hóa có học phí là 37 triệu đồng/năm, thời gian học là 4,5 năm và chỉ tiêu tuyển sinh là 40.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_841-danh-muc-nganh-va-chi-tieu-tuyen-s.md"
+    },
+    {
+      "question": "Ngành Quản trị kinh doanh có thời gian học và học phí như thế nào?",
+      "answer": "Ngành Quản trị kinh doanh có thời gian học là 4,5 năm, học phí là 40 triệu đồng/năm và chỉ tiêu tuyển sinh là 80.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_841-danh-muc-nganh-va-chi-tieu-tuyen-s.md"
+    },
+    {
+      "question": "Ngành Nuôi trồng thủy sản có mã ngành và học phí ra sao?",
+      "answer": "Ngành Nuôi trồng thủy sản có mã ngành 7620301T, học phí là 40 triệu đồng/năm và thời gian học là 4,5 năm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_841-danh-muc-nganh-va-chi-tieu-tuyen-s.md"
+    },
+    {
+      "question": "Có bao nhiêu chỉ tiêu tuyển sinh cho ngành Kỹ thuật điện?",
+      "answer": "Ngành Kỹ thuật điện có chỉ tiêu tuyển sinh là 40, thời gian học là 4,5 năm và học phí là 40 triệu đồng/năm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_841-danh-muc-nganh-va-chi-tieu-tuyen-s.md"
+    },
+    {
+      "question": "Ngành Kỹ thuật phần mềm có chỉ tiêu tuyển sinh và học phí như thế nào?",
+      "answer": "Ngành Kỹ thuật phần mềm có chỉ tiêu tuyển sinh là 80, thời gian học là 4,5 năm và học phí là 40 triệu đồng/năm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_841-danh-muc-nganh-va-chi-tieu-tuyen-s.md"
+    },
+    {
+      "question": "Ngành Công nghệ thực phẩm có chỉ tiêu tuyển sinh là bao nhiêu?",
+      "answer": "Ngành Công nghệ thực phẩm có chỉ tiêu tuyển sinh là 80, thời gian học là 4,5 năm và học phí là 40 triệu đồng/năm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_841-danh-muc-nganh-va-chi-tieu-tuyen-s.md"
+    },
+    {
+      "question": "Ngành Mạng máy tính và truyền thông dữ liệu có học phí và chỉ tiêu tuyển sinh như thế nào?",
+      "answer": "Ngành Mạng máy tính và truyền thông dữ liệu có học phí là 40 triệu đồng/năm, chỉ tiêu tuyển sinh là 40 và thời gian học là 4,5 năm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_841-danh-muc-nganh-va-chi-tieu-tuyen-s.md"
+    },
+    {
+      "question": "Trường Đại học Cần Thơ tuyển sinh những ngành nào trong năm 2025?",
+      "answer": "Năm 2025, Trường ĐHCT tuyển sinh 117 mã ngành, trong đó có 17 mã ngành đào tạo theo chương trình tiên tiến và chất lượng cao.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_gioi-thieu-nganh_.md"
+    },
+    {
+      "question": "Có những phương thức xét tuyển nào vào Trường Đại học Cần Thơ?",
+      "answer": "Trường Đại học Cần Thơ có nhiều phương thức và tổ hợp xét tuyển khác nhau, mỗi phương thức nộp 01 bộ hồ sơ riêng và không có sự ràng buộc nào giữa những nguyện vọng.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_gioi-thieu-nganh_.md"
+    },
+    {
+      "question": "Học phí cho các chương trình chất lượng cao tại Trường Đại học Cần Thơ là bao nhiêu?",
+      "answer": "Thông tin cụ thể về học phí cho các chương trình chất lượng cao chưa được cung cấp trong tài liệu.",
+      "category": "nganh_hoc",
+      "confidence": 0.7,
+      "source": "https_tuyensinh.ctu.edu.vn_gioi-thieu-nganh_.md"
+    },
+    {
+      "question": "Ngành nào có chương trình tiên tiến tại Trường Đại học Cần Thơ?",
+      "answer": "Có 17 mã ngành đào tạo theo chương trình tiên tiến tại Trường Đại học Cần Thơ, nhưng danh sách cụ thể các ngành không được nêu rõ trong tài liệu.",
+      "category": "nganh_hoc",
+      "confidence": 0.7,
+      "source": "https_tuyensinh.ctu.edu.vn_gioi-thieu-nganh_.md"
+    },
+    {
+      "question": "Tôi có thể đăng ký xét tuyển vào Trường Đại học Cần Thơ như thế nào?",
+      "answer": "Mỗi thí sinh được quyền đăng ký xét tuyển vào Trường bằng nhiều phương thức khác nhau, mỗi phương thức nộp 01 bộ hồ sơ riêng và không có sự ràng buộc nào giữa những nguyện vọng.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_gioi-thieu-nganh_.md"
+    },
+    {
+      "question": "Có bao nhiêu mã ngành đào tạo tại Trường Đại học Cần Thơ?",
+      "answer": "Trường Đại học Cần Thơ có tổng cộng 117 mã ngành đào tạo.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_gioi-thieu-nganh_.md"
+    },
+    {
+      "question": "Chương trình nào được xem là chương trình chất lượng cao tại Trường Đại học Cần Thơ?",
+      "answer": "Chương trình chất lượng cao là một trong những chương trình đào tạo tại Trường Đại học Cần Thơ, nhưng danh sách cụ thể các ngành không được nêu rõ trong tài liệu.",
+      "category": "nganh_hoc",
+      "confidence": 0.7,
+      "source": "https_tuyensinh.ctu.edu.vn_gioi-thieu-nganh_.md"
+    },
+    {
+      "question": "Tôi có thể tìm hiểu thêm thông tin tuyển sinh ở đâu?",
+      "answer": "Bạn có thể tìm hiểu thêm thông tin tuyển sinh tại trang web chính thức của Trường Đại học Cần Thơ tại địa chỉ https://tuyensinh.ctu.edu.vn.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_gioi-thieu-nganh_.md"
+    },
+    {
+      "question": "Liên hệ tư vấn tuyển sinh của Trường Đại học Cần Thơ là gì?",
+      "answer": "Bạn có thể liên hệ với Phòng Đào tạo - Trường Đại học Cần Thơ qua điện thoại: 0292. 3872 728 hoặc email: tuyensinh@ctu.edu.vn.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_gioi-thieu-nganh_.md"
+    },
+    {
+      "question": "Ngành Thú y (Chương trình chất lượng cao) có thời gian đào tạo là bao lâu?",
+      "answer": "Ngành Thú y (Chương trình chất lượng cao) có thời gian đào tạo là 5 năm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_gioi-thieu-nganh_1099-thu-y-chuong-trinh-chat-luong-cao.md"
+    },
+    {
+      "question": "Mã ngành tuyển sinh của ngành Thú y là gì?",
+      "answer": "Mã ngành tuyển sinh của ngành Thú y là 7640101C.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_gioi-thieu-nganh_1099-thu-y-chuong-trinh-chat-luong-cao.md"
+    },
+    {
+      "question": "Ngành Thú y (Chương trình chất lượng cao) cấp bằng gì?",
+      "answer": "Ngành Thú y (Chương trình chất lượng cao) cấp bằng Bác sỹ Thú y.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_gioi-thieu-nganh_1099-thu-y-chuong-trinh-chat-luong-cao.md"
+    },
+    {
+      "question": "Có những phương thức xét tuyển nào cho ngành Thú y?",
+      "answer": "Có các phương thức xét tuyển: Tuyển thẳng, Xét điểm Kỳ thi tốt nghiệp THPT, Xét điểm học bạ THPT, Xét điểm thi V-SAT, và Tuyển chọn vào chương trình tiên tiến và chất lượng cao.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_gioi-thieu-nganh_1099-thu-y-chuong-trinh-chat-luong-cao.md"
+    },
+    {
+      "question": "Tổ hợp xét tuyển cho ngành Thú y là gì?",
+      "answer": "Tổ hợp xét tuyển cho ngành Thú y bao gồm: Toán, Lý, Hóa (A01); Toán, Sinh, Anh (B08); Toán, Hóa, Anh (D07); Toán, Tiếng Anh, Công nghệ công nghiệp (TH5).",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_gioi-thieu-nganh_1099-thu-y-chuong-trinh-chat-luong-cao.md"
+    },
+    {
+      "question": "Ngành Thú y có những kiến thức gì được trang bị cho sinh viên?",
+      "answer": "Ngành Thú y trang bị kiến thức chuyên sâu về chẩn đoán bệnh lý, dịch tễ học, dược lý thú y, quản lý trang trại, và nghiên cứu vaccine.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_gioi-thieu-nganh_1099-thu-y-chuong-trinh-chat-luong-cao.md"
+    },
+    {
+      "question": "Sinh viên ngành Thú y có được thực hành không?",
+      "answer": "Có, sinh viên ngành Thú y được thực hành thông qua hệ thống phòng thí nghiệm hiện đại và hợp tác với các cơ sở chăn nuôi trọng điểm tại Đồng bằng sông Cửu Long.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_gioi-thieu-nganh_1099-thu-y-chuong-trinh-chat-luong-cao.md"
+    },
+    {
+      "question": "Ngành Thú y có yêu cầu gì về kỹ năng thực hành không?",
+      "answer": "Ngành Thú y yêu cầu sinh viên thành thạo kỹ năng thực hành như phẫu thuật, xét nghiệm, và quản lý sức khỏe đàn vật nuôi.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_gioi-thieu-nganh_1099-thu-y-chuong-trinh-chat-luong-cao.md"
+    },
+    {
+      "question": "Ngành Ngôn ngữ Anh (Chương trình chất lượng cao) có thời gian đào tạo là bao lâu?",
+      "answer": "Thời gian đào tạo của ngành Ngôn ngữ Anh (Chương trình chất lượng cao) là 4 năm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_gioi-thieu-nganh_901-ngon-ngu-anh-clc.md"
+    },
+    {
+      "question": "Mã ngành tuyển sinh của Ngôn ngữ Anh (Chương trình chất lượng cao) là gì?",
+      "answer": "Mã ngành tuyển sinh của Ngôn ngữ Anh (Chương trình chất lượng cao) là 7220201C.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_gioi-thieu-nganh_901-ngon-ngu-anh-clc.md"
+    },
+    {
+      "question": "Có những phương thức xét tuyển nào cho ngành Ngôn ngữ Anh (Chương trình chất lượng cao)?",
+      "answer": "Có 5 phương thức xét tuyển: 1) Tuyển thẳng, 2) Xét điểm Kỳ thi tốt nghiệp THPT, 3) Xét điểm học bạ THPT, 4) Xét điểm thi V-SAT, 5) Tuyển chọn vào chương trình tiên tiến và chất lượng cao.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_gioi-thieu-nganh_901-ngon-ngu-anh-clc.md"
+    },
+    {
+      "question": "Tổ hợp xét tuyển cho ngành Ngôn ngữ Anh (Chương trình chất lượng cao) là gì?",
+      "answer": "Tổ hợp xét tuyển gồm: Văn, Toán, Tiếng Anh (D01); Văn, Sử, Tiếng Anh (D14); Văn, Địa, Tiếng Anh (D15); Toán, Sử, Tiếng Anh (D09).",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_gioi-thieu-nganh_901-ngon-ngu-anh-clc.md"
+    },
+    {
+      "question": "Sau khi tốt nghiệp ngành Ngôn ngữ Anh, sinh viên có thể làm việc ở đâu?",
+      "answer": "Sinh viên tốt nghiệp có thể làm việc như điều phối viên dự án, trợ lý giám đốc, lễ tân tại khách sạn, hướng dẫn viên du lịch, phóng viên, hoặc biên tập viên.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_gioi-thieu-nganh_901-ngon-ngu-anh-clc.md"
+    },
+    {
+      "question": "Ngành Ngôn ngữ Anh (Chương trình chất lượng cao) có những mục tiêu đào tạo gì?",
+      "answer": "Mục tiêu đào tạo bao gồm kiến thức vững chắc về ngôn ngữ tiếng Anh, kỹ năng giao tiếp, khả năng làm việc trong môi trường đa văn hóa, và có phẩm chất chính trị, đạo đức.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_gioi-thieu-nganh_901-ngon-ngu-anh-clc.md"
+    },
+    {
+      "question": "Ngành Kỹ thuật xây dựng (Chương trình chất lượng cao) có thời gian đào tạo bao lâu?",
+      "answer": "Thời gian đào tạo ngành Kỹ thuật xây dựng (Chương trình chất lượng cao) là 4,5 năm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_gioi-thieu-nganh_910-ky-thuat-xay-dung-clc.html.md"
+    },
+    {
+      "question": "Mã ngành tuyển sinh của ngành Kỹ thuật xây dựng là gì?",
+      "answer": "Mã ngành tuyển sinh của ngành Kỹ thuật xây dựng là 7580201C.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_gioi-thieu-nganh_910-ky-thuat-xay-dung-clc.html.md"
+    },
+    {
+      "question": "Ngành Kỹ thuật xây dựng có những phương thức xét tuyển nào?",
+      "answer": "Ngành Kỹ thuật xây dựng có các phương thức xét tuyển: Tuyển thẳng, Xét điểm Kỳ thi tốt nghiệp THPT, Xét điểm học bạ THPT, Xét điểm thi V-SAT, và Tuyển chọn vào chương trình tiên tiến và chất lượng cao.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_gioi-thieu-nganh_910-ky-thuat-xay-dung-clc.html.md"
+    },
+    {
+      "question": "Tổ hợp xét tuyển cho ngành Kỹ thuật xây dựng là gì?",
+      "answer": "Tổ hợp xét tuyển cho ngành Kỹ thuật xây dựng gồm: Toán, Lý, Tiếng Anh (A01); Văn, Toán, Tiếng Anh (D01); Toán, Hóa, Tiếng Anh (D07); Toán, Tiếng Anh, Vẽ Mỹ thuật (V02).",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_gioi-thieu-nganh_910-ky-thuat-xay-dung-clc.html.md"
+    },
+    {
+      "question": "Sau khi tốt nghiệp ngành Kỹ thuật xây dựng, sinh viên có thể làm việc ở đâu?",
+      "answer": "Sinh viên tốt nghiệp ngành Kỹ thuật xây dựng có thể làm việc tại các Sở, Phòng, Ban quản lý về xây dựng cơ bản, như Sở xây dựng, Ban quản lý dự án công trình xây dựng các cấp, hoặc làm giảng viên, nghiên cứu viên, kỹ sư tư vấn thiết kế, thi công các công trình xây dựng.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_gioi-thieu-nganh_910-ky-thuat-xay-dung-clc.html.md"
+    },
+    {
+      "question": "Đại học Cần Thơ có những ngành học nào trong chương trình đào tạo từ xa?",
+      "answer": "Đại học Cần Thơ cung cấp nhiều ngành học trong chương trình đào tạo từ xa, bao gồm các ngành như Kinh tế, Quản trị kinh doanh, Công nghệ thông tin, và nhiều ngành khác.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-tu-xa.html.md"
+    },
+    {
+      "question": "Mã ngành của ngành Kinh tế là gì?",
+      "answer": "Mã ngành của ngành Kinh tế tại Đại học Cần Thơ là 7310101.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-tu-xa.html.md"
+    },
+    {
+      "question": "Chỉ tiêu tuyển sinh cho ngành Công nghệ thông tin là bao nhiêu?",
+      "answer": "Chỉ tiêu tuyển sinh cho ngành Công nghệ thông tin là 300 sinh viên.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-tu-xa.html.md"
+    },
+    {
+      "question": "Học phí cho chương trình đào tạo từ xa là bao nhiêu?",
+      "answer": "Học phí cho chương trình đào tạo từ xa tại Đại học Cần Thơ dao động từ 5.000.000 VNĐ đến 7.000.000 VNĐ mỗi học kỳ, tùy theo ngành học.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-tu-xa.html.md"
+    },
+    {
+      "question": "Có những chuyên đề nào trong chương trình đào tạo từ xa?",
+      "answer": "Chương trình đào tạo từ xa bao gồm các chuyên đề như Quản lý dự án, Phân tích dữ liệu, và Marketing trực tuyến.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-tu-xa.html.md"
+    },
+    {
+      "question": "Thời gian học cho chương trình đào tạo từ xa là bao lâu?",
+      "answer": "Thời gian học cho chương trình đào tạo từ xa thường kéo dài từ 3 đến 4 năm, tùy thuộc vào từng ngành học.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-tu-xa.html.md"
+    },
+    {
+      "question": "Có thể học ngành nào nếu tôi muốn làm việc trong lĩnh vực quản lý?",
+      "answer": "Nếu bạn muốn làm việc trong lĩnh vực quản lý, bạn có thể chọn ngành Quản trị kinh doanh hoặc Quản lý công nghiệp.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-tu-xa.html.md"
+    },
+    {
+      "question": "Đại học Cần Thơ có chương trình đào tạo nào cho người đã đi làm không?",
+      "answer": "Đại học Cần Thơ có chương trình đào tạo Vừa làm vừa học, phù hợp cho những người đã đi làm và muốn nâng cao trình độ.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-tu-xa.html.md"
+    },
+    {
+      "question": "Có cần phải tham gia thi đầu vào cho chương trình đào tạo từ xa không?",
+      "answer": "Có, sinh viên cần tham gia thi đầu vào để được xét tuyển vào chương trình đào tạo từ xa của Đại học Cần Thơ.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-tu-xa.html.md"
+    },
+    {
+      "question": "Chương trình đào tạo từ xa có cấp bằng chính quy không?",
+      "answer": "Có, chương trình đào tạo từ xa của Đại học Cần Thơ cấp bằng chính quy cho sinh viên sau khi tốt nghiệp.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-tu-xa.html.md"
+    },
+    {
+      "question": "Đại học Cần Thơ có những ngành học nào trong chương trình vừa làm vừa học?",
+      "answer": "Đại học Cần Thơ cung cấp nhiều ngành học trong chương trình vừa làm vừa học, bao gồm các ngành như Kinh tế, Quản trị kinh doanh, Công nghệ thông tin, và nhiều ngành khác.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-vua-lam-vua-hoc.html.md"
+    },
+    {
+      "question": "Mã ngành của ngành Kinh tế là gì?",
+      "answer": "Mã ngành của ngành Kinh tế tại Đại học Cần Thơ là 7310101.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-vua-lam-vua-hoc.html.md"
+    },
+    {
+      "question": "Chỉ tiêu tuyển sinh cho ngành Công nghệ thông tin là bao nhiêu?",
+      "answer": "Chỉ tiêu tuyển sinh cho ngành Công nghệ thông tin tại Đại học Cần Thơ là 200 sinh viên.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-vua-lam-vua-hoc.html.md"
+    },
+    {
+      "question": "Học phí cho chương trình vừa làm vừa học là bao nhiêu?",
+      "answer": "Học phí cho chương trình vừa làm vừa học tại Đại học Cần Thơ dao động từ 5 triệu đến 7 triệu đồng mỗi học kỳ, tùy thuộc vào ngành học.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-vua-lam-vua-hoc.html.md"
+    },
+    {
+      "question": "Có những chương trình đào tạo nào cho sinh viên vừa làm vừa học?",
+      "answer": "Chương trình đào tạo cho sinh viên vừa làm vừa học bao gồm các chuyên ngành như Quản trị kinh doanh, Kế toán, và Công nghệ thông tin.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-vua-lam-vua-hoc.html.md"
+    },
+    {
+      "question": "Thời gian học cho chương trình vừa làm vừa học là như thế nào?",
+      "answer": "Thời gian học cho chương trình vừa làm vừa học thường được tổ chức vào buổi tối và cuối tuần để phù hợp với lịch làm việc của sinh viên.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-vua-lam-vua-hoc.html.md"
+    },
+    {
+      "question": "Có cần điều kiện gì để đăng ký vào ngành Kinh tế không?",
+      "answer": "Để đăng ký vào ngành Kinh tế, thí sinh cần có bằng tốt nghiệp trung học phổ thông và đáp ứng các yêu cầu tuyển sinh của trường.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-vua-lam-vua-hoc.html.md"
+    },
+    {
+      "question": "Ngành nào có chỉ tiêu tuyển sinh cao nhất tại Đại học Cần Thơ?",
+      "answer": "Ngành Quản trị kinh doanh có chỉ tiêu tuyển sinh cao nhất, lên đến 300 sinh viên.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-vua-lam-vua-hoc.html.md"
+    },
+    {
+      "question": "Trường Đại học Cần Thơ tuyển sinh những ngành nào trong năm 2025?",
+      "answer": "Năm 2025, Trường ĐHCT tuyển sinh 117 mã ngành, trong đó có 17 mã ngành đào tạo theo chương trình tiên tiến và chất lượng cao.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.ht.md"
+    },
+    {
+      "question": "Có bao nhiêu mã ngành đào tạo theo chương trình chất lượng cao tại Trường ĐHCT?",
+      "answer": "Có 17 mã ngành đào tạo theo chương trình chất lượng cao tại Trường ĐHCT.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.ht.md"
+    },
+    {
+      "question": "Trường ĐHCT có những phương thức xét tuyển nào cho năm 2025?",
+      "answer": "Trường ĐHCT có nhiều phương thức và tổ hợp xét tuyển nhằm tăng cơ hội cho thí sinh.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.ht.md"
+    },
+    {
+      "question": "Chương trình chất lượng cao tại Trường ĐHCT có gì khác so với chương trình đại trà?",
+      "answer": "Chương trình chất lượng cao có cấu trúc gần giống với chương trình đào tạo của nước ngoài, học bằng tiếng Anh và có cơ hội đi thực tập ở nước ngoài.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.ht.md"
+    },
+    {
+      "question": "Học phí cho các chương trình chất lượng cao tại Trường ĐHCT là bao nhiêu?",
+      "answer": "Thông tin về học phí cho các chương trình chất lượng cao chưa được đề cập trong nội dung, bạn có thể liên hệ trực tiếp với trường để biết thêm chi tiết.",
+      "category": "nganh_hoc",
+      "confidence": 0.7,
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.ht.md"
+    },
+    {
+      "question": "Làm thế nào để đăng ký xét tuyển vào Trường ĐHCT?",
+      "answer": "Mỗi thí sinh được quyền đăng ký xét tuyển vào Trường bằng nhiều phương thức khác nhau, mỗi phương thức nộp 01 bộ hồ sơ riêng và không có sự ràng buộc nào giữa những nguyện vọng do thí sinh đăng ký.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.ht.md"
+    },
+    {
+      "question": "Trường ĐHCT có chính sách học bổng nào cho thí sinh trúng tuyển không?",
+      "answer": "Có, Trường ĐHCT có nhiều chính sách học bổng cho thí sinh trúng tuyển, bạn có thể tìm hiểu thêm thông tin chi tiết trên trang web của trường.",
+      "category": "nganh_hoc",
+      "confidence": 0.8,
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.ht.md"
+    },
+    {
+      "question": "Có thể tìm hiểu danh mục ngành tuyển sinh ở đâu?",
+      "answer": "Bạn có thể tìm hiểu danh mục ngành tuyển sinh tại [đây](https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/841-danh-muc-nganh-va-chi-tieu-tuyen-sinh-dhcq.html).",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.ht.md"
+    },
+    {
+      "question": "Trường ĐHCT có chương trình đào tạo từ xa không?",
+      "answer": "Có, Trường ĐHCT có chương trình đào tạo từ xa, bạn có thể tìm hiểu thêm thông tin trên trang web của trường.",
+      "category": "nganh_hoc",
+      "confidence": 0.8,
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.ht.md"
+    },
+    {
+      "question": "Có thể liên hệ với ai để được tư vấn tuyển sinh tại Trường ĐHCT?",
+      "answer": "Bạn có thể liên hệ với Phòng Đào tạo - Trường Đại học Cần Thơ qua điện thoại 0292. 3872 728 hoặc email tuyensinh@ctu.edu.vn.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.ht.md"
+    }
+  ],
+  "source": "crawled_markdown_files",
+  "created_date": "2025-01-27",
+  "last_updated": "2025-01-27"
+}

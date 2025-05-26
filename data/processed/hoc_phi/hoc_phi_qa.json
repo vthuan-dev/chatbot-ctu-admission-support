@@ -1,0 +1,421 @@
+{
+  "intent": "hoc_phi",
+  "description": "Học phí, chi phí, học bổng",
+  "count": 41,
+  "qa_pairs": [
+    {
+      "id": "qa_003",
+      "question": "Học phí của các chương trình đào tạo tại Đại học Cần Thơ là bao nhiêu?",
+      "answer": "Thông tin chi tiết về học phí của các chương trình đào tạo tại Đại học Cần Thơ sẽ được công bố trong thông tin tuyển sinh. Bạn có thể theo dõi trang web của trường để cập nhật thông tin mới nhất.",
+      "intent": "hoc_phi",
+      "original_category": "hoi_hoc_phi",
+      "confidence": 0.8,
+      "source_url": "https_tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/thong-tin-tuyen-sinh.html",
+      "source_level": "unknown",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_009",
+      "question": "Học phí của các chương trình đào tạo tại Đại học Cần Thơ là bao nhiêu?",
+      "answer": "Thông tin chi tiết về học phí cho từng chương trình đào tạo sẽ được công bố trên trang web của trường. Bạn nên kiểm tra thường xuyên để cập nhật thông tin mới nhất.",
+      "intent": "hoc_phi",
+      "original_category": "hoi_hoc_phi",
+      "confidence": 0.8,
+      "source_url": "https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/thong-tin-tuyen-sinh.html",
+      "source_level": "unknown",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_014",
+      "question": "Học phí của chương trình chất lượng cao tại Đại học Cần Thơ là bao nhiêu?",
+      "answer": "Học phí cho chương trình chất lượng cao tại Đại học Cần Thơ thường cao hơn so với chương trình đại trà, tuy nhiên mức học phí cụ thể sẽ được công bố trong thông báo tuyển sinh hàng năm.",
+      "intent": "hoc_phi",
+      "original_category": "hoi_hoc_phi",
+      "confidence": 0.8,
+      "source_url": "https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/chuong-trinh-chat-luong-cao.html",
+      "source_level": "unknown",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_016",
+      "question": "Có chính sách học bổng nào cho thí sinh trúng tuyển vào Đại học Cần Thơ không?",
+      "answer": "Đại học Cần Thơ có nhiều chính sách học bổng dành cho thí sinh trúng tuyển, bao gồm học bổng khuyến khích học tập và học bổng cho sinh viên có hoàn cảnh khó khăn. Thông tin chi tiết có thể tìm thấy trên trang web của trường.",
+      "intent": "hoc_phi",
+      "original_category": "hoi_hoc_phi",
+      "confidence": 0.8,
+      "source_url": "https://tuyensinh.ctu.edu.vn/cau-hoi-pho-bien/879-co-nhung-chinh-sach-hoc-bong-nao-cho-thi-sinh-trung-tuyen.html",
+      "source_level": "unknown",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_018",
+      "question": "Học phí cho các ngành tại Đại học Cần Thơ là bao nhiêu?",
+      "answer": "Học phí cho các ngành tại Đại học Cần Thơ là 40 triệu đồng/năm học cho các chương trình tiên tiến và chương trình chất lượng cao.",
+      "intent": "hoc_phi",
+      "original_category": "hoi_hoc_phi",
+      "confidence": 0.8,
+      "source_url": "https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/177-thong-tin/841-danh-muc-nganh-va-chi-tieu-tuyen-sinh-dhcq.html",
+      "source_level": "unknown",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_025",
+      "question": "Học phí của các chương trình tại Đại học Cần Thơ là bao nhiêu?",
+      "answer": "Học phí tại Đại học Cần Thơ có thể khác nhau tùy thuộc vào từng chương trình học. Thông thường, học phí cho các chương trình đại học chính quy sẽ được công bố trong thông báo tuyển sinh hàng năm. Bạn nên kiểm tra trang web của trường để có thông tin chính xác nhất.",
+      "intent": "hoc_phi",
+      "original_category": "hoi_hoc_phi",
+      "confidence": 0.8,
+      "source_url": "https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/thong-tin-tuyen-sinh.html",
+      "source_level": "unknown",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_030",
+      "question": "Học phí của các chương trình đào tạo tại Đại học Cần Thơ như thế nào?",
+      "answer": "Học phí tại Đại học Cần Thơ có sự khác nhau giữa các chương trình đào tạo. Thông tin chi tiết về học phí sẽ được công bố trong thông tin tuyển sinh chính thức của trường.",
+      "intent": "hoc_phi",
+      "original_category": "hoi_hoc_phi",
+      "confidence": 0.8,
+      "source_url": "https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/thong-tin-tuyen-sinh.html",
+      "source_level": "unknown",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_039",
+      "question": "Học phí cho sinh viên tại Khu Hòa An có giống với sinh viên ở thành phố Cần Thơ không?",
+      "answer": "Học phí cho sinh viên tại Khu Hòa An hoàn toàn giống với sinh viên học tại thành phố Cần Thơ.",
+      "intent": "hoc_phi",
+      "original_category": "hoi_hoc_phi",
+      "confidence": 0.8,
+      "source_url": "https_tuyensinh.ctu.edu.vn/chương-trình-dai-tra/177-thong-tin/898-khu-hoa-an.html.md",
+      "source_level": "unknown",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_043",
+      "question": "Học phí của các chương trình tại Đại học Cần Thơ như thế nào?",
+      "answer": "Học phí cụ thể cho từng chương trình tại Đại học Cần Thơ sẽ được công bố trong thông báo tuyển sinh. Bạn nên kiểm tra thường xuyên trên trang web của trường để biết thông tin chi tiết.",
+      "intent": "hoc_phi",
+      "original_category": "hoi_hoc_phi",
+      "confidence": 0.8,
+      "source_url": "https_tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/thong-tin-tuyen-sinh.html",
+      "source_level": "unknown",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_050",
+      "question": "Học phí của các chương trình tại Đại học Cần Thơ như thế nào?",
+      "answer": "Học phí tại Đại học Cần Thơ có sự khác nhau tùy thuộc vào từng chương trình học. Bạn nên liên hệ với phòng Đào tạo của trường để biết thông tin chi tiết về học phí.",
+      "intent": "hoc_phi",
+      "original_category": "hoi_hoc_phi",
+      "confidence": 0.8,
+      "source_url": "https_tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy.html",
+      "source_level": "unknown",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_058",
+      "question": "Học phí của ngành Tài chính - Ngân hàng là bao nhiêu?",
+      "answer": "Thông tin về học phí của ngành Tài chính - Ngân hàng chưa được cung cấp trong tài liệu. Bạn có thể tham khảo thêm trên trang web chính thức của trường.",
+      "intent": "hoc_phi",
+      "original_category": "hoi_hoc_phi",
+      "confidence": 0.8,
+      "source_url": "https_tuyensinh.ctu.edu.vn_gioi-thieu-nganh_908-tai-chinh-ngan-hang-clc.html.md",
+      "source_level": "unknown",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_065",
+      "question": "Học phí của ngành Kỹ thuật xây dựng là bao nhiêu?",
+      "answer": "Thông tin về học phí của ngành Kỹ thuật xây dựng chưa được cung cấp trong tài liệu. Bạn có thể tham khảo thêm trên trang web chính thức của trường.",
+      "intent": "hoc_phi",
+      "original_category": "hoi_hoc_phi",
+      "confidence": 0.8,
+      "source_url": "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/910-ky-thuat-xay-dung-clc.html",
+      "source_level": "unknown",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_070",
+      "question": "Học phí cho chương trình đào tạo từ xa tại Đại học Cần Thơ là bao nhiêu?",
+      "answer": "Học phí cho chương trình đào tạo từ xa tại Đại học Cần Thơ được quy định cụ thể trong quy chế tuyển sinh và có thể thay đổi theo từng năm. Bạn nên kiểm tra thông tin mới nhất trên trang web của trường.",
+      "intent": "hoc_phi",
+      "original_category": "hoi_hoc_phi",
+      "confidence": 0.8,
+      "source_url": "https://ctc.ctu.edu.vn/tuyen-sinh/tuyen-sinh-he-tu-xa.html",
+      "source_level": "Level 4",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_076",
+      "question": "Học phí cho chương trình vừa làm vừa học tại Đại học Cần Thơ là bao nhiêu?",
+      "answer": "Học phí cho chương trình vừa làm vừa học tại Đại học Cần Thơ thường được xác định theo từng năm học và sẽ được công bố trên trang web của trường. Bạn nên kiểm tra thường xuyên để có thông tin cập nhật.",
+      "intent": "hoc_phi",
+      "original_category": "hoi_hoc_phi",
+      "confidence": 0.8,
+      "source_url": "https://ctc.ctu.edu.vn/tuyen-sinh/tuyen-sinh-he-vua-lam-vua-hoc.html",
+      "source_level": "Level 4",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_084",
+      "question": "Học phí của các ngành tại ĐH Cần Thơ như thế nào?",
+      "answer": "Thông tin chi tiết về học phí của các ngành tại Trường Đại học Cần Thơ chưa được đề cập trong nội dung, bạn có thể tham khảo thêm trên trang thông tin tuyển sinh của trường.",
+      "intent": "hoc_phi",
+      "original_category": "hoi_hoc_phi",
+      "confidence": 0.8,
+      "source_url": "https://tuyensinh.ctu.edu.vn/cau-hoi-pho-bien/875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.html",
+      "source_level": "Level 4",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_088",
+      "question": "Học phí cho chương trình chất lượng cao là bao nhiêu?",
+      "answer": "Học phí cho chương trình chất lượng cao thường cao hơn so với chương trình đại trà. Để biết thông tin cụ thể về học phí, bạn nên tham khảo trên trang web của Đại học Cần Thơ hoặc liên hệ trực tiếp với bộ phận tuyển sinh.",
+      "intent": "hoc_phi",
+      "original_category": "hoi_hoc_phi",
+      "confidence": 0.8,
+      "source_url": "https://tuyensinh.ctu.edu.vn/cau-hoi-pho-bien/877-chuong-trinh-chat-luong-cao-khac-voi-chuong-trinh-dai-tra.html",
+      "source_level": "Level 4",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_093",
+      "question": "Học phí cho chương trình chất lượng cao là bao nhiêu?",
+      "answer": "Học phí cho chương trình chất lượng cao thường cao hơn so với chương trình đại trà, tuy nhiên, mức học phí cụ thể sẽ được công bố trong thông tin tuyển sinh hàng năm. Bạn có thể tham khảo thêm trên trang web của Đại học Cần Thơ.",
+      "intent": "hoc_phi",
+      "original_category": "hoi_hoc_phi",
+      "confidence": 0.8,
+      "source_url": "https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/thong-tin-tuyen-sinh.html",
+      "source_level": "Level 4",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_101",
+      "question": "Có chính sách giảm học phí cho sinh viên nữ không?",
+      "answer": "Có, trường giảm 50% học phí năm thứ nhất cho nữ sinh trúng tuyển chương trình đào tạo đại trà các ngành.",
+      "intent": "hoc_phi",
+      "original_category": "hoi_hoc_phi",
+      "confidence": 0.8,
+      "source_url": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_879-co-nhung-chinh-sach-hoc-bong-nao-cho-thi-sinh-trung-tuyen.html",
+      "source_level": "Level 4",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_104",
+      "question": "Học phí cho ngành Công nghệ sinh học tại Đại học Cần Thơ là bao nhiêu?",
+      "answer": "Học phí cho ngành Công nghệ sinh học là 40 triệu đồng/năm học.",
+      "intent": "hoc_phi",
+      "original_category": "hoi_hoc_phi",
+      "confidence": 0.8,
+      "source_url": "https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/177-thong-tin/841-danh-muc-nganh-va-chi-tieu-tuyen-sinh-dhcq.html",
+      "source_level": "Level 4",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_117",
+      "question": "Học phí của các chương trình tại Đại học Cần Thơ như thế nào?",
+      "answer": "Thông tin chi tiết về học phí chưa được đề cập trong nội dung, bạn có thể tham khảo thêm trên trang web của trường để biết thêm thông tin.",
+      "intent": "hoc_phi",
+      "original_category": "hoi_hoc_phi",
+      "confidence": 0.8,
+      "source_url": "https_tuyensinh.ctu.edu.vn/chương-trình-dai-tra/177-thông-tin/943-phương-thức-xét-tuyển.html",
+      "source_level": "Level 4",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_128",
+      "question": "Học phí của các chương trình đào tạo tại Đại học Cần Thơ là bao nhiêu?",
+      "answer": "Học phí tại Đại học Cần Thơ có sự khác biệt tùy thuộc vào từng chương trình đào tạo, bao gồm chương trình đại trà, chương trình chất lượng cao và chương trình tiên tiến. Để biết thông tin chi tiết về học phí, bạn nên tham khảo trang thông tin tuyển sinh của trường.",
+      "intent": "hoc_phi",
+      "original_category": "hoi_hoc_phi",
+      "confidence": 0.8,
+      "source_url": "https_tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy.html",
+      "source_level": "Level 4",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_132",
+      "question": "Học phí của chương trình chất lượng cao tại Đại học Cần Thơ là bao nhiêu?",
+      "answer": "Học phí của chương trình chất lượng cao tại Đại học Cần Thơ được xác định dựa trên các yếu tố như chất lượng đào tạo và cơ sở vật chất. Để biết thông tin chi tiết về học phí, bạn có thể tham khảo trang web chính thức của trường.",
+      "intent": "hoc_phi",
+      "original_category": "hoi_hoc_phi",
+      "confidence": 0.8,
+      "source_url": "https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/chuong-trinh-chat-luong-cao.html",
+      "source_level": "Level 4",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_137",
+      "question": "Học phí của các chương trình đào tạo tại Đại học Cần Thơ là bao nhiêu?",
+      "answer": "Học phí tại Đại học Cần Thơ có sự khác nhau giữa các chương trình đào tạo. Để biết thông tin chi tiết về học phí cho từng ngành, bạn có thể tham khảo trên trang web chính thức của trường.",
+      "intent": "hoc_phi",
+      "original_category": "hoi_hoc_phi",
+      "confidence": 0.8,
+      "source_url": "https_tuyensinh.ctu.edu.vn_dai-hoc-chinh-quy_thong-tin-tuyen-sinh.html",
+      "source_level": "Level 4",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_146",
+      "question": "Học phí của ngành Kỹ thuật xây dựng là bao nhiêu?",
+      "answer": "Thông tin về học phí cho ngành Kỹ thuật xây dựng chưa được cung cấp trong tài liệu này.",
+      "intent": "hoc_phi",
+      "original_category": "hoi_hoc_phi",
+      "confidence": 0.8,
+      "source_url": "https_tuyensinh.ctu.edu.vn_gioi-thieu-nganh_910-ky-thuat-xay-dung-clc.html",
+      "source_level": "Level 4",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_150",
+      "question": "Học phí bao nhiêu?",
+      "answer": "Học phí tại Đại học Cần Thơ dao động tùy theo ngành học, thường từ 10 triệu đến 15 triệu đồng mỗi năm.",
+      "intent": "hoc_phi",
+      "original_category": "hoc_phi",
+      "confidence": 0.8,
+      "source_url": "https://ctc.ctu.edu.vn/tuyen-sinh/tuyen-sinh-he-tu-xa.html",
+      "source_level": "Level 5",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_158",
+      "question": "Học phí bao nhiêu?",
+      "answer": "Học phí cho chương trình vừa làm vừa học sẽ được thông báo cụ thể trong quy chế tuyển sinh.",
+      "intent": "hoc_phi",
+      "original_category": "hoc_phi",
+      "confidence": 0.8,
+      "source_url": "https://ctc.ctu.edu.vn/tuyen-sinh/tuyen-sinh-he-vua-lam-vua-hoc.html",
+      "source_level": "Level 5",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_165",
+      "question": "Học phí bao nhiêu?",
+      "answer": "Học phí cho các chương trình đại học chính quy năm 2025 sẽ được công bố sau khi có thông báo chính thức từ trường.",
+      "intent": "hoc_phi",
+      "original_category": "hoc_phi",
+      "confidence": 0.8,
+      "source_url": "https://tuyensinh.ctu.edu.vn/cau-hoi-pho-bien/875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.html",
+      "source_level": "Level 5",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_174",
+      "question": "Học phí bao nhiêu?",
+      "answer": "Học phí cho chương trình đại trà khoảng 10 triệu đồng/năm, trong khi chương trình chất lượng cao có học phí cao hơn, khoảng 20 triệu đồng/năm.",
+      "intent": "hoc_phi",
+      "original_category": "hoc_phi",
+      "confidence": 0.8,
+      "source_url": "https://tuyensinh.ctu.edu.vn/cau-hoi-pho-bien/877-chuong-trinh-chat-luong-cao-khac-voi-chuong-trinh-dai-tra.html",
+      "source_level": "Level 5",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_192",
+      "question": "Học phí bao nhiêu?",
+      "answer": "Học phí cho các chương trình chất lượng cao sẽ được công bố cụ thể trong thông báo tuyển sinh hàng năm.",
+      "intent": "hoc_phi",
+      "original_category": "hoc_phi",
+      "confidence": 0.8,
+      "source_url": "https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/177-thong-tin/943-phuong-thuc-xet-tuyen.html",
+      "source_level": "Level 5",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_198",
+      "question": "Học phí của chương trình chất lượng cao tại Đại học Cần Thơ là bao nhiêu?",
+      "answer": "Học phí của chương trình chất lượng cao tại Đại học Cần Thơ là 30 triệu đồng/năm.",
+      "intent": "hoc_phi",
+      "original_category": "hoc_phi",
+      "confidence": 0.8,
+      "source_url": "https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/chuong-trinh-chat-luong-cao.html",
+      "source_level": "Level 5",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_205",
+      "question": "Học phí cho chương trình chất lượng cao là bao nhiêu?",
+      "answer": "Học phí cho chương trình chất lượng cao sẽ được thông báo cụ thể trên trang thông tin tuyển sinh.",
+      "intent": "hoc_phi",
+      "original_category": "hoc_phi",
+      "confidence": 0.8,
+      "source_url": "https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/thong-tin-tuyen-sinh.html",
+      "source_level": "Level 5",
+      "created_date": "2025-05-25"
+    },
+    {
+      "question": "Học phí của Đại học Cần Thơ là bao nhiêu?",
+      "answer": "Học phí của Đại học Cần Thơ thay đổi tùy theo từng ngành học và năm học. Bạn có thể tham khảo thông tin chi tiết trên trang web của trường.",
+      "category": "hoc_phi",
+      "confidence": 0.9,
+      "source": "https_dfa.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có học bổng nào dành cho sinh viên không?",
+      "answer": "Đại học Cần Thơ có nhiều loại học bổng dành cho sinh viên, bao gồm học bổng khuyến khích học tập và học bổng từ các tổ chức bên ngoài.",
+      "category": "hoc_phi",
+      "confidence": 0.9,
+      "source": "https_dfa.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Làm thế nào để đăng ký học bổng tại Đại học Cần Thơ?",
+      "answer": "Sinh viên có thể đăng ký học bổng thông qua các thông báo từ trường hoặc liên hệ với phòng công tác sinh viên để biết thêm chi tiết.",
+      "category": "hoc_phi",
+      "confidence": 0.9,
+      "source": "https_dfa.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Học phí có thể thanh toán qua ngân hàng nào?",
+      "answer": "Sinh viên có thể thanh toán học phí qua các ngân hàng như AgriBank, BIDV, VietcomBank, SacomBank và HDBank.",
+      "category": "hoc_phi",
+      "confidence": 0.9,
+      "source": "https_dfa.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có thông báo nào về học phí học kỳ 3 năm 2024-2025 không?",
+      "answer": "Có, bạn có thể xem thông báo thu học phí học kỳ 3 năm 2024-2025 trên trang web của Đại học Cần Thơ.",
+      "category": "hoc_phi",
+      "confidence": 0.9,
+      "source": "https_dfa.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Chi phí ký túc xá tại Đại học Cần Thơ là bao nhiêu?",
+      "answer": "Chi phí ký túc xá tại Đại học Cần Thơ cũng thay đổi tùy theo từng khu vực và loại phòng. Bạn nên kiểm tra thông tin cụ thể trên trang web của trường.",
+      "category": "hoc_phi",
+      "confidence": 0.9,
+      "source": "https_dfa.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có thể tạm ứng học phí không?",
+      "answer": "Có, sinh viên có thể thực hiện tạm ứng học phí theo quy định của trường. Bạn nên liên hệ với phòng tài chính để biết thêm chi tiết.",
+      "category": "hoc_phi",
+      "confidence": 0.9,
+      "source": "https_dfa.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Học phí có được giảm cho sinh viên nghèo không?",
+      "answer": "Đại học Cần Thơ có chính sách hỗ trợ học phí cho sinh viên có hoàn cảnh khó khăn. Bạn nên liên hệ với phòng công tác sinh viên để biết thêm thông tin.",
+      "category": "hoc_phi",
+      "confidence": 0.9,
+      "source": "https_dfa.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Thời gian xuất hóa đơn học phí là khi nào?",
+      "answer": "Thông báo về thời gian xuất hóa đơn học phí năm 2024 đã được công bố trên trang web của trường. Bạn có thể tham khảo để biết thời gian cụ thể.",
+      "category": "hoc_phi",
+      "confidence": 0.9,
+      "source": "https_dfa.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có thể thanh toán học phí trực tuyến không?",
+      "answer": "Có, sinh viên có thể thanh toán học phí trực tuyến qua các ngân hàng liên kết với Đại học Cần Thơ.",
+      "category": "hoc_phi",
+      "confidence": 0.9,
+      "source": "https_dfa.ctu.edu.vn_.md"
+    }
+  ],
+  "source": "crawled_markdown_files",
+  "created_date": "2025-01-27",
+  "last_updated": "2025-01-27"
+}

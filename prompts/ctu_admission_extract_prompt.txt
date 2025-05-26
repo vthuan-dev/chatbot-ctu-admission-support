@@ -1,0 +1,130 @@
+Bạn là chuyên gia trích xuất dữ liệu cho chatbot tư vấn tuyển sinh Đại học Cần Thơ năm 2025.
+
+🎯 NHIỆM VỤ CHÍNH:
+Phân tích đề án tuyển sinh CTU 2025 và tạo các cặp hỏi-đáp CỤ THỂ về:
+1. **NGÀNH HỌC**: Mã ngành, tên ngành, tổ hợp môn xét tuyển
+2. **THỜI GIAN ĐÀO TẠO**: 4 năm, 4.5 năm, 5 năm, 6 năm
+3. **HỌC PHÍ**: Số tiền học phí cụ thể (triệu đồng/năm)
+4. **PHƯƠNG THỨC XÉT TUYỂN**: Điểm thi THPT, Học bạ, V-SAT
+5. **CHƯƠNG TRÌNH**: Đại trà, Tiên tiến, Chất lượng cao
+
+⚠️ YÊU CẦU QUAN TRỌNG:
+- Câu trả lời phải có SỐ LIỆU CỤ THỂ (mã ngành + học phí + thời gian)
+- KHÔNG được nói "bạn có thể tìm hiểu thêm" hoặc "liên hệ để biết thêm"
+- Mỗi câu trả lời phải chứa ít nhất 2-3 thông tin cụ thể
+- Tập trung vào 117 ngành học được liệt kê trong đề án
+- Sử dụng dữ liệu chính xác từ bảng thông tin
+
+📝 LOẠI CÂU HỎI CẦN TẠO (dựa vào dữ liệu có sẵn):
+
+**1. Từ dữ liệu mã ngành → tạo câu hỏi về tên ngành:**
+- Tìm các mã ngành trong dữ liệu và tạo câu hỏi: "Mã ngành [MÃ] là ngành gì?"
+- Kết hợp thêm thông tin: "Mã ngành [MÃ] là ngành gì và học phí bao nhiêu?"
+
+**2. Từ dữ liệu tên ngành → tạo câu hỏi về mã ngành:**
+- Tìm các tên ngành trong dữ liệu và tạo câu hỏi: "Ngành [TÊN NGÀNH] có mã ngành là gì?"
+- Kết hợp thêm thông tin: "Mã ngành của [TÊN NGÀNH] là gì và học phí bao nhiêu?"
+
+**3. Từ dữ liệu học phí → tạo câu hỏi so sánh:**
+- Dựa vào bảng học phí để tạo câu hỏi so sánh giữa các ngành
+- Tìm ngành có học phí cao/thấp nhất để tạo câu hỏi
+
+**4. Từ dữ liệu thời gian đào tạo → tạo câu hỏi phân loại:**
+- Dựa vào thời gian đào tạo (4 năm, 4.5 năm, 5 năm) để nhóm ngành
+- Tạo câu hỏi về ngành có thời gian đào tạo cụ thể
+
+**5. Từ dữ liệu tổ hợp xét tuyển → tạo câu hỏi:**
+- Dựa vào tổ hợp môn để tạo câu hỏi về ngành nào xét tuyển tổ hợp nào
+- Ngược lại: tổ hợp nào có thể xét tuyển những ngành nào
+
+**6. Từ dữ liệu chương trình → tạo câu hỏi phân loại:**
+- Dựa vào chương trình (Đại trà, Tiên tiến, Chất lượng cao) để phân nhóm
+
+🔍 **PHƯƠNG PHÁP PHÂN TÍCH DỮ LIỆU:**
+1. **ĐỌC VÀ HIỂU** toàn bộ bảng dữ liệu ngành học (117 ngành)
+2. **TRÍCH XUẤT** tất cả mã ngành, tên ngành, học phí, thời gian từ dữ liệu
+3. **TẠO CÂU HỎI** tự nhiên dựa trên dữ liệu thực tế có sẵn
+4. **GHÉP THÔNG TIN** để tạo câu trả lời đầy đủ và chính xác
+5. **KHÔNG** tự bịa thêm thông tin không có trong dữ liệu
+
+📋 VÍ DỤ CÂU TRẢ LỜI CHẤT LƯỢNG CAO:
+
+**Câu trả lời về ngành học cụ thể:**
+✅ "Ngành Công nghệ thông tin có mã 7480201, học phí 15.2 triệu đồng/năm, thời gian đào tạo 4 năm, tổ hợp xét tuyển A00; A01; TH1; TH2"
+
+✅ "Ngành Thú y (mã 7640101) có học phí 22.7 triệu đồng/năm, thời gian đào tạo 4.5 năm, tổ hợp A02; B00; B08; D07"
+
+**Câu trả lời về mã ngành → tên ngành:**
+✅ "Mã ngành 7480201 là ngành Công nghệ thông tin, học phí 15.2 triệu đồng/năm, đào tạo 4 năm"
+
+✅ "Mã ngành 7640101 là ngành Thú y với học phí 22.7 triệu đồng/năm, thời gian đào tạo 4.5 năm"
+
+✅ "Mã ngành 7340101 là ngành Quản trị kinh doanh, học phí 12.8 triệu đồng/năm, tổ hợp A00; A01; C02; D01"
+
+**Câu trả lời về tên ngành → mã ngành:**
+✅ "Ngành Quản trị kinh doanh có mã 7340101, học phí 12.8 triệu đồng/năm, đào tạo 4 năm"
+
+✅ "Mã ngành Kỹ thuật điện là 7520201, học phí 18.5 triệu đồng/năm, tổ hợp A00; A01; D07; TH1"
+
+✅ "Ngành Sư phạm Toán học có mã 7140209, học phí 8.5 triệu đồng/năm, tổ hợp A00; A01; B08; D07"
+
+**Câu trả lời so sánh:**
+✅ "Các ngành có học phí cao nhất tại CTU 2025: Thú y (22.7 triệu), Kỹ thuật xây dựng công trình thủy (22.7 triệu), Dược học (20.8 triệu)"
+
+**Câu trả lời theo tiêu chí:**
+✅ "Ngành có thời gian đào tạo 4.5 năm: Thú y (mã 7640101), Kiến trúc (mã 7580101), Kỹ thuật xây dựng (mã 7580201)"
+
+✅ "Tổ hợp A00 có thể xét tuyển 45 ngành bao gồm: Kinh tế (7310101), Quản trị kinh doanh (7340101), Công nghệ thông tin (7480201), Kỹ thuật điện (7520201)..."
+
+❌ TRÁNH CÁC CÂU TRẢ LỜI SAI:
+- "Trường có nhiều ngành, bạn có thể xem trên website"
+- "Học phí thay đổi theo ngành, liên hệ để biết chi tiết"  
+- "Có nhiều phương thức xét tuyển khác nhau"
+- "Thông tin chi tiết vui lòng liên hệ phòng tuyển sinh"
+
+🎯 PHÂN LOẠI INTENT:
+- nganh_hoc: thông tin về ngành, mã ngành, tổ hợp
+- hoc_phi: học phí, chi phí đào tạo
+- xet_tuyen: phương thức, tổ hợp xét tuyển
+- thoi_gian: thời gian đào tạo, bằng cấp
+- chuong_trinh: đại trà, tiên tiến, chất lượng cao
+
+📊 MỤC TIÊU: Tạo 25-30 cặp Q&A chất lượng cao với thông tin cụ thể về:
+
+📋 **DANH SÁCH CHÍNH CÁC CHỦ ĐỀ CẦN COVER:**
+1. **6 PHƯƠNG THỨC XÉT TUYỂN** (ít nhất 6 câu hỏi)
+   - Phương thức 1: Tuyển thẳng, ưu tiên xét tuyển  
+   - Phương thức 2: Điểm thi tốt nghiệp THPT 2025
+   - Phương thức 3: Điểm học bạ THPT
+   - Phương thức 4: Điểm thi V-SAT
+   - Phương thức 5: Chương trình tiên tiến và chất lượng cao
+   - Phương thức 6: Xét tuyển thẳng vào học bổ sung kiến thức
+
+2. **117 NGÀNH HỌC CTU 2025** (ít nhất 8 câu hỏi)
+   - Mã ngành → tên ngành
+   - Tên ngành → mã ngành và thông tin
+   - Ngành hot: CNTT (7480201), An toàn thông tin (7480202), Kinh tế, Y khoa...
+
+3. **CHƯƠNG TRÌNH ĐÀO TẠO** (ít nhất 4 câu hỏi)
+   - Chương trình đại trà vs tiên tiến vs chất lượng cao
+   - Điểm khác biệt và ưu điểm
+   - Học phí từng chương trình
+
+4. **THÔNG TIN LIÊN HỆ & HỖ TRỢ** (ít nhất 3 câu hỏi)
+   - Tư vấn trực tuyến: Facebook, Zalo
+   - Điện thoại: 0292.3872728, 0886889922
+   - Email: tuyensinh@ctu.edu.vn
+
+5. **CHỈ TIÊU & LỊCH TRÌNH** (ít nhất 4 câu hỏi)
+   - Chỉ tiêu từng ngành 2025
+   - Lịch thi V-SAT
+   - Thời gian nộp hồ sơ
+
+6. **CÂU HỎI TỔ HỢP** (ít nhất 3 câu hỏi)
+   - Dựa trên URL đã trích xuất để tạo câu hỏi
+   - Kết hợp nhiều thông tin trong 1 câu trả lời
+
+🎯 **PHƯƠNG PHÁP TẠO CÂU HỎI TỪ WEBSITE:**
+- Phân tích các URL để hiểu cấu trúc thông tin
+- Tạo câu hỏi dẫn đến các trang web cụ thể
+- Kết hợp thông tin từ nhiều nguồn trong website 

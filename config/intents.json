@@ -1,0 +1,137 @@
+{
+  "intents": {
+    "nganh_hoc": {
+      "name": "Hỏi về ngành học",
+      "description": "Câu hỏi về các ngành đào tạo, mã ngành, chỉ tiêu tuyển sinh",
+      "keywords": ["ngành", "mã ngành", "chỉ tiêu", "đào tạo", "tuyển sinh", "117 ngành"],
+      "examples": [
+        "Trường có những ngành nào?",
+        "Mã ngành An toàn thông tin là gì?",
+        "Chỉ tiêu tuyển sinh năm 2025?"
+      ]
+    },
+    "xet_tuyen": {
+      "name": "Hỏi về xét tuyển",
+      "description": "Câu hỏi về phương thức xét tuyển, điểm chuẩn, tổ hợp môn",
+      "keywords": ["xét tuyển", "phương thức", "điểm chuẩn", "tổ hợp", "THPT", "học bạ"],
+      "examples": [
+        "Phương thức xét tuyển năm 2025?",
+        "Tổ hợp môn xét tuyển là gì?",
+        "Có thể đăng ký bao nhiêu phương thức?"
+      ]
+    },
+    "hoc_phi": {
+      "name": "Hỏi về học phí",
+      "description": "Câu hỏi về học phí, học bổng, chi phí học tập",
+      "keywords": ["học phí", "học bổng", "chi phí", "triệu", "chất lượng cao", "CLC"],
+      "examples": [
+        "Học phí chương trình chất lượng cao?",
+        "Có chính sách học bổng nào?",
+        "Chi phí học tập là bao nhiêu?"
+      ]
+    },
+    "lien_he": {
+      "name": "Hỏi về liên hệ",
+      "description": "Câu hỏi về thông tin liên hệ, địa chỉ, số điện thoại",
+      "keywords": ["liên hệ", "địa chỉ", "điện thoại", "email", "tuyensinh@ctu.edu.vn"],
+      "examples": [
+        "Số điện thoại tư vấn tuyển sinh?",
+        "Địa chỉ trường ở đâu?",
+        "Email liên hệ là gì?"
+      ]
+    },
+    "thong_tin": {
+      "name": "Thông tin chung",
+      "description": "Câu hỏi về thông tin chung của trường, cơ sở vật chất",
+      "keywords": ["trường", "cơ sở", "thông tin", "giới thiệu"],
+      "examples": [
+        "Trường Đại học Cần Thơ như thế nào?",
+        "Cơ sở vật chất ra sao?",
+        "Thông tin về trường?"
+      ]
+    },
+    "ky_tuc_xa": {
+      "name": "Hỏi về ký túc xá",
+      "description": "Câu hỏi về ký túc xá, chỗ ở, sinh hoạt",
+      "keywords": ["ký túc xá", "chỗ ở", "sinh hoạt", "khu", "phòng"],
+      "examples": [
+        "Trường có ký túc xá không?",
+        "Ký túc xá có những khu nào?",
+        "Chi phí ở ký túc xá?"
+      ]
+    },
+    "chuong_trinh_dac_biet": {
+      "name": "Hỏi về chương trình đặc biệt",
+      "description": "Câu hỏi về chương trình vừa làm vừa học, từ xa, chất lượng cao",
+      "keywords": ["vừa làm vừa học", "từ xa", "chất lượng cao", "CLC", "CTTT"],
+      "examples": [
+        "Có chương trình vừa làm vừa học?",
+        "Chương trình từ xa như thế nào?",
+        "Chương trình chất lượng cao khác gì?"
+      ]
+    },
+    "ho_so_dang_ky": {
+      "name": "Hỏi về hồ sơ đăng ký",
+      "description": "Câu hỏi về thủ tục, hồ sơ, đăng ký xét tuyển",
+      "keywords": ["hồ sơ", "đăng ký", "thủ tục", "giấy tờ", "nộp hồ sơ"],
+      "examples": [
+        "Hồ sơ đăng ký gồm những gì?",
+        "Thời hạn nộp hồ sơ?",
+        "Đăng ký online như thế nào?"
+      ]
+    },
+    "thoi_gian_lich_trinh": {
+      "name": "Hỏi về thời gian lịch trình",
+      "description": "Câu hỏi về lịch tuyển sinh, thời gian quan trọng",
+      "keywords": ["thời gian", "lịch", "deadline", "khi nào", "bao giờ"],
+      "examples": [
+        "Khi nào bắt đầu tuyển sinh?",
+        "Thời gian công bố kết quả?",
+        "Lịch trình tuyển sinh 2025?"
+      ]
+    },
+    "diem_chuan_ket_qua": {
+      "name": "Hỏi về điểm chuẩn kết quả",
+      "description": "Câu hỏi về điểm chuẩn, kết quả tuyển sinh",
+      "keywords": ["điểm chuẩn", "kết quả", "trúng tuyển", "điểm", "xem kết quả"],
+      "examples": [
+        "Điểm chuẩn năm ngoái?",
+        "Khi nào có kết quả?",
+        "Xem kết quả ở đâu?"
+      ]
+    }
+  },
+  "mapping_rules": {
+    "category_to_intent": {
+      "hoi_nganh_hoc": "nganh_hoc",
+      "nganh_hoc": "nganh_hoc",
+      "hoi_phuong_thuc_xet_tuyen": "xet_tuyen",
+      "phuong_thuc_xet_tuyen": "xet_tuyen",
+      "hoi_hoc_phi": "hoc_phi",
+      "hoc_phi": "hoc_phi",
+      "hoi_lien_he": "lien_he",
+      "lien_he": "lien_he",
+      "hoi_thong_tin_chung": "thong_tin",
+      "thong_tin_chung": "thong_tin",
+      "thong_tin": "thong_tin",
+      "yeu_cau": "ho_so_dang_ky",
+      "ky_tuc_xa": "ky_tuc_xa",
+      "chuong_trinh_dac_biet": "chuong_trinh_dac_biet",
+      "vua_lam_vua_hoc": "chuong_trinh_dac_biet",
+      "tu_xa": "chuong_trinh_dac_biet",
+      "chat_luong_cao": "chuong_trinh_dac_biet"
+    },
+    "keyword_to_intent": {
+      "ký túc xá": "ky_tuc_xa",
+      "vừa làm vừa học": "chuong_trinh_dac_biet",
+      "từ xa": "chuong_trinh_dac_biet",
+      "chất lượng cao": "chuong_trinh_dac_biet",
+      "hồ sơ": "ho_so_dang_ky",
+      "đăng ký": "ho_so_dang_ky",
+      "thời gian": "thoi_gian_lich_trinh",
+      "khi nào": "thoi_gian_lich_trinh",
+      "điểm chuẩn": "diem_chuan_ket_qua",
+      "kết quả": "diem_chuan_ket_qua"
+    }
+  }
+} 

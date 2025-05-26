@@ -1,0 +1,363 @@
+{
+  "name": "CTU Auto Crawl Workflow",
+  "nodes": [
+    {
+      "parameters": {
+        "options": {}
+      },
+      "id": "start",
+      "name": "Manual Trigger",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [240, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "const startUrl = $input.first().json.start_url || 'https://tuyensinh.ctu.edu.vn/';\nconst maxDepth = $input.first().json.max_depth || 3;\nconst maxUrls = $input.first().json.max_urls || 5;\n\nreturn [{\n  json: {\n    current_urls: [startUrl],\n    level: 1,\n    max_depth: maxDepth,\n    max_urls: maxUrls,\n    all_qa_pairs: [],\n    crawled_urls: [],\n    total_qa_pairs: 0\n  }\n}];"
+      },
+      "id": "init",
+      "name": "Initialize",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [460, 300]
+    },
+    {
+      "parameters": {
+        "options": {
+          "loopMaxIterations": 10
+        }
+      },
+      "id": "level_loop",
+      "name": "Level Loop",
+      "type": "n8n-nodes-base.splitInBatches",
+      "typeVersion": 3,
+      "position": [680, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "const data = $input.first().json;\n\nif (data.level > data.max_depth || data.current_urls.length === 0) {\n  return [{\n    json: {\n      ...data,\n      stop_crawling: true,\n      message: `Crawling completed! Total Q&A pairs: ${data.total_qa_pairs}`\n    }\n  }];\n}\n\nconst urlsToProcess = data.current_urls.slice(0, data.max_urls);\n\nreturn urlsToProcess.map(url => ({\n  json: {\n    ...data,\n    current_url: url,\n    stop_crawling: false\n  }\n}));"
+      },
+      "id": "check_continue",
+      "name": "Check Continue",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [900, 300]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict"
+          },
+          "conditions": [
+            {
+              "leftValue": "={{ $json.stop_crawling }}",
+              "rightValue": false,
+              "operator": {
+                "type": "boolean",
+                "operation": "equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        }
+      },
+      "id": "continue_check",
+      "name": "Continue?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [1120, 300]
+    },
+    {
+      "parameters": {
+        "url": "={{ $json.current_url }}",
+        "options": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+          },
+          "timeout": 30000
+        }
+      },
+      "id": "http_crawl",
+      "name": "HTTP Crawl",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [1340, 200]
+    },
+    {
+      "parameters": {
+        "jsCode": "const html = $input.first().binary.data.toString();\nconst url = $input.first().json.current_url;\n\nlet content = html.replace(/<script[^>]*>.*?<\\/script>/gis, '');\ncontent = content.replace(/<style[^>]*>.*?<\\/style>/gis, '');\ncontent = content.replace(/<[^>]+>/g, ' ');\ncontent = content.replace(/\\s+/g, ' ').trim();\ncontent = content.substring(0, 8000);\n\nreturn [{\n  json: {\n    ...($input.first().json),\n    content: content,\n    content_length: content.length\n  }\n}];"
+      },
+      "id": "clean_html",
+      "name": "Clean HTML",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1560, 200]
+    },
+    {
+      "parameters": {
+        "resource": "chat",
+        "operation": "create",
+        "chatInput": {
+          "model": "gpt-4o-mini",
+          "messages": {
+            "values": [
+              {
+                "role": "system",
+                "content": "Bạn là chuyên gia phân tích nội dung tuyển sinh đại học. Chỉ trả về JSON hợp lệ."
+              },
+              {
+                "role": "user",
+                "content": "Phân tích nội dung tuyển sinh CTU và trích xuất:\\n\\n1. Tạo 3-5 cặp câu hỏi-trả lời tiếng Việt về tuyển sinh\\n2. Tìm URLs liên quan đến tuyển sinh CTU\\n\\nCONTENT: {{ $json.content }}\\n\\nTrả về JSON:\\n{\\n  \\\"qa_pairs\\\": [\\n    {\\n      \\\"question\\\": \\\"Câu hỏi tiếng Việt\\\",\\n      \\\"answer\\\": \\\"Trả lời chi tiết tiếng Việt\\\", \\n      \\\"category\\\": \\\"nganh_hoc\\\",\\n      \\\"source\\\": \\\"{{ $json.current_url }}\\\"\\n    }\\n  ],\\n  \\\"urls\\\": [\\\"url1\\\", \\\"url2\\\"]\\n}\\n\\nCHỈ trả về JSON."
+              }
+            ]
+          },
+          "options": {
+            "temperature": 0.3,
+            "maxTokens": 1500
+          }
+        }
+      },
+      "id": "openai_extract",
+      "name": "OpenAI Extract",
+      "type": "n8n-nodes-base.openAi",
+      "typeVersion": 1,
+      "position": [1780, 200]
+    },
+    {
+      "parameters": {
+        "jsCode": "const openaiResponse = $input.first().json.choices[0].message.content;\nconst inputData = $input.first().json;\n\ntry {\n  let cleanResponse = openaiResponse.trim();\n  if (cleanResponse.startsWith('```json')) {\n    cleanResponse = cleanResponse.substring(7);\n  }\n  if (cleanResponse.endsWith('```')) {\n    cleanResponse = cleanResponse.slice(0, -3);\n  }\n  \n  const response = JSON.parse(cleanResponse);\n  const qaPairs = response.qa_pairs || [];\n  const extractedUrls = response.urls || [];\n  \n  const ctuIndicators = ['ctu.edu.vn', 'tuyensinh', 'nganh', 'hoc-phi', 'xet-tuyen'];\n  const validUrls = extractedUrls.filter(url => \n    ctuIndicators.some(indicator => url.toLowerCase().includes(indicator))\n  );\n  \n  return [{\n    json: {\n      ...inputData,\n      qa_pairs: qaPairs,\n      extracted_urls: validUrls,\n      extraction_success: true\n    }\n  }];\n  \n} catch (error) {\n  console.log('Error parsing OpenAI response:', error);\n  return [{\n    json: {\n      ...inputData,\n      qa_pairs: [],\n      extracted_urls: [],\n      extraction_success: false,\n      error: error.message\n    }\n  }];\n}"
+      },
+      "id": "process_results",
+      "name": "Process Results",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [2000, 200]
+    },
+    {
+      "parameters": {
+        "jsCode": "const allItems = $input.all();\nconst firstItem = allItems[0].json;\n\nconst levelQaPairs = [];\nconst nextLevelUrls = [];\n\nallItems.forEach(item => {\n  if (item.json.extraction_success) {\n    levelQaPairs.push(...item.json.qa_pairs);\n    nextLevelUrls.push(...item.json.extracted_urls);\n  }\n});\n\nconst uniqueNextUrls = [...new Set(nextLevelUrls)];\n\nconst newCrawledUrls = [...firstItem.crawled_urls];\nallItems.forEach(item => {\n  if (!newCrawledUrls.includes(item.json.current_url)) {\n    newCrawledUrls.push(item.json.current_url);\n  }\n});\n\nreturn [{\n  json: {\n    level: firstItem.level,\n    max_depth: firstItem.max_depth,\n    max_urls: firstItem.max_urls,\n    level_qa_pairs: levelQaPairs,\n    all_qa_pairs: [...firstItem.all_qa_pairs, ...levelQaPairs],\n    current_urls: uniqueNextUrls,\n    crawled_urls: newCrawledUrls,\n    total_qa_pairs: firstItem.total_qa_pairs + levelQaPairs.length,\n    level_summary: {\n      level: firstItem.level,\n      qa_pairs_count: levelQaPairs.length,\n      urls_found: uniqueNextUrls.length,\n      urls_crawled: allItems.length\n    }\n  }\n}];"
+      },
+      "id": "aggregate_level",
+      "name": "Aggregate Level",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [2220, 200]
+    },
+    {
+      "parameters": {
+        "fileName": "data/auto_crawl/n8n_level_{{ $json.level }}.json",
+        "dataPropertyName": "level_data",
+        "options": {
+          "makeDirectories": true
+        }
+      },
+      "id": "save_level",
+      "name": "Save Level Data",
+      "type": "n8n-nodes-base.writeFile",
+      "typeVersion": 1,
+      "position": [2440, 200]
+    },
+    {
+      "parameters": {
+        "command": "python",
+        "arguments": "scripts/add_new_data.py data/auto_crawl/n8n_level_{{ $json.level }}.json"
+      },
+      "id": "add_to_dataset",
+      "name": "Add to Dataset",
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [2660, 200]
+    },
+    {
+      "parameters": {
+        "jsCode": "const data = $input.first().json;\n\nreturn [{\n  json: {\n    current_urls: data.current_urls,\n    level: data.level + 1,\n    max_depth: data.max_depth,\n    max_urls: data.max_urls,\n    all_qa_pairs: data.all_qa_pairs,\n    crawled_urls: data.crawled_urls,\n    total_qa_pairs: data.total_qa_pairs\n  }\n}];"
+      },
+      "id": "next_level",
+      "name": "Next Level",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [2880, 200]
+    },
+    {
+      "parameters": {
+        "jsCode": "const data = $input.first().json;\n\nreturn [{\n  json: {\n    message: 'CTU Auto Crawl Completed! 🎉',\n    summary: {\n      total_qa_pairs: data.total_qa_pairs,\n      levels_crawled: data.level - 1,\n      urls_crawled: data.crawled_urls.length,\n      final_dataset: 'data/final/ctu_chatbot_dataset.json'\n    },\n    success: true\n  }\n}];\n\nconsole.log('🎉 CTU Auto Crawl Completed!');\nconsole.log(`📊 Total Q&A pairs: ${data.total_qa_pairs}`);\nconsole.log(`🕷️ URLs crawled: ${data.crawled_urls.length}`);\nconsole.log('😴 You can now rest! The system did the work for you!');"
+      },
+      "id": "final_summary",
+      "name": "Final Summary",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1340, 400]
+    }
+  ],
+  "connections": {
+    "Manual Trigger": {
+      "main": [
+        [
+          {
+            "node": "Initialize",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Initialize": {
+      "main": [
+        [
+          {
+            "node": "Level Loop",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Level Loop": {
+      "main": [
+        [
+          {
+            "node": "Check Continue",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Check Continue": {
+      "main": [
+        [
+          {
+            "node": "Continue?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Continue?": {
+      "main": [
+        [
+          {
+            "node": "HTTP Crawl",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Final Summary",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Crawl": {
+      "main": [
+        [
+          {
+            "node": "Clean HTML",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Clean HTML": {
+      "main": [
+        [
+          {
+            "node": "OpenAI Extract",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI Extract": {
+      "main": [
+        [
+          {
+            "node": "Process Results",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Process Results": {
+      "main": [
+        [
+          {
+            "node": "Aggregate Level",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Aggregate Level": {
+      "main": [
+        [
+          {
+            "node": "Save Level Data",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Save Level Data": {
+      "main": [
+        [
+          {
+            "node": "Add to Dataset",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Add to Dataset": {
+      "main": [
+        [
+          {
+            "node": "Next Level",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Next Level": {
+      "main": [
+        [
+          {
+            "node": "Level Loop",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "pinData": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "tags": [
+    {
+      "createdAt": "2024-12-19T10:00:00.000Z",
+      "updatedAt": "2024-12-19T10:00:00.000Z",
+      "id": "ctu-crawl",
+      "name": "CTU Auto Crawl"
+    }
+  ],
+  "triggerCount": 0,
+  "updatedAt": "2024-12-19T10:00:00.000Z",
+  "versionId": "1"
+} 

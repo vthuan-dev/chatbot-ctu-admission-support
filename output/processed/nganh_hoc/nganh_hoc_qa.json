@@ -1,0 +1,815 @@
+{
+  "intent": "nganh_hoc",
+  "description": "Thông tin chi tiết về ngành học, thời gian đào tạo và học phí CTU 2025",
+  "count": 25,
+  "qa_pairs": [
+    {
+      "id": "qa_001",
+      "question": "Mã ngành 7140201 là ngành gì và học phí bao nhiêu?",
+      "answer": "Mã ngành 7140201 là ngành Giáo dục Mầm non, học phí 8.5 triệu đồng/năm, thời gian đào tạo 4 năm.",
+      "intent": "nganh_hoc",
+      "original_category": "nganh_hoc",
+      "confidence": 0.9,
+      "source_url": "crawl_result.md",
+      "source_level": "CTU Admission 2025",
+      "created_date": "2025-01-27"
+    },
+    {
+      "id": "qa_002",
+      "question": "Ngành Sư phạm Toán học có mã ngành là gì và học phí bao nhiêu?",
+      "answer": "Ngành Sư phạm Toán học có mã 7140209, học phí 8.5 triệu đồng/năm, thời gian đào tạo 4 năm.",
+      "intent": "nganh_hoc",
+      "original_category": "nganh_hoc",
+      "confidence": 0.9,
+      "source_url": "crawl_result.md",
+      "source_level": "CTU Admission 2025",
+      "created_date": "2025-01-27"
+    },
+    {
+      "id": "qa_003",
+      "question": "Mã ngành 7220201 là ngành gì và học phí bao nhiêu?",
+      "answer": "Mã ngành 7220201 là ngành Ngôn ngữ Anh, học phí 15.2 triệu đồng/năm, thời gian đào tạo 4 năm.",
+      "intent": "nganh_hoc",
+      "original_category": "nganh_hoc",
+      "confidence": 0.9,
+      "source_url": "crawl_result.md",
+      "source_level": "CTU Admission 2025",
+      "created_date": "2025-01-27"
+    },
+    {
+      "id": "qa_004",
+      "question": "Ngành Kinh tế có mã ngành là gì và học phí bao nhiêu?",
+      "answer": "Ngành Kinh tế có mã 7310101, học phí 12.8 triệu đồng/năm, thời gian đào tạo 4 năm.",
+      "intent": "nganh_hoc",
+      "original_category": "nganh_hoc",
+      "confidence": 0.9,
+      "source_url": "crawl_result.md",
+      "source_level": "CTU Admission 2025",
+      "created_date": "2025-01-27"
+    },
+    {
+      "id": "qa_005",
+      "question": "Ngành Công nghệ thông tin có mã ngành là gì và học phí bao nhiêu?",
+      "answer": "Ngành Công nghệ thông tin có mã 7480201, học phí 15.2 triệu đồng/năm, thời gian đào tạo 4 năm.",
+      "intent": "nganh_hoc",
+      "original_category": "nganh_hoc",
+      "confidence": 0.9,
+      "source_url": "crawl_result.md",
+      "source_level": "CTU Admission 2025",
+      "created_date": "2025-01-27"
+    },
+    {
+      "id": "qa_006",
+      "question": "Mã ngành 7640101 là ngành gì và học phí bao nhiêu?",
+      "answer": "Mã ngành 7640101 là ngành Thú y, học phí 22.7 triệu đồng/năm, thời gian đào tạo 4.5 năm.",
+      "intent": "nganh_hoc",
+      "original_category": "nganh_hoc",
+      "confidence": 0.9,
+      "source_url": "crawl_result.md",
+      "source_level": "CTU Admission 2025",
+      "created_date": "2025-01-27"
+    },
+    {
+      "id": "qa_007",
+      "question": "Ngành Kỹ thuật điện có mã ngành là gì và học phí bao nhiêu?",
+      "answer": "Ngành Kỹ thuật điện có mã 7520201, học phí 18.5 triệu đồng/năm, thời gian đào tạo 4 năm.",
+      "intent": "nganh_hoc",
+      "original_category": "nganh_hoc",
+      "confidence": 0.9,
+      "source_url": "crawl_result.md",
+      "source_level": "CTU Admission 2025",
+      "created_date": "2025-01-27"
+    },
+    {
+      "id": "qa_008",
+      "question": "Ngành Quản trị kinh doanh có mã ngành là gì và học phí bao nhiêu?",
+      "answer": "Ngành Quản trị kinh doanh có mã 7340101, học phí 12.8 triệu đồng/năm, thời gian đào tạo 4 năm.",
+      "intent": "nganh_hoc",
+      "original_category": "nganh_hoc",
+      "confidence": 0.9,
+      "source_url": "crawl_result.md",
+      "source_level": "CTU Admission 2025",
+      "created_date": "2025-01-27"
+    },
+    {
+      "id": "qa_009",
+      "question": "Ngành Kỹ thuật xây dựng có mã ngành là gì và học phí bao nhiêu?",
+      "answer": "Ngành Kỹ thuật xây dựng có mã 7580201, học phí 18.5 triệu đồng/năm, thời gian đào tạo 4 năm.",
+      "intent": "nganh_hoc",
+      "original_category": "nganh_hoc",
+      "confidence": 0.9,
+      "source_url": "crawl_result.md",
+      "source_level": "CTU Admission 2025",
+      "created_date": "2025-01-27"
+    },
+    {
+      "id": "qa_010",
+      "question": "Ngành Du lịch có mã ngành là gì và học phí bao nhiêu?",
+      "answer": "Ngành Du lịch có mã 7810101, học phí 10.5 triệu đồng/năm, thời gian đào tạo 4 năm.",
+      "intent": "nganh_hoc",
+      "original_category": "nganh_hoc",
+      "confidence": 0.9,
+      "source_url": "crawl_result.md",
+      "source_level": "CTU Admission 2025",
+      "created_date": "2025-01-27"
+    },
+    {
+      "id": "qa_011",
+      "question": "Ngành Hóa học có mã ngành là gì và học phí bao nhiêu?",
+      "answer": "Ngành Hóa học có mã 7440112, học phí 15.2 triệu đồng/năm, thời gian đào tạo 4 năm.",
+      "intent": "nganh_hoc",
+      "original_category": "nganh_hoc",
+      "confidence": 0.9,
+      "source_url": "crawl_result.md",
+      "source_level": "CTU Admission 2025",
+      "created_date": "2025-01-27"
+    },
+    {
+      "id": "qa_012",
+      "question": "Ngành Kỹ thuật ô tô có mã ngành là gì và học phí bao nhiêu?",
+      "answer": "Ngành Kỹ thuật ô tô có mã 7520130, học phí 18.5 triệu đồng/năm, thời gian đào tạo 4 năm.",
+      "intent": "nganh_hoc",
+      "original_category": "nganh_hoc",
+      "confidence": 0.9,
+      "source_url": "crawl_result.md",
+      "source_level": "CTU Admission 2025",
+      "created_date": "2025-01-27"
+    },
+    {
+      "id": "qa_013",
+      "question": "Ngành Công nghệ thực phẩm có mã ngành là gì và học phí bao nhiêu?",
+      "answer": "Ngành Công nghệ thực phẩm có mã 7540101, học phí 15.2 triệu đồng/năm, thời gian đào tạo 4 năm.",
+      "intent": "nganh_hoc",
+      "original_category": "nganh_hoc",
+      "confidence": 0.9,
+      "source_url": "crawl_result.md",
+      "source_level": "CTU Admission 2025",
+      "created_date": "2025-01-27"
+    },
+    {
+      "id": "qa_014",
+      "question": "Ngành Khoa học máy tính có mã ngành là gì và học phí bao nhiêu?",
+      "answer": "Ngành Khoa học máy tính có mã 7480101, học phí 15.2 triệu đồng/năm, thời gian đào tạo 4 năm.",
+      "intent": "nganh_hoc",
+      "original_category": "nganh_hoc",
+      "confidence": 0.9,
+      "source_url": "crawl_result.md",
+      "source_level": "CTU Admission 2025",
+      "created_date": "2025-01-27"
+    },
+    {
+      "id": "qa_015",
+      "question": "Ngành Kỹ thuật điều khiển và tự động hóa có mã ngành là gì và học phí bao nhiêu?",
+      "answer": "Ngành Kỹ thuật điều khiển và tự động hóa có mã 7520216, học phí 18.5 triệu đồng/năm, thời gian đào tạo 4 năm.",
+      "intent": "nganh_hoc",
+      "original_category": "nganh_hoc",
+      "confidence": 0.9,
+      "source_url": "crawl_result.md",
+      "source_level": "CTU Admission 2025",
+      "created_date": "2025-01-27"
+    },
+    {
+      "id": "qa_016",
+      "question": "Ngành Thú y có mã ngành là gì và học phí bao nhiêu?",
+      "answer": "Ngành Thú y có mã 7640101, học phí 22.7 triệu đồng/năm, thời gian đào tạo 4.5 năm.",
+      "intent": "nganh_hoc",
+      "original_category": "nganh_hoc",
+      "confidence": 0.9,
+      "source_url": "crawl_result.md",
+      "source_level": "CTU Admission 2025",
+      "created_date": "2025-01-27"
+    },
+    {
+      "id": "qa_017",
+      "question": "Ngành Kinh doanh quốc tế có mã ngành là gì và học phí bao nhiêu?",
+      "answer": "Ngành Kinh doanh quốc tế có mã 7340120, học phí 12.8 triệu đồng/năm, thời gian đào tạo 4 năm.",
+      "intent": "nganh_hoc",
+      "original_category": "nganh_hoc",
+      "confidence": 0.9,
+      "source_url": "crawl_result.md",
+      "source_level": "CTU Admission 2025",
+      "created_date": "2025-01-27"
+    },
+    {
+      "id": "qa_018",
+      "question": "Ngành Logistics và Quản lý chuỗi cung ứng có mã ngành là gì và học phí bao nhiêu?",
+      "answer": "Ngành Logistics và Quản lý chuỗi cung ứng có mã 7510605, học phí 15.2 triệu đồng/năm, thời gian đào tạo 4 năm.",
+      "intent": "nganh_hoc",
+      "original_category": "nganh_hoc",
+      "confidence": 0.9,
+      "source_url": "crawl_result.md",
+      "source_level": "CTU Admission 2025",
+      "created_date": "2025-01-27"
+    },
+    {
+      "id": "qa_019",
+      "question": "Ngành Kỹ thuật xây dựng công trình thủy có mã ngành là gì và học phí bao nhiêu?",
+      "answer": "Ngành Kỹ thuật xây dựng công trình thủy có mã 7580202, học phí 18.5 triệu đồng/năm, thời gian đào tạo 4 năm.",
+      "intent": "nganh_hoc",
+      "original_category": "nganh_hoc",
+      "confidence": 0.9,
+      "source_url": "crawl_result.md",
+      "source_level": "CTU Admission 2025",
+      "created_date": "2025-01-27"
+    },
+    {
+      "id": "qa_020",
+      "question": "Ngành Kỹ thuật điện tử - viễn thông có mã ngành là gì và học phí bao nhiêu?",
+      "answer": "Ngành Kỹ thuật điện tử - viễn thông có mã 7520207, học phí 18.5 triệu đồng/năm, thời gian đào tạo 4 năm.",
+      "intent": "nganh_hoc",
+      "original_category": "nganh_hoc",
+      "confidence": 0.9,
+      "source_url": "crawl_result.md",
+      "source_level": "CTU Admission 2025",
+      "created_date": "2025-01-27"
+    },
+    {
+      "id": "qa_021",
+      "question": "Ngành Kinh tế nông nghiệp có mã ngành là gì và học phí bao nhiêu?",
+      "answer": "Ngành Kinh tế nông nghiệp có mã 7620115, học phí 12.8 triệu đồng/năm, thời gian đào tạo 4 năm.",
+      "intent": "nganh_hoc",
+      "original_category": "nganh_hoc",
+      "confidence": 0.9,
+      "source_url": "crawl_result.md",
+      "source_level": "CTU Admission 2025",
+      "created_date": "2025-01-27"
+    },
+    {
+      "id": "qa_022",
+      "question": "Ngành Quản lý tài nguyên và môi trường có mã ngành là gì và học phí bao nhiêu?",
+      "answer": "Ngành Quản lý tài nguyên và môi trường có mã 7850101, học phí 12.8 triệu đồng/năm, thời gian đào tạo 4 năm.",
+      "intent": "nganh_hoc",
+      "original_category": "nganh_hoc",
+      "confidence": 0.9,
+      "source_url": "crawl_result.md",
+      "source_level": "CTU Admission 2025",
+      "created_date": "2025-01-27"
+    },
+    {
+      "id": "qa_023",
+      "question": "Ngành Khoa học đất có mã ngành là gì và học phí bao nhiêu?",
+      "answer": "Ngành Khoa học đất có mã 7620103, học phí 12.8 triệu đồng/năm, thời gian đào tạo 4 năm.",
+      "intent": "nganh_hoc",
+      "original_category": "nganh_hoc",
+      "confidence": 0.9,
+      "source_url": "crawl_result.md",
+      "source_level": "CTU Admission 2025",
+      "created_date": "2025-01-27"
+    },
+    {
+      "id": "qa_024",
+      "question": "Ngành Công nghệ sinh học có mã ngành là gì và học phí bao nhiêu?",
+      "answer": "Ngành Công nghệ sinh học có mã 7420201, học phí 15.2 triệu đồng/năm, thời gian đào tạo 4 năm.",
+      "intent": "nganh_hoc",
+      "original_category": "nganh_hoc",
+      "confidence": 0.9,
+      "source_url": "crawl_result.md",
+      "source_level": "CTU Admission 2025",
+      "created_date": "2025-01-27"
+    },
+    {
+      "id": "qa_025",
+      "question": "Ngành Kỹ thuật y sinh có mã ngành là gì và học phí bao nhiêu?",
+      "answer": "Ngành Kỹ thuật y sinh có mã 7520212, học phí 18.5 triệu đồng/năm, thời gian đào tạo 4 năm.",
+      "intent": "nganh_hoc",
+      "original_category": "nganh_hoc",
+      "confidence": 0.9,
+      "source_url": "crawl_result.md",
+      "source_level": "CTU Admission 2025",
+      "created_date": "2025-01-27"
+    }
+  ],
+  "extracted_urls": [
+    {
+      "url": "https://diemthi.tuyensinh247.com/images/iconMenu.png",
+      "text": "Menu",
+      "type": "markdown_link",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Flogo.png&w=384&q=75",
+      "text": "![Điểm thi Tuyển sinh 247",
+      "type": "markdown_link",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/images/icon-new.png",
+      "text": "Tuyển sinh 247",
+      "type": "markdown_link",
+      "category": "extracted"
+    },
+    {
+      "url": "https://tuyensinh247.com/",
+      "text": "Khoá học",
+      "type": "markdown_link",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh.html",
+      "text": "Đề án tuyển sinh",
+      "type": "markdown_link",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao.html",
+      "text": "Các ngành đào tạo",
+      "type": "markdown_link",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/tinh-diem-xet-hoc-ba-thpt.html",
+      "text": "Tính điểm xét học bạ THPT",
+      "type": "markdown_link",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/diem-chuan.html",
+      "text": "Điểm chuẩn đại học",
+      "type": "markdown_link",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/tu-van-chon-truong.html",
+      "text": "Tư vấn chọn trường",
+      "type": "markdown_link",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/dc-lop10.html",
+      "text": "Điểm chuẩn vào 10",
+      "type": "markdown_link",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/thi-ielts.html",
+      "text": "Quy đổi điểm IELTS",
+      "type": "markdown_link",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/diem-xet-tuyen.html",
+      "text": "Cách tính điểm xét tuyển ĐH",
+      "type": "markdown_link",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/quy-doi-diem.html",
+      "text": "Quy đổi điểm ĐGNL, ĐGTD",
+      "type": "markdown_link",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/diem-uu-tien.html",
+      "text": "Điểm ưu tiên, điểm khuyến khích",
+      "type": "markdown_link",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/danh-sach-truong-dai-hoc-cao-dang.html",
+      "text": "Mã Trường - Mã ngành ĐH",
+      "type": "markdown_link",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/danh-sach-trung-tuyen-dh-cd.html",
+      "text": "Danh sách trúng tuyển",
+      "type": "markdown_link",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/cong-cu-tinh-diem-tot-nghiep-thpt.html",
+      "text": "Công cụ tính điểm tốt nghiệp THPT",
+      "type": "markdown_link",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/tra-cuu-xep-hang-diem-thi.html",
+      "text": "Tra cứu xếp hạng thi",
+      "type": "markdown_link",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/diem-thi-vao-lop-10.html",
+      "text": "Điểm thi vào 10",
+      "type": "markdown_link",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/diem-thi-tot-nghiep-thpt.html",
+      "text": "Điểm thi tốt nghiệp THPT",
+      "type": "markdown_link",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/dem-nguoc.html",
+      "text": "Đếm ngược",
+      "type": "markdown_link",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh/dai-hoc-can-tho-TCT.html#thong-tin-chinh \"Thông tin chính\"",
+      "text": "Thông tin chính",
+      "type": "markdown_link",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh/dai-hoc-can-tho-TCT.html#phuong-thuc-xet-tuyen \"Phương án tuyển sinh\"",
+      "text": "Phương án tuyển sinh",
+      "type": "markdown_link",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh/dai-hoc-can-tho-TCT.html#diem-thi-thpt-6332",
+      "text": "arrow_right_altĐiểm thi THPT",
+      "type": "markdown_link",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh/dai-hoc-can-tho-TCT.html#diem-hoc-ba-6333",
+      "text": "arrow_right_altĐiểm học bạ",
+      "type": "markdown_link",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh/dai-hoc-can-tho-TCT.html#diem-thi-danh-gia-dau-vao-v-sat-6334",
+      "text": "arrow_right_altĐiểm Đánh giá đầu vào V-SAT",
+      "type": "markdown_link",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh/dai-hoc-can-tho-TCT.html#uu-tien-xet-tuyen-xet-tuyen-thang-6336",
+      "text": "arrow_right_altƯTXT, XT thẳng",
+      "type": "markdown_link",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh/dai-hoc-can-tho-TCT.html#nganh-dao-tao \"Danh sách ngành đào tạo\"",
+      "text": "Danh sách ngành đào tạo",
+      "type": "markdown_link",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh/dai-hoc-can-tho-TCT.html#diem-chuan \"Điểm chuẩn\"",
+      "text": "Điểm chuẩn",
+      "type": "markdown_link",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh/dai-hoc-can-tho-TCT.html#hoc-phi \"Học phí\"",
+      "text": "Học phí",
+      "type": "markdown_link",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh/dai-hoc-can-tho-TCT.html#file-pdf-de-an \"Tải file PDF đề án\"",
+      "text": "Tải file PDF đề án",
+      "type": "markdown_link",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh/dai-hoc-can-tho-TCT.html#gioi-thieu \"Giới thiệu trường\"",
+      "text": "Giới thiệu trường",
+      "type": "markdown_link",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/diem-chuan/dai-hoc-can-tho-TCT.html",
+      "text": "Tại đây",
+      "type": "markdown_link",
+      "category": "extracted"
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/",
+      "text": "tại đây",
+      "type": "markdown_link",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FTCT.jpg&w=640&q=75",
+      "text": "Trường Đại Học Cần Thơ",
+      "type": "markdown_link",
+      "category": "extracted"
+    },
+    {
+      "url": "https://tuyensinh247.com/themes/images/logo_white.png",
+      "text": "Logo",
+      "type": "markdown_link",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh.html \"Xem đề án tuyển sinh ĐH 2025\"",
+      "text": "Xem đề án tuyển sinh ĐH 2025",
+      "type": "markdown_link",
+      "category": "extracted"
+    },
+    {
+      "url": "https://tuyensinh247.com \"Khóa học Online\"",
+      "text": "Khóa học Online",
+      "type": "markdown_link",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/diem-chuan.html \"Xem điểm chuẩn Đại học\"",
+      "text": "Xem điểm chuẩn Đại học",
+      "type": "markdown_link",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/cong-cu-tinh-diem-tot-nghiep-thpt.html \"Công cụ tính điểm tốt nghiệp THPT\"",
+      "text": "Công cụ tính điểm tốt nghiệp THPT",
+      "type": "markdown_link",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/tinh-diem-xet-hoc-ba-thpt.html \"Công cụ tính điểm học bạ 2025\"",
+      "text": "Công cụ tính điểm học bạ 2025",
+      "type": "markdown_link",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao.html \"Các ngành nghề đào tạo 2025\"",
+      "text": "Các ngành nghề đào tạo 2025",
+      "type": "markdown_link",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/to-hop-mon.html \"Tổ hợp xét tuyển Đại học 2025\"",
+      "text": "Tổ hợp xét tuyển Đại học 2025",
+      "type": "markdown_link",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/dc-lop10.html \"Điểm chuẩn vào lớp 10\"",
+      "text": "Điểm chuẩn vào lớp 10",
+      "type": "markdown_link",
+      "category": "extracted"
+    },
+    {
+      "url": "https://tuyensinh247.com/themes/images/20150827110756-dathongbao-reside-105x40.png",
+      "text": "![Thông báo",
+      "type": "markdown_link",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/images/iconMenu.png)",
+      "text": "https://diemthi.tuyensinh247.com/images/iconMenu.png)",
+      "type": "direct_url",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Flogo.png&w=384&q=75)",
+      "text": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Flogo.png&w=384&q=75)",
+      "type": "direct_url",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/)",
+      "text": "https://diemthi.tuyensinh247.com/)",
+      "type": "direct_url",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/images/icon-new.png)",
+      "text": "https://diemthi.tuyensinh247.com/images/icon-new.png)",
+      "type": "direct_url",
+      "category": "extracted"
+    },
+    {
+      "url": "https://tuyensinh247.com/)",
+      "text": "https://tuyensinh247.com/)",
+      "type": "direct_url",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh.html)",
+      "text": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh.html)",
+      "type": "direct_url",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao.html)",
+      "text": "https://diemthi.tuyensinh247.com/nganh-dao-tao.html)",
+      "type": "direct_url",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/tinh-diem-xet-hoc-ba-thpt.html)",
+      "text": "https://diemthi.tuyensinh247.com/tinh-diem-xet-hoc-ba-thpt.html)",
+      "type": "direct_url",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/diem-chuan.html)",
+      "text": "https://diemthi.tuyensinh247.com/diem-chuan.html)",
+      "type": "direct_url",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/tu-van-chon-truong.html)",
+      "text": "https://diemthi.tuyensinh247.com/tu-van-chon-truong.html)",
+      "type": "direct_url",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/dc-lop10.html)",
+      "text": "https://diemthi.tuyensinh247.com/dc-lop10.html)",
+      "type": "direct_url",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/thi-ielts.html)",
+      "text": "https://diemthi.tuyensinh247.com/thi-ielts.html)",
+      "type": "direct_url",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/diem-xet-tuyen.html)",
+      "text": "https://diemthi.tuyensinh247.com/diem-xet-tuyen.html)",
+      "type": "direct_url",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/quy-doi-diem.html)",
+      "text": "https://diemthi.tuyensinh247.com/quy-doi-diem.html)",
+      "type": "direct_url",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/diem-uu-tien.html)",
+      "text": "https://diemthi.tuyensinh247.com/diem-uu-tien.html)",
+      "type": "direct_url",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/danh-sach-truong-dai-hoc-cao-dang.html)",
+      "text": "https://diemthi.tuyensinh247.com/danh-sach-truong-dai-hoc-cao-dang.html)",
+      "type": "direct_url",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/danh-sach-trung-tuyen-dh-cd.html)",
+      "text": "https://diemthi.tuyensinh247.com/danh-sach-trung-tuyen-dh-cd.html)",
+      "type": "direct_url",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/cong-cu-tinh-diem-tot-nghiep-thpt.html)",
+      "text": "https://diemthi.tuyensinh247.com/cong-cu-tinh-diem-tot-nghiep-thpt.html)",
+      "type": "direct_url",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/tra-cuu-xep-hang-diem-thi.html)",
+      "text": "https://diemthi.tuyensinh247.com/tra-cuu-xep-hang-diem-thi.html)",
+      "type": "direct_url",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/diem-thi-vao-lop-10.html)",
+      "text": "https://diemthi.tuyensinh247.com/diem-thi-vao-lop-10.html)",
+      "type": "direct_url",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/diem-thi-tot-nghiep-thpt.html)",
+      "text": "https://diemthi.tuyensinh247.com/diem-thi-tot-nghiep-thpt.html)",
+      "type": "direct_url",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/dem-nguoc.html)",
+      "text": "https://diemthi.tuyensinh247.com/dem-nguoc.html)",
+      "type": "direct_url",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh/dai-hoc-can-tho-TCT.html#thong-tin-chinh",
+      "text": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh/dai-hoc-can-tho-TCT.html#thong-tin-chinh",
+      "type": "direct_url",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh/dai-hoc-can-tho-TCT.html#phuong-thuc-xet-tuyen",
+      "text": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh/dai-hoc-can-tho-TCT.html#phuong-thuc-xet-tuyen",
+      "type": "direct_url",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh/dai-hoc-can-tho-TCT.html#diem-thi-thpt-6332)",
+      "text": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh/dai-hoc-can-tho-TCT.html#diem-thi-thpt-6332)",
+      "type": "direct_url",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh/dai-hoc-can-tho-TCT.html#diem-hoc-ba-6333)",
+      "text": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh/dai-hoc-can-tho-TCT.html#diem-hoc-ba-6333)",
+      "type": "direct_url",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh/dai-hoc-can-tho-TCT.html#diem-thi-danh-gia-dau-vao-v-sat-6334)",
+      "text": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh/dai-hoc-can-tho-TCT.html#diem-thi-danh-gia-dau-vao-v-sat-6334)",
+      "type": "direct_url",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh/dai-hoc-can-tho-TCT.html#uu-tien-xet-tuyen-xet-tuyen-thang-6336)",
+      "text": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh/dai-hoc-can-tho-TCT.html#uu-tien-xet-tuyen-xet-tuyen-thang-6336)",
+      "type": "direct_url",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh/dai-hoc-can-tho-TCT.html#nganh-dao-tao",
+      "text": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh/dai-hoc-can-tho-TCT.html#nganh-dao-tao",
+      "type": "direct_url",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh/dai-hoc-can-tho-TCT.html#diem-chuan",
+      "text": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh/dai-hoc-can-tho-TCT.html#diem-chuan",
+      "type": "direct_url",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh/dai-hoc-can-tho-TCT.html#hoc-phi",
+      "text": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh/dai-hoc-can-tho-TCT.html#hoc-phi",
+      "type": "direct_url",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh/dai-hoc-can-tho-TCT.html#file-pdf-de-an",
+      "text": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh/dai-hoc-can-tho-TCT.html#file-pdf-de-an",
+      "type": "direct_url",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh/dai-hoc-can-tho-TCT.html#gioi-thieu",
+      "text": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh/dai-hoc-can-tho-TCT.html#gioi-thieu",
+      "type": "direct_url",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/diem-chuan/dai-hoc-can-tho-TCT.html)",
+      "text": "https://diemthi.tuyensinh247.com/diem-chuan/dai-hoc-can-tho-TCT.html)",
+      "type": "direct_url",
+      "category": "extracted"
+    },
+    {
+      "url": "https://tuyensinh.ctu.edu.vn/)",
+      "text": "https://tuyensinh.ctu.edu.vn/)",
+      "type": "direct_url",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FTCT.jpg&w=640&q=75)",
+      "text": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FTCT.jpg&w=640&q=75)",
+      "type": "direct_url",
+      "category": "extracted"
+    },
+    {
+      "url": "https://www.ctu.edu.vn",
+      "text": "https://www.ctu.edu.vn",
+      "type": "direct_url",
+      "category": "extracted"
+    },
+    {
+      "url": "https://www.facebook.com/ctu.tvts",
+      "text": "https://www.facebook.com/ctu.tvts",
+      "type": "direct_url",
+      "category": "extracted"
+    },
+    {
+      "url": "https://tuyensinh247.com/themes/images/logo_white.png)",
+      "text": "https://tuyensinh247.com/themes/images/logo_white.png)",
+      "type": "direct_url",
+      "category": "extracted"
+    },
+    {
+      "url": "https://tuyensinh247.com",
+      "text": "https://tuyensinh247.com",
+      "type": "direct_url",
+      "category": "extracted"
+    },
+    {
+      "url": "https://diemthi.tuyensinh247.com/to-hop-mon.html",
+      "text": "https://diemthi.tuyensinh247.com/to-hop-mon.html",
+      "type": "direct_url",
+      "category": "extracted"
+    },
+    {
+      "url": "https://tuyensinh247.com/themes/images/20150827110756-dathongbao-reside-105x40.png)",
+      "text": "https://tuyensinh247.com/themes/images/20150827110756-dathongbao-reside-105x40.png)",
+      "type": "direct_url",
+      "category": "extracted"
+    },
+    {
+      "url": "http://online.gov.vn/HomePage/CustomWebsiteDisplay.aspx?DocId=22912)",
+      "text": "http://online.gov.vn/HomePage/CustomWebsiteDisplay.aspx?DocId=22912)",
+      "type": "direct_url",
+      "category": "extracted"
+    }
+  ],
+  "source": "ctu_admission_2025",
+  "created_date": "2025-01-27",
+  "last_updated": "2025-01-27"
+}

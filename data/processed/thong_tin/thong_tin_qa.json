@@ -1,0 +1,763 @@
+{
+  "intent": "thong_tin",
+  "description": "Thông tin chung về trường, cơ sở vật chất",
+  "count": 83,
+  "qa_pairs": [
+    {
+      "id": "qa_026",
+      "question": "Tôi có thể tìm thông tin về điểm ưu tiên trong tuyển sinh ở đâu?",
+      "answer": "Thông tin về điểm ưu tiên trong tuyển sinh, bao gồm mức điểm khu vực và đối tượng, có thể được tìm thấy trên trang thông tin tuyển sinh của Đại học Cần Thơ. Điểm ưu tiên sẽ được áp dụng theo quy định mới nhất từ năm 2023.",
+      "intent": "thong_tin",
+      "original_category": "hoi_thong_tin_chung",
+      "confidence": 0.8,
+      "source_url": "https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/thong-tin-tuyen-sinh.html",
+      "source_level": "unknown",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_027",
+      "question": "Có những thay đổi nào trong chính sách ưu tiên khu vực từ năm 2023?",
+      "answer": "Từ năm 2023, có hai thay đổi trong chính sách ưu tiên khu vực. Thứ nhất, thí sinh chỉ được hưởng chính sách ưu tiên khu vực theo quy định trong năm tốt nghiệp THPT và một năm kế tiếp. Thứ hai, điểm ưu tiên đối với thí sinh đạt tổng điểm từ 22,5 trở lên sẽ được xác định theo công thức cụ thể.",
+      "intent": "thong_tin",
+      "original_category": "hoi_thong_tin_chung",
+      "confidence": 0.8,
+      "source_url": "https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/thong-tin-tuyen-sinh.html",
+      "source_level": "unknown",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_033",
+      "question": "Địa chỉ của Ký túc xá KTX-A là ở đâu?",
+      "answer": "Ký túc xá KTX-A nằm trong khuôn viên Khu II, Trường Đại học Cần Thơ, địa chỉ cụ thể là Đường 3/2, phường Xuân Khánh, quận Ninh Kiều, TP. Cần Thơ.",
+      "intent": "thong_tin",
+      "original_category": "hoi_thong_tin_chung",
+      "confidence": 0.8,
+      "source_url": "https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/177-thong-tin/897-ky-tuc-xa.html",
+      "source_level": "unknown",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_034",
+      "question": "Khu Hòa An là gì và ở đâu?",
+      "answer": "Khu Hòa An là một cơ sở đào tạo của Trường Đại học Cần Thơ, tọa lạc tại Số 554, ấp Hòa Đức, xã Hòa An, huyện Phụng Hiệp, tỉnh Hậu Giang, cách thành phố Cần Thơ 45 km.",
+      "intent": "thong_tin",
+      "original_category": "hoi_thong_tin_chung",
+      "confidence": 0.8,
+      "source_url": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_898-khu-hoa-an.html.md",
+      "source_level": "unknown",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_037",
+      "question": "Có thông tin gì về chỉ tiêu tuyển sinh đại học chính quy năm 2025 không?",
+      "answer": "Có, bạn có thể tham khảo thông tin về chỉ tiêu tuyển sinh đại học chính quy năm 2025 tại trang web của Trường Đại học Cần Thơ.",
+      "intent": "thong_tin",
+      "original_category": "hoi_thong_tin_chung",
+      "confidence": 0.8,
+      "source_url": "https_tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/177-thong-tin/841-danh-muc-nganh-va-chi-tieu-tuyen-sinh-dhcq.html",
+      "source_level": "unknown",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_042",
+      "question": "Chỉ tiêu tuyển sinh của Đại học Cần Thơ năm 2025 là bao nhiêu?",
+      "answer": "Thông tin về chỉ tiêu tuyển sinh năm 2025 sẽ được công bố trong thời gian tới. Bạn có thể theo dõi trên trang web chính thức của Đại học Cần Thơ để cập nhật thông tin mới nhất.",
+      "intent": "thong_tin",
+      "original_category": "hoi_thong_tin_chung",
+      "confidence": 0.8,
+      "source_url": "https_tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra_177-thong-tin_841-danh-muc-nganh-va-chi-tieu-tuyen-sinh-dhcq.html",
+      "source_level": "unknown",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_046",
+      "question": "Tôi có thể tìm thông tin tuyển sinh ở đâu?",
+      "answer": "Bạn có thể tìm thông tin tuyển sinh tại trang web chính thức của Đại học Cần Thơ, nơi có đầy đủ thông tin về các chương trình, phương thức xét tuyển và các thông tin liên quan khác.",
+      "intent": "thong_tin",
+      "original_category": "hoi_thong_tin_chung",
+      "confidence": 0.8,
+      "source_url": "https_tuyensinh.ctu.edu.vn/",
+      "source_level": "unknown",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_047",
+      "question": "Mã trường tuyển sinh của Đại học Cần Thơ là gì?",
+      "answer": "Mã trường tuyển sinh của Đại học Cần Thơ là TCT.",
+      "intent": "thong_tin",
+      "original_category": "hoi_thong_tin_chung",
+      "confidence": 0.8,
+      "source_url": "https_tuyensinh.ctu.edu.vn_dai-hoc-chinh-quy.html.md",
+      "source_level": "unknown",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_053",
+      "question": "Có thông tin gì mới về tuyển sinh đại học chính quy năm 2025 không?",
+      "answer": "Có, Đại học Cần Thơ đã công bố thông tin tuyển sinh đại học chính quy năm 2025. Bạn có thể xem thông tin chi tiết trên trang web của trường.",
+      "intent": "thong_tin",
+      "original_category": "hoi_thong_tin_chung",
+      "confidence": 0.8,
+      "source_url": "https_tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy.html",
+      "source_level": "unknown",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_060",
+      "question": "Có thể tìm thêm thông tin tuyển sinh ở đâu?",
+      "answer": "Bạn có thể tìm thêm thông tin tuyển sinh tại trang web chính thức của Đại học Cần Thơ tại địa chỉ https://tuyensinh.ctu.edu.vn.",
+      "intent": "thong_tin",
+      "original_category": "hoi_thong_tin_chung",
+      "confidence": 0.8,
+      "source_url": "https_tuyensinh.ctu.edu.vn_gioi-thieu-nganh_908-tai-chinh-ngan-hang-clc.html.md",
+      "source_level": "unknown",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_066",
+      "question": "Ngành Kỹ thuật xây dựng có chỉ tiêu tuyển sinh không?",
+      "answer": "Thông tin về chỉ tiêu tuyển sinh cho ngành Kỹ thuật xây dựng chưa được đề cập trong tài liệu. Bạn có thể kiểm tra trên trang thông tin tuyển sinh của trường.",
+      "intent": "thong_tin",
+      "original_category": "hoi_thong_tin_chung",
+      "confidence": 0.8,
+      "source_url": "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/910-ky-thuat-xay-dung-clc.html",
+      "source_level": "unknown",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_073",
+      "question": "Có thể tìm thấy thời khóa biểu cho chương trình đào tạo từ xa ở đâu?",
+      "answer": "Thời khóa biểu cho chương trình đào tạo từ xa có thể được tìm thấy trên trang web của Đại học Cần Thơ, trong phần thông tin về đào tạo từ xa.",
+      "intent": "thong_tin",
+      "original_category": "hoi_thong_tin_chung",
+      "confidence": 0.8,
+      "source_url": "https://ctc.ctu.edu.vn/tuyen-sinh/tuyen-sinh-he-tu-xa.html",
+      "source_level": "Level 4",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_079",
+      "question": "Thời gian học cho chương trình vừa làm vừa học là như thế nào?",
+      "answer": "Thời gian học cho chương trình vừa làm vừa học thường được sắp xếp linh hoạt để phù hợp với lịch làm việc của sinh viên. Bạn có thể tham khảo thời khóa biểu cụ thể trên trang web của trường.",
+      "intent": "thong_tin",
+      "original_category": "hoi_thong_tin_chung",
+      "confidence": 0.8,
+      "source_url": "https://ctc.ctu.edu.vn/tuyen-sinh/tuyen-sinh-he-vua-lam-vua-hoc.html",
+      "source_level": "Level 4",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_107",
+      "question": "Tổng chỉ tiêu tuyển sinh của Đại học Cần Thơ năm 2025 là bao nhiêu?",
+      "answer": "Tổng chỉ tiêu tuyển sinh dự kiến của Đại học Cần Thơ năm 2025 là 10.500 sinh viên.",
+      "intent": "thong_tin",
+      "original_category": "hoi_thong_tin_chung",
+      "confidence": 0.8,
+      "source_url": "https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/177-thong-tin/841-danh-muc-nganh-va-chi-tieu-tuyen-sinh-dhcq.html",
+      "source_level": "Level 4",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_118",
+      "question": "Có thể tìm hiểu thêm về các ngành học và chỉ tiêu tuyển sinh ở đâu?",
+      "answer": "Bạn có thể tìm hiểu thêm về các ngành học và chỉ tiêu tuyển sinh năm 2025 tại trang thông tin tuyển sinh của Đại học Cần Thơ.",
+      "intent": "thong_tin",
+      "original_category": "hoi_thong_tin_chung",
+      "confidence": 0.8,
+      "source_url": "https_tuyensinh.ctu.edu.vn/chương-trình-dai-tra/177-thông-tin/841-danh-muc-nganh-va-chi-tieu-tuyen-sinh-dhcq.html",
+      "source_level": "Level 4",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_133",
+      "question": "Chương trình chất lượng cao tại Đại học Cần Thơ có những ưu điểm gì?",
+      "answer": "Chương trình chất lượng cao tại Đại học Cần Thơ được thiết kế dựa trên các chương trình đào tạo của các nước tiên tiến, giúp sinh viên học tập trong môi trường hiện đại, có cơ hội thực hành và nghiên cứu tốt. Đội ngũ giảng viên có nhiều kinh nghiệm và sinh viên còn có cơ hội học tập ở nước ngoài.",
+      "intent": "thong_tin",
+      "original_category": "hoi_thong_tin_chung",
+      "confidence": 0.8,
+      "source_url": "https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/chuong-trinh-chat-luong-cao.html",
+      "source_level": "Level 4",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_140",
+      "question": "Mã trường tuyển sinh của Đại học Cần Thơ là gì?",
+      "answer": "Mã trường tuyển sinh của Đại học Cần Thơ là TCT. Bạn có thể sử dụng mã này khi đăng ký xét tuyển vào trường.",
+      "intent": "thong_tin",
+      "original_category": "hoi_thong_tin_chung",
+      "confidence": 0.8,
+      "source_url": "https_tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/thong-tin-tuyen-sinh.html",
+      "source_level": "Level 4",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_141",
+      "question": "Có thông tin gì mới về tuyển sinh đại học chính quy năm 2025 không?",
+      "answer": "Có, Đại học Cần Thơ đã công bố thông tin tuyển sinh đại học chính quy năm 2025, bao gồm các ngành học, chỉ tiêu và phương thức xét tuyển. Bạn có thể xem chi tiết trên trang web của trường.",
+      "intent": "thong_tin",
+      "original_category": "hoi_thong_tin_chung",
+      "confidence": 0.8,
+      "source_url": "https_tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy.html",
+      "source_level": "Level 4",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_143",
+      "question": "Thời gian đào tạo của ngành Kỹ thuật xây dựng là bao lâu?",
+      "answer": "Thời gian đào tạo của ngành Kỹ thuật xây dựng là 4,5 năm.",
+      "intent": "thong_tin",
+      "original_category": "hoi_thong_tin_chung",
+      "confidence": 0.8,
+      "source_url": "https_tuyensinh.ctu.edu.vn_gioi-thieu-nganh_910-ky-thuat-xay-dung-clc.html",
+      "source_level": "Level 4",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_147",
+      "question": "Bằng cấp sau khi tốt nghiệp ngành Kỹ thuật xây dựng là gì?",
+      "answer": "Sau khi tốt nghiệp ngành Kỹ thuật xây dựng, sinh viên sẽ được cấp bằng Kỹ sư.",
+      "intent": "thong_tin",
+      "original_category": "hoi_thong_tin_chung",
+      "confidence": 0.8,
+      "source_url": "https_tuyensinh.ctu.edu.vn_gioi-thieu-nganh_910-ky-thuat-xay-dung-clc.html",
+      "source_level": "Level 4",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_152",
+      "question": "Điều kiện xét tuyển như thế nào?",
+      "answer": "Điều kiện xét tuyển bao gồm tốt nghiệp THPT và đạt điểm tối thiểu theo quy định của trường.",
+      "intent": "thong_tin",
+      "original_category": "yeu_cau",
+      "confidence": 0.8,
+      "source_url": "https://ctc.ctu.edu.vn/tuyen-sinh/tuyen-sinh-he-tu-xa.html",
+      "source_level": "Level 5",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_155",
+      "question": "Lịch thi V-SAT năm 2025 như thế nào?",
+      "answer": "Lịch thi V-SAT năm 2025 sẽ được công bố vào tháng 12 năm 2024.",
+      "intent": "thong_tin",
+      "original_category": "thong_tin_chung",
+      "confidence": 0.8,
+      "source_url": "https://ctc.ctu.edu.vn/tuyen-sinh/tuyen-sinh-he-tu-xa.html",
+      "source_level": "Level 5",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_160",
+      "question": "Điều kiện xét tuyển như thế nào?",
+      "answer": "Điều kiện xét tuyển cho chương trình vừa làm vừa học sẽ được quy định trong quy chế tuyển sinh.",
+      "intent": "thong_tin",
+      "original_category": "yeu_cau",
+      "confidence": 0.8,
+      "source_url": "https://ctc.ctu.edu.vn/tuyen-sinh/tuyen-sinh-he-vua-lam-vua-hoc.html",
+      "source_level": "Level 5",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_162",
+      "question": "Lịch thi V-SAT năm 2025 như thế nào?",
+      "answer": "Lịch thi V-SAT năm 2025 sẽ được công bố trên trang thông tin tuyển sinh của trường.",
+      "intent": "thong_tin",
+      "original_category": "thong_tin_chung",
+      "confidence": 0.8,
+      "source_url": "https://ctc.ctu.edu.vn/tuyen-sinh/tuyen-sinh-he-vua-lam-vua-hoc.html",
+      "source_level": "Level 5",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_167",
+      "question": "Điều kiện xét tuyển như thế nào?",
+      "answer": "Điều kiện xét tuyển bao gồm tốt nghiệp THPT và đạt điểm tối thiểu theo quy định của trường.",
+      "intent": "thong_tin",
+      "original_category": "yeu_cau",
+      "confidence": 0.8,
+      "source_url": "https://tuyensinh.ctu.edu.vn/cau-hoi-pho-bien/875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.html",
+      "source_level": "Level 5",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_170",
+      "question": "Lịch thi V-SAT năm 2025 như thế nào?",
+      "answer": "Lịch thi V-SAT năm 2025 sẽ được thông báo cụ thể trên trang web của trường.",
+      "intent": "thong_tin",
+      "original_category": "thong_tin_chung",
+      "confidence": 0.8,
+      "source_url": "https://tuyensinh.ctu.edu.vn/cau-hoi-pho-bien/875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.html",
+      "source_level": "Level 5",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_176",
+      "question": "Điều kiện xét tuyển như thế nào?",
+      "answer": "Điều kiện xét tuyển bao gồm tốt nghiệp THPT và đạt điểm tối thiểu theo quy định của trường.",
+      "intent": "thong_tin",
+      "original_category": "yeu_cau",
+      "confidence": 0.8,
+      "source_url": "https://tuyensinh.ctu.edu.vn/cau-hoi-pho-bien/877-chuong-trinh-chat-luong-cao-khac-voi-chuong-trinh-dai-tra.html",
+      "source_level": "Level 5",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_179",
+      "question": "Lịch thi V-SAT năm 2025 như thế nào?",
+      "answer": "Lịch thi V-SAT năm 2025 sẽ được thông báo cụ thể trên trang web của trường vào đầu năm 2025.",
+      "intent": "thong_tin",
+      "original_category": "thong_tin_chung",
+      "confidence": 0.8,
+      "source_url": "https://tuyensinh.ctu.edu.vn/cau-hoi-pho-bien/877-chuong-trinh-chat-luong-cao-khac-voi-chuong-trinh-dai-tra.html",
+      "source_level": "Level 5",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_180",
+      "question": "Chỉ tiêu tuyển sinh cho chương trình chất lượng cao năm 2025 là bao nhiêu?",
+      "answer": "Chỉ tiêu tuyển sinh cho chương trình chất lượng cao năm 2025 sẽ được công bố trong thông tin tuyển sinh đại học chính quy.",
+      "intent": "thong_tin",
+      "original_category": "hoi_thong_tin_chung",
+      "confidence": 0.8,
+      "source_url": "https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/177-thong-tin/841-danh-muc-nganh-va-chi-tieu-tuyen-sinh-dhcq.html",
+      "source_level": "Level 5",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_181",
+      "question": "Trường có những ngành nào?",
+      "answer": "Trường có nhiều ngành học khác nhau, bao gồm các chương trình chất lượng cao và chương trình tiên tiến.",
+      "intent": "thong_tin",
+      "original_category": "hoi_thong_tin_chung",
+      "confidence": 0.8,
+      "source_url": "https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/177-thong-tin/841-danh-muc-nganh-va-chi-tieu-tuyen-sinh-dhcq.html",
+      "source_level": "Level 5",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_182",
+      "question": "Phương thức xét tuyển là gì?",
+      "answer": "Phương thức xét tuyển sẽ được thông báo trong thông tin tuyển sinh đại học chính quy năm 2025.",
+      "intent": "thong_tin",
+      "original_category": "hoi_thong_tin_chung",
+      "confidence": 0.8,
+      "source_url": "https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/177-thong-tin/841-danh-muc-nganh-va-chi-tieu-tuyen-sinh-dhcq.html",
+      "source_level": "Level 5",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_183",
+      "question": "Học phí bao nhiêu?",
+      "answer": "Học phí sẽ được công bố trong thông tin tuyển sinh đại học chính quy.",
+      "intent": "thong_tin",
+      "original_category": "hoi_thong_tin_chung",
+      "confidence": 0.8,
+      "source_url": "https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/177-thong-tin/841-danh-muc-nganh-va-chi-tieu-tuyen-sinh-dhcq.html",
+      "source_level": "Level 5",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_184",
+      "question": "Thông tin liên hệ tư vấn?",
+      "answer": "Bạn có thể liên hệ qua số điện thoại hoặc email được cung cấp trên trang web.",
+      "intent": "thong_tin",
+      "original_category": "hoi_thong_tin_chung",
+      "confidence": 0.8,
+      "source_url": "https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/177-thong-tin/841-danh-muc-nganh-va-chi-tieu-tuyen-sinh-dhcq.html",
+      "source_level": "Level 5",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_185",
+      "question": "Điều kiện xét tuyển như thế nào?",
+      "answer": "Điều kiện xét tuyển sẽ được thông báo trong thông tin tuyển sinh đại học chính quy năm 2025.",
+      "intent": "thong_tin",
+      "original_category": "hoi_thong_tin_chung",
+      "confidence": 0.8,
+      "source_url": "https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/177-thong-tin/841-danh-muc-nganh-va-chi-tieu-tuyen-sinh-dhcq.html",
+      "source_level": "Level 5",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_186",
+      "question": "Mã ngành An toàn thông tin là gì?",
+      "answer": "Mã ngành An toàn thông tin sẽ được công bố trong danh mục ngành học.",
+      "intent": "thong_tin",
+      "original_category": "hoi_thong_tin_chung",
+      "confidence": 0.8,
+      "source_url": "https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/177-thong-tin/841-danh-muc-nganh-va-chi-tieu-tuyen-sinh-dhcq.html",
+      "source_level": "Level 5",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_187",
+      "question": "Có bao nhiêu phương thức xét tuyển?",
+      "answer": "Sẽ có nhiều phương thức xét tuyển, thông tin chi tiết sẽ được công bố trong thông tin tuyển sinh đại học chính quy năm 2025.",
+      "intent": "thong_tin",
+      "original_category": "hoi_thong_tin_chung",
+      "confidence": 0.8,
+      "source_url": "https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/177-thong-tin/841-danh-muc-nganh-va-chi-tieu-tuyen-sinh-dhcq.html",
+      "source_level": "Level 5",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_188",
+      "question": "Lịch thi V-SAT năm 2025 như thế nào?",
+      "answer": "Lịch thi V-SAT năm 2025 sẽ được thông báo trong thông tin tuyển sinh đại học chính quy.",
+      "intent": "thong_tin",
+      "original_category": "hoi_thong_tin_chung",
+      "confidence": 0.8,
+      "source_url": "https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/177-thong-tin/841-danh-muc-nganh-va-chi-tieu-tuyen-sinh-dhcq.html",
+      "source_level": "Level 5",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_194",
+      "question": "Điều kiện xét tuyển như thế nào?",
+      "answer": "Điều kiện xét tuyển bao gồm các yêu cầu về điểm số, môn học và các tiêu chí khác mà thí sinh cần đáp ứng.",
+      "intent": "thong_tin",
+      "original_category": "yeu_cau",
+      "confidence": 0.8,
+      "source_url": "https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/177-thong-tin/943-phuong-thuc-xet-tuyen.html",
+      "source_level": "Level 5",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_197",
+      "question": "Lịch thi V-SAT năm 2025 như thế nào?",
+      "answer": "Lịch thi V-SAT năm 2025 sẽ được thông báo cụ thể trên trang web tuyển sinh của trường.",
+      "intent": "thong_tin",
+      "original_category": "thong_tin_chung",
+      "confidence": 0.8,
+      "source_url": "https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/177-thong-tin/943-phuong-thuc-xet-tuyen.html",
+      "source_level": "Level 5",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_201",
+      "question": "Điều kiện xét tuyển như thế nào?",
+      "answer": "Điều kiện xét tuyển bao gồm tốt nghiệp THPT và đạt điểm tối thiểu theo quy định của trường.",
+      "intent": "thong_tin",
+      "original_category": "yeu_cau",
+      "confidence": 0.8,
+      "source_url": "https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/chuong-trinh-chat-luong-cao.html",
+      "source_level": "Level 5",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_204",
+      "question": "Lịch thi V-SAT năm 2025 như thế nào?",
+      "answer": "Lịch thi V-SAT năm 2025 sẽ được công bố vào tháng 3 năm 2025.",
+      "intent": "thong_tin",
+      "original_category": "thong_tin_chung",
+      "confidence": 0.8,
+      "source_url": "https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/chuong-trinh-chat-luong-cao.html",
+      "source_level": "Level 5",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_209",
+      "question": "Điều kiện xét tuyển như thế nào?",
+      "answer": "Điều kiện xét tuyển sẽ được thông báo cụ thể trong thông tin tuyển sinh hàng năm.",
+      "intent": "thong_tin",
+      "original_category": "yeu_cau",
+      "confidence": 0.8,
+      "source_url": "https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/thong-tin-tuyen-sinh.html",
+      "source_level": "Level 5",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_212",
+      "question": "Lịch thi V-SAT năm 2025 như thế nào?",
+      "answer": "Lịch thi V-SAT năm 2025 sẽ được công bố trong thông tin tuyển sinh hàng năm.",
+      "intent": "thong_tin",
+      "original_category": "thong_tin_chung",
+      "confidence": 0.8,
+      "source_url": "https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/thong-tin-tuyen-sinh.html",
+      "source_level": "Level 5",
+      "created_date": "2025-05-25"
+    },
+    {
+      "question": "Trường Đại học Cần Thơ có lịch sử hình thành như thế nào?",
+      "answer": "Trường Đại học Cần Thơ được thành lập với mục tiêu đào tạo nguồn nhân lực chất lượng cao cho khu vực Đồng bằng sông Cửu Long.",
+      "category": "thong_tin",
+      "confidence": 0.9,
+      "source": "https_dap.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường có những chức năng và nhiệm vụ gì?",
+      "answer": "Trường có chức năng đào tạo, nghiên cứu khoa học và chuyển giao công nghệ, phục vụ phát triển kinh tế - xã hội của khu vực.",
+      "category": "thong_tin",
+      "confidence": 0.9,
+      "source": "https_dap.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Cơ sở vật chất của trường có những gì nổi bật?",
+      "answer": "Trường có nhiều phòng học, phòng thí nghiệm hiện đại, thư viện lớn và các khu vực nghiên cứu đáp ứng nhu cầu học tập và nghiên cứu của sinh viên.",
+      "category": "thong_tin",
+      "confidence": 0.9,
+      "source": "https_dap.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường có quy trình công tác như thế nào?",
+      "answer": "Trường có quy trình công tác rõ ràng, bao gồm các bước tiếp nhận và xử lý văn bản đến và đi, cũng như quy trình đăng ký sử dụng cơ sở vật chất.",
+      "category": "thong_tin",
+      "confidence": 0.9,
+      "source": "https_dap.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường có các văn bản cấp trường nào không?",
+      "answer": "Có, trường có nhiều văn bản cấp trường liên quan đến quy định và hướng dẫn cho sinh viên và cán bộ giảng viên.",
+      "category": "thong_tin",
+      "confidence": 0.9,
+      "source": "https_dap.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường có tổ chức các hoạt động ngoại khóa không?",
+      "answer": "Có, trường thường xuyên tổ chức các hoạt động ngoại khóa nhằm phát triển kỹ năng mềm cho sinh viên.",
+      "category": "thong_tin",
+      "confidence": 0.9,
+      "source": "https_dap.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường có các biểu mẫu nào cho sinh viên sử dụng?",
+      "answer": "Trường cung cấp nhiều biểu mẫu cho sinh viên như mẫu đơn xin nghỉ học, mẫu đăng ký tham gia hoạt động ngoại khóa, và nhiều biểu mẫu khác.",
+      "category": "thong_tin",
+      "confidence": 0.9,
+      "source": "https_dap.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường có các thông báo gì mới nhất không?",
+      "answer": "Trường thường xuyên cập nhật các thông báo mới nhất về hoạt động, sự kiện và các thông tin quan trọng khác trên trang web.",
+      "category": "thong_tin",
+      "confidence": 0.9,
+      "source": "https_dap.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường có các số liệu thống kê nào không?",
+      "answer": "Có, trường có các số liệu thống kê quý để theo dõi và đánh giá hoạt động đào tạo và nghiên cứu.",
+      "category": "thong_tin",
+      "confidence": 0.9,
+      "source": "https_dap.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường có các hoạt động chào mừng ngày Nhà giáo Việt Nam không?",
+      "answer": "Có, trường tổ chức nhiều hoạt động chào mừng ngày Nhà giáo Việt Nam 20-11 hàng năm để tôn vinh các thầy cô giáo.",
+      "category": "thong_tin",
+      "confidence": 0.9,
+      "source": "https_dap.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường Đại học Cần Thơ có những cơ sở vật chất nào nổi bật?",
+      "answer": "Trường Đại học Cần Thơ có nhiều cơ sở vật chất hiện đại, bao gồm thư viện, phòng thí nghiệm, giảng đường và khu ký túc xá cho sinh viên.",
+      "category": "thong_tin",
+      "confidence": 0.9,
+      "source": "https_dl.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường có bao nhiêu ngành đào tạo và chỉ tiêu tuyển sinh năm nay là bao nhiêu?",
+      "answer": "Trường Đại học Cần Thơ hiện có nhiều ngành đào tạo với chỉ tiêu tuyển sinh cụ thể cho từng ngành được công bố hàng năm.",
+      "category": "thong_tin",
+      "confidence": 0.8,
+      "source": "https_dl.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Học phí của Trường Đại học Cần Thơ là bao nhiêu?",
+      "answer": "Học phí tại Trường Đại học Cần Thơ thay đổi tùy theo từng ngành học và năm học, sinh viên nên tham khảo thông tin cụ thể trên trang web của trường.",
+      "category": "thong_tin",
+      "confidence": 0.85,
+      "source": "https_dl.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường có hỗ trợ gì cho sinh viên trong việc học tập và nghiên cứu không?",
+      "answer": "Trường Đại học Cần Thơ cung cấp nhiều chương trình hỗ trợ cho sinh viên như học bổng, nghiên cứu khoa học và các hoạt động ngoại khóa.",
+      "category": "thong_tin",
+      "confidence": 0.9,
+      "source": "https_dl.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có những hoạt động nào dành cho sinh viên tại Trường Đại học Cần Thơ?",
+      "answer": "Trường Đại học Cần Thơ tổ chức nhiều hoạt động cho sinh viên như hội thảo, câu lạc bộ, và các sự kiện văn hóa thể thao.",
+      "category": "thong_tin",
+      "confidence": 0.8,
+      "source": "https_dl.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường có ký túc xá không và điều kiện sống ra sao?",
+      "answer": "Trường Đại học Cần Thơ có ký túc xá với đầy đủ tiện nghi, đảm bảo điều kiện sống tốt cho sinh viên.",
+      "category": "thong_tin",
+      "confidence": 0.9,
+      "source": "https_dl.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường có các phòng thí nghiệm chuyên ngành không?",
+      "answer": "Có, Trường Đại học Cần Thơ trang bị nhiều phòng thí nghiệm chuyên ngành phục vụ cho việc học tập và nghiên cứu của sinh viên.",
+      "category": "thong_tin",
+      "confidence": 0.85,
+      "source": "https_dl.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường có tổ chức các khóa học ngoại ngữ cho sinh viên không?",
+      "answer": "Trường Đại học Cần Thơ tổ chức các khóa học ngoại ngữ nhằm nâng cao khả năng giao tiếp và học tập cho sinh viên.",
+      "category": "thong_tin",
+      "confidence": 0.8,
+      "source": "https_dl.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có những dịch vụ nào hỗ trợ sinh viên tại trường?",
+      "answer": "Trường cung cấp nhiều dịch vụ hỗ trợ sinh viên như tư vấn học tập, hỗ trợ tâm lý và các dịch vụ y tế.",
+      "category": "thong_tin",
+      "confidence": 0.85,
+      "source": "https_dl.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường có các hoạt động nghiên cứu khoa học không?",
+      "answer": "Trường Đại học Cần Thơ khuyến khích sinh viên tham gia vào các hoạt động nghiên cứu khoa học và cung cấp nguồn lực hỗ trợ.",
+      "category": "thong_tin",
+      "confidence": 0.9,
+      "source": "https_dl.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường Đại học Cần Thơ có những cơ sở vật chất nào nổi bật?",
+      "answer": "Trường Đại học Cần Thơ có nhiều cơ sở vật chất hiện đại, bao gồm thư viện, phòng học, phòng thí nghiệm và khu vực tự học.",
+      "category": "thong_tin",
+      "confidence": 0.9,
+      "source": "https_lrc.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Thư viện của trường có những dịch vụ gì?",
+      "answer": "Thư viện cung cấp dịch vụ tra cứu tài liệu, đọc trực tuyến, và các bộ sưu tập in ấn và điện tử.",
+      "category": "thong_tin",
+      "confidence": 0.9,
+      "source": "https_lrc.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có thể tìm tài liệu trong thư viện như thế nào?",
+      "answer": "Bạn có thể tìm tài liệu trong thư viện thông qua trang web của thư viện hoặc sử dụng dịch vụ tra cứu trực tuyến.",
+      "category": "thong_tin",
+      "confidence": 0.9,
+      "source": "https_lrc.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường có khu vực tự học không?",
+      "answer": "Có, trường có khu vực tự học được trang bị đầy đủ để sinh viên có thể học tập và nghiên cứu.",
+      "category": "thong_tin",
+      "confidence": 0.9,
+      "source": "https_lrc.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường có tổ chức các hội thảo hay không?",
+      "answer": "Có, trường tổ chức nhiều hội thảo và hội nghị để sinh viên và giảng viên có thể trao đổi kiến thức và kinh nghiệm.",
+      "category": "thong_tin",
+      "confidence": 0.9,
+      "source": "https_lrc.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có dịch vụ nào hỗ trợ sinh viên trong việc mượn sách không?",
+      "answer": "Trường cung cấp dịch vụ mượn trả sách từ xa, giúp sinh viên dễ dàng tiếp cận tài liệu cần thiết.",
+      "category": "thong_tin",
+      "confidence": 0.9,
+      "source": "https_lrc.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường có các phòng học chuyên biệt nào không?",
+      "answer": "Trường có các phòng học chuyên biệt như phòng học ngoại ngữ và phòng thảo luận để phục vụ nhu cầu học tập của sinh viên.",
+      "category": "thong_tin",
+      "confidence": 0.9,
+      "source": "https_lrc.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường có chính sách gì cho sinh viên về việc sử dụng tài liệu?",
+      "answer": "Trường có chính sách rõ ràng về việc sử dụng tài liệu, bao gồm quy định về mượn trả và gia hạn tài liệu.",
+      "category": "thong_tin",
+      "confidence": 0.9,
+      "source": "https_lrc.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có video giới thiệu về trường không?",
+      "answer": "Có, trường có video giới thiệu để giúp sinh viên và phụ huynh hiểu rõ hơn về cơ sở vật chất và các hoạt động của trường.",
+      "category": "thong_tin",
+      "confidence": 0.9,
+      "source": "https_lrc.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường có tổ chức các hoạt động ngoại khóa không?",
+      "answer": "Có, trường tổ chức nhiều hoạt động ngoại khóa để sinh viên có cơ hội giao lưu và phát triển kỹ năng mềm.",
+      "category": "thong_tin",
+      "confidence": 0.9,
+      "source": "https_lrc.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường Đại học Cần Thơ có những tổ chuyên môn nào?",
+      "answer": "Trường có hai tổ chuyên môn chính là Tổ Khoa học Xã hội (KHXH) và Tổ Khoa học Tự nhiên (KHTN).",
+      "category": "thong_tin",
+      "confidence": 0.9,
+      "source": "https_thsp.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ai là ban giám hiệu của trường Đại học Cần Thơ?",
+      "answer": "Thông tin về ban giám hiệu có thể được tìm thấy trong phần giới thiệu của trang web trường.",
+      "category": "thong_tin",
+      "confidence": 0.8,
+      "source": "https_thsp.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường có hoạt động gì cho sinh viên không?",
+      "answer": "Trường tổ chức nhiều hoạt động như chào cờ, sinh hoạt chủ nhiệm và các hoạt động khác để sinh viên tham gia.",
+      "category": "thong_tin",
+      "confidence": 0.85,
+      "source": "https_thsp.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có thông tin gì về cơ sở vật chất của trường không?",
+      "answer": "Nội dung cụ thể về cơ sở vật chất không được đề cập trong tài liệu, nhưng trường có nhiều phòng học và trang thiết bị phục vụ cho việc học tập.",
+      "category": "thong_tin",
+      "confidence": 0.75,
+      "source": "https_thsp.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường có tổ chức các hoạt động nghiên cứu khoa học không?",
+      "answer": "Có, trường tổ chức các hoạt động nghiên cứu khoa học và khuyến khích sinh viên tham gia vào các dự án nghiên cứu.",
+      "category": "thong_tin",
+      "confidence": 0.9,
+      "source": "https_thsp.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường có hợp tác quốc tế không?",
+      "answer": "Có, trường có các chương trình hợp tác quốc tế và du học cho sinh viên.",
+      "category": "thong_tin",
+      "confidence": 0.85,
+      "source": "https_thsp.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có thông tin gì về thời khóa biểu không?",
+      "answer": "Thông tin về thời khóa biểu có thể được tìm thấy trên trang web của trường.",
+      "category": "thong_tin",
+      "confidence": 0.8,
+      "source": "https_thsp.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường có tổ chức các hoạt động ngoại khóa không?",
+      "answer": "Có, trường tổ chức nhiều hoạt động ngoại khóa để sinh viên có thể tham gia và phát triển kỹ năng.",
+      "category": "thong_tin",
+      "confidence": 0.85,
+      "source": "https_thsp.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường có thông tin gì về học phí không?",
+      "answer": "Thông tin cụ thể về học phí không được đề cập trong tài liệu, bạn có thể kiểm tra trên trang web của trường để biết thêm chi tiết.",
+      "category": "thong_tin",
+      "confidence": 0.7,
+      "source": "https_thsp.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường có các chương trình đào tạo nào?",
+      "answer": "Thông tin chi tiết về các chương trình đào tạo có thể được tìm thấy trong phần tuyển sinh trên trang web của trường.",
+      "category": "thong_tin",
+      "confidence": 0.8,
+      "source": "https_thsp.ctu.edu.vn_.md"
+    }
+  ],
+  "source": "crawled_markdown_files",
+  "created_date": "2025-01-27",
+  "last_updated": "2025-01-27"
+}

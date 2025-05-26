@@ -1,0 +1,174 @@
+{
+  "intents": {
+    "hoi_nganh_hoc": {
+      "name": "Hỏi về ngành học",
+      "description": "Câu hỏi về các ngành đào tạo, chuyên ngành, chương trình học",
+      "keywords": ["ngành", "chuyên ngành", "đào tạo", "chương trình", "major", "faculty", "khoa", "bộ môn"],
+      "examples": [
+        "Trường có những ngành nào?",
+        "Ngành Công nghệ thông tin học những gì?",
+        "Chương trình đào tạo ngành Kinh tế như thế nào?"
+      ]
+    },
+    "hoi_phuong_thuc_xet_tuyen": {
+      "name": "Hỏi về phương thức xét tuyển",
+      "description": "Câu hỏi về các phương thức tuyển sinh, quy trình xét tuyển",
+      "keywords": ["xét tuyển", "phương thức", "thi", "admission", "entrance", "tuyển sinh"],
+      "examples": [
+        "Trường có những phương thức xét tuyển nào?",
+        "Xét tuyển bằng học bạ như thế nào?",
+        "Điều kiện xét tuyển thẳng là gì?"
+      ]
+    },
+    "hoi_hoc_phi": {
+      "name": "Hỏi về học phí",
+      "description": "Câu hỏi về học phí, chi phí học tập, lệ phí",
+      "keywords": ["học phí", "chi phí", "tuition", "fee", "cost", "tiền học", "lệ phí"],
+      "examples": [
+        "Học phí một năm là bao nhiêu?",
+        "Chi phí sinh hoạt ở CTU như thế nào?",
+        "Có những khoản phí nào cần đóng?"
+      ]
+    },
+    "hoi_lien_he": {
+      "name": "Hỏi về thông tin liên hệ",
+      "description": "Câu hỏi về địa chỉ, số điện thoại, email liên hệ",
+      "keywords": ["liên hệ", "contact", "phone", "email", "address", "địa chỉ", "hotline", "tư vấn"],
+      "examples": [
+        "Địa chỉ trường ở đâu?",
+        "Số điện thoại tư vấn tuyển sinh là gì?",
+        "Email liên hệ của phòng đào tạo?"
+      ]
+    },
+    "hoi_diem_chuan": {
+      "name": "Hỏi về điểm chuẩn",
+      "description": "Câu hỏi về điểm chuẩn, điểm xét tuyển các ngành",
+      "keywords": ["điểm chuẩn", "điểm xét tuyển", "điểm thi", "điểm số", "cut-off", "benchmark"],
+      "examples": [
+        "Điểm chuẩn ngành CNTT năm ngoái là bao nhiêu?",
+        "Điểm xét tuyển học bạ thế nào?",
+        "Dự kiến điểm chuẩn năm nay ra sao?"
+      ]
+    },
+    "hoi_ho_so_xet_tuyen": {
+      "name": "Hỏi về hồ sơ xét tuyển",
+      "description": "Câu hỏi về thủ tục, giấy tờ, hồ sơ đăng ký xét tuyển",
+      "keywords": ["hồ sơ", "thủ tục", "giấy tờ", "đăng ký", "nộp hồ sơ", "documents", "application"],
+      "examples": [
+        "Hồ sơ xét tuyển gồm những gì?",
+        "Thủ tục đăng ký như thế nào?",
+        "Hạn nộp hồ sơ khi nào?"
+      ]
+    },
+    "hoi_lich_tuyen_sinh": {
+      "name": "Hỏi về lịch tuyển sinh",
+      "description": "Câu hỏi về thời gian, lịch trình tuyển sinh",
+      "keywords": ["lịch", "thời gian", "deadline", "hạn chót", "schedule", "calendar", "ngày"],
+      "examples": [
+        "Lịch tuyển sinh năm 2024 như thế nào?",
+        "Khi nào bắt đầu nhận hồ sơ?",
+        "Thời gian công bố kết quả?"
+      ]
+    },
+    "hoi_hoc_bong": {
+      "name": "Hỏi về học bổng",
+      "description": "Câu hỏi về học bổng, hỗ trợ tài chính, miễn giảm học phí",
+      "keywords": ["học bổng", "hỗ trợ", "scholarship", "tài chính", "miễn giảm", "trợ cấp"],
+      "examples": [
+        "Trường có những loại học bổng nào?",
+        "Điều kiện nhận học bổng khuyến học?",
+        "Hỗ trợ tài chính cho sinh viên nghèo?"
+      ]
+    },
+    "hoi_co_so_vat_chat": {
+      "name": "Hỏi về cơ sở vật chất",
+      "description": "Câu hỏi về cơ sở vật chất, ký túc xá, tiện ích",
+      "keywords": ["cơ sở vật chất", "ký túc xá", "dormitory", "facilities", "infrastructure", "ktx"],
+      "examples": [
+        "Cơ sở vật chất của trường như thế nào?",
+        "Ký túc xá có bao nhiêu chỗ?",
+        "Thư viện mở cửa thế nào?"
+      ]
+    },
+    "hoi_sinh_vien_quoc_te": {
+      "name": "Hỏi về sinh viên quốc tế",
+      "description": "Câu hỏi về chương trình quốc tế, sinh viên nước ngoài",
+      "keywords": ["quốc tế", "international", "nước ngoài", "foreign", "exchange"],
+      "examples": [
+        "Trường có nhận sinh viên quốc tế không?",
+        "Chương trình trao đổi sinh viên?",
+        "Học phí cho sinh viên nước ngoài?"
+      ]
+    },
+    "hoi_chuong_trinh_lien_ket": {
+      "name": "Hỏi về chương trình liên kết",
+      "description": "Câu hỏi về các chương trình liên kết, hợp tác đào tạo",
+      "keywords": ["liên kết", "partnership", "collaboration", "joint program", "hợp tác"],
+      "examples": [
+        "Trường có chương trình liên kết nào?",
+        "Hợp tác với trường nước ngoài?",
+        "Chương trình 2+2 là gì?"
+      ]
+    },
+    "hoi_thuc_tap_viec_lam": {
+      "name": "Hỏi về thực tập và việc làm",
+      "description": "Câu hỏi về cơ hội thực tập, việc làm sau tốt nghiệp",
+      "keywords": ["thực tập", "việc làm", "internship", "job", "career", "employment", "tốt nghiệp"],
+      "examples": [
+        "Cơ hội thực tập ở đâu?",
+        "Tỷ lệ có việc làm sau tốt nghiệp?",
+        "Trường hỗ trợ tìm việc như thế nào?"
+      ]
+    },
+    "hoi_hoat_dong_sinh_vien": {
+      "name": "Hỏi về hoạt động sinh viên",
+      "description": "Câu hỏi về các hoạt động ngoại khóa, câu lạc bộ",
+      "keywords": ["hoạt động", "sinh viên", "clb", "club", "activities", "extracurricular"],
+      "examples": [
+        "Trường có những CLB nào?",
+        "Hoạt động ngoại khóa như thế nào?",
+        "Làm sao tham gia đoàn hội?"
+      ]
+    },
+    "hoi_dao_tao_sau_dai_hoc": {
+      "name": "Hỏi về đào tạo sau đại học",
+      "description": "Câu hỏi về chương trình thạc sĩ, tiến sĩ",
+      "keywords": ["sau đại học", "thạc sĩ", "tiến sĩ", "master", "phd", "graduate", "postgraduate"],
+      "examples": [
+        "Trường có đào tạo thạc sĩ không?",
+        "Điều kiện học tiến sĩ?",
+        "Chương trình sau đại học nào?"
+      ]
+    },
+    "hoi_thong_tin_chung": {
+      "name": "Hỏi thông tin chung",
+      "description": "Các câu hỏi chung về trường, không thuộc các intent cụ thể",
+      "keywords": ["thông tin", "general", "about", "overview", "giới thiệu", "tổng quan"],
+      "examples": [
+        "Trường CTU thành lập năm nao?",
+        "Giới thiệu về trường?",
+        "Trường có bao nhiêu sinh viên?"
+      ]
+    }
+  },
+  "mapping_rules": {
+    "priority_order": [
+      "hoi_diem_chuan",
+      "hoi_ho_so_xet_tuyen", 
+      "hoi_lich_tuyen_sinh",
+      "hoi_phuong_thuc_xet_tuyen",
+      "hoi_hoc_phi",
+      "hoi_hoc_bong",
+      "hoi_nganh_hoc",
+      "hoi_thuc_tap_viec_lam",
+      "hoi_co_so_vat_chat",
+      "hoi_sinh_vien_quoc_te",
+      "hoi_chuong_trinh_lien_ket",
+      "hoi_hoat_dong_sinh_vien",
+      "hoi_dao_tao_sau_dai_hoc",
+      "hoi_lien_he",
+      "hoi_thong_tin_chung"
+    ],
+    "fallback_intent": "hoi_thong_tin_chung"
+  }
+} 

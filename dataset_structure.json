@@ -1,0 +1,96 @@
+{
+  "conversations": [
+    {
+      "id": "ctu_001",
+      "question": "Trường Đại học Cần Thơ tuyển sinh những ngành nào năm 2025?",
+      "answer": "Năm 2025, Trường ĐHCT tuyển sinh 117 mã ngành; trong đó 17 mã ngành đào tạo theo chương trình tiên tiến và chất lượng cao. Có nhiều phương thức và tổ hợp xét tuyển nhằm tăng cơ hội cho thí sinh.",
+      "category": "thong_tin_nganh",
+      "intent": "hoi_nganh_tuyen_sinh",
+      "entities": {
+        "year": "2025",
+        "total_majors": "117",
+        "advanced_majors": "17"
+      },
+      "source": "https://tuyensinh.ctu.edu.vn/",
+      "priority": 1
+    },
+    {
+      "id": "ctu_002", 
+      "question": "Có bao nhiêu phương thức xét tuyển vào Đại học Cần Thơ?",
+      "answer": "Trường Đại học Cần Thơ có 6 phương thức xét tuyển: 1) Tuyển thẳng, ưu tiên xét tuyển, 2) Xét tuyển điểm Kỳ thi tốt nghiệp THPT, 3) Xét tuyển điểm học bạ THPT, 4) Xét điểm thi V-SAT, 5) Tuyển chọn vào chương trình tiên tiến và chất lượng cao, 6) Xét tuyển thẳng vào học bổ sung kiến thức.",
+      "category": "phuong_thuc_xet_tuyen",
+      "intent": "hoi_phuong_thuc",
+      "entities": {
+        "total_methods": "6"
+      },
+      "source": "https://tuyensinh.ctu.edu.vn/",
+      "priority": 1
+    },
+    {
+      "id": "ctu_003",
+      "question": "Chương trình chất lượng cao khác gì so với chương trình đại trà?",
+      "answer": "Chương trình chất lượng cao có những điểm khác biệt: Cấu trúc chương trình đào tạo gần giống với chương trình đào tạo của nước ngoài; Học bằng tiếng Anh; Có cơ hội đi thực tập ở nước ngoài; cơ hội việc làm trong môi trường có yếu tố nước ngoài cao hơn.",
+      "category": "chuong_trinh_dao_tao",
+      "intent": "hoi_chuong_trinh_clc",
+      "entities": {
+        "program_type": "chất lượng cao",
+        "language": "tiếng Anh"
+      },
+      "source": "https://tuyensinh.ctu.edu.vn/",
+      "priority": 2
+    },
+    {
+      "id": "ctu_004",
+      "question": "Thông tin liên hệ tư vấn tuyển sinh là gì?",
+      "answer": "Phòng Đào tạo - Trường Đại học Cần Thơ. Địa chỉ: Đường 3/2, Quận Ninh Kiều, TP. Cần Thơ. Điện thoại: 0292.3872728. Email: tuyensinh@ctu.edu.vn. Mobile/Zalo/Viber: 0886889922. Kênh tư vấn Facebook: https://www.facebook.com/ctu.tvts/",
+      "category": "lien_he",
+      "intent": "hoi_lien_he",
+      "entities": {
+        "phone": "0292.3872728",
+        "mobile": "0886889922", 
+        "email": "tuyensinh@ctu.edu.vn",
+        "address": "Đường 3/2, Quận Ninh Kiều, TP. Cần Thơ"
+      },
+      "source": "https://tuyensinh.ctu.edu.vn/",
+      "priority": 1
+    },
+    {
+      "id": "ctu_005",
+      "question": "Ngành An toàn thông tin có mã ngành là gì?",
+      "answer": "Ngành An toàn thông tin có mã ngành 7480202, thuộc nhóm Công Nghệ Thông Tin.",
+      "category": "thong_tin_nganh",
+      "intent": "hoi_ma_nganh",
+      "entities": {
+        "major_name": "An toàn thông tin",
+        "major_code": "7480202",
+        "field": "Công Nghệ Thông Tin"
+      },
+      "source": "https://tuyensinh.ctu.edu.vn/",
+      "priority": 2
+    }
+  ],
+  "metadata": {
+    "total_conversations": 5,
+    "categories": [
+      "thong_tin_nganh",
+      "phuong_thuc_xet_tuyen", 
+      "chuong_trinh_dao_tao",
+      "lien_he",
+      "hoc_phi",
+      "ky_tuc_xa",
+      "diem_chuan"
+    ],
+    "intents": [
+      "hoi_nganh_tuyen_sinh",
+      "hoi_phuong_thuc",
+      "hoi_chuong_trinh_clc",
+      "hoi_lien_he",
+      "hoi_ma_nganh",
+      "hoi_diem_chuan",
+      "hoi_hoc_phi"
+    ],
+    "created_date": "2025-01-25",
+    "source_website": "https://tuyensinh.ctu.edu.vn/",
+    "version": "1.0"
+  }
+} 

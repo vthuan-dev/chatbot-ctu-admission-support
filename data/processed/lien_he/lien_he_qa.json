@@ -1,0 +1,562 @@
+{
+  "intent": "lien_he",
+  "description": "Thông tin liên hệ, địa chỉ, điện thoại",
+  "count": 64,
+  "qa_pairs": [
+    {
+      "id": "qa_010",
+      "question": "Trường có chính sách học bổng nào cho thí sinh trúng tuyển không?",
+      "answer": "Có, Trường Đại học Cần Thơ có nhiều chính sách học bổng dành cho thí sinh trúng tuyển. Bạn có thể tìm hiểu thêm về các chính sách học bổng trên trang web của trường.",
+      "intent": "lien_he",
+      "original_category": "hoi_lien_he",
+      "confidence": 0.8,
+      "source_url": "https://tuyensinh.ctu.edu.vn/cau-hoi-pho-bien/879-co-nhung-chinh-sach-hoc-bong-nao-cho-thi-sinh-trung-tuyen.html",
+      "source_level": "unknown",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_021",
+      "question": "Có chương trình nào dành cho sinh viên vừa làm vừa học không?",
+      "answer": "Đại học Cần Thơ có chương trình vừa làm vừa học, giúp sinh viên có thể vừa học tập vừa làm việc để tích lũy kinh nghiệm.",
+      "intent": "lien_he",
+      "original_category": "hoi_lien_he",
+      "confidence": 0.8,
+      "source_url": "https://ctc.ctu.edu.vn/tuyen-sinh/tuyen-sinh-he-vua-lam-vua-hoc.html",
+      "source_level": "unknown",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_022",
+      "question": "Đại học Cần Thơ có chương trình đào tạo từ xa không?",
+      "answer": "Có, Đại học Cần Thơ cung cấp chương trình đào tạo từ xa, giúp sinh viên có thể học tập linh hoạt hơn.",
+      "intent": "lien_he",
+      "original_category": "hoi_lien_he",
+      "confidence": 0.8,
+      "source_url": "https://ctc.ctu.edu.vn/tuyen-sinh/tuyen-sinh-he-tu-xa.html",
+      "source_level": "unknown",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_032",
+      "question": "Ký túc xá của Đại học Cần Thơ có những khu nào và sức chứa ra sao?",
+      "answer": "Ký túc xá của Đại học Cần Thơ hiện có 3 khu: KTX-A, KTX-B và KTX-Hòa An. KTX-A có sức chứa khoảng 4.000 sinh viên, KTX-B có tổng diện tích sàn 35.000 m2 với nhiều dãy nhà 5 tầng.",
+      "intent": "lien_he",
+      "original_category": "hoi_lien_he",
+      "confidence": 0.8,
+      "source_url": "https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/177-thong-tin/897-ky-tuc-xa.html",
+      "source_level": "unknown",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_051",
+      "question": "Tôi có thể liên hệ với ai để được tư vấn tuyển sinh tại Đại học Cần Thơ?",
+      "answer": "Bạn có thể liên hệ với Phòng Đào tạo của Đại học Cần Thơ qua địa chỉ Đường 3/2, Quận Ninh Kiều, TP. Cần Thơ, điện thoại: 0292. 3872 728 hoặc email: tuyensinh@ctu.edu.vn.",
+      "intent": "lien_he",
+      "original_category": "hoi_lien_he",
+      "confidence": 0.8,
+      "source_url": "https_tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy.html",
+      "source_level": "unknown",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_068",
+      "question": "Đại học Cần Thơ có chương trình đào tạo từ xa không?",
+      "answer": "Có, Đại học Cần Thơ có chương trình đào tạo từ xa. Bạn có thể tìm hiểu thêm thông tin chi tiết trên trang web của trường.",
+      "intent": "lien_he",
+      "original_category": "hoi_lien_he",
+      "confidence": 0.8,
+      "source_url": "https://ctc.ctu.edu.vn/tuyen-sinh/tuyen-sinh-he-tu-xa.html",
+      "source_level": "Level 4",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_072",
+      "question": "Làm thế nào để liên hệ với Đại học Cần Thơ để biết thêm thông tin về chương trình đào tạo từ xa?",
+      "answer": "Bạn có thể liên hệ với Đại học Cần Thơ qua thông tin liên hệ được cung cấp trên trang web của trường, bao gồm số điện thoại và email.",
+      "intent": "lien_he",
+      "original_category": "hoi_lien_he",
+      "confidence": 0.8,
+      "source_url": "https://ctc.ctu.edu.vn/tuyen-sinh/tuyen-sinh-he-tu-xa.html",
+      "source_level": "Level 4",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_074",
+      "question": "Đại học Cần Thơ có chương trình nào dành cho sinh viên vừa làm vừa học không?",
+      "answer": "Có, Đại học Cần Thơ có chương trình đào tạo dành cho sinh viên vừa làm vừa học. Chương trình này giúp sinh viên có thể vừa học tập vừa làm việc để tích lũy kinh nghiệm thực tế.",
+      "intent": "lien_he",
+      "original_category": "hoi_lien_he",
+      "confidence": 0.8,
+      "source_url": "https://ctc.ctu.edu.vn/tuyen-sinh/tuyen-sinh-he-vua-lam-vua-hoc.html",
+      "source_level": "Level 4",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_078",
+      "question": "Có thể liên hệ với ai để biết thêm thông tin về chương trình vừa làm vừa học?",
+      "answer": "Bạn có thể liên hệ với Trung tâm liên kết đào tạo của Đại học Cần Thơ qua thông tin liên hệ được cung cấp trên trang web của trường để được hỗ trợ thêm.",
+      "intent": "lien_he",
+      "original_category": "hoi_lien_he",
+      "confidence": 0.8,
+      "source_url": "https://ctc.ctu.edu.vn/tuyen-sinh/tuyen-sinh-he-vua-lam-vua-hoc.html",
+      "source_level": "Level 4",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_090",
+      "question": "Có những chính sách học bổng nào cho thí sinh trúng tuyển chương trình chất lượng cao?",
+      "answer": "Đại học Cần Thơ có nhiều chính sách học bổng dành cho thí sinh trúng tuyển chương trình chất lượng cao. Thông tin chi tiết về các loại học bổng sẽ được công bố trên trang web tuyển sinh của trường.",
+      "intent": "lien_he",
+      "original_category": "hoi_lien_he",
+      "confidence": 0.8,
+      "source_url": "https://tuyensinh.ctu.edu.vn/cau-hoi-pho-bien/877-chuong-trinh-chat-luong-cao-khac-voi-chuong-trinh-dai-tra.html",
+      "source_level": "Level 4",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_097",
+      "question": "Trường Đại học Cần Thơ có chính sách học bổng nào cho thí sinh trúng tuyển không?",
+      "answer": "Trường Đại học Cần Thơ dành 3 tỷ đồng để cấp 1.000 suất học bổng, mỗi suất trị giá 3.000.000 đồng cho tân sinh viên có điểm trúng tuyển cao. Ngoài ra, còn có 100 suất học bổng trị giá 3.000.000 đồng cho tân sinh viên Khu Hòa An và 100 suất học bổng học tập ngắn hạn ở nước ngoài, trong đó có 30 suất dành cho các ngành chương trình tiên tiến và chương trình chất lượng cao.",
+      "intent": "lien_he",
+      "original_category": "hoi_lien_he",
+      "confidence": 0.8,
+      "source_url": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_879-co-nhung-chinh-sach-hoc-bong-nao-cho-thi-sinh-trung-tuyen.html",
+      "source_level": "Level 4",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_098",
+      "question": "Có bao nhiêu suất học bổng dành cho tân sinh viên có điểm trúng tuyển cao?",
+      "answer": "Có 1.000 suất học bổng dành cho tân sinh viên có điểm trúng tuyển cao, mỗi suất trị giá 3.000.000 đồng.",
+      "intent": "lien_he",
+      "original_category": "hoi_lien_he",
+      "confidence": 0.8,
+      "source_url": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_879-co-nhung-chinh-sach-hoc-bong-nao-cho-thi-sinh-trung-tuyen.html",
+      "source_level": "Level 4",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_099",
+      "question": "Trường có hỗ trợ học bổng cho sinh viên ở Khu Hòa An không?",
+      "answer": "Có, trường dành 100 suất học bổng trị giá 3.000.000 đồng cho tân sinh viên ở Khu Hòa An.",
+      "intent": "lien_he",
+      "original_category": "hoi_lien_he",
+      "confidence": 0.8,
+      "source_url": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_879-co-nhung-chinh-sach-hoc-bong-nao-cho-thi-sinh-trung-tuyen.html",
+      "source_level": "Level 4",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_100",
+      "question": "Có những suất học bổng nào dành cho sinh viên muốn học tập ở nước ngoài?",
+      "answer": "Trường có 100 suất học bổng học tập ngắn hạn ở nước ngoài, trong đó có 30 suất dành cho các ngành chương trình tiên tiến và chương trình chất lượng cao.",
+      "intent": "lien_he",
+      "original_category": "hoi_lien_he",
+      "confidence": 0.8,
+      "source_url": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_879-co-nhung-chinh-sach-hoc-bong-nao-cho-thi-sinh-trung-tuyen.html",
+      "source_level": "Level 4",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_108",
+      "question": "Ký túc xá của Đại học Cần Thơ có những khu nào?",
+      "answer": "Ký túc xá của Đại học Cần Thơ hiện có 3 khu: Khu KTX-A, Khu KTX-B và Khu KTX-C. Mỗi khu đều có sức chứa lớn và được trang bị đầy đủ tiện nghi cho sinh viên.",
+      "intent": "lien_he",
+      "original_category": "hoi_lien_he",
+      "confidence": 0.8,
+      "source_url": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_897-ky-tuc-xa.html",
+      "source_level": "Level 4",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_109",
+      "question": "Sức chứa của ký túc xá Đại học Cần Thơ là bao nhiêu?",
+      "answer": "Ký túc xá Đại học Cần Thơ có sức chứa hơn 8.780 sinh viên, đảm bảo đáp ứng nhu cầu ở cho sinh viên trong trường.",
+      "intent": "lien_he",
+      "original_category": "hoi_lien_he",
+      "confidence": 0.8,
+      "source_url": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_897-ky-tuc-xa.html",
+      "source_level": "Level 4",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_110",
+      "question": "Ký túc xá có an ninh như thế nào?",
+      "answer": "Ký túc xá được trang bị hàng rào bao quanh, hệ thống camera giám sát an ninh và có lực lượng bảo vệ chuyên nghiệp trực 24/24, đảm bảo an toàn cho sinh viên.",
+      "intent": "lien_he",
+      "original_category": "hoi_lien_he",
+      "confidence": 0.8,
+      "source_url": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_897-ky-tuc-xa.html",
+      "source_level": "Level 4",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_111",
+      "question": "Ký túc xá có vị trí như thế nào?",
+      "answer": "Ký túc xá tọa lạc tại Khu II, TP. Cần Thơ và khu Hòa An, Phụng Hiệp - Hậu Giang, rất thuận tiện cho sinh viên trong việc ăn ở, sinh hoạt và học tập.",
+      "intent": "lien_he",
+      "original_category": "hoi_lien_he",
+      "confidence": 0.8,
+      "source_url": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_897-ky-tuc-xa.html",
+      "source_level": "Level 4",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_112",
+      "question": "Có những tiện nghi gì trong ký túc xá?",
+      "answer": "Ký túc xá được trang bị đầy đủ tiện nghi như phòng ở, khu sinh hoạt chung, nhà ăn, và các dịch vụ hỗ trợ sinh viên khác, tạo điều kiện tốt nhất cho việc học tập và sinh hoạt.",
+      "intent": "lien_he",
+      "original_category": "hoi_lien_he",
+      "confidence": 0.8,
+      "source_url": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_897-ky-tuc-xa.html",
+      "source_level": "Level 4",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_151",
+      "question": "Thông tin liên hệ tư vấn?",
+      "answer": "Bạn có thể liên hệ với Đại học Cần Thơ qua số điện thoại 0292 383 1234 hoặc email info@ctu.edu.vn.",
+      "intent": "lien_he",
+      "original_category": "lien_he",
+      "confidence": 0.8,
+      "source_url": "https://ctc.ctu.edu.vn/tuyen-sinh/tuyen-sinh-he-tu-xa.html",
+      "source_level": "Level 5",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_159",
+      "question": "Thông tin liên hệ tư vấn?",
+      "answer": "Bạn có thể liên hệ qua trang thông tin liên hệ của trường để được tư vấn chi tiết.",
+      "intent": "lien_he",
+      "original_category": "lien_he",
+      "confidence": 0.8,
+      "source_url": "https://ctc.ctu.edu.vn/tuyen-sinh/tuyen-sinh-he-vua-lam-vua-hoc.html",
+      "source_level": "Level 5",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_166",
+      "question": "Thông tin liên hệ tư vấn?",
+      "answer": "Bạn có thể liên hệ với trường qua số điện thoại 0292 383 1234 hoặc email info@ctu.edu.vn.",
+      "intent": "lien_he",
+      "original_category": "lien_he",
+      "confidence": 0.8,
+      "source_url": "https://tuyensinh.ctu.edu.vn/cau-hoi-pho-bien/875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.html",
+      "source_level": "Level 5",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_175",
+      "question": "Thông tin liên hệ tư vấn?",
+      "answer": "Bạn có thể liên hệ qua số điện thoại 0292 383 1234 hoặc email: info@ctu.edu.vn.",
+      "intent": "lien_he",
+      "original_category": "lien_he",
+      "confidence": 0.8,
+      "source_url": "https://tuyensinh.ctu.edu.vn/cau-hoi-pho-bien/877-chuong-trinh-chat-luong-cao-khac-voi-chuong-trinh-dai-tra.html",
+      "source_level": "Level 5",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_193",
+      "question": "Thông tin liên hệ tư vấn?",
+      "answer": "Bạn có thể liên hệ qua số điện thoại hoặc email được cung cấp trên trang web tuyển sinh của trường.",
+      "intent": "lien_he",
+      "original_category": "lien_he",
+      "confidence": 0.8,
+      "source_url": "https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/177-thong-tin/943-phuong-thuc-xet-tuyen.html",
+      "source_level": "Level 5",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_202",
+      "question": "Thông tin liên hệ tư vấn?",
+      "answer": "Bạn có thể liên hệ qua số điện thoại 0292 383 1234 hoặc email: info@ctu.edu.vn.",
+      "intent": "lien_he",
+      "original_category": "lien_he",
+      "confidence": 0.8,
+      "source_url": "https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/chuong-trinh-chat-luong-cao.html",
+      "source_level": "Level 5",
+      "created_date": "2025-05-25"
+    },
+    {
+      "id": "qa_208",
+      "question": "Thông tin liên hệ tư vấn?",
+      "answer": "Bạn có thể liên hệ qua số điện thoại hoặc email được cung cấp trên trang liên hệ của trường.",
+      "intent": "lien_he",
+      "original_category": "lien_he",
+      "confidence": 0.8,
+      "source_url": "https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/thong-tin-tuyen-sinh.html",
+      "source_level": "Level 5",
+      "created_date": "2025-05-25"
+    },
+    {
+      "question": "Địa chỉ của Trung tâm Nghiên cứu và Ứng dụng Công nghệ - ĐHCT là gì?",
+      "answer": "Địa chỉ của Trung tâm là Khu II Đại học Cần Thơ, đường 3/2, phường Xuân Khánh, quận Ninh Kiều, thành phố Cần Thơ.",
+      "category": "lien_he",
+      "confidence": 0.9,
+      "source": "https_ccac.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Số điện thoại liên hệ của Trung tâm Nghiên cứu và Ứng dụng Công nghệ là gì?",
+      "answer": "Số điện thoại liên hệ của Trung tâm là 0292 3833852.",
+      "category": "lien_he",
+      "confidence": 0.9,
+      "source": "https_ccac.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trung tâm Nghiên cứu và Ứng dụng Công nghệ có fax không? Nếu có thì số fax là gì?",
+      "answer": "Có, số fax của Trung tâm Nghiên cứu và Ứng dụng Công nghệ là 0292 3833852.",
+      "category": "lien_he",
+      "confidence": 0.9,
+      "source": "https_ccac.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Mã số thuế của Trung tâm Nghiên cứu và Ứng dụng Công nghệ là gì?",
+      "answer": "Mã số thuế của Trung tâm là 1800424257-005.",
+      "category": "lien_he",
+      "confidence": 0.9,
+      "source": "https_ccac.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trung tâm Nghiên cứu và Ứng dụng Công nghệ có email không? Nếu có thì địa chỉ email là gì?",
+      "answer": "Có, địa chỉ email của Trung tâm là ptluong@ctu.edu.vn.",
+      "category": "lien_he",
+      "confidence": 0.9,
+      "source": "https_ccac.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trung tâm Kiểm định và Tư vấn xây dựng của Đại học Cần Thơ ở đâu?",
+      "answer": "Trung tâm Kiểm định và Tư vấn xây dựng nằm tại Khu II, Đường 3/2, P.Xuân Khánh, Q. Ninh Kiều, Tp. Cần Thơ.",
+      "category": "lien_he",
+      "confidence": 0.9,
+      "source": "https_crat.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Số điện thoại liên hệ của Trung tâm Kiểm định và Tư vấn xây dựng là gì?",
+      "answer": "Số điện thoại liên hệ của Trung tâm Kiểm định và Tư vấn xây dựng là 1800 548566.",
+      "category": "lien_he",
+      "confidence": 0.9,
+      "source": "https_crat.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ai là Giám đốc của Trung tâm Kiểm định và Tư vấn xây dựng?",
+      "answer": "Giám đốc của Trung tâm Kiểm định và Tư vấn xây dựng là Ths. Trần Văn Hừng, email: tranvanhung@ctu.edu.vn.",
+      "category": "lien_he",
+      "confidence": 0.9,
+      "source": "https_crat.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Tôi có thể liên hệ với Phó Giám đốc Trung tâm Kiểm định và Tư vấn xây dựng qua email nào?",
+      "answer": "Bạn có thể liên hệ với Phó Giám đốc Ths. Hồ Ngọc Tri Tân qua email: hnttan@ctu.edu.vn.",
+      "category": "lien_he",
+      "confidence": 0.9,
+      "source": "https_crat.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trung tâm Kiểm định và Tư vấn xây dựng có chức năng gì?",
+      "answer": "Trung tâm thực hiện công tác kiểm định, tư vấn thiết kế, khảo sát và giám sát thi công công trình xây dựng, cầu đường, thuỷ lợi và môi trường trong khu vực ĐBSCL.",
+      "category": "lien_he",
+      "confidence": 0.9,
+      "source": "https_crat.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có thông tin gì về đội ngũ cán bộ của Trung tâm Kiểm định và Tư vấn xây dựng?",
+      "answer": "Đội ngũ cán bộ bao gồm nhân sự có chuyên môn của các lĩnh vực trên của khoa Công Nghệ và các chuyên gia nước ngoài của các trường liên kết nghiên cứu khoa học.",
+      "category": "lien_he",
+      "confidence": 0.9,
+      "source": "https_crat.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trung tâm Kiểm định và Tư vấn xây dựng có áp dụng tiêu chuẩn nào không?",
+      "answer": "Trung tâm đã áp dụng hệ thống quản lý chất lượng ISO 9001:2008 từ ngày 16/12/2009.",
+      "category": "lien_he",
+      "confidence": 0.9,
+      "source": "https_crat.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Đại học Cần Thơ có địa chỉ ở đâu?",
+      "answer": "Đại học Cần Thơ có địa chỉ tại 01 Lê Hồng Phong, P. Xuân Khánh, Q. Ninh Kiều, TP. Cần Thơ.",
+      "category": "lien_he",
+      "confidence": 0.9,
+      "source": "https_dfm.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Tôi có thể liên hệ với Đại học Cần Thơ qua số điện thoại nào?",
+      "answer": "Bạn có thể liên hệ với Đại học Cần Thơ qua số điện thoại: 0292 383 1234.",
+      "category": "lien_he",
+      "confidence": 0.9,
+      "source": "https_dfm.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có thông tin gì về nhân sự liên hệ tại Đại học Cần Thơ không?",
+      "answer": "Thông tin về nhân sự liên hệ tại Đại học Cần Thơ có thể được tìm thấy tại trang 'Nhân sự - Liên hệ' trên website của trường.",
+      "category": "lien_he",
+      "confidence": 0.8,
+      "source": "https_dfm.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Đại học Cần Thơ có trang web chính thức không?",
+      "answer": "Có, trang web chính thức của Đại học Cần Thơ là https://dfm.ctu.edu.vn.",
+      "category": "lien_he",
+      "confidence": 0.9,
+      "source": "https_dfm.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Tôi có thể tìm thấy biểu mẫu liên hệ ở đâu?",
+      "answer": "Bạn có thể tìm thấy biểu mẫu liên hệ tại mục 'Biểu mẫu' trên trang web của Đại học Cần Thơ.",
+      "category": "lien_he",
+      "confidence": 0.8,
+      "source": "https_dfm.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Đại học Cần Thơ có cung cấp thông tin về phòng cháy chữa cháy không?",
+      "answer": "Có, thông tin về phòng cháy chữa cháy có thể được tìm thấy trong phần 'Quy định - Quy chế' trên trang web của trường.",
+      "category": "lien_he",
+      "confidence": 0.7,
+      "source": "https_dfm.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Liên hệ với phòng quản lý tài sản của Đại học Cần Thơ qua đâu?",
+      "answer": "Bạn có thể liên hệ với phòng quản lý tài sản qua thông tin liên hệ được cung cấp trên trang 'Quản lý tài sản' của Đại học Cần Thơ.",
+      "category": "lien_he",
+      "confidence": 0.7,
+      "source": "https_dfm.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có thông tin gì về an toàn lao động tại Đại học Cần Thơ không?",
+      "answer": "Có, thông tin về an toàn lao động được cung cấp trong phần 'Quy định - Quy chế' trên trang web của trường.",
+      "category": "lien_he",
+      "confidence": 0.7,
+      "source": "https_dfm.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Đại học Cần Thơ có cung cấp thông tin về nhà ở công vụ không?",
+      "answer": "Có, thông tin về nhà ở công vụ có thể được tìm thấy trong phần 'Quy định - Quy chế' trên trang web của trường.",
+      "category": "lien_he",
+      "confidence": 0.7,
+      "source": "https_dfm.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Tôi có thể tìm hiểu về cơ sở vật chất của Đại học Cần Thơ ở đâu?",
+      "answer": "Bạn có thể tìm hiểu về cơ sở vật chất của Đại học Cần Thơ tại mục 'Cơ sở vật chất' trên trang web của trường.",
+      "category": "lien_he",
+      "confidence": 0.8,
+      "source": "https_dfm.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Địa chỉ của Đại học Cần Thơ là gì?",
+      "answer": "Địa chỉ của Đại học Cần Thơ là 01 Lê Hồng Phong, P. Xuân Khánh, Q. Ninh Kiều, TP. Cần Thơ.",
+      "category": "lien_he",
+      "confidence": 0.9,
+      "source": "https_dsa.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Tôi có thể liên hệ với Phòng Công tác Sinh viên qua số điện thoại nào?",
+      "answer": "Bạn có thể liên hệ với Phòng Công tác Sinh viên qua số điện thoại 0292 3 832 832.",
+      "category": "lien_he",
+      "confidence": 0.9,
+      "source": "https_dsa.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có email nào để tôi có thể gửi thắc mắc đến Đại học Cần Thơ không?",
+      "answer": "Bạn có thể gửi email đến địa chỉ ctsv@ctu.edu.vn để liên hệ với Phòng Công tác Sinh viên.",
+      "category": "lien_he",
+      "confidence": 0.9,
+      "source": "https_dsa.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Giờ làm việc của Phòng Công tác Sinh viên là khi nào?",
+      "answer": "Phòng Công tác Sinh viên làm việc từ thứ Hai đến thứ Sáu, từ 7h30 đến 11h30 và 13h30 đến 17h00.",
+      "category": "lien_he",
+      "confidence": 0.9,
+      "source": "https_dsa.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Tôi có thể tìm thấy thông tin liên hệ của các phòng ban khác ở đâu?",
+      "answer": "Thông tin liên hệ của các phòng ban khác có thể được tìm thấy trên trang web chính thức của Đại học Cần Thơ tại mục 'Liên hệ công tác'.",
+      "category": "lien_he",
+      "confidence": 0.9,
+      "source": "https_dsa.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Ai là người liên hệ tại Trung tâm Điện - Điện tử?",
+      "answer": "Người liên hệ tại Trung tâm Điện - Điện tử là Phạm Duy Nghiệp, Giám Đốc.",
+      "category": "lien_he",
+      "confidence": 0.9,
+      "source": "https_eec.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Số điện thoại liên hệ của Trung tâm Điện - Điện tử là gì?",
+      "answer": "Số điện thoại liên hệ của Trung tâm Điện - Điện tử là 07106 556 833.",
+      "category": "lien_he",
+      "confidence": 0.9,
+      "source": "https_eec.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Địa chỉ của Trung tâm Điện - Điện tử ở đâu?",
+      "answer": "Địa chỉ của Trung tâm Điện - Điện tử là Tầng trệt Khoa Công Nghệ, Đại học Cần Thơ, Khu II, Đường 3/2, P. Xuân Khánh, Q. Ninh Kiều, TP. Cần Thơ.",
+      "category": "lien_he",
+      "confidence": 0.9,
+      "source": "https_eec.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có số fax nào để liên hệ với Trung tâm không?",
+      "answer": "Có, số fax để liên hệ với Trung tâm là 07103 831 151.",
+      "category": "lien_he",
+      "confidence": 0.9,
+      "source": "https_eec.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Email liên hệ của Trung tâm là gì?",
+      "answer": "Email liên hệ của Trung tâm là eec@ctu.edu.vn.",
+      "category": "lien_he",
+      "confidence": 0.9,
+      "source": "https_eec.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có hotline nào để liên hệ với Trung tâm không?",
+      "answer": "Có, hotline để liên hệ với Trung tâm là 0918 62 42 32, gặp anh Nghiệp.",
+      "category": "lien_he",
+      "confidence": 0.9,
+      "source": "https_eec.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường Đại học Cần Thơ có địa chỉ ở đâu?",
+      "answer": "Trường Đại học Cần Thơ có địa chỉ tại thành phố Cần Thơ, Việt Nam.",
+      "category": "lien_he",
+      "confidence": 0.9,
+      "source": "https_vavn.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Tôi có thể liên hệ với Trường Đại học Cần Thơ qua số điện thoại nào?",
+      "answer": "Thông tin số điện thoại liên hệ với Trường Đại học Cần Thơ không được cung cấp trong nội dung.",
+      "category": "lien_he",
+      "confidence": 0.8,
+      "source": "https_vavn.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Có thông tin gì về việc liên hệ với Ban chấp hành của Trường không?",
+      "answer": "Thông tin liên hệ với Ban chấp hành không được cung cấp cụ thể trong nội dung.",
+      "category": "lien_he",
+      "confidence": 0.7,
+      "source": "https_vavn.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Trường có trang web nào để tôi có thể tìm hiểu thêm thông tin không?",
+      "answer": "Bạn có thể truy cập trang web chính thức của Trường Đại học Cần Thơ tại https://www.ctu.edu.vn/ để tìm hiểu thêm thông tin.",
+      "category": "lien_he",
+      "confidence": 0.9,
+      "source": "https_vavn.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Tôi có thể tìm thấy các biểu mẫu liên hệ ở đâu?",
+      "answer": "Bạn có thể tìm thấy các biểu mẫu liên hệ tại mục 'Văn bản - biểu mẫu' trên trang web của Trường Đại học Cần Thơ.",
+      "category": "lien_he",
+      "confidence": 0.85,
+      "source": "https_vavn.ctu.edu.vn_.md"
+    }
+  ],
+  "source": "crawled_markdown_files",
+  "created_date": "2025-01-27",
+  "last_updated": "2025-01-27"
+}

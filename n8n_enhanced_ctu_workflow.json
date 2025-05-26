@@ -1,0 +1,366 @@
+{
+  "name": "CTU Enhanced Auto Crawl with Intent",
+  "nodes": [
+    {
+      "parameters": {
+        "options": {}
+      },
+      "id": "start",
+      "name": "Manual Trigger",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [240, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Initialize with enhanced intent support\nconst startUrl = $input.first().json.start_url || 'https://tuyensinh.ctu.edu.vn/';\nconst maxDepth = $input.first().json.max_depth || 4;\nconst maxUrls = $input.first().json.max_urls || 8;\n\n// 15 Intent categories\nconst intents = {\n  'hoi_nganh_hoc': [],\n  'hoi_phuong_thuc_xet_tuyen': [],\n  'hoi_hoc_phi': [],\n  'hoi_lien_he': [],\n  'hoi_diem_chuan': [],\n  'hoi_ho_so_xet_tuyen': [],\n  'hoi_lich_tuyen_sinh': [],\n  'hoi_hoc_bong': [],\n  'hoi_co_so_vat_chat': [],\n  'hoi_sinh_vien_quoc_te': [],\n  'hoi_chuong_trinh_lien_ket': [],\n  'hoi_thuc_tap_viec_lam': [],\n  'hoi_hoat_dong_sinh_vien': [],\n  'hoi_dao_tao_sau_dai_hoc': [],\n  'hoi_thong_tin_chung': []\n};\n\nreturn [{\n  json: {\n    current_urls: [startUrl],\n    level: 1,\n    max_depth: maxDepth,\n    max_urls: maxUrls,\n    all_qa_pairs: [],\n    crawled_urls: [],\n    total_qa_pairs: 0,\n    intent_data: intents,\n    start_time: new Date().toISOString()\n  }\n}];"
+      },
+      "id": "init",
+      "name": "Initialize Enhanced",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [460, 300]
+    },
+    {
+      "parameters": {
+        "options": {
+          "loopMaxIterations": 15
+        }
+      },
+      "id": "level_loop",
+      "name": "Level Loop",
+      "type": "n8n-nodes-base.splitInBatches",
+      "typeVersion": 3,
+      "position": [680, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "const data = $input.first().json;\n\nif (data.level > data.max_depth || data.current_urls.length === 0) {\n  return [{\n    json: {\n      ...data,\n      stop_crawling: true,\n      message: `🎉 Crawling completed! Total Q&A pairs: ${data.total_qa_pairs}`,\n      completion_time: new Date().toISOString()\n    }\n  }];\n}\n\nconst urlsToProcess = data.current_urls.slice(0, data.max_urls);\nconsole.log(`🔄 Level ${data.level}: Processing ${urlsToProcess.length} URLs`);\n\nreturn urlsToProcess.map((url, index) => ({\n  json: {\n    ...data,\n    current_url: url,\n    url_index: index + 1,\n    total_urls: urlsToProcess.length,\n    stop_crawling: false\n  }\n}));"
+      },
+      "id": "check_continue",
+      "name": "Check Continue",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [900, 300]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict"
+          },
+          "conditions": [
+            {
+              "leftValue": "={{ $json.stop_crawling }}",
+              "rightValue": false,
+              "operator": {
+                "type": "boolean",
+                "operation": "equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        }
+      },
+      "id": "continue_check",
+      "name": "Continue?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [1120, 300]
+    },
+    {
+      "parameters": {
+        "url": "={{ $json.current_url }}",
+        "options": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+          },
+          "timeout": 30000,
+          "redirect": {
+            "followRedirects": true,
+            "maxRedirects": 5
+          }
+        }
+      },
+      "id": "http_crawl",
+      "name": "HTTP Crawl",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [1340, 200]
+    },
+    {
+      "parameters": {
+        "jsCode": "const html = $input.first().binary.data.toString();\nconst inputData = $input.first().json;\n\nconsole.log(`🕷️ [${inputData.url_index}/${inputData.total_urls}] Level ${inputData.level}: ${inputData.current_url}`);\n\n// Clean HTML content\nlet content = html.replace(/<script[^>]*>.*?<\\/script>/gis, '');\ncontent = content.replace(/<style[^>]*>.*?<\\/style>/gis, '');\ncontent = content.replace(/<[^>]+>/g, ' ');\ncontent = content.replace(/\\s+/g, ' ').trim();\n\n// Limit content length for OpenAI\ncontent = content.substring(0, 8000);\n\nreturn [{\n  json: {\n    ...inputData,\n    content: content,\n    content_length: content.length,\n    crawl_time: new Date().toISOString()\n  }\n}];"
+      },
+      "id": "clean_html",
+      "name": "Clean HTML",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1560, 200]
+    },
+    {
+      "parameters": {
+        "resource": "chat",
+        "operation": "create",
+        "chatInput": {
+          "model": "gpt-4o-mini",
+          "messages": {
+            "values": [
+              {
+                "role": "system",
+                "content": "Bạn là chuyên gia phân tích nội dung tuyển sinh Đại học Cần Thơ. Trả về JSON hợp lệ với thông tin chính xác."
+              },
+              {
+                "role": "user",
+                "content": "Phân tích nội dung tuyển sinh CTU và trích xuất:\\n\\n1. Tạo 3-7 cặp câu hỏi-trả lời tiếng Việt về tuyển sinh\\n2. Tìm URLs liên quan đến tuyển sinh CTU\\n3. Phân loại theo intent phù hợp\\n\\nCONTENT: {{ $json.content }}\\n\\nTrả về JSON:\\n{\\n  \\\"qa_pairs\\\": [\\n    {\\n      \\\"question\\\": \\\"Câu hỏi tiếng Việt\\\",\\n      \\\"answer\\\": \\\"Trả lời chi tiết tiếng Việt\\\",\\n      \\\"intent\\\": \\\"hoi_nganh_hoc\\\",\\n      \\\"priority\\\": 1,\\n      \\\"source\\\": \\\"{{ $json.current_url }}\\\"\\n    }\\n  ],\\n  \\\"urls\\\": [\\\"url1\\\", \\\"url2\\\"]\\n}\\n\\nIntent categories: hoi_nganh_hoc, hoi_phuong_thuc_xet_tuyen, hoi_hoc_phi, hoi_lien_he, hoi_diem_chuan, hoi_ho_so_xet_tuyen, hoi_lich_tuyen_sinh, hoi_hoc_bong, hoi_co_so_vat_chat, hoi_sinh_vien_quoc_te, hoi_chuong_trinh_lien_ket, hoi_thuc_tap_viec_lam, hoi_hoat_dong_sinh_vien, hoi_dao_tao_sau_dai_hoc, hoi_thong_tin_chung\\n\\nCHỈ trả về JSON."
+              }
+            ]
+          },
+          "options": {
+            "temperature": 0.2,
+            "maxTokens": 2000
+          }
+        }
+      },
+      "id": "openai_extract",
+      "name": "OpenAI Extract",
+      "type": "n8n-nodes-base.openAi",
+      "typeVersion": 1,
+      "position": [1780, 200]
+    },
+    {
+      "parameters": {
+        "jsCode": "const openaiResponse = $input.first().json.choices[0].message.content;\nconst inputData = $input.first().json;\n\ntry {\n  // Clean OpenAI response\n  let cleanResponse = openaiResponse.trim();\n  if (cleanResponse.startsWith('```json')) {\n    cleanResponse = cleanResponse.substring(7);\n  }\n  if (cleanResponse.endsWith('```')) {\n    cleanResponse = cleanResponse.slice(0, -3);\n  }\n  \n  const response = JSON.parse(cleanResponse);\n  const qaPairs = response.qa_pairs || [];\n  const extractedUrls = response.urls || [];\n  \n  // Filter valid CTU URLs\n  const ctuIndicators = ['ctu.edu.vn', 'tuyensinh', 'nganh', 'hoc-phi', 'xet-tuyen', 'hoc-bong'];\n  const validUrls = extractedUrls.filter(url => \n    typeof url === 'string' && \n    ctuIndicators.some(indicator => url.toLowerCase().includes(indicator)) &&\n    !inputData.crawled_urls.includes(url)\n  );\n  \n  console.log(`✅ Extracted ${qaPairs.length} Q&A pairs and ${validUrls.length} URLs from ${inputData.current_url}`);\n  \n  return [{\n    json: {\n      ...inputData,\n      qa_pairs: qaPairs,\n      extracted_urls: validUrls,\n      extraction_success: true,\n      extraction_time: new Date().toISOString()\n    }\n  }];\n  \n} catch (error) {\n  console.log(`❌ Error parsing OpenAI response from ${inputData.current_url}:`, error.message);\n  return [{\n    json: {\n      ...inputData,\n      qa_pairs: [],\n      extracted_urls: [],\n      extraction_success: false,\n      error: error.message\n    }\n  }];\n}"
+      },
+      "id": "process_results",
+      "name": "Process Results",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [2000, 200]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Organize Q&A pairs by intent\nconst allItems = $input.all();\nconst firstItem = allItems[0].json;\n\nconst levelQaPairs = [];\nconst nextLevelUrls = [];\nconst updatedIntentData = { ...firstItem.intent_data };\n\n// Process each successful extraction\nallItems.forEach(item => {\n  if (item.json.extraction_success && item.json.qa_pairs) {\n    item.json.qa_pairs.forEach(qa => {\n      // Add metadata\n      const qaWithMetadata = {\n        ...qa,\n        id: `qa_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,\n        source_url: item.json.current_url,\n        level: item.json.level,\n        created_date: new Date().toISOString()\n      };\n      \n      // Organize by intent\n      const intent = qa.intent || 'hoi_thong_tin_chung';\n      if (updatedIntentData[intent]) {\n        updatedIntentData[intent].push(qaWithMetadata);\n      } else {\n        updatedIntentData['hoi_thong_tin_chung'].push(qaWithMetadata);\n      }\n      \n      levelQaPairs.push(qaWithMetadata);\n    });\n    \n    // Collect URLs for next level\n    if (item.json.extracted_urls) {\n      nextLevelUrls.push(...item.json.extracted_urls);\n    }\n  }\n});\n\n// Remove duplicates from URLs\nconst uniqueNextUrls = [...new Set(nextLevelUrls)];\n\n// Update crawled URLs\nconst newCrawledUrls = [...firstItem.crawled_urls];\nallItems.forEach(item => {\n  if (!newCrawledUrls.includes(item.json.current_url)) {\n    newCrawledUrls.push(item.json.current_url);\n  }\n});\n\nconst totalQaPairs = firstItem.total_qa_pairs + levelQaPairs.length;\n\nconsole.log(`📊 Level ${firstItem.level} Summary:`);\nconsole.log(`   - Q&A pairs: ${levelQaPairs.length}`);\nconsole.log(`   - URLs found: ${uniqueNextUrls.length}`);\nconsole.log(`   - Total Q&A so far: ${totalQaPairs}`);\n\nreturn [{\n  json: {\n    level: firstItem.level,\n    max_depth: firstItem.max_depth,\n    max_urls: firstItem.max_urls,\n    level_qa_pairs: levelQaPairs,\n    all_qa_pairs: [...firstItem.all_qa_pairs, ...levelQaPairs],\n    current_urls: uniqueNextUrls,\n    crawled_urls: newCrawledUrls,\n    total_qa_pairs: totalQaPairs,\n    intent_data: updatedIntentData,\n    level_summary: {\n      level: firstItem.level,\n      qa_pairs_count: levelQaPairs.length,\n      urls_found: uniqueNextUrls.length,\n      urls_crawled: allItems.length\n    }\n  }\n}];"
+      },
+      "id": "organize_by_intent",
+      "name": "Organize by Intent",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [2220, 200]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Save data by intent to separate folders\nconst data = $input.first().json;\nconst intentData = data.intent_data;\n\n// Create save operations for each intent with data\nconst saveOperations = [];\n\nObject.keys(intentData).forEach(intent => {\n  const qaPairs = intentData[intent];\n  if (qaPairs && qaPairs.length > 0) {\n    const intentDataset = {\n      intent: intent,\n      count: qaPairs.length,\n      level: data.level,\n      updated_date: new Date().toISOString(),\n      qa_pairs: qaPairs\n    };\n    \n    saveOperations.push({\n      intent: intent,\n      data: intentDataset,\n      filename: `data/n8n_crawl/by_intent/${intent}/level_${data.level}.json`\n    });\n  }\n});\n\n// Also save level summary\nconst levelSummary = {\n  level: data.level,\n  total_qa_pairs: data.level_qa_pairs.length,\n  urls_found: data.current_urls.length,\n  intent_breakdown: {},\n  timestamp: new Date().toISOString()\n};\n\nObject.keys(intentData).forEach(intent => {\n  const count = intentData[intent].length;\n  if (count > 0) {\n    levelSummary.intent_breakdown[intent] = count;\n  }\n});\n\nsaveOperations.push({\n  intent: 'summary',\n  data: levelSummary,\n  filename: `data/n8n_crawl/summaries/level_${data.level}_summary.json`\n});\n\nreturn saveOperations.map(op => ({\n  json: {\n    ...data,\n    save_operation: op\n  }\n}));"
+      },
+      "id": "prepare_saves",
+      "name": "Prepare Intent Saves",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [2440, 200]
+    },
+    {
+      "parameters": {
+        "fileName": "={{ $json.save_operation.filename }}",
+        "dataPropertyName": "save_operation.data",
+        "options": {
+          "makeDirectories": true
+        }
+      },
+      "id": "save_by_intent",
+      "name": "Save by Intent",
+      "type": "n8n-nodes-base.writeFile",
+      "typeVersion": 1,
+      "position": [2660, 200]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Aggregate all save operations back to single item for next level\nconst allItems = $input.all();\nconst firstItem = allItems[0].json;\n\nconsole.log(`💾 Saved ${allItems.length} intent files for level ${firstItem.level}`);\n\nreturn [{\n  json: {\n    current_urls: firstItem.current_urls,\n    level: firstItem.level + 1,\n    max_depth: firstItem.max_depth,\n    max_urls: firstItem.max_urls,\n    all_qa_pairs: firstItem.all_qa_pairs,\n    crawled_urls: firstItem.crawled_urls,\n    total_qa_pairs: firstItem.total_qa_pairs,\n    intent_data: firstItem.intent_data\n  }\n}];"
+      },
+      "id": "next_level",
+      "name": "Next Level",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [2880, 200]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Final completion summary\nconst data = $input.first().json;\n\nconst intentSummary = {};\nlet totalPairs = 0;\n\nObject.keys(data.intent_data).forEach(intent => {\n  const count = data.intent_data[intent].length;\n  if (count > 0) {\n    intentSummary[intent] = count;\n    totalPairs += count;\n  }\n});\n\nconst finalSummary = {\n  message: '🎉 CTU Enhanced Auto Crawl COMPLETED!',\n  summary: {\n    total_qa_pairs: totalPairs,\n    levels_crawled: data.level - 1,\n    urls_crawled: data.crawled_urls.length,\n    intent_breakdown: intentSummary,\n    start_time: data.start_time,\n    completion_time: new Date().toISOString()\n  },\n  success: true\n};\n\nconsole.log('🎉 CTU Enhanced Auto Crawl COMPLETED!');\nconsole.log(`📊 Total Q&A pairs: ${totalPairs}`);\nconsole.log(`🕷️ URLs crawled: ${data.crawled_urls.length}`);\nconsole.log(`📁 Intent breakdown:`, intentSummary);\nconsole.log('😴 You can now rest! The system did everything automatically!');\n\nreturn [{\n  json: finalSummary\n}];"
+      },
+      "id": "final_summary",
+      "name": "Final Summary",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1340, 400]
+    }
+  ],
+  "connections": {
+    "Manual Trigger": {
+      "main": [
+        [
+          {
+            "node": "Initialize Enhanced",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Initialize Enhanced": {
+      "main": [
+        [
+          {
+            "node": "Level Loop",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Level Loop": {
+      "main": [
+        [
+          {
+            "node": "Check Continue",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Check Continue": {
+      "main": [
+        [
+          {
+            "node": "Continue?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Continue?": {
+      "main": [
+        [
+          {
+            "node": "HTTP Crawl",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Final Summary",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Crawl": {
+      "main": [
+        [
+          {
+            "node": "Clean HTML",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Clean HTML": {
+      "main": [
+        [
+          {
+            "node": "OpenAI Extract",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI Extract": {
+      "main": [
+        [
+          {
+            "node": "Process Results",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Process Results": {
+      "main": [
+        [
+          {
+            "node": "Organize by Intent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Organize by Intent": {
+      "main": [
+        [
+          {
+            "node": "Prepare Intent Saves",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Prepare Intent Saves": {
+      "main": [
+        [
+          {
+            "node": "Save by Intent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Save by Intent": {
+      "main": [
+        [
+          {
+            "node": "Next Level",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Next Level": {
+      "main": [
+        [
+          {
+            "node": "Level Loop",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "pinData": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "tags": [
+    {
+      "createdAt": "2024-12-19T12:00:00.000Z",
+      "updatedAt": "2024-12-19T12:00:00.000Z",
+      "id": "ctu-enhanced-crawl",
+      "name": "CTU Enhanced Auto Crawl"
+    }
+  ],
+  "triggerCount": 0,
+  "updatedAt": "2024-12-19T12:00:00.000Z",
+  "versionId": "2"
+} 

@@ -5,7 +5,7 @@
     "description": "Dataset câu hỏi-trả lời tư vấn tuyển sinh Đại học Cần Thơ từ crawled data với 12 intent categories",
     "created_date": "2025-01-27",
     "source": "Extracted from crawled markdown files",
-    "total_pairs": 147,
+    "total_pairs": 98,
     "total_intents": 12,
     "intent_list": [
       "nganh_hoc",
@@ -23,8 +23,8 @@
     ]
   },
   "intents": {
-    "nganh_hoc": 69,
-    "xet_tuyen": 78,
+    "nganh_hoc": 30,
+    "xet_tuyen": 68,
     "hoc_phi": 0,
     "lien_he": 0,
     "sinh_vien": 0,
@@ -3180,962 +3180,410 @@
       "source": "https_tuyensinh.ctu.edu.vn_gioi-thieu-nganh_910-ky-thuat-xay-dung-clc.html.md"
     },
     {
-      "id": "qa_001",
-      "question": "Em muốn biết cách đăng ký xét tuyển vào Đại học Cần Thơ như thế nào?",
-      "answer": "Mỗi thí sinh có thể đăng ký xét tuyển vào Trường bằng nhiều phương thức khác nhau. Mỗi phương thức cần nộp 01 bộ hồ sơ riêng và không có sự ràng buộc nào giữa các nguyện vọng. Nếu thí sinh trúng tuyển và xác nhận nhập học trước khi phương thức 2 công bố kết quả, thì không được xét tuyển theo phương thức 2 nữa.",
-      "intent": "xet_tuyen",
-      "original_category": "hoi_phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_874-dang-ky-xet-tuyen-vao-dai-hoc-can-tho.html.md",
-      "source_level": "unknown",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_004",
-      "question": "Trường có những tổ hợp xét tuyển nào cho năm 2025?",
-      "answer": "Trường Đại học Cần Thơ sẽ công bố các tổ hợp xét tuyển cụ thể cho năm 2025. Bạn có thể xem thông tin chi tiết tại trang phương thức xét tuyển của trường.",
-      "intent": "xet_tuyen",
-      "original_category": "hoi_phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https_tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/943-phuong-thuc-xet-tuyen.html",
-      "source_level": "unknown",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_005",
-      "question": "Em có thể đăng ký xét tuyển vào nhiều ngành khác nhau không?",
-      "answer": "Có, bạn có thể đăng ký xét tuyển vào nhiều ngành khác nhau tại Đại học Cần Thơ. Tuy nhiên, mỗi ngành sẽ yêu cầu nộp một bộ hồ sơ riêng và không có sự ràng buộc giữa các nguyện vọng.",
-      "intent": "xet_tuyen",
-      "original_category": "hoi_phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https_tuyensinh.ctu.edu.vn/cau-hoi-pho-bien/874-dang-ky-xet-tuyen-vao-dai-hoc-can-tho.html",
-      "source_level": "unknown",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_006",
-      "question": "Nếu em trúng tuyển theo phương thức 1 thì có được xét tuyển theo phương thức 2 không?",
-      "answer": "Nếu bạn trúng tuyển và xác nhận nhập học theo phương thức 1 trước khi phương thức 2 công bố kết quả, bạn sẽ không được xét tuyển theo phương thức 2 nữa. Ngược lại, nếu không trúng tuyển hoặc chưa xác nhận nhập học, bạn vẫn có thể xét tuyển ở phương thức 2.",
-      "intent": "xet_tuyen",
-      "original_category": "hoi_phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https_tuyensinh.ctu.edu.vn/cau-hoi-pho-bien/874-dang-ky-xet-tuyen-vao-dai-hoc-can-tho.html",
-      "source_level": "unknown",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_008",
-      "question": "Có những phương thức xét tuyển nào cho năm 2025?",
-      "answer": "Trường Đại học Cần Thơ có nhiều phương thức và tổ hợp xét tuyển nhằm tăng cơ hội cho thí sinh. Bạn có thể tìm hiểu thêm chi tiết về các phương thức xét tuyển trên trang web của trường.",
-      "intent": "xet_tuyen",
-      "original_category": "hoi_phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/943-phuong-thuc-xet-tuyen.html",
-      "source_level": "unknown",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_015",
-      "question": "Đại học Cần Thơ có những phương thức xét tuyển nào cho năm 2025?",
-      "answer": "Đại học Cần Thơ áp dụng nhiều phương thức xét tuyển cho năm 2025, bao gồm xét tuyển dựa trên kết quả thi tốt nghiệp THPT, xét học bạ và các phương thức khác. Chi tiết có thể tham khảo trên trang thông tin tuyển sinh.",
-      "intent": "xet_tuyen",
-      "original_category": "hoi_phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/177-thong-tin/943-phuong-thuc-xet-tuyen.html",
-      "source_level": "unknown",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_019",
-      "question": "Tổ hợp xét tuyển cho ngành Công nghệ sinh học là gì?",
-      "answer": "Tổ hợp xét tuyển cho ngành Công nghệ sinh học (Mã ngành: 7420201T) bao gồm các mã tổ hợp: A01, B08, D07, TH7.",
-      "intent": "xet_tuyen",
-      "original_category": "hoi_phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/177-thong-tin/841-danh-muc-nganh-va-chi-tieu-tuyen-sinh-dhcq.html",
-      "source_level": "unknown",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_024",
-      "question": "Phương thức xét tuyển của Đại học Cần Thơ năm 2025 là gì?",
-      "answer": "Đại học Cần Thơ sẽ áp dụng nhiều phương thức xét tuyển cho năm 2025, bao gồm xét tuyển dựa trên kết quả thi tốt nghiệp THPT và các phương thức khác. Thông tin chi tiết về từng phương thức sẽ được công bố trên trang thông tin tuyển sinh của trường.",
-      "intent": "xet_tuyen",
-      "original_category": "hoi_phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/177-thong-tin/943-phuong-thuc-xet-tuyen.html",
-      "source_level": "unknown",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_031",
-      "question": "Đại học Cần Thơ có những phương thức xét tuyển nào cho năm 2025?",
-      "answer": "Đại học Cần Thơ dự kiến sẽ áp dụng nhiều phương thức xét tuyển cho năm 2025, bao gồm xét tuyển dựa trên kết quả thi tốt nghiệp THPT và các phương thức khác. Chi tiết sẽ được công bố trong thông tin tuyển sinh.",
-      "intent": "xet_tuyen",
-      "original_category": "hoi_phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/177-thong-tin/943-phuong-thuc-xet-tuyen.html",
-      "source_level": "unknown",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_038",
-      "question": "Phương thức xét tuyển đại học chính quy năm 2025 là gì?",
-      "answer": "Phương thức xét tuyển đại học chính quy năm 2025 sẽ được công bố trên trang web của Trường Đại học Cần Thơ. Bạn có thể theo dõi để biết thêm chi tiết.",
-      "intent": "xet_tuyen",
-      "original_category": "hoi_phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https_tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/177-thong-tin/943-phuong-thuc-xet-tuyen.html",
-      "source_level": "unknown",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_040",
-      "question": "Đại học Cần Thơ có những phương thức xét tuyển nào cho năm 2025?",
-      "answer": "Đại học Cần Thơ có 6 phương thức xét tuyển cho năm 2025, bao gồm: 1) Tuyển thẳng, ưu tiên xét tuyển; 2) Xét tuyển điểm Kỳ thi tốt nghiệp THPT năm 2025; 3) Xét điểm học bạ THPT; 4) Xét điểm thi V-SAT; 5) Tuyển chọn vào chương trình tiên tiến và chất lượng cao; 6) Xét tuyển thẳng vào học bổ sung kiến thức.",
-      "intent": "xet_tuyen",
-      "original_category": "hoi_phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https_tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra_177-thong-tin_943-phuong-thuc-xet-tuyen.html.md",
-      "source_level": "unknown",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_041",
-      "question": "Tôi có thể đăng ký nhiều phương thức xét tuyển không?",
-      "answer": "Có, thí sinh có thể đăng ký nhiều phương thức xét tuyển khác nhau tại Đại học Cần Thơ.",
-      "intent": "xet_tuyen",
-      "original_category": "hoi_phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https_tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra_177-thong-tin_943-phuong-thuc-xet-tuyen.html.md",
-      "source_level": "unknown",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_049",
-      "question": "Đại học Cần Thơ có những phương thức xét tuyển nào cho năm 2025?",
-      "answer": "Đại học Cần Thơ áp dụng nhiều phương thức xét tuyển cho năm 2025. Bạn có thể tham khảo chi tiết về các phương thức này trên trang web của trường.",
-      "intent": "xet_tuyen",
-      "original_category": "hoi_phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https_tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/943-phuong-thuc-xet-tuyen.html",
-      "source_level": "unknown",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_056",
-      "question": "Ngành Tài chính - Ngân hàng có những phương thức xét tuyển nào?",
-      "answer": "Ngành Tài chính - Ngân hàng có ba phương thức xét tuyển: 1) Tuyển thẳng, ưu tiên xét tuyển; 2) Xét điểm Kỳ thi tốt nghiệp THPT; 3) Xét điểm học bạ THPT.",
-      "intent": "xet_tuyen",
-      "original_category": "hoi_phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https_tuyensinh.ctu.edu.vn_gioi-thieu-nganh_908-tai-chinh-ngan-hang-clc.html.md",
-      "source_level": "unknown",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_057",
-      "question": "Tổ hợp xét tuyển cho ngành Tài chính - Ngân hàng là gì?",
-      "answer": "Tổ hợp xét tuyển cho ngành Tài chính - Ngân hàng bao gồm: A01 (Toán, Lý, Tiếng Anh), D01 (Văn, Toán, Tiếng Anh), D07 (Toán, Hóa, Tiếng Anh), và TH2 (Toán, Tiếng Anh, Tin học).",
-      "intent": "xet_tuyen",
-      "original_category": "hoi_phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https_tuyensinh.ctu.edu.vn_gioi-thieu-nganh_908-tai-chinh-ngan-hang-clc.html.md",
-      "source_level": "unknown",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_063",
-      "question": "Ngành Kỹ thuật xây dựng có những phương thức xét tuyển nào?",
-      "answer": "Ngành Kỹ thuật xây dựng có ba phương thức xét tuyển: 1) Tuyển thẳng, ưu tiên xét tuyển; 2) Xét điểm Kỳ thi tốt nghiệp THPT; 3) Xét điểm học bạ THPT.",
-      "intent": "xet_tuyen",
-      "original_category": "hoi_phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/910-ky-thuat-xay-dung-clc.html",
-      "source_level": "unknown",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_064",
-      "question": "Tổ hợp xét tuyển cho ngành Kỹ thuật xây dựng là gì?",
-      "answer": "Tổ hợp xét tuyển cho ngành Kỹ thuật xây dựng bao gồm: A01 (Toán, Lý, Tiếng Anh), D01 (Văn, Toán, Tiếng Anh), D07 (Toán, Hóa, Tiếng Anh), và V02 (Toán, Tiếng Anh, Vẽ Mỹ thuật).",
-      "intent": "xet_tuyen",
-      "original_category": "hoi_phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/910-ky-thuat-xay-dung-clc.html",
-      "source_level": "unknown",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_071",
-      "question": "Đại học Cần Thơ có những tổ hợp xét tuyển nào cho chương trình đào tạo từ xa?",
-      "answer": "Đại học Cần Thơ áp dụng nhiều tổ hợp xét tuyển khác nhau cho các ngành học. Bạn có thể tham khảo thông tin chi tiết về các tổ hợp xét tuyển trên trang web của trường.",
-      "intent": "xet_tuyen",
-      "original_category": "hoi_phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https://ctc.ctu.edu.vn/tuyen-sinh/tuyen-sinh-he-tu-xa.html",
-      "source_level": "Level 4",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_077",
-      "question": "Tổ hợp xét tuyển cho chương trình vừa làm vừa học là gì?",
-      "answer": "Tổ hợp xét tuyển cho chương trình vừa làm vừa học có thể khác nhau tùy theo từng ngành học. Bạn nên tham khảo thông tin chi tiết trên trang web của Đại học Cần Thơ để biết thêm chi tiết.",
-      "intent": "xet_tuyen",
-      "original_category": "hoi_phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https://ctc.ctu.edu.vn/tuyen-sinh/tuyen-sinh-he-vua-lam-vua-hoc.html",
-      "source_level": "Level 4",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_082",
-      "question": "Trường có những phương thức xét tuyển nào cho năm 2025?",
-      "answer": "Trường Đại học Cần Thơ có nhiều phương thức xét tuyển nhằm tăng cơ hội cho thí sinh, tuy nhiên chi tiết cụ thể về các phương thức này có thể được tìm hiểu thêm tại trang thông tin tuyển sinh của trường.",
-      "intent": "xet_tuyen",
-      "original_category": "hoi_phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https://tuyensinh.ctu.edu.vn/cau-hoi-pho-bien/875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.html",
-      "source_level": "Level 4",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_085",
-      "question": "Tôi có thể tìm hiểu về tổ hợp xét tuyển cho các ngành không?",
-      "answer": "Có, bạn có thể tìm hiểu về tổ hợp xét tuyển cho các ngành tại trang thông tin tuyển sinh của Trường Đại học Cần Thơ.",
-      "intent": "xet_tuyen",
-      "original_category": "hoi_phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https://tuyensinh.ctu.edu.vn/cau-hoi-pho-bien/875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.html",
-      "source_level": "Level 4",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_089",
-      "question": "Tổ hợp xét tuyển cho chương trình chất lượng cao là gì?",
-      "answer": "Tổ hợp xét tuyển cho chương trình chất lượng cao có thể khác nhau tùy theo từng ngành học. Bạn nên kiểm tra thông tin cụ thể trên trang web tuyển sinh của Đại học Cần Thơ để biết rõ hơn.",
-      "intent": "xet_tuyen",
-      "original_category": "hoi_phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https://tuyensinh.ctu.edu.vn/cau-hoi-pho-bien/877-chuong-trinh-chat-luong-cao-khac-voi-chuong-trinh-dai-tra.html",
-      "source_level": "Level 4",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_094",
-      "question": "Tổ hợp xét tuyển cho chương trình chất lượng cao là gì?",
-      "answer": "Tổ hợp xét tuyển cho chương trình chất lượng cao thường bao gồm các môn học liên quan đến ngành học mà bạn đăng ký. Thông tin chi tiết về tổ hợp xét tuyển sẽ được công bố trong thông tin tuyển sinh hàng năm.",
-      "intent": "xet_tuyen",
-      "original_category": "hoi_phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/177-thong-tin/943-phuong-thuc-xet-tuyen.html",
-      "source_level": "Level 4",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_106",
-      "question": "Tổ hợp xét tuyển cho ngành Công nghệ sinh học là gì?",
-      "answer": "Tổ hợp xét tuyển cho ngành Công nghệ sinh học bao gồm A01, B08, D07, và TH7.",
-      "intent": "xet_tuyen",
-      "original_category": "hoi_phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/177-thong-tin/841-danh-muc-nganh-va-chi-tieu-tuyen-sinh-dhcq.html",
-      "source_level": "Level 4",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_113",
-      "question": "Đại học Cần Thơ có những phương thức xét tuyển nào cho năm 2025?",
-      "answer": "Đại học Cần Thơ có 5 phương thức xét tuyển cho năm 2025: 1) Tuyển thẳng, ưu tiên xét tuyển; 2) Xét tuyển điểm Kỳ thi tốt nghiệp THPT năm 2025; 3) Xét điểm học bạ THPT; 4) Xét điểm thi V-SAT; 5) Tuyển sinh theo phương thức khác.",
-      "intent": "xet_tuyen",
-      "original_category": "hoi_phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_943-phuong-thuc-xet-tuyen.html",
-      "source_level": "Level 4",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_114",
-      "question": "Mình có thể đăng ký bao nhiêu phương thức xét tuyển?",
-      "answer": "Thí sinh có thể đăng ký nhiều phương thức xét tuyển khác nhau tại Đại học Cần Thơ.",
-      "intent": "xet_tuyen",
-      "original_category": "hoi_phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https_tuyensinh.ctu.edu.vn/chương-trình-dai-tra/177-thông-tin/943-phương-thức-xét-tuyển.html",
-      "source_level": "Level 4",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_115",
-      "question": "Phương thức xét tuyển nào là tuyển thẳng?",
-      "answer": "Phương thức 1 là tuyển thẳng, ưu tiên xét tuyển. Thí sinh có thể xem chi tiết về phương thức này trên trang web của trường.",
-      "intent": "xet_tuyen",
-      "original_category": "hoi_phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https_tuyensinh.ctu.edu.vn/chương-trình-dai-tra/177-thông-tin/943-phương-thức-xét-tuyển.html",
-      "source_level": "Level 4",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_116",
-      "question": "Có thông tin gì về xét tuyển điểm học bạ không?",
-      "answer": "Phương thức 3 là xét điểm học bạ THPT. Thí sinh có thể tìm hiểu thêm chi tiết về phương thức này trên trang web của trường.",
-      "intent": "xet_tuyen",
-      "original_category": "hoi_phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https_tuyensinh.ctu.edu.vn/chương-trình-dai-tra/177-thông-tin/943-phương-thức-xét-tuyển.html",
-      "source_level": "Level 4",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_119",
-      "question": "Đại học Cần Thơ có những phương thức xét tuyển nào cho năm 2025?",
-      "answer": "Đại học Cần Thơ có 5 phương thức xét tuyển cho năm 2025: 1) Tuyển thẳng, ưu tiên xét tuyển; 2) Xét tuyển điểm Kỳ thi tốt nghiệp THPT năm 2025; 3) Xét điểm học bạ THPT; 4) Xét điểm thi V-SAT; 5) Tuyển chọn vào chương trình tiên tiến.",
-      "intent": "xet_tuyen",
-      "original_category": "hoi_phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_943-phuong-thuc-xet-tuyen.html",
-      "source_level": "Level 4",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_120",
-      "question": "Mình có thể đăng ký bao nhiêu phương thức xét tuyển?",
-      "answer": "Thí sinh có thể đăng ký nhiều phương thức xét tuyển khác nhau tại Đại học Cần Thơ cho năm 2025.",
-      "intent": "xet_tuyen",
-      "original_category": "hoi_phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_943-phuong-thuc-xet-tuyen.html",
-      "source_level": "Level 4",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_121",
-      "question": "Phương thức xét tuyển nào là tuyển thẳng?",
-      "answer": "Phương thức 1 là tuyển thẳng, ưu tiên xét tuyển. Thí sinh có thể xem chi tiết về phương thức này trên trang web của trường.",
-      "intent": "xet_tuyen",
-      "original_category": "hoi_phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_943-phuong-thuc-xet-tuyen.html",
-      "source_level": "Level 4",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_122",
-      "question": "Có thông tin gì về xét tuyển điểm Kỳ thi tốt nghiệp THPT không?",
-      "answer": "Phương thức 2 là xét tuyển dựa trên điểm Kỳ thi tốt nghiệp THPT năm 2025. Thí sinh có thể tìm hiểu thêm chi tiết trên trang web của trường.",
-      "intent": "xet_tuyen",
-      "original_category": "hoi_phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_943-phuong-thuc-xet-tuyen.html",
-      "source_level": "Level 4",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_123",
-      "question": "Xét tuyển học bạ THPT có điều kiện gì không?",
-      "answer": "Phương thức 3 là xét tuyển dựa trên điểm học bạ THPT. Thí sinh cần đáp ứng các yêu cầu cụ thể mà trường đưa ra, có thể tham khảo thêm trên trang web.",
-      "intent": "xet_tuyen",
-      "original_category": "hoi_phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_943-phuong-thuc-xet-tuyen.html",
-      "source_level": "Level 4",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_124",
-      "question": "Thi V-SAT là gì và có được xét tuyển không?",
-      "answer": "Phương thức 4 là xét điểm thi V-SAT. Đây là một trong những phương thức xét tuyển của Đại học Cần Thơ cho năm 2025.",
-      "intent": "xet_tuyen",
-      "original_category": "hoi_phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_943-phuong-thuc-xet-tuyen.html",
-      "source_level": "Level 4",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_125",
-      "question": "Chương trình tiên tiến có xét tuyển như thế nào?",
-      "answer": "Phương thức 5 là tuyển chọn vào chương trình tiên tiến. Thí sinh cần tìm hiểu thêm về điều kiện và quy trình xét tuyển cho chương trình này.",
-      "intent": "xet_tuyen",
-      "original_category": "hoi_phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_943-phuong-thuc-xet-tuyen.html",
-      "source_level": "Level 4",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_129",
-      "question": "Đại học Cần Thơ xét tuyển theo những tổ hợp nào?",
-      "answer": "Đại học Cần Thơ xét tuyển theo nhiều tổ hợp môn khác nhau, tùy thuộc vào từng ngành học. Bạn có thể tìm hiểu chi tiết về các tổ hợp xét tuyển cho từng ngành trên trang thông tin tuyển sinh của trường.",
-      "intent": "xet_tuyen",
-      "original_category": "hoi_phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https_tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/943-phuong-thuc-xet-tuyen.html",
-      "source_level": "Level 4",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_135",
-      "question": "Tổ hợp xét tuyển cho chương trình chất lượng cao là gì?",
-      "answer": "Tổ hợp xét tuyển cho chương trình chất lượng cao tại Đại học Cần Thơ thường bao gồm các môn học liên quan đến ngành học mà sinh viên đăng ký. Thông tin chi tiết về tổ hợp xét tuyển sẽ được công bố trên trang web tuyển sinh của trường.",
-      "intent": "xet_tuyen",
-      "original_category": "hoi_phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/chuong-trinh-chat-luong-cao.html",
-      "source_level": "Level 4",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_139",
-      "question": "Trường có những phương thức xét tuyển nào cho năm 2025?",
-      "answer": "Đại học Cần Thơ áp dụng nhiều phương thức xét tuyển khác nhau cho năm 2025. Bạn có thể tìm hiểu chi tiết về các phương thức này trên trang thông tin tuyển sinh của trường.",
-      "intent": "xet_tuyen",
-      "original_category": "hoi_phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https_tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/943-phuong-thuc-xet-tuyen.html",
-      "source_level": "Level 4",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_145",
-      "question": "Ngành Kỹ thuật xây dựng có những phương thức xét tuyển nào?",
-      "answer": "Ngành Kỹ thuật xây dựng có các phương thức xét tuyển như sau: Tuyển thẳng, ưu tiên xét tuyển và xét điểm Kỳ thi tốt nghiệp THPT.",
-      "intent": "xet_tuyen",
-      "original_category": "hoi_phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https_tuyensinh.ctu.edu.vn_gioi-thieu-nganh_910-ky-thuat-xay-dung-clc.html",
-      "source_level": "Level 4",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_149",
-      "question": "Phương thức xét tuyển là gì?",
-      "answer": "Đại học Cần Thơ áp dụng nhiều phương thức xét tuyển, bao gồm xét tuyển dựa trên kết quả thi THPT quốc gia và xét tuyển học bạ.",
-      "intent": "xet_tuyen",
-      "original_category": "phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https://ctc.ctu.edu.vn/tuyen-sinh/tuyen-sinh-he-tu-xa.html",
-      "source_level": "Level 5",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_154",
-      "question": "Có bao nhiêu phương thức xét tuyển?",
-      "answer": "Đại học Cần Thơ hiện có 3 phương thức xét tuyển chính: xét tuyển theo kết quả thi THPT, xét tuyển học bạ, và xét tuyển thẳng.",
-      "intent": "xet_tuyen",
-      "original_category": "phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https://ctc.ctu.edu.vn/tuyen-sinh/tuyen-sinh-he-tu-xa.html",
-      "source_level": "Level 5",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_157",
-      "question": "Phương thức xét tuyển là gì?",
-      "answer": "Phương thức xét tuyển cho chương trình vừa làm vừa học tại Đại học Cần Thơ được quy định trong quy chế tuyển sinh.",
-      "intent": "xet_tuyen",
-      "original_category": "phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https://ctc.ctu.edu.vn/tuyen-sinh/tuyen-sinh-he-vua-lam-vua-hoc.html",
-      "source_level": "Level 5",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_161",
-      "question": "Có bao nhiêu phương thức xét tuyển?",
-      "answer": "Đại học Cần Thơ áp dụng nhiều phương thức xét tuyển khác nhau cho các chương trình đào tạo.",
-      "intent": "xet_tuyen",
-      "original_category": "phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https://ctc.ctu.edu.vn/tuyen-sinh/tuyen-sinh-he-vua-lam-vua-hoc.html",
-      "source_level": "Level 5",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_164",
-      "question": "Phương thức xét tuyển là gì?",
-      "answer": "Phương thức xét tuyển đại học chính quy năm 2025 bao gồm xét tuyển dựa trên kết quả thi tốt nghiệp THPT và xét tuyển học bạ.",
-      "intent": "xet_tuyen",
-      "original_category": "phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https://tuyensinh.ctu.edu.vn/cau-hoi-pho-bien/875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.html",
-      "source_level": "Level 5",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_169",
-      "question": "Có bao nhiêu phương thức xét tuyển?",
-      "answer": "Trường có hai phương thức xét tuyển chính: xét tuyển dựa trên kết quả thi tốt nghiệp THPT và xét tuyển học bạ.",
-      "intent": "xet_tuyen",
-      "original_category": "phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https://tuyensinh.ctu.edu.vn/cau-hoi-pho-bien/875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.html",
-      "source_level": "Level 5",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_173",
-      "question": "Phương thức xét tuyển là gì?",
-      "answer": "Phương thức xét tuyển của Đại học Cần Thơ bao gồm xét tuyển dựa trên kết quả thi tốt nghiệp THPT và xét tuyển học bạ.",
-      "intent": "xet_tuyen",
-      "original_category": "phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https://tuyensinh.ctu.edu.vn/cau-hoi-pho-bien/877-chuong-trinh-chat-luong-cao-khac-voi-chuong-trinh-dai-tra.html",
-      "source_level": "Level 5",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_178",
-      "question": "Có bao nhiêu phương thức xét tuyển?",
-      "answer": "Đại học Cần Thơ hiện có 2 phương thức xét tuyển chính: xét tuyển dựa trên kết quả thi tốt nghiệp THPT và xét tuyển học bạ.",
-      "intent": "xet_tuyen",
-      "original_category": "phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https://tuyensinh.ctu.edu.vn/cau-hoi-pho-bien/877-chuong-trinh-chat-luong-cao-khac-voi-chuong-trinh-dai-tra.html",
-      "source_level": "Level 5",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_189",
-      "question": "Tổ hợp xét tuyển cho chương trình chất lượng cao là gì?",
-      "answer": "Tổ hợp xét tuyển cho chương trình chất lượng cao bao gồm các môn học cụ thể mà thí sinh cần đạt yêu cầu để đủ điều kiện xét tuyển vào chương trình này.",
-      "intent": "xet_tuyen",
-      "original_category": "phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/177-thong-tin/943-phuong-thuc-xet-tuyen.html",
-      "source_level": "Level 5",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_191",
-      "question": "Phương thức xét tuyển là gì?",
-      "answer": "Phương thức xét tuyển là cách thức mà trường sử dụng để đánh giá và lựa chọn thí sinh vào học, có thể bao gồm xét điểm thi, phỏng vấn, hoặc các tiêu chí khác.",
-      "intent": "xet_tuyen",
-      "original_category": "phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/177-thong-tin/943-phuong-thuc-xet-tuyen.html",
-      "source_level": "Level 5",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_196",
-      "question": "Có bao nhiêu phương thức xét tuyển?",
-      "answer": "Trường có nhiều phương thức xét tuyển khác nhau, bao gồm xét điểm thi và phỏng vấn.",
-      "intent": "xet_tuyen",
-      "original_category": "phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/177-thong-tin/943-phuong-thuc-xet-tuyen.html",
-      "source_level": "Level 5",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_200",
-      "question": "Phương thức xét tuyển là gì?",
-      "answer": "Phương thức xét tuyển tại Đại học Cần Thơ bao gồm xét tuyển dựa trên kết quả thi tốt nghiệp THPT và xét tuyển học bạ.",
-      "intent": "xet_tuyen",
-      "original_category": "phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/chuong-trinh-chat-luong-cao.html",
-      "source_level": "Level 5",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_203",
-      "question": "Có bao nhiêu phương thức xét tuyển?",
-      "answer": "Đại học Cần Thơ hiện có 2 phương thức xét tuyển chính: xét tuyển theo điểm thi tốt nghiệp THPT và xét tuyển học bạ.",
-      "intent": "xet_tuyen",
-      "original_category": "phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/chuong-trinh-chat-luong-cao.html",
-      "source_level": "Level 5",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_207",
-      "question": "Phương thức xét tuyển là gì?",
-      "answer": "Phương thức xét tuyển sẽ được công bố trong thông tin tuyển sinh hàng năm.",
-      "intent": "xet_tuyen",
-      "original_category": "phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/thong-tin-tuyen-sinh.html",
-      "source_level": "Level 5",
-      "created_date": "2025-05-25"
-    },
-    {
-      "id": "qa_211",
-      "question": "Có bao nhiêu phương thức xét tuyển?",
-      "answer": "Sẽ có nhiều phương thức xét tuyển khác nhau, thông tin chi tiết sẽ được cập nhật trên trang thông tin tuyển sinh.",
-      "intent": "xet_tuyen",
-      "original_category": "phuong_thuc_xet_tuyen",
-      "confidence": 0.8,
-      "source_url": "https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/thong-tin-tuyen-sinh.html",
-      "source_level": "Level 5",
-      "created_date": "2025-05-25"
-    },
-    {
-      "question": "Đại học Cần Thơ có những phương thức xét tuyển nào?",
-      "answer": "Đại học Cần Thơ áp dụng nhiều phương thức xét tuyển, bao gồm xét tuyển dựa trên kết quả thi tốt nghiệp THPT, xét tuyển học bạ và xét tuyển thẳng.",
-      "category": "xet_tuyen",
+      "question": "Đại học Cần Thơ có những ngành học nào trong chương trình đào tạo từ xa?",
+      "answer": "Đại học Cần Thơ cung cấp nhiều ngành học trong chương trình đào tạo từ xa, bao gồm các ngành như Kinh tế, Quản trị kinh doanh, Công nghệ thông tin, và nhiều ngành khác.",
+      "category": "nganh_hoc",
       "confidence": 0.9,
-      "source": "https_daa.ctu.edu.vn_.md"
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-tu-xa.html.md"
     },
     {
-      "question": "Điều kiện để xét tuyển vào Đại học Cần Thơ là gì?",
-      "answer": "Điều kiện xét tuyển vào Đại học Cần Thơ bao gồm tốt nghiệp THPT, có điểm thi đạt yêu cầu theo từng ngành và đáp ứng các tiêu chí khác theo quy định của trường.",
-      "category": "xet_tuyen",
+      "question": "Mã ngành của ngành Kinh tế là gì?",
+      "answer": "Mã ngành của ngành Kinh tế tại Đại học Cần Thơ là 7310101.",
+      "category": "nganh_hoc",
       "confidence": 0.9,
-      "source": "https_daa.ctu.edu.vn_.md"
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-tu-xa.html.md"
     },
     {
-      "question": "Mã ngành và chỉ tiêu tuyển sinh của ngành Kinh tế là gì?",
-      "answer": "Mã ngành Kinh tế là 7310101 với chỉ tiêu tuyển sinh là 300 sinh viên.",
-      "category": "xet_tuyen",
+      "question": "Chỉ tiêu tuyển sinh cho ngành Công nghệ thông tin là bao nhiêu?",
+      "answer": "Chỉ tiêu tuyển sinh cho ngành Công nghệ thông tin là 300 sinh viên.",
+      "category": "nganh_hoc",
       "confidence": 0.9,
-      "source": "https_daa.ctu.edu.vn_.md"
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-tu-xa.html.md"
     },
     {
-      "question": "Học phí của Đại học Cần Thơ là bao nhiêu?",
-      "answer": "Học phí tại Đại học Cần Thơ dao động từ 1.200.000 VNĐ đến 1.500.000 VNĐ mỗi học kỳ tùy theo ngành học.",
-      "category": "xet_tuyen",
+      "question": "Học phí cho chương trình đào tạo từ xa là bao nhiêu?",
+      "answer": "Học phí cho chương trình đào tạo từ xa tại Đại học Cần Thơ dao động từ 5.000.000 VNĐ đến 7.000.000 VNĐ mỗi học kỳ, tùy theo ngành học.",
+      "category": "nganh_hoc",
       "confidence": 0.9,
-      "source": "https_daa.ctu.edu.vn_.md"
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-tu-xa.html.md"
     },
     {
-      "question": "Thủ tục đăng ký xét tuyển vào Đại học Cần Thơ như thế nào?",
-      "answer": "Thí sinh cần chuẩn bị hồ sơ đăng ký xét tuyển, bao gồm đơn đăng ký, bản sao bằng tốt nghiệp THPT và các giấy tờ liên quan khác, sau đó nộp trực tiếp hoặc qua đường bưu điện đến trường.",
-      "category": "xet_tuyen",
+      "question": "Có những chuyên đề nào trong chương trình đào tạo từ xa?",
+      "answer": "Chương trình đào tạo từ xa bao gồm các chuyên đề như Quản lý dự án, Phân tích dữ liệu, và Marketing trực tuyến.",
+      "category": "nganh_hoc",
       "confidence": 0.9,
-      "source": "https_daa.ctu.edu.vn_.md"
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-tu-xa.html.md"
     },
     {
-      "question": "Có xét tuyển thẳng cho những đối tượng nào không?",
-      "answer": "Đại học Cần Thơ có chính sách xét tuyển thẳng cho những học sinh đạt giải trong các kỳ thi học sinh giỏi quốc gia hoặc có thành tích xuất sắc trong các lĩnh vực khác.",
-      "category": "xet_tuyen",
+      "question": "Thời gian học cho chương trình đào tạo từ xa là bao lâu?",
+      "answer": "Thời gian học cho chương trình đào tạo từ xa thường kéo dài từ 3 đến 4 năm, tùy thuộc vào từng ngành học.",
+      "category": "nganh_hoc",
       "confidence": 0.9,
-      "source": "https_daa.ctu.edu.vn_.md"
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-tu-xa.html.md"
     },
     {
-      "question": "Thời gian nộp hồ sơ xét tuyển là khi nào?",
-      "answer": "Thời gian nộp hồ sơ xét tuyển thường diễn ra từ tháng 5 đến tháng 7 hàng năm, cụ thể sẽ được thông báo trên trang web của trường.",
-      "category": "xet_tuyen",
+      "question": "Có thể học ngành nào nếu tôi muốn làm việc trong lĩnh vực quản lý?",
+      "answer": "Nếu bạn muốn làm việc trong lĩnh vực quản lý, bạn có thể chọn ngành Quản trị kinh doanh hoặc Quản lý công nghiệp.",
+      "category": "nganh_hoc",
       "confidence": 0.9,
-      "source": "https_daa.ctu.edu.vn_.md"
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-tu-xa.html.md"
     },
     {
-      "question": "Có cần phỏng vấn trong quá trình xét tuyển không?",
-      "answer": "Một số ngành có thể yêu cầu phỏng vấn trong quá trình xét tuyển, đặc biệt là các ngành nghệ thuật hoặc sư phạm.",
-      "category": "xet_tuyen",
+      "question": "Đại học Cần Thơ có chương trình đào tạo nào cho người đã đi làm không?",
+      "answer": "Đại học Cần Thơ có chương trình đào tạo Vừa làm vừa học, phù hợp cho những người đã đi làm và muốn nâng cao trình độ.",
+      "category": "nganh_hoc",
       "confidence": 0.9,
-      "source": "https_daa.ctu.edu.vn_.md"
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-tu-xa.html.md"
     },
     {
-      "question": "Đại học Cần Thơ có xét tuyển dựa trên học bạ không?",
-      "answer": "Có, Đại học Cần Thơ nhận hồ sơ xét tuyển dựa trên học bạ THPT cho một số ngành nhất định.",
-      "category": "xet_tuyen",
+      "question": "Có cần phải tham gia thi đầu vào cho chương trình đào tạo từ xa không?",
+      "answer": "Có, sinh viên cần tham gia thi đầu vào để được xét tuyển vào chương trình đào tạo từ xa của Đại học Cần Thơ.",
+      "category": "nganh_hoc",
       "confidence": 0.9,
-      "source": "https_daa.ctu.edu.vn_.md"
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-tu-xa.html.md"
     },
     {
-      "question": "Điểm xét tuyển vào Đại học Cần Thơ có thay đổi hàng năm không?",
-      "answer": "Điểm xét tuyển vào Đại học Cần Thơ có thể thay đổi hàng năm tùy thuộc vào số lượng thí sinh và kết quả thi tốt nghiệp THPT.",
-      "category": "xet_tuyen",
+      "question": "Chương trình đào tạo từ xa có cấp bằng chính quy không?",
+      "answer": "Có, chương trình đào tạo từ xa của Đại học Cần Thơ cấp bằng chính quy cho sinh viên sau khi tốt nghiệp.",
+      "category": "nganh_hoc",
       "confidence": 0.9,
-      "source": "https_daa.ctu.edu.vn_.md"
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-tu-xa.html.md"
     },
     {
-      "question": "Đại học Cần Thơ có những phương thức xét tuyển nào?",
-      "answer": "Đại học Cần Thơ áp dụng nhiều phương thức xét tuyển như xét tuyển dựa vào kết quả thi tốt nghiệp THPT, xét tuyển học bạ, và xét tuyển thẳng.",
-      "category": "xet_tuyen",
+      "question": "Đại học Cần Thơ có những ngành học nào trong chương trình vừa làm vừa học?",
+      "answer": "Đại học Cần Thơ cung cấp nhiều ngành học trong chương trình vừa làm vừa học, bao gồm các ngành như Kinh tế, Quản trị kinh doanh, Công nghệ thông tin, và nhiều ngành khác.",
+      "category": "nganh_hoc",
       "confidence": 0.9,
-      "source": "https_inac.ctu.edu.vn_.md"
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-vua-lam-vua-hoc.html.md"
     },
     {
-      "question": "Điều kiện để xét tuyển vào Đại học Cần Thơ là gì?",
-      "answer": "Điều kiện xét tuyển vào Đại học Cần Thơ bao gồm tốt nghiệp THPT, có điểm thi đạt yêu cầu theo từng phương thức xét tuyển và đáp ứng các tiêu chí khác theo quy định của trường.",
-      "category": "xet_tuyen",
+      "question": "Mã ngành của ngành Kinh tế là gì?",
+      "answer": "Mã ngành của ngành Kinh tế tại Đại học Cần Thơ là 7310101.",
+      "category": "nganh_hoc",
       "confidence": 0.9,
-      "source": "https_inac.ctu.edu.vn_.md"
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-vua-lam-vua-hoc.html.md"
     },
     {
-      "question": "Thủ tục đăng ký xét tuyển vào Đại học Cần Thơ như thế nào?",
-      "answer": "Thí sinh cần chuẩn bị hồ sơ đăng ký xét tuyển, bao gồm đơn đăng ký, bản sao bằng tốt nghiệp THPT, và các giấy tờ liên quan khác. Hồ sơ cần được nộp đúng thời hạn theo quy định của trường.",
-      "category": "xet_tuyen",
+      "question": "Chỉ tiêu tuyển sinh cho ngành Công nghệ thông tin là bao nhiêu?",
+      "answer": "Chỉ tiêu tuyển sinh cho ngành Công nghệ thông tin tại Đại học Cần Thơ là 200 sinh viên.",
+      "category": "nganh_hoc",
       "confidence": 0.9,
-      "source": "https_inac.ctu.edu.vn_.md"
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-vua-lam-vua-hoc.html.md"
     },
     {
-      "question": "Đại học Cần Thơ có chỉ tiêu xét tuyển cho từng ngành không?",
-      "answer": "Có, Đại học Cần Thơ công bố chỉ tiêu xét tuyển cho từng ngành trong thông báo tuyển sinh hàng năm.",
-      "category": "xet_tuyen",
+      "question": "Học phí cho chương trình vừa làm vừa học là bao nhiêu?",
+      "answer": "Học phí cho chương trình vừa làm vừa học tại Đại học Cần Thơ dao động từ 5 triệu đến 7 triệu đồng mỗi học kỳ, tùy thuộc vào ngành học.",
+      "category": "nganh_hoc",
       "confidence": 0.9,
-      "source": "https_inac.ctu.edu.vn_.md"
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-vua-lam-vua-hoc.html.md"
     },
     {
-      "question": "Học phí của các ngành tại Đại học Cần Thơ là bao nhiêu?",
-      "answer": "Học phí tại Đại học Cần Thơ thay đổi theo từng ngành và từng năm học. Thí sinh nên tham khảo thông tin cụ thể trên trang web của trường.",
-      "category": "xet_tuyen",
+      "question": "Có những chương trình đào tạo nào cho sinh viên vừa làm vừa học?",
+      "answer": "Chương trình đào tạo cho sinh viên vừa làm vừa học bao gồm các chuyên ngành như Quản trị kinh doanh, Kế toán, và Công nghệ thông tin.",
+      "category": "nganh_hoc",
       "confidence": 0.9,
-      "source": "https_inac.ctu.edu.vn_.md"
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-vua-lam-vua-hoc.html.md"
     },
     {
-      "question": "Có thể đăng ký xét tuyển trực tuyến không?",
-      "answer": "Có, Đại học Cần Thơ cho phép thí sinh đăng ký xét tuyển trực tuyến thông qua hệ thống đăng ký của trường.",
-      "category": "xet_tuyen",
+      "question": "Thời gian học cho chương trình vừa làm vừa học là như thế nào?",
+      "answer": "Thời gian học cho chương trình vừa làm vừa học thường được tổ chức vào buổi tối và cuối tuần để phù hợp với lịch làm việc của sinh viên.",
+      "category": "nganh_hoc",
       "confidence": 0.9,
-      "source": "https_inac.ctu.edu.vn_.md"
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-vua-lam-vua-hoc.html.md"
     },
     {
-      "question": "Thời gian nộp hồ sơ xét tuyển là khi nào?",
-      "answer": "Thời gian nộp hồ sơ xét tuyển thường được công bố trong thông báo tuyển sinh hàng năm. Thí sinh cần chú ý theo dõi để không bỏ lỡ thời hạn.",
-      "category": "xet_tuyen",
+      "question": "Có cần điều kiện gì để đăng ký vào ngành Kinh tế không?",
+      "answer": "Để đăng ký vào ngành Kinh tế, thí sinh cần có bằng tốt nghiệp trung học phổ thông và đáp ứng các yêu cầu tuyển sinh của trường.",
+      "category": "nganh_hoc",
       "confidence": 0.9,
-      "source": "https_inac.ctu.edu.vn_.md"
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-vua-lam-vua-hoc.html.md"
     },
     {
-      "question": "Có cần phỏng vấn trong quá trình xét tuyển không?",
-      "answer": "Tùy vào từng ngành và phương thức xét tuyển, một số ngành có thể yêu cầu phỏng vấn. Thí sinh nên kiểm tra thông tin cụ thể trên trang web của trường.",
-      "category": "xet_tuyen",
+      "question": "Ngành nào có chỉ tiêu tuyển sinh cao nhất tại Đại học Cần Thơ?",
+      "answer": "Ngành Quản trị kinh doanh có chỉ tiêu tuyển sinh cao nhất, lên đến 300 sinh viên.",
+      "category": "nganh_hoc",
       "confidence": 0.9,
-      "source": "https_inac.ctu.edu.vn_.md"
-    },
-    {
-      "question": "Đại học Cần Thơ có xét tuyển thẳng không?",
-      "answer": "Có, Đại học Cần Thơ có chính sách xét tuyển thẳng cho những thí sinh đạt giải trong các kỳ thi học sinh giỏi quốc gia hoặc có thành tích xuất sắc trong học tập.",
-      "category": "xet_tuyen",
-      "confidence": 0.9,
-      "source": "https_inac.ctu.edu.vn_.md"
-    },
-    {
-      "question": "Mã ngành của các chương trình đào tạo tại Đại học Cần Thơ có ở đâu?",
-      "answer": "Mã ngành của các chương trình đào tạo được công bố trong thông báo tuyển sinh hàng năm và có thể tìm thấy trên trang web của trường.",
-      "category": "xet_tuyen",
-      "confidence": 0.9,
-      "source": "https_inac.ctu.edu.vn_.md"
-    },
-    {
-      "question": "Trường Đại học Cần Thơ có những phương thức xét tuyển nào cho năm 2025?",
-      "answer": "Trường Đại học Cần Thơ có 6 phương thức xét tuyển cho năm 2025: 1) Tuyển thẳng, ưu tiên xét tuyển; 2) Xét tuyển điểm Kỳ thi tốt nghiệp THPT; 3) Xét tuyển điểm học bạ THPT; 4) Xét điểm thi V-SAT; 5) Tuyển chọn vào chương trình tiên tiến và chất lượng cao; 6) Xét tuyển thẳng vào học bổ sung kiến thức.",
-      "category": "xet_tuyen",
-      "confidence": 0.9,
-      "source": "https_tuyensinh.ctu.edu.vn_.md"
-    },
-    {
-      "question": "Điều kiện để xét tuyển thẳng vào Đại học Cần Thơ là gì?",
-      "answer": "Điều kiện xét tuyển thẳng vào Đại học Cần Thơ thường bao gồm các tiêu chí như đạt giải trong các kỳ thi học sinh giỏi quốc gia hoặc có thành tích xuất sắc trong học tập. Chi tiết cụ thể có thể tham khảo tại trang thông tin tuyển sinh.",
-      "category": "xet_tuyen",
-      "confidence": 0.85,
-      "source": "https_tuyensinh.ctu.edu.vn_.md"
-    },
-    {
-      "question": "Tôi cần chuẩn bị gì để xét tuyển theo điểm học bạ THPT?",
-      "answer": "Để xét tuyển theo điểm học bạ THPT, bạn cần chuẩn bị bản sao học bạ THPT và các giấy tờ liên quan khác như chứng minh thư, ảnh thẻ. Điểm xét tuyển sẽ dựa trên kết quả học tập của bạn trong 3 năm học THPT.",
-      "category": "xet_tuyen",
-      "confidence": 0.9,
-      "source": "https_tuyensinh.ctu.edu.vn_.md"
-    },
-    {
-      "question": "Có thông tin gì về chỉ tiêu tuyển sinh năm 2025 không?",
-      "answer": "Dự kiến chỉ tiêu tuyển sinh năm 2025 của Đại học Cần Thơ sẽ được công bố trong thời gian tới. Bạn có thể theo dõi thông tin chi tiết trên trang web tuyển sinh của trường.",
-      "category": "xet_tuyen",
-      "confidence": 0.8,
-      "source": "https_tuyensinh.ctu.edu.vn_.md"
-    },
-    {
-      "question": "Học phí cho chương trình chất lượng cao tại Đại học Cần Thơ là bao nhiêu?",
-      "answer": "Học phí cho chương trình chất lượng cao tại Đại học Cần Thơ sẽ được công bố cụ thể trong thông báo tuyển sinh. Bạn nên kiểm tra thường xuyên trên trang web của trường để cập nhật thông tin mới nhất.",
-      "category": "xet_tuyen",
-      "confidence": 0.75,
-      "source": "https_tuyensinh.ctu.edu.vn_.md"
-    },
-    {
-      "question": "Kỳ thi V-SAT diễn ra khi nào và điều kiện tham gia là gì?",
-      "answer": "Kỳ thi V-SAT năm 2025 sẽ được tổ chức vào thời gian cụ thể được thông báo trên trang web tuyển sinh. Điều kiện tham gia thường yêu cầu thí sinh phải đăng ký và đáp ứng các tiêu chí nhất định.",
-      "category": "xet_tuyen",
-      "confidence": 0.8,
-      "source": "https_tuyensinh.ctu.edu.vn_.md"
-    },
-    {
-      "question": "Tôi có thể tìm hiểu thêm về chương trình tiên tiến ở đâu?",
-      "answer": "Bạn có thể tìm hiểu thêm về chương trình tiên tiến tại Đại học Cần Thơ qua trang thông tin tuyển sinh của trường, nơi có đầy đủ thông tin về chương trình và điều kiện xét tuyển.",
-      "category": "xet_tuyen",
-      "confidence": 0.85,
-      "source": "https_tuyensinh.ctu.edu.vn_.md"
-    },
-    {
-      "question": "Có cần phải nộp hồ sơ xét tuyển trực tiếp không?",
-      "answer": "Thông thường, bạn sẽ cần nộp hồ sơ xét tuyển trực tiếp hoặc qua đường bưu điện theo hướng dẫn cụ thể từ trường. Bạn nên kiểm tra thông tin chi tiết trên trang web tuyển sinh.",
-      "category": "xet_tuyen",
-      "confidence": 0.8,
-      "source": "https_tuyensinh.ctu.edu.vn_.md"
-    },
-    {
-      "question": "Trường Đại học Cần Thơ có những phương thức xét tuyển nào trong năm 2025?",
-      "answer": "Trường Đại học Cần Thơ có 6 phương thức xét tuyển trong năm 2025: 1) Tuyển thẳng, ưu tiên xét tuyển; 2) Xét tuyển điểm Kỳ thi tốt nghiệp THPT năm 2025; 3) Xét điểm học bạ THPT; 4) Xét điểm thi V-SAT; 5) Tuyển chọn vào chương trình tiên tiến và chất lượng cao; 6) Xét tuyển thẳng vào học bổ sung kiến thức.",
-      "category": "xet_tuyen",
-      "confidence": 0.9,
-      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_943-phuong-thuc-xet-tuyen.html.md"
-    },
-    {
-      "question": "Tôi có thể đăng ký xét tuyển vào Trường Đại học Cần Thơ bằng nhiều phương thức không?",
-      "answer": "Có, mỗi thí sinh được quyền đăng ký xét tuyển vào Trường bằng nhiều phương thức khác nhau, mỗi phương thức nộp 01 bộ hồ sơ riêng và không có sự ràng buộc nào giữa những nguyện vọng do thí sinh đăng ký trong các phương thức.",
-      "category": "xet_tuyen",
-      "confidence": 0.9,
-      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_943-phuong-thuc-xet-tuyen.html.md"
+      "source": "https_ctc.ctu.edu.vn_tuyen-sinh_tuyen-sinh-he-vua-lam-vua-hoc.html.md"
     },
     {
       "question": "Trường Đại học Cần Thơ tuyển sinh những ngành nào trong năm 2025?",
-      "answer": "Năm 2025, Trường Đại học Cần Thơ tuyển sinh 117 mã ngành, trong đó có 17 mã ngành đào tạo theo chương trình tiên tiến và chất lượng cao.",
-      "category": "xet_tuyen",
+      "answer": "Năm 2025, Trường ĐHCT tuyển sinh 117 mã ngành, trong đó có 17 mã ngành đào tạo theo chương trình tiên tiến và chất lượng cao.",
+      "category": "nganh_hoc",
       "confidence": 0.9,
-      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_943-phuong-thuc-xet-tuyen.html.md"
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.ht.md"
     },
     {
-      "question": "Điều kiện để đăng ký xét tuyển vào Trường Đại học Cần Thơ là gì?",
-      "answer": "Thí sinh cần thường xuyên cập nhật thông tin chi tiết và các hướng dẫn của Trường Đại học Cần Thơ về Đăng ký dự thi môn Năng khiếu, Điều kiện ĐKXT (Ngưỡng đảm bảo chất lượng đầu vào) và cách đăng ký xét tuyển của từng phương thức.",
-      "category": "xet_tuyen",
+      "question": "Có bao nhiêu mã ngành đào tạo theo chương trình chất lượng cao tại Trường ĐHCT?",
+      "answer": "Có 17 mã ngành đào tạo theo chương trình chất lượng cao tại Trường ĐHCT.",
+      "category": "nganh_hoc",
       "confidence": 0.9,
-      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_943-phuong-thuc-xet-tuyen.html.md"
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.ht.md"
     },
     {
-      "question": "Tôi có thể tìm thông tin chi tiết về tuyển sinh ở đâu?",
-      "answer": "Bạn có thể xem thông tin tuyển sinh chi tiết tại website của Trường Đại học Cần Thơ: https://tuyensinh.ctu.edu.vn.",
-      "category": "xet_tuyen",
+      "question": "Trường ĐHCT có những phương thức xét tuyển nào cho năm 2025?",
+      "answer": "Trường ĐHCT có nhiều phương thức và tổ hợp xét tuyển nhằm tăng cơ hội cho thí sinh.",
+      "category": "nganh_hoc",
       "confidence": 0.9,
-      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_943-phuong-thuc-xet-tuyen.html.md"
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.ht.md"
     },
     {
-      "question": "Có cần nộp hồ sơ riêng cho từng phương thức xét tuyển không?",
-      "answer": "Có, mỗi phương thức xét tuyển yêu cầu thí sinh nộp 01 bộ hồ sơ riêng.",
-      "category": "xet_tuyen",
+      "question": "Chương trình chất lượng cao tại Trường ĐHCT có gì khác so với chương trình đại trà?",
+      "answer": "Chương trình chất lượng cao có cấu trúc gần giống với chương trình đào tạo của nước ngoài, học bằng tiếng Anh và có cơ hội đi thực tập ở nước ngoài.",
+      "category": "nganh_hoc",
       "confidence": 0.9,
-      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_943-phuong-thuc-xet-tuyen.html.md"
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.ht.md"
+    },
+    {
+      "question": "Học phí cho các chương trình chất lượng cao tại Trường ĐHCT là bao nhiêu?",
+      "answer": "Thông tin về học phí cho các chương trình chất lượng cao chưa được đề cập trong nội dung, bạn có thể liên hệ trực tiếp với trường để biết thêm chi tiết.",
+      "category": "nganh_hoc",
+      "confidence": 0.7,
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.ht.md"
+    },
+    {
+      "question": "Làm thế nào để đăng ký xét tuyển vào Trường ĐHCT?",
+      "answer": "Mỗi thí sinh được quyền đăng ký xét tuyển vào Trường bằng nhiều phương thức khác nhau, mỗi phương thức nộp 01 bộ hồ sơ riêng và không có sự ràng buộc nào giữa những nguyện vọng do thí sinh đăng ký.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.ht.md"
+    },
+    {
+      "question": "Trường ĐHCT có chính sách học bổng nào cho thí sinh trúng tuyển không?",
+      "answer": "Có, Trường ĐHCT có nhiều chính sách học bổng cho thí sinh trúng tuyển, bạn có thể tìm hiểu thêm thông tin chi tiết trên trang web của trường.",
+      "category": "nganh_hoc",
+      "confidence": 0.8,
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.ht.md"
+    },
+    {
+      "question": "Có thể tìm hiểu danh mục ngành tuyển sinh ở đâu?",
+      "answer": "Bạn có thể tìm hiểu danh mục ngành tuyển sinh tại [đây](https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/841-danh-muc-nganh-va-chi-tieu-tuyen-sinh-dhcq.html).",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.ht.md"
+    },
+    {
+      "question": "Trường ĐHCT có chương trình đào tạo từ xa không?",
+      "answer": "Có, Trường ĐHCT có chương trình đào tạo từ xa, bạn có thể tìm hiểu thêm thông tin trên trang web của trường.",
+      "category": "nganh_hoc",
+      "confidence": 0.8,
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.ht.md"
+    },
+    {
+      "question": "Có thể liên hệ với ai để được tư vấn tuyển sinh tại Trường ĐHCT?",
+      "answer": "Bạn có thể liên hệ với Phòng Đào tạo - Trường Đại học Cần Thơ qua điện thoại 0292. 3872 728 hoặc email tuyensinh@ctu.edu.vn.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.ht.md"
+    },
+    {
+      "question": "Trường Đại học Cần Thơ tuyển sinh những ngành nào trong năm 2025?",
+      "answer": "Năm 2025, Trường ĐHCT tuyển sinh 117 mã ngành; trong đó có 17 mã ngành đào tạo theo chương trình tiên tiến và chất lượng cao.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.ht.md"
+    },
+    {
+      "question": "Có bao nhiêu phương thức xét tuyển vào Trường Đại học Cần Thơ?",
+      "answer": "Trường có nhiều phương thức xét tuyển nhằm tăng cơ hội cho thí sinh, bao gồm 4 phương thức: Điểm thi THPT, Học bạ, Năng khiếu, và Ưu tiên khu vực.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.ht.md"
+    },
+    {
+      "question": "Chương trình chất lượng cao của Trường Đại học Cần Thơ có gì khác so với chương trình đại trà?",
+      "answer": "Chương trình chất lượng cao có cấu trúc gần giống với chương trình đào tạo của nước ngoài, học bằng tiếng Anh và có cơ hội đi thực tập ở nước ngoài.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.ht.md"
     },
     {
       "question": "Đăng ký xét tuyển vào Trường Đại học Cần Thơ như thế nào?",
-      "answer": "Mỗi thí sinh được quyền đăng ký xét tuyển vào Trường bằng nhiều phương thức khác nhau, mỗi phương thức nộp 01 bộ hồ sơ riêng và không có sự ràng buộc nào giữa những nguyện vọng do thí sinh đăng ký trong các phương thức.",
-      "category": "xet_tuyen",
+      "answer": "Mỗi thí sinh được quyền đăng ký xét tuyển vào Trường bằng nhiều phương thức khác nhau, mỗi phương thức nộp 01 bộ hồ sơ riêng và không có sự ràng buộc nào giữa những nguyện vọng.",
+      "category": "nganh_hoc",
       "confidence": 0.9,
-      "source": "https_tuyensinh.ctu.edu.vn_dai-hoc-chinh-quy.html.md"
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.ht.md"
     },
     {
-      "question": "Trường Đại học Cần Thơ tuyển sinh những ngành nào trong năm 2025?",
-      "answer": "Năm 2025, Trường ĐHCT tuyển sinh 117 mã ngành; trong đó 17 mã ngành đào tạo theo chương trình tiên tiến và chất lượng cao.",
-      "category": "xet_tuyen",
-      "confidence": 0.9,
-      "source": "https_tuyensinh.ctu.edu.vn_dai-hoc-chinh-quy.html.md"
-    },
-    {
-      "question": "Có những phương thức xét tuyển nào tại Trường Đại học Cần Thơ?",
-      "answer": "Trường có nhiều phương thức và tổ hợp xét tuyển nhằm tăng cơ hội cho thí sinh, cụ thể có thể tham khảo thêm trên trang thông tin tuyển sinh.",
-      "category": "xet_tuyen",
-      "confidence": 0.9,
-      "source": "https_tuyensinh.ctu.edu.vn_dai-hoc-chinh-quy.html.md"
-    },
-    {
-      "question": "Chương trình chất lượng cao tại Trường Đại học Cần Thơ có gì khác biệt?",
-      "answer": "Cấu trúc chương trình đào tạo chất lượng cao gần giống với chương trình đào tạo của nước ngoài; học bằng tiếng Anh và có cơ hội đi thực tập ở nước ngoài.",
-      "category": "xet_tuyen",
-      "confidence": 0.9,
-      "source": "https_tuyensinh.ctu.edu.vn_dai-hoc-chinh-quy.html.md"
-    },
-    {
-      "question": "Điểm ưu tiên trong tuyển sinh được áp dụng như thế nào?",
-      "answer": "Thông tin về điểm ưu tiên trong tuyển sinh có thể được tìm thấy trên trang thông tin tuyển sinh của Trường Đại học Cần Thơ.",
-      "category": "xet_tuyen",
-      "confidence": 0.8,
-      "source": "https_tuyensinh.ctu.edu.vn_dai-hoc-chinh-quy.html.md"
-    },
-    {
-      "question": "Học phí cho chương trình chất lượng cao là bao nhiêu?",
-      "answer": "Thông tin chi tiết về học phí cho chương trình chất lượng cao chưa được đề cập trong nội dung, bạn có thể liên hệ với phòng Đào tạo để biết thêm.",
-      "category": "xet_tuyen",
+      "question": "Trường có chính sách học bổng nào cho thí sinh trúng tuyển không?",
+      "answer": "Trường có nhiều chính sách học bổng cho thí sinh trúng tuyển, tuy nhiên thông tin chi tiết về các học bổng này không được cung cấp trong nội dung.",
+      "category": "nganh_hoc",
       "confidence": 0.7,
-      "source": "https_tuyensinh.ctu.edu.vn_dai-hoc-chinh-quy.html.md"
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.ht.md"
     },
     {
-      "question": "Tôi có thể tìm hiểu thêm thông tin tuyển sinh ở đâu?",
-      "answer": "Bạn có thể tìm hiểu thêm thông tin tuyển sinh trên trang web chính thức của Trường Đại học Cần Thơ tại địa chỉ https://tuyensinh.ctu.edu.vn.",
-      "category": "xet_tuyen",
+      "question": "Ngành Công nghệ sinh học có thời gian học và học phí như thế nào?",
+      "answer": "Ngành Công nghệ sinh học (mã 7420201T) có thời gian học 4,5 năm, danh hiệu Cử nhân và học phí là 40 triệu đồng/năm.",
+      "category": "nganh_hoc",
       "confidence": 0.9,
-      "source": "https_tuyensinh.ctu.edu.vn_dai-hoc-chinh-quy.html.md"
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_841-danh-muc-nganh-va-chi-tieu-tuyen-s.md"
     },
     {
-      "question": "Có cần phải nộp hồ sơ cho từng phương thức xét tuyển không?",
-      "answer": "Có, mỗi phương thức xét tuyển yêu cầu nộp 01 bộ hồ sơ riêng.",
-      "category": "xet_tuyen",
+      "question": "Chỉ tiêu tuyển sinh của ngành Nuôi trồng thủy sản là bao nhiêu?",
+      "answer": "Ngành Nuôi trồng thủy sản (mã 7620301T) có chỉ tiêu tuyển sinh là 40.",
+      "category": "nganh_hoc",
       "confidence": 0.9,
-      "source": "https_tuyensinh.ctu.edu.vn_dai-hoc-chinh-quy.html.md"
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_841-danh-muc-nganh-va-chi-tieu-tuyen-s.md"
     },
     {
-      "question": "Liên hệ tư vấn tuyển sinh của Trường Đại học Cần Thơ là gì?",
-      "answer": "Bạn có thể liên hệ với Phòng Đào tạo qua điện thoại 0292. 3872 728 hoặc email tuyensinh@ctu.edu.vn.",
-      "category": "xet_tuyen",
+      "question": "Ngành Thú y có học phí và thời gian học như thế nào?",
+      "answer": "Ngành Thú y (mã 7640101C) có thời gian học 5 năm, danh hiệu Bác sĩ thú y và học phí là 40 triệu đồng/năm.",
+      "category": "nganh_hoc",
       "confidence": 0.9,
-      "source": "https_tuyensinh.ctu.edu.vn_dai-hoc-chinh-quy.html.md"
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_841-danh-muc-nganh-va-chi-tieu-tuyen-s.md"
     },
     {
-      "question": "Có thể đăng ký nhiều nguyện vọng trong cùng một phương thức không?",
-      "answer": "Không, mỗi phương thức chỉ cho phép đăng ký một bộ hồ sơ và không có sự ràng buộc giữa các nguyện vọng.",
-      "category": "xet_tuyen",
+      "question": "Có những ngành nào thuộc chương trình chất lượng cao và chỉ tiêu của chúng là bao nhiêu?",
+      "answer": "Các ngành thuộc chương trình chất lượng cao bao gồm: Công nghệ kỹ thuật hóa học (mã 7510401C, 40 chỉ tiêu), Công nghệ thực phẩm (mã 7540101C, 80 chỉ tiêu), Kỹ thuật xây dựng (mã 7580201C, 40 chỉ tiêu), Kỹ thuật điện (mã 7520201C, 40 chỉ tiêu), và Công nghệ thông tin (mã 7480201C, 80 chỉ tiêu).",
+      "category": "nganh_hoc",
       "confidence": 0.9,
-      "source": "https_tuyensinh.ctu.edu.vn_dai-hoc-chinh-quy.html.md"
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_841-danh-muc-nganh-va-chi-tieu-tuyen-s.md"
     },
     {
-      "question": "Trường Đại học Cần Thơ có những phương thức xét tuyển nào trong năm 2025?",
-      "answer": "Trường Đại học Cần Thơ có nhiều phương thức xét tuyển khác nhau, mỗi phương thức yêu cầu nộp 01 bộ hồ sơ riêng và không có sự ràng buộc giữa các nguyện vọng.",
-      "category": "xet_tuyen",
+      "question": "Học phí của ngành Kỹ thuật điều khiển và tự động hóa là bao nhiêu?",
+      "answer": "Ngành Kỹ thuật điều khiển và tự động hóa (mã 7520216C) có học phí là 37 triệu đồng/năm.",
+      "category": "nganh_hoc",
       "confidence": 0.9,
-      "source": "https_tuyensinh.ctu.edu.vn_dai-hoc-chinh-quy_thong-tin-tuyen-sinh.html.md"
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_841-danh-muc-nganh-va-chi-tieu-tuyen-s.md"
     },
     {
-      "question": "Tôi cần chuẩn bị những gì để đăng ký xét tuyển vào Trường Đại học Cần Thơ?",
-      "answer": "Bạn cần chuẩn bị hồ sơ xét tuyển theo từng phương thức mà bạn lựa chọn. Mỗi phương thức yêu cầu nộp 01 bộ hồ sơ riêng.",
-      "category": "xet_tuyen",
+      "question": "Ngành Quản trị kinh doanh có chỉ tiêu tuyển sinh là bao nhiêu?",
+      "answer": "Ngành Quản trị kinh doanh (mã 7340101C) có chỉ tiêu tuyển sinh là 80.",
+      "category": "nganh_hoc",
       "confidence": 0.9,
-      "source": "https_tuyensinh.ctu.edu.vn_dai-hoc-chinh-quy_thong-tin-tuyen-sinh.html.md"
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_841-danh-muc-nganh-va-chi-tieu-tuyen-s.md"
     },
     {
-      "question": "Trường Đại học Cần Thơ tuyển sinh những ngành nào trong năm 2025?",
-      "answer": "Năm 2025, Trường Đại học Cần Thơ tuyển sinh 117 mã ngành, trong đó có 17 mã ngành đào tạo theo chương trình tiên tiến và chất lượng cao.",
-      "category": "xet_tuyen",
+      "question": "Ngành Công nghệ sinh học có thời gian học và học phí như thế nào?",
+      "answer": "Ngành Công nghệ sinh học (mã 7420201T) có thời gian học 4,5 năm, danh hiệu Cử nhân và học phí là 40 triệu đồng/năm.",
+      "category": "nganh_hoc",
       "confidence": 0.9,
-      "source": "https_tuyensinh.ctu.edu.vn_dai-hoc-chinh-quy_thong-tin-tuyen-sinh.html.md"
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_841-danh-muc-nganh-va-chi-tieu-tuyen-sinh-dhcq.html.md"
     },
     {
-      "question": "Điều kiện để xét tuyển vào Trường Đại học Cần Thơ là gì?",
-      "answer": "Điều kiện xét tuyển sẽ phụ thuộc vào từng phương thức xét tuyển mà bạn chọn. Bạn cần tham khảo thông tin chi tiết trên trang web của trường.",
-      "category": "xet_tuyen",
+      "question": "Chỉ tiêu tuyển sinh của ngành Nuôi trồng thủy sản là bao nhiêu?",
+      "answer": "Ngành Nuôi trồng thủy sản (mã 7620301T) có chỉ tiêu tuyển sinh là 40.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_841-danh-muc-nganh-va-chi-tieu-tuyen-sinh-dhcq.html.md"
+    },
+    {
+      "question": "Ngành Thú y có học phí và thời gian học ra sao?",
+      "answer": "Ngành Thú y (mã 7640101C) có thời gian học 5 năm, danh hiệu Bác sĩ thú y và học phí là 40 triệu đồng/năm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_841-danh-muc-nganh-va-chi-tieu-tuyen-sinh-dhcq.html.md"
+    },
+    {
+      "question": "Ngành Công nghệ thực phẩm có chỉ tiêu tuyển sinh là bao nhiêu?",
+      "answer": "Ngành Công nghệ thực phẩm (mã 7540101C) có chỉ tiêu tuyển sinh là 80.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_841-danh-muc-nganh-va-chi-tieu-tuyen-sinh-dhcq.html.md"
+    },
+    {
+      "question": "Học phí của ngành Kỹ thuật điều khiển và tự động hóa là bao nhiêu?",
+      "answer": "Ngành Kỹ thuật điều khiển và tự động hóa (mã 7520216C) có học phí là 37 triệu đồng/năm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_841-danh-muc-nganh-va-chi-tieu-tuyen-sinh-dhcq.html.md"
+    },
+    {
+      "question": "Ngành Công nghệ thông tin có chỉ tiêu tuyển sinh là bao nhiêu?",
+      "answer": "Ngành Công nghệ thông tin (mã 7480201C) có chỉ tiêu tuyển sinh là 80.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_841-danh-muc-nganh-va-chi-tieu-tuyen-sinh-dhcq.html.md"
+    },
+    {
+      "question": "Thời gian học của ngành Kỹ thuật xây dựng là bao lâu?",
+      "answer": "Ngành Kỹ thuật xây dựng (mã 7580201C) có thời gian học là 4,5 năm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_841-danh-muc-nganh-va-chi-tieu-tuyen-sinh-dhcq.html.md"
+    },
+    {
+      "question": "Ngành Quản trị kinh doanh có học phí và chỉ tiêu tuyển sinh như thế nào?",
+      "answer": "Ngành Quản trị kinh doanh (mã 7340101C) có học phí là 40 triệu đồng/năm và chỉ tiêu tuyển sinh là 80.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_841-danh-muc-nganh-va-chi-tieu-tuyen-sinh-dhcq.html.md"
+    },
+    {
+      "question": "Ngành Bảo vệ thực vật có thời gian đào tạo bao lâu?",
+      "answer": "Ngành Bảo vệ thực vật có thời gian đào tạo là 4,5 năm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_gioi-thieu-nganh_470-bao-ve-thuc-vat.html.md"
+    },
+    {
+      "question": "Mã ngành tuyển sinh của ngành Bảo vệ thực vật là gì?",
+      "answer": "Mã ngành tuyển sinh của ngành Bảo vệ thực vật là 7620112.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_gioi-thieu-nganh_470-bao-ve-thuc-vat.html.md"
+    },
+    {
+      "question": "Ngành Bảo vệ thực vật có những phương thức xét tuyển nào?",
+      "answer": "Ngành Bảo vệ thực vật có 4 phương thức xét tuyển: Tuyển thẳng, Xét điểm Kỳ thi tốt nghiệp THPT, Xét điểm học bạ THPT, và Xét điểm thi V-SAT.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_gioi-thieu-nganh_470-bao-ve-thuc-vat.html.md"
+    },
+    {
+      "question": "Tổ hợp xét tuyển cho ngành Bảo vệ thực vật là gì?",
+      "answer": "Tổ hợp xét tuyển cho ngành Bảo vệ thực vật gồm: Toán, Hóa, Sinh (B00); Toán, Sinh, Tiếng Anh (B08); Toán, Hóa, Tiếng Anh (D07); Toán, Lý, Hóa (A00).",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_gioi-thieu-nganh_470-bao-ve-thuc-vat.html.md"
+    },
+    {
+      "question": "Sau khi tốt nghiệp ngành Bảo vệ thực vật, sinh viên có thể làm việc ở đâu?",
+      "answer": "Sinh viên tốt nghiệp ngành Bảo vệ thực vật có thể làm việc tại các công ty, tập đoàn sản xuất và kinh doanh nông nghiệp, cơ quan quản lý nông nghiệp, viện nghiên cứu, trường trung cấp, cao đẳng và đại học thuộc lĩnh vực nông nghiệp.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_gioi-thieu-nganh_470-bao-ve-thuc-vat.html.md"
+    },
+    {
+      "question": "Ngành Bảo vệ thực vật cấp bằng gì cho sinh viên?",
+      "answer": "Ngành Bảo vệ thực vật cấp bằng Kỹ sư cho sinh viên sau khi tốt nghiệp.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_gioi-thieu-nganh_470-bao-ve-thuc-vat.html.md"
+    },
+    {
+      "question": "Trường Đại học Cần Thơ có những ngành học nào?",
+      "answer": "Trường có các ngành: Công nghệ thông tin (mã 7480201, 300 chỉ tiêu), Kinh tế (mã 7310101, 200 chỉ tiêu), Quản trị kinh doanh (mã 7340101, 250 chỉ tiêu).",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_www.ctu.edu.vn_dao-tao_ctdt-dai-hoc.html.md"
+    },
+    {
+      "question": "Học phí của các ngành học tại Đại học Cần Thơ là bao nhiêu?",
+      "answer": "Học phí năm 2025: Ngành Công nghệ thông tin 15 triệu/năm, Ngành Kinh tế 12 triệu/năm, Ngành Y khoa 25 triệu/năm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_www.ctu.edu.vn_dao-tao_ctdt-dai-hoc.html.md"
+    },
+    {
+      "question": "Trường có bao nhiêu phương thức xét tuyển?",
+      "answer": "Trường có 4 phương thức xét tuyển: Điểm thi THPT (70%), Học bạ (20%), Năng khiếu (5%), Ưu tiên khu vực (5%).",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_www.ctu.edu.vn_dao-tao_ctdt-dai-hoc.html.md"
+    },
+    {
+      "question": "Thời gian đào tạo cho các ngành học tại Đại học Cần Thơ là bao lâu?",
+      "answer": "Thời gian đào tạo cho các ngành đại học là 4 năm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_www.ctu.edu.vn_dao-tao_ctdt-dai-hoc.html.md"
+    },
+    {
+      "question": "Có ngành nào đào tạo sau đại học không?",
+      "answer": "Trường có chương trình đào tạo sau đại học với nhiều chuyên ngành khác nhau, bạn có thể tham khảo thêm thông tin chi tiết trên trang web.",
+      "category": "nganh_hoc",
       "confidence": 0.8,
-      "source": "https_tuyensinh.ctu.edu.vn_dai-hoc-chinh-quy_thong-tin-tuyen-sinh.html.md"
-    },
-    {
-      "question": "Học phí cho chương trình chất lượng cao tại Trường Đại học Cần Thơ là bao nhiêu?",
-      "answer": "Thông tin về học phí cho chương trình chất lượng cao chưa được cung cấp cụ thể trong tài liệu. Bạn có thể liên hệ với trường để biết thêm chi tiết.",
-      "category": "xet_tuyen",
-      "confidence": 0.7,
-      "source": "https_tuyensinh.ctu.edu.vn_dai-hoc-chinh-quy_thong-tin-tuyen-sinh.html.md"
-    },
-    {
-      "question": "Có bao nhiêu chỉ tiêu tuyển sinh cho từng ngành tại Trường Đại học Cần Thơ?",
-      "answer": "Chỉ tiêu tuyển sinh cho từng ngành sẽ được công bố cụ thể trong thông tin tuyển sinh năm 2025. Bạn có thể xem chi tiết trên trang web của trường.",
-      "category": "xet_tuyen",
-      "confidence": 0.8,
-      "source": "https_tuyensinh.ctu.edu.vn_dai-hoc-chinh-quy_thong-tin-tuyen-sinh.html.md"
-    },
-    {
-      "question": "Tôi có thể đăng ký xét tuyển vào nhiều ngành khác nhau không?",
-      "answer": "Có, bạn có thể đăng ký xét tuyển vào nhiều ngành khác nhau, nhưng mỗi ngành sẽ yêu cầu nộp 01 bộ hồ sơ riêng.",
-      "category": "xet_tuyen",
-      "confidence": 0.9,
-      "source": "https_tuyensinh.ctu.edu.vn_dai-hoc-chinh-quy_thong-tin-tuyen-sinh.html.md"
-    },
-    {
-      "question": "Chương trình chất lượng cao có gì khác so với chương trình đại trà?",
-      "answer": "Chương trình chất lượng cao có cấu trúc gần giống với chương trình đào tạo của nước ngoài, học bằng tiếng Anh và có cơ hội thực tập ở nước ngoài.",
-      "category": "xet_tuyen",
-      "confidence": 0.9,
-      "source": "https_tuyensinh.ctu.edu.vn_dai-hoc-chinh-quy_thong-tin-tuyen-sinh.html.md"
+      "source": "https_www.ctu.edu.vn_dao-tao_ctdt-dai-hoc.html.md"
     },
     {
       "question": "Trường Đại học Cần Thơ có những phương thức xét tuyển nào cho năm 2025?",
@@ -4152,8 +3600,8 @@
       "source": "https_tuyensinh.ctu.edu.vn_.md"
     },
     {
-      "question": "Tôi cần chuẩn bị gì để xét tuyển bằng học bạ THPT?",
-      "answer": "Để xét tuyển bằng học bạ THPT, bạn cần chuẩn bị bản sao học bạ THPT, giấy chứng nhận tốt nghiệp tạm thời hoặc bản sao bằng tốt nghiệp THPT, và các giấy tờ liên quan khác theo yêu cầu của trường.",
+      "question": "Tôi cần chuẩn bị gì để xét tuyển bằng điểm học bạ?",
+      "answer": "Để xét tuyển bằng điểm học bạ, bạn cần chuẩn bị bảng điểm học bạ THPT của mình, bao gồm các môn học liên quan đến ngành bạn đăng ký. Ngoài ra, cần có hồ sơ đăng ký xét tuyển theo quy định của trường.",
       "category": "xet_tuyen",
       "confidence": 0.9,
       "source": "https_tuyensinh.ctu.edu.vn_.md"
@@ -4167,31 +3615,80 @@
     },
     {
       "question": "Học phí cho chương trình chất lượng cao là bao nhiêu?",
-      "answer": "Học phí cho chương trình chất lượng cao tại Đại học Cần Thơ thường cao hơn so với chương trình đại trà. Để biết chính xác mức học phí, bạn nên tham khảo thông tin trên trang web chính thức của trường.",
+      "answer": "Học phí cho chương trình chất lượng cao tại Đại học Cần Thơ sẽ được thông báo cụ thể trong thông tin tuyển sinh. Bạn nên kiểm tra thường xuyên trên trang web của trường để cập nhật thông tin mới nhất.",
       "category": "xet_tuyen",
       "confidence": 0.75,
       "source": "https_tuyensinh.ctu.edu.vn_.md"
     },
     {
       "question": "Kỳ thi V-SAT diễn ra khi nào?",
-      "answer": "Lịch tổ chức kỳ thi V-SAT năm 2025 sẽ được thông báo trên trang thông tin tuyển sinh của Đại học Cần Thơ. Bạn nên thường xuyên kiểm tra để cập nhật thông tin mới nhất.",
+      "answer": "Lịch tổ chức kỳ thi V-SAT năm 2025 sẽ được công bố trên trang thông tin tuyển sinh của Đại học Cần Thơ. Bạn nên theo dõi để biết thời gian cụ thể.",
+      "category": "xet_tuyen",
+      "confidence": 0.8,
+      "source": "https_tuyensinh.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Tôi có thể đăng ký xét tuyển vào chương trình tiên tiến không?",
+      "answer": "Có, bạn có thể đăng ký xét tuyển vào chương trình tiên tiến và chất lượng cao tại Đại học Cần Thơ. Tuy nhiên, bạn cần đáp ứng các yêu cầu và điều kiện cụ thể của chương trình.",
       "category": "xet_tuyen",
       "confidence": 0.85,
       "source": "https_tuyensinh.ctu.edu.vn_.md"
     },
     {
-      "question": "Tôi có thể xét tuyển vào chương trình tiên tiến như thế nào?",
-      "answer": "Để xét tuyển vào chương trình tiên tiến, bạn cần đáp ứng các yêu cầu về điểm số và hồ sơ theo quy định của trường. Thông tin chi tiết có thể tìm thấy trên trang web tuyển sinh.",
+      "question": "Có cần phải nộp hồ sơ gì khi xét tuyển thẳng không?",
+      "answer": "Có, khi xét tuyển thẳng, bạn cần nộp hồ sơ đăng ký xét tuyển cùng với các giấy tờ chứng minh thành tích học tập hoặc giải thưởng theo yêu cầu của trường.",
       "category": "xet_tuyen",
       "confidence": 0.9,
       "source": "https_tuyensinh.ctu.edu.vn_.md"
     },
     {
-      "question": "Có cần phải tham gia kỳ thi để xét tuyển vào chương trình chất lượng cao không?",
-      "answer": "Có, để xét tuyển vào chương trình chất lượng cao, bạn thường phải tham gia một kỳ thi hoặc phỏng vấn theo yêu cầu của trường. Chi tiết sẽ được thông báo trên trang tuyển sinh.",
+      "question": "Điểm ưu tiên trong tuyển sinh được áp dụng như thế nào?",
+      "answer": "Điểm ưu tiên trong tuyển sinh được áp dụng cho các thí sinh thuộc diện ưu tiên theo quy định của Bộ Giáo dục và Đào tạo. Cụ thể về cách tính điểm ưu tiên sẽ được công bố trong thông tin tuyển sinh của trường.",
       "category": "xet_tuyen",
       "confidence": 0.8,
       "source": "https_tuyensinh.ctu.edu.vn_.md"
+    },
+    {
+      "question": "Tôi có thể đăng ký xét tuyển vào Trường Đại học Cần Thơ bằng những phương thức nào?",
+      "answer": "Mỗi thí sinh có quyền đăng ký xét tuyển vào Trường bằng nhiều phương thức khác nhau, mỗi phương thức nộp 01 bộ hồ sơ riêng và không có sự ràng buộc nào giữa các nguyện vọng.",
+      "category": "xet_tuyen",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_874-dang-ky-xet-tuyen-vao-dai-hoc-can-tho.html.md"
+    },
+    {
+      "question": "Nếu tôi trúng tuyển theo một phương thức, tôi có thể xét tuyển theo phương thức khác không?",
+      "answer": "Nếu bạn trúng tuyển và xác nhận nhập học trước khi phương thức 2 công bố kết quả thì bạn không được xét tuyển theo phương thức 2 nữa. Ngược lại, nếu không trúng tuyển hoặc chưa xác nhận nhập học, bạn vẫn có thể xét tuyển ở phương thức 2.",
+      "category": "xet_tuyen",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_874-dang-ky-xet-tuyen-vao-dai-hoc-can-tho.html.md"
+    },
+    {
+      "question": "Điểm trúng tuyển của các đợt xét tuyển có giống nhau không?",
+      "answer": "Nếu một phương thức có nhiều đợt xét tuyển thì điểm trúng tuyển của đợt sau không được thấp hơn điểm trúng tuyển của đợt xét tuyển trước.",
+      "category": "xet_tuyen",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_874-dang-ky-xet-tuyen-vao-dai-hoc-can-tho.html.md"
+    },
+    {
+      "question": "Trường Đại học Cần Thơ tuyển sinh những ngành nào trong năm 2025?",
+      "answer": "Năm 2025, Trường ĐHCT tuyển sinh 117 mã ngành, trong đó có 17 mã ngành đào tạo theo chương trình tiên tiến và chất lượng cao.",
+      "category": "xet_tuyen",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.html"
+    },
+    {
+      "question": "Tôi có thể tìm hiểu thêm về các phương thức xét tuyển ở đâu?",
+      "answer": "Bạn có thể xem các phương thức xét tuyển tại trang web của Trường Đại học Cần Thơ theo liên kết: https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/943-phuong-thuc-xet-tuyen.html.",
+      "category": "xet_tuyen",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_874-dang-ky-xet-tuyen-vao-dai-hoc-can-tho.html.md"
+    },
+    {
+      "question": "Có hướng dẫn nào cho việc đăng ký xét tuyển vào Trường Đại học Cần Thơ không?",
+      "answer": "Có, bạn có thể xem hướng dẫn đăng ký xét tuyển vào trường trên hệ thống hỗ trợ tuyển sinh của Bộ Giáo dục và Đào tạo tại đây: https://tuyensinh.ctu.edu.vn/images/upload/TT_TS/2024/tailieuhuongdanhethongxettuyenchung.pdf.",
+      "category": "xet_tuyen",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_874-dang-ky-xet-tuyen-vao-dai-hoc-can-tho.html.md"
     },
     {
       "question": "Trường Đại học Cần Thơ tuyển sinh những ngành nào trong năm 2025?",
@@ -4201,66 +3698,66 @@
       "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_877-chuong-trinh-chat-luong-cao-khac-voi-chuong-tr.md"
     },
     {
-      "question": "Có những phương thức xét tuyển nào cho thí sinh vào Trường Đại học Cần Thơ?",
-      "answer": "Mỗi thí sinh có thể đăng ký xét tuyển vào Trường bằng nhiều phương thức khác nhau, mỗi phương thức nộp 01 bộ hồ sơ riêng và không có sự ràng buộc nào giữa các nguyện vọng.",
+      "question": "Có những phương thức xét tuyển nào cho thí sinh vào Trường ĐHCT?",
+      "answer": "Mỗi thí sinh được quyền đăng ký xét tuyển vào Trường bằng nhiều phương thức khác nhau, mỗi phương thức nộp 01 bộ hồ sơ riêng và không có sự ràng buộc nào giữa những nguyện vọng do thí sinh đăng ký trong các phương thức.",
       "category": "xet_tuyen",
       "confidence": 0.9,
       "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_877-chuong-trinh-chat-luong-cao-khac-voi-chuong-tr.md"
     },
     {
-      "question": "Học phí cho chương trình chất lượng cao tại Trường Đại học Cần Thơ là bao nhiêu?",
+      "question": "Học phí cho chương trình chất lượng cao tại Trường ĐHCT là bao nhiêu?",
       "answer": "Thông tin về học phí cho chương trình chất lượng cao chưa được cung cấp trong tài liệu. Bạn có thể liên hệ với phòng Đào tạo để biết thêm chi tiết.",
       "category": "xet_tuyen",
       "confidence": 0.8,
       "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_877-chuong-trinh-chat-luong-cao-khac-voi-chuong-tr.md"
     },
     {
-      "question": "Điều kiện để đăng ký xét tuyển vào Trường Đại học Cần Thơ là gì?",
-      "answer": "Điều kiện cụ thể để đăng ký xét tuyển vào Trường Đại học Cần Thơ không được nêu rõ trong tài liệu. Bạn nên tham khảo thêm thông tin trên trang web chính thức của trường.",
+      "question": "Điều kiện để đăng ký xét tuyển vào Trường ĐHCT là gì?",
+      "answer": "Điều kiện cụ thể để đăng ký xét tuyển vào Trường ĐHCT không được nêu rõ trong tài liệu. Bạn nên tham khảo thêm thông tin trên trang web chính thức của trường.",
       "category": "xet_tuyen",
       "confidence": 0.7,
       "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_877-chuong-trinh-chat-luong-cao-khac-voi-chuong-tr.md"
     },
     {
       "question": "Chương trình chất lượng cao có gì khác so với chương trình đại trà?",
-      "answer": "Chương trình chất lượng cao có cấu trúc gần giống với chương trình đào tạo của nước ngoài, học bằng tiếng Anh và có cơ hội đi thực tập ở nước ngoài, từ đó tạo cơ hội việc làm cao hơn.",
+      "answer": "Cấu trúc chương trình đào tạo chất lượng cao gần giống với chương trình đào tạo của nước ngoài; học bằng tiếng Anh và có cơ hội đi thực tập ở nước ngoài, giúp tăng cơ hội việc làm trong môi trường có yếu tố nước ngoài.",
       "category": "xet_tuyen",
       "confidence": 0.9,
       "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_877-chuong-trinh-chat-luong-cao-khac-voi-chuong-tr.md"
     },
     {
-      "question": "Tôi có thể đăng ký xét tuyển vào Trường Đại học Cần Thơ qua những kênh nào?",
-      "answer": "Bạn có thể đăng ký xét tuyển qua trang web chính thức của Trường Đại học Cần Thơ hoặc liên hệ với phòng Đào tạo qua điện thoại hoặc email để được hướng dẫn.",
-      "category": "xet_tuyen",
-      "confidence": 0.8,
-      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_877-chuong-trinh-chat-luong-cao-khac-voi-chuong-tr.md"
-    },
-    {
-      "question": "Có chính sách học bổng nào cho thí sinh trúng tuyển không?",
-      "answer": "Có, Trường Đại học Cần Thơ có nhiều chính sách học bổng cho thí sinh trúng tuyển. Bạn có thể tìm hiểu thêm thông tin chi tiết trên trang web của trường.",
-      "category": "xet_tuyen",
-      "confidence": 0.8,
-      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_877-chuong-trinh-chat-luong-cao-khac-voi-chuong-tr.md"
-    },
-    {
-      "question": "Thủ tục đăng ký xét tuyển vào Trường Đại học Cần Thơ như thế nào?",
-      "answer": "Thí sinh cần chuẩn bị hồ sơ theo yêu cầu của từng phương thức xét tuyển và nộp hồ sơ đúng thời hạn quy định. Chi tiết có thể tham khảo trên trang web của trường.",
-      "category": "xet_tuyen",
-      "confidence": 0.8,
-      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_877-chuong-trinh-chat-luong-cao-khac-voi-chuong-tr.md"
-    },
-    {
-      "question": "Tôi có thể tìm hiểu thêm thông tin tuyển sinh ở đâu?",
-      "answer": "Bạn có thể tìm hiểu thêm thông tin tuyển sinh trên trang web chính thức của Trường Đại học Cần Thơ tại mục thông tin tuyển sinh.",
+      "question": "Làm thế nào để đăng ký xét tuyển vào Trường ĐHCT?",
+      "answer": "Thí sinh cần chuẩn bị hồ sơ và nộp theo từng phương thức xét tuyển mà mình lựa chọn. Mỗi phương thức yêu cầu nộp 01 bộ hồ sơ riêng.",
       "category": "xet_tuyen",
       "confidence": 0.9,
-      "source": "https_tuyensinh.ctu.edu.vn/cau-hoi-pho-bien/874-dang-ky-xet-tuyen-vao-dai-hoc-can-tho.html"
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_877-chuong-trinh-chat-luong-cao-khac-voi-chuong-tr.md"
     },
     {
-      "question": "Có thể liên hệ với ai để được tư vấn về tuyển sinh?",
-      "answer": "Bạn có thể liên hệ với Phòng Đào tạo của Trường Đại học Cần Thơ qua điện thoại 0292. 3872 728 hoặc email tuyensinh@ctu.edu.vn để được tư vấn.",
+      "question": "Trường ĐHCT có chính sách học bổng nào cho thí sinh trúng tuyển không?",
+      "answer": "Có, Trường ĐHCT có nhiều chính sách học bổng dành cho thí sinh trúng tuyển, nhưng thông tin chi tiết về các chính sách này cần được tham khảo thêm từ trang web của trường.",
+      "category": "xet_tuyen",
+      "confidence": 0.8,
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_877-chuong-trinh-chat-luong-cao-khac-voi-chuong-tr.md"
+    },
+    {
+      "question": "Có thể đăng ký nhiều nguyện vọng trong cùng một phương thức xét tuyển không?",
+      "answer": "Có, thí sinh có thể đăng ký nhiều nguyện vọng trong cùng một phương thức xét tuyển mà không bị ràng buộc.",
       "category": "xet_tuyen",
       "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_877-chuong-trinh-chat-luong-cao-khac-voi-chuong-tr.md"
+    },
+    {
+      "question": "Thời gian xét tuyển vào Trường ĐHCT là khi nào?",
+      "answer": "Thông tin về thời gian xét tuyển không được nêu rõ trong tài liệu. Bạn nên kiểm tra trên trang web chính thức của trường để biết thông tin cập nhật.",
+      "category": "xet_tuyen",
+      "confidence": 0.7,
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_877-chuong-trinh-chat-luong-cao-khac-voi-chuong-tr.md"
+    },
+    {
+      "question": "Có cần phải thi đầu vào để vào chương trình chất lượng cao không?",
+      "answer": "Thông tin về việc thi đầu vào cho chương trình chất lượng cao không được đề cập trong tài liệu. Bạn nên liên hệ với trường để biết thêm chi tiết.",
+      "category": "xet_tuyen",
+      "confidence": 0.7,
       "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_877-chuong-trinh-chat-luong-cao-khac-voi-chuong-tr.md"
     },
     {
@@ -4279,16 +3776,16 @@
     },
     {
       "question": "Học phí cho chương trình chất lượng cao tại Trường Đại học Cần Thơ là bao nhiêu?",
-      "answer": "Thông tin về học phí cho chương trình chất lượng cao chưa được đề cập cụ thể trong tài liệu. Bạn có thể liên hệ với phòng Đào tạo để biết thêm chi tiết.",
+      "answer": "Thông tin về học phí cho chương trình chất lượng cao chưa được cung cấp trong tài liệu. Bạn có thể liên hệ với phòng Đào tạo để biết thêm chi tiết.",
       "category": "xet_tuyen",
-      "confidence": 0.8,
+      "confidence": 0.7,
       "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_877-chuong-trinh-chat-luong-cao-khac-voi-chuong-trinh-da.md"
     },
     {
       "question": "Điều kiện để đăng ký xét tuyển vào Trường Đại học Cần Thơ là gì?",
-      "answer": "Điều kiện cụ thể để đăng ký xét tuyển vào Trường Đại học Cần Thơ không được nêu rõ trong tài liệu. Bạn nên tham khảo thêm thông tin trên trang web chính thức của trường.",
+      "answer": "Điều kiện cụ thể để đăng ký xét tuyển không được nêu rõ trong tài liệu. Bạn nên tham khảo thêm thông tin trên trang web chính thức của trường.",
       "category": "xet_tuyen",
-      "confidence": 0.7,
+      "confidence": 0.6,
       "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_877-chuong-trinh-chat-luong-cao-khac-voi-chuong-trinh-da.md"
     },
     {
@@ -4299,39 +3796,39 @@
       "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_877-chuong-trinh-chat-luong-cao-khac-voi-chuong-trinh-da.md"
     },
     {
-      "question": "Làm thế nào để đăng ký xét tuyển vào Trường Đại học Cần Thơ?",
-      "answer": "Thí sinh cần nộp hồ sơ đăng ký xét tuyển theo từng phương thức mà mình lựa chọn. Mỗi phương thức yêu cầu nộp 01 bộ hồ sơ riêng.",
+      "question": "Thí sinh có thể đăng ký bao nhiêu nguyện vọng khi xét tuyển vào Trường Đại học Cần Thơ?",
+      "answer": "Thí sinh có thể đăng ký nhiều nguyện vọng khác nhau mà không bị ràng buộc giữa các phương thức xét tuyển.",
       "category": "xet_tuyen",
       "confidence": 0.9,
       "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_877-chuong-trinh-chat-luong-cao-khac-voi-chuong-trinh-da.md"
     },
     {
       "question": "Có những chính sách học bổng nào cho thí sinh trúng tuyển vào Trường Đại học Cần Thơ?",
-      "answer": "Thông tin về các chính sách học bổng cho thí sinh trúng tuyển chưa được đề cập cụ thể trong tài liệu. Bạn có thể tìm hiểu thêm trên trang web của trường.",
+      "answer": "Thông tin về các chính sách học bổng cho thí sinh trúng tuyển chưa được nêu rõ trong tài liệu. Bạn có thể tìm hiểu thêm trên trang web của trường.",
       "category": "xet_tuyen",
       "confidence": 0.7,
       "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_877-chuong-trinh-chat-luong-cao-khac-voi-chuong-trinh-da.md"
     },
     {
-      "question": "Thời gian xét tuyển vào Trường Đại học Cần Thơ là khi nào?",
-      "answer": "Thời gian xét tuyển cụ thể không được nêu rõ trong tài liệu. Bạn nên kiểm tra thông tin trên trang web tuyển sinh của trường để cập nhật thời gian chính xác.",
+      "question": "Thủ tục đăng ký xét tuyển vào Trường Đại học Cần Thơ như thế nào?",
+      "answer": "Thí sinh cần chuẩn bị hồ sơ đăng ký xét tuyển theo từng phương thức và nộp đúng hạn quy định. Chi tiết về thủ tục có thể tham khảo trên trang web của trường.",
       "category": "xet_tuyen",
-      "confidence": 0.6,
+      "confidence": 0.8,
       "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_877-chuong-trinh-chat-luong-cao-khac-voi-chuong-trinh-da.md"
     },
     {
-      "question": "Có thể đăng ký nhiều nguyện vọng vào Trường Đại học Cần Thơ không?",
-      "answer": "Có, thí sinh có thể đăng ký nhiều nguyện vọng vào Trường Đại học Cần Thơ mà không bị ràng buộc giữa các nguyện vọng.",
+      "question": "Trường Đại học Cần Thơ có tổ chức thi tuyển hay chỉ xét tuyển?",
+      "answer": "Trường Đại học Cần Thơ chủ yếu áp dụng phương thức xét tuyển, không tổ chức thi tuyển.",
       "category": "xet_tuyen",
       "confidence": 0.9,
-      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_877-chuong-trinh-chat-luong-cao-khac-voi-chuong-trinh-da.md"
+      "source": "https_tuyensinh.ctu.edu.vn/cau-hoi-pho-bien/874-dang-ky-xet-tuyen-vao-dai-hoc-can-tho.html"
     },
     {
-      "question": "Trường Đại học Cần Thơ có hỗ trợ gì cho sinh viên quốc tế không?",
-      "answer": "Thông tin về hỗ trợ cho sinh viên quốc tế không được đề cập trong tài liệu. Bạn nên liên hệ với phòng Đào tạo để biết thêm chi tiết.",
+      "question": "Thời gian nộp hồ sơ xét tuyển vào Trường Đại học Cần Thơ là khi nào?",
+      "answer": "Thời gian nộp hồ sơ xét tuyển sẽ được thông báo cụ thể trên trang web của trường. Bạn nên thường xuyên kiểm tra để không bỏ lỡ thông tin.",
       "category": "xet_tuyen",
-      "confidence": 0.6,
-      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_877-chuong-trinh-chat-luong-cao-khac-voi-chuong-trinh-da.md"
+      "confidence": 0.8,
+      "source": "https_tuyensinh.ctu.edu.vn/cau-hoi-pho-bien/874-dang-ky-xet-tuyen-vao-dai-hoc-can-tho.html"
     },
     {
       "question": "Trường Đại học Cần Thơ tuyển sinh những ngành nào trong năm 2025?",
@@ -4349,231 +3846,315 @@
     },
     {
       "question": "Thủ tục đăng ký xét tuyển vào Trường ĐHCT như thế nào?",
-      "answer": "Mỗi thí sinh cần nộp 01 bộ hồ sơ riêng cho từng phương thức xét tuyển mà mình lựa chọn.",
+      "answer": "Mỗi thí sinh cần nộp hồ sơ đăng ký xét tuyển theo từng phương thức mà mình chọn. Chi tiết về thủ tục có thể tham khảo trên trang web của trường.",
       "category": "xet_tuyen",
       "confidence": 0.9,
-      "source": "https_tuyensinh.ctu.edu.vn/cau-hoi-pho-bien/874-dang-ky-xet-tuyen-vao-dai-hoc-can-tho.html"
-    },
-    {
-      "question": "Điều kiện để được xét tuyển vào chương trình chất lượng cao là gì?",
-      "answer": "Chương trình chất lượng cao có cấu trúc gần giống với chương trình đào tạo của nước ngoài và học bằng tiếng Anh, tạo cơ hội việc làm cao hơn.",
-      "category": "xet_tuyen",
-      "confidence": 0.9,
-      "source": "https_tuyensinh.ctu.edu.vn/cau-hoi-pho-bien/877-chuong-trinh-chat-luong-cao-khac-voi-chuong-trinh-dai-tra.html"
-    },
-    {
-      "question": "Học phí cho chương trình đại trà và chất lượng cao có khác nhau không?",
-      "answer": "Học phí cho chương trình chất lượng cao thường cao hơn so với chương trình đại trà, nhưng thông tin cụ thể về học phí cần được xác nhận từ trường.",
-      "category": "xet_tuyen",
-      "confidence": 0.8,
       "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_879-co-nhung-chinh-sach-hoc-bong-nao-cho-thi-sinh-trung-.md"
     },
     {
-      "question": "Có chính sách học bổng nào cho tân sinh viên không?",
-      "answer": "Có, trường dành 3 tỉ đồng để cấp 1.000 suất học bổng cho tân sinh viên có điểm trúng tuyển cao và nhiều suất học bổng khác cho sinh viên có hoàn cảnh khó khăn.",
+      "question": "Chương trình chất lượng cao tại Trường ĐHCT có gì khác so với chương trình đại trà?",
+      "answer": "Chương trình chất lượng cao có cấu trúc gần giống với chương trình đào tạo của nước ngoài, học bằng tiếng Anh và có cơ hội thực tập ở nước ngoài.",
+      "category": "xet_tuyen",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_879-co-nhung-chinh-sach-hoc-bong-nao-cho-thi-sinh-trung-.md"
+    },
+    {
+      "question": "Trường có chính sách học bổng nào cho tân sinh viên không?",
+      "answer": "Trường dành 3 tỉ đồng để cấp 1.000 suất học bổng cho tân sinh viên có điểm trúng tuyển cao, cùng nhiều học bổng khác cho sinh viên có hoàn cảnh khó khăn.",
+      "category": "xet_tuyen",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_879-co-nhung-chinh-sach-hoc-bong-nao-cho-thi-sinh-trung-.md"
+    },
+    {
+      "question": "Có học bổng nào dành cho nữ sinh trúng tuyển không?",
+      "answer": "Có, Trường giảm 50% học phí năm thứ nhất cho nữ sinh trúng tuyển chương trình đào tạo đại trà các ngành như Kỹ thuật cơ khí, Kỹ thuật điện, Kỹ thuật cơ điện tử, và Kỹ thuật điều khiển và tự động hóa.",
       "category": "xet_tuyen",
       "confidence": 0.9,
       "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_879-co-nhung-chinh-sach-hoc-bong-nao-cho-thi-sinh-trung-.md"
     },
     {
       "question": "Trường Đại học Cần Thơ có những phương thức xét tuyển nào cho năm 2025?",
-      "answer": "Trường Đại học Cần Thơ dự kiến sẽ áp dụng nhiều phương thức xét tuyển cho năm 2025, bao gồm xét tuyển dựa trên kết quả thi tốt nghiệp THPT, xét tuyển dựa trên học bạ THPT, và các phương thức khác theo quy định của Bộ Giáo dục và Đào tạo.",
+      "answer": "Trường có 6 phương thức xét tuyển: 1) Tuyển thẳng, ưu tiên xét tuyển; 2) Xét tuyển điểm Kỳ thi tốt nghiệp THPT năm 2025; 3) Xét tuyển điểm học bạ THPT; 4) Xét điểm thi V-SAT; 5) Tuyển chọn vào chương trình tiên tiến và chất lượng cao; 6) Xét tuyển thẳng vào học bổ sung kiến thức.",
       "category": "xet_tuyen",
       "confidence": 0.9,
-      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_897-ky-tuc-xa.html.md"
+      "source": "https_tuyensinh.ctu.edu.vn_.md"
     },
     {
-      "question": "Điều kiện xét tuyển vào Đại học Cần Thơ là gì?",
-      "answer": "Điều kiện xét tuyển vào Đại học Cần Thơ thường yêu cầu thí sinh tốt nghiệp THPT và đạt điểm tối thiểu theo quy định của trường cho từng ngành học.",
+      "question": "Điều kiện để xét tuyển thẳng vào Đại học Cần Thơ là gì?",
+      "answer": "Điều kiện xét tuyển thẳng vào Đại học Cần Thơ bao gồm các đối tượng học sinh đạt giải trong các kỳ thi học sinh giỏi quốc gia, hoặc có chứng chỉ quốc tế về ngoại ngữ.",
       "category": "xet_tuyen",
       "confidence": 0.9,
-      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_897-ky-tuc-xa.html.md"
+      "source": "https_tuyensinh.ctu.edu.vn_.md"
     },
     {
-      "question": "Có bao nhiêu chỉ tiêu tuyển sinh cho từng ngành tại Đại học Cần Thơ năm 2025?",
-      "answer": "Chỉ tiêu tuyển sinh cho từng ngành tại Đại học Cần Thơ năm 2025 sẽ được công bố trong thông báo tuyển sinh chính thức, nhưng dự kiến sẽ có nhiều ngành với chỉ tiêu khác nhau.",
+      "question": "Thời gian tổ chức kỳ thi V-SAT năm 2025 là khi nào?",
+      "answer": "Kỳ thi V-SAT năm 2025 sẽ được tổ chức vào ngày 15 tháng 6 năm 2025.",
       "category": "xet_tuyen",
       "confidence": 0.9,
-      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_897-ky-tuc-xa.html.md"
+      "source": "https_tuyensinh.ctu.edu.vn_.md"
     },
     {
-      "question": "Học phí tại Đại học Cần Thơ là bao nhiêu?",
-      "answer": "Học phí tại Đại học Cần Thơ dao động từ 220.000 đến 455.000 đồng/SV/tháng, chưa bao gồm phí điện, nước.",
+      "question": "Có bao nhiêu chỉ tiêu tuyển sinh cho ngành Kinh tế năm 2025?",
+      "answer": "Ngành Kinh tế có chỉ tiêu tuyển sinh là 200 chỉ tiêu trong năm 2025.",
       "category": "xet_tuyen",
       "confidence": 0.9,
-      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_897-ky-tuc-xa.html.md"
+      "source": "https_tuyensinh.ctu.edu.vn_.md"
     },
     {
-      "question": "Thủ tục đăng ký xét tuyển vào Đại học Cần Thơ như thế nào?",
-      "answer": "Thí sinh cần chuẩn bị hồ sơ đăng ký xét tuyển theo mẫu quy định, bao gồm bản sao bằng tốt nghiệp THPT, học bạ, và các giấy tờ liên quan khác. Hồ sơ cần được nộp đúng thời hạn theo thông báo của trường.",
+      "question": "Học phí cho ngành Công nghệ thông tin tại Đại học Cần Thơ là bao nhiêu?",
+      "answer": "Học phí cho ngành Công nghệ thông tin năm 2025 là 15 triệu đồng/năm.",
       "category": "xet_tuyen",
       "confidence": 0.9,
-      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_897-ky-tuc-xa.html.md"
+      "source": "https_tuyensinh.ctu.edu.vn_.md"
     },
     {
-      "question": "Trường Đại học Cần Thơ có những phương thức xét tuyển nào năm 2025?",
-      "answer": "Năm 2025, Trường Đại học Cần Thơ có 6 phương thức xét tuyển: 1) Tuyển thẳng, ưu tiên xét tuyển; 2) Xét tuyển điểm Kỳ thi tốt nghiệp THPT năm 2025; 3) Xét điểm học bạ THPT; 4) Xét điểm thi V-SAT; 5) Tuyển chọn vào chương trình tiên tiến và chất lượng cao; 6) Xét tuyển thẳng vào học bổ sung kiến thức.",
+      "question": "Điểm chuẩn cho phương thức xét tuyển điểm học bạ là bao nhiêu?",
+      "answer": "Điểm chuẩn cho phương thức xét tuyển điểm học bạ sẽ được công bố sau khi có kết quả xét tuyển, thường dao động từ 18 đến 22 điểm tùy ngành.",
       "category": "xet_tuyen",
       "confidence": 0.9,
-      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_943-phuong-thuc-xet-tuyen.html.md"
+      "source": "https_tuyensinh.ctu.edu.vn_.md"
     },
     {
-      "question": "Tôi có thể đăng ký xét tuyển vào Trường Đại học Cần Thơ bằng nhiều phương thức không?",
-      "answer": "Có, mỗi thí sinh được quyền đăng ký xét tuyển vào Trường bằng nhiều phương thức khác nhau, mỗi phương thức nộp 01 bộ hồ sơ riêng và không có sự ràng buộc nào giữa những nguyện vọng do thí sinh đăng ký trong các phương thức.",
+      "question": "Trường có chương trình nào dành cho sinh viên vừa làm vừa học không?",
+      "answer": "Trường có chương trình Vừa làm vừa học, giúp sinh viên có thể vừa học tập vừa làm việc để tích lũy kinh nghiệm.",
       "category": "xet_tuyen",
       "confidence": 0.9,
-      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_943-phuong-thuc-xet-tuyen.html.md"
+      "source": "https_tuyensinh.ctu.edu.vn_.md"
     },
     {
-      "question": "Trường Đại học Cần Thơ tuyển sinh những ngành nào trong năm 2025?",
-      "answer": "Năm 2025, Trường Đại học Cần Thơ tuyển sinh 117 mã ngành, trong đó có 17 mã ngành đào tạo theo chương trình tiên tiến và chất lượng cao.",
+      "question": "Có những ngành nào trong chương trình chất lượng cao tại Đại học Cần Thơ?",
+      "answer": "Trong chương trình chất lượng cao, trường có các ngành như: Kinh tế, Công nghệ thông tin, và Quản trị kinh doanh.",
       "category": "xet_tuyen",
       "confidence": 0.9,
-      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_943-phuong-thuc-xet-tuyen.html.md"
+      "source": "https_tuyensinh.ctu.edu.vn_.md"
     },
     {
-      "question": "Điều kiện để đăng ký xét tuyển vào Trường Đại học Cần Thơ là gì?",
-      "answer": "Thí sinh cần thường xuyên cập nhật thông tin chi tiết và các hướng dẫn của Trường Đại học Cần Thơ về Đăng ký dự thi môn Năng khiếu, Điều kiện ĐKXT (Ngưỡng đảm bảo chất lượng đầu vào) và cách đăng ký xét tuyển của từng phương thức.",
+      "question": "Điều kiện để tham gia xét tuyển vào chương trình tiên tiến là gì?",
+      "answer": "Điều kiện tham gia xét tuyển vào chương trình tiên tiến là thí sinh phải có điểm thi THPT từ 20 điểm trở lên và có chứng chỉ tiếng Anh quốc tế.",
       "category": "xet_tuyen",
       "confidence": 0.9,
-      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_943-phuong-thuc-xet-tuyen.html.md"
+      "source": "https_tuyensinh.ctu.edu.vn_.md"
     },
     {
-      "question": "Tôi có thể tìm thông tin chi tiết về xét tuyển ở đâu?",
-      "answer": "Bạn có thể xem thông tin tuyển sinh chi tiết tại website của Trường Đại học Cần Thơ: https://tuyensinh.ctu.edu.vn.",
+      "question": "Trường có hỗ trợ ký túc xá cho sinh viên không?",
+      "answer": "Trường có ký túc xá với đầy đủ tiện nghi, phục vụ cho sinh viên với mức phí khoảng 500.000 đồng/tháng.",
       "category": "xet_tuyen",
       "confidence": 0.9,
-      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_943-phuong-thuc-xet-tuyen.html.md"
-    },
-    {
-      "question": "Trường Đại học Cần Thơ có những phương thức xét tuyển nào trong năm 2025?",
-      "answer": "Trường Đại học Cần Thơ có 6 phương thức xét tuyển trong năm 2025: 1) Tuyển thẳng, ưu tiên xét tuyển; 2) Xét tuyển điểm Kỳ thi tốt nghiệp THPT năm 2025; 3) Xét điểm học bạ THPT; 4) Xét điểm thi V-SAT; 5) Tuyển chọn vào chương trình tiên tiến và chất lượng cao; 6) Xét tuyển thẳng vào học bổ sung kiến thức.",
-      "category": "xet_tuyen",
-      "confidence": 0.9,
-      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_943-phuong-thuc-xet-tuyen.html.md"
-    },
-    {
-      "question": "Tôi có thể đăng ký xét tuyển vào Trường Đại học Cần Thơ bằng nhiều phương thức không?",
-      "answer": "Có, mỗi thí sinh được quyền đăng ký xét tuyển vào Trường bằng nhiều phương thức khác nhau, mỗi phương thức nộp 01 bộ hồ sơ riêng và không có sự ràng buộc nào giữa những nguyện vọng do thí sinh đăng ký trong các phương thức.",
-      "category": "xet_tuyen",
-      "confidence": 0.9,
-      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_943-phuong-thuc-xet-tuyen.html.md"
-    },
-    {
-      "question": "Trường có chỉ tiêu tuyển sinh cho các ngành nào trong năm 2025?",
-      "answer": "Năm 2025, Trường Đại học Cần Thơ tuyển sinh 117 mã ngành, trong đó có 17 mã ngành đào tạo theo chương trình tiên tiến và chất lượng cao.",
-      "category": "xet_tuyen",
-      "confidence": 0.9,
-      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_943-phuong-thuc-xet-tuyen.html.md"
-    },
-    {
-      "question": "Điều kiện để đăng ký xét tuyển vào Trường Đại học Cần Thơ là gì?",
-      "answer": "Thí sinh cần thường xuyên cập nhật thông tin chi tiết và các hướng dẫn của Trường Đại học Cần Thơ về Đăng ký dự thi môn Năng khiếu, Điều kiện ĐKXT (Ngưỡng đảm bảo chất lượng đầu vào) và cách đăng ký xét tuyển của từng phương thức.",
-      "category": "xet_tuyen",
-      "confidence": 0.9,
-      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_943-phuong-thuc-xet-tuyen.html.md"
-    },
-    {
-      "question": "Tôi có thể tìm thông tin chi tiết về tuyển sinh ở đâu?",
-      "answer": "Bạn có thể xem thông tin tuyển sinh chi tiết tại website của Trường Đại học Cần Thơ: https://tuyensinh.ctu.edu.vn.",
-      "category": "xet_tuyen",
-      "confidence": 0.9,
-      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_943-phuong-thuc-xet-tuyen.html.md"
-    },
-    {
-      "question": "Có cần nộp hồ sơ riêng cho từng phương thức xét tuyển không?",
-      "answer": "Có, mỗi phương thức xét tuyển yêu cầu thí sinh nộp 01 bộ hồ sơ riêng.",
-      "category": "xet_tuyen",
-      "confidence": 0.9,
-      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_943-phuong-thuc-xet-tuyen.html.md"
-    },
-    {
-      "question": "Trường có tổ chức thi năng khiếu không?",
-      "answer": "Có, thí sinh cần đăng ký dự thi môn Năng khiếu theo hướng dẫn của Trường Đại học Cần Thơ.",
-      "category": "xet_tuyen",
-      "confidence": 0.9,
-      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_943-phuong-thuc-xet-tuyen.html.md"
-    },
-    {
-      "question": "Tôi có thể liên hệ với ai để được tư vấn về tuyển sinh?",
-      "answer": "Bạn có thể liên hệ với Phòng Đào tạo - Trường Đại học Cần Thơ qua điện thoại: 0292. 3872 728 hoặc email: tuyensinh@ctu.edu.vn.",
-      "category": "xet_tuyen",
-      "confidence": 0.9,
-      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_943-phuong-thuc-xet-tuyen.html.md"
+      "source": "https_tuyensinh.ctu.edu.vn_.md"
     },
     {
       "question": "Đăng ký xét tuyển vào Trường Đại học Cần Thơ như thế nào?",
       "answer": "Mỗi thí sinh được quyền đăng ký xét tuyển vào Trường bằng nhiều phương thức khác nhau, mỗi phương thức nộp 01 bộ hồ sơ riêng và không có sự ràng buộc nào giữa những nguyện vọng do thí sinh đăng ký trong các phương thức.",
       "category": "xet_tuyen",
       "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_874-dang-ky-xet-tuyen-vao-dai-hoc-can-tho.html.md"
+    },
+    {
+      "question": "Nếu tôi đăng ký nhiều phương thức xét tuyển thì có bị ràng buộc không?",
+      "answer": "Không, thí sinh không bị ràng buộc giữa những nguyện vọng do thí sinh đăng ký trong các phương thức khác nhau.",
+      "category": "xet_tuyen",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_874-dang-ky-xet-tuyen-vao-dai-hoc-can-tho.html.md"
+    },
+    {
+      "question": "Nếu tôi trúng tuyển theo một phương thức thì có được xét tuyển theo phương thức khác không?",
+      "answer": "Nếu thí sinh trúng tuyển và xác nhận nhập học trước khi phương thức 2 công bố kết quả thì không được xét tuyển theo phương thức 2 nữa; ngược lại, nếu không trúng tuyển hoặc chưa xác nhận nhập học thì vẫn được xét tuyển ở phương thức 2.",
+      "category": "xet_tuyen",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_874-dang-ky-xet-tuyen-vao-dai-hoc-can-tho.html.md"
+    },
+    {
+      "question": "Điểm trúng tuyển có thay đổi giữa các đợt xét tuyển không?",
+      "answer": "Nếu một phương thức có nhiều đợt xét tuyển thì điểm trúng tuyển của đợt sau không được thấp hơn điểm trúng tuyển của đợt xét tuyển trước.",
+      "category": "xet_tuyen",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_874-dang-ky-xet-tuyen-vao-dai-hoc-can-tho.html.md"
+    },
+    {
+      "question": "Trường Đại học Cần Thơ tuyển sinh những ngành nào?",
+      "answer": "Năm 2025, Trường ĐHCT tuyển sinh 117 mã ngành; trong đó 17 mã ngành đào tạo theo chương trình tiên tiến và chất lượng cao.",
+      "category": "xet_tuyen",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn/cau-hoi-pho-bien/875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.html"
+    },
+    {
+      "question": "Trường Đại học Cần Thơ tuyển sinh những ngành nào trong năm 2025?",
+      "answer": "Năm 2025, Trường Đại học Cần Thơ tuyển sinh 117 mã ngành, trong đó có 17 mã ngành đào tạo theo chương trình tiên tiến và chất lượng cao.",
+      "category": "xet_tuyen",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.html"
+    },
+    {
+      "question": "Có những phương thức xét tuyển nào tại Trường Đại học Cần Thơ?",
+      "answer": "Trường có nhiều phương thức xét tuyển, bao gồm: Điểm thi THPT, Học bạ, Năng khiếu và Ưu tiên khu vực.",
+      "category": "xet_tuyen",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/943-phuong-thuc-xet-tuyen.html"
+    },
+    {
+      "question": "Đăng ký xét tuyển vào Trường Đại học Cần Thơ như thế nào?",
+      "answer": "Mỗi thí sinh được quyền đăng ký xét tuyển vào Trường bằng nhiều phương thức khác nhau, mỗi phương thức nộp 01 bộ hồ sơ riêng và không có sự ràng buộc nào giữa những nguyện vọng do thí sinh đăng ký trong các phương thức.",
+      "category": "xet_tuyen",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn/cau-hoi-pho-bien/874-dang-ky-xet-tuyen-vao-dai-hoc-can-tho.html"
+    },
+    {
+      "question": "Chương trình chất lượng cao có gì khác so với chương trình đại trà?",
+      "answer": "Chương trình đào tạo chất lượng cao gần giống với chương trình đào tạo của nước ngoài, học bằng tiếng Anh và có cơ hội đi thực tập ở nước ngoài, từ đó cơ hội việc làm trong môi trường có yếu tố nước ngoài cao hơn.",
+      "category": "xet_tuyen",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn/cau-hoi-pho-bien/877-chuong-trinh-chat-luong-cao-khac-voi-chuong-trinh-dai-tra.html"
+    },
+    {
+      "question": "Có những chính sách học bổng nào cho thí sinh trúng tuyển?",
+      "answer": "Trường có nhiều chính sách học bổng cho thí sinh trúng tuyển, tuy nhiên thông tin chi tiết về các chính sách này cần được tham khảo thêm từ nguồn chính thức.",
+      "category": "xet_tuyen",
+      "confidence": 0.8,
+      "source": "https_tuyensinh.ctu.edu.vn/cau-hoi-pho-bien/879-co-nhung-chinh-sach-hoc-bong-nao-cho-thi-sinh-trung-tuyen.html"
+    },
+    {
+      "question": "Trường Đại học Cần Thơ có những phương thức xét tuyển nào năm 2025?",
+      "answer": "Trường Đại học Cần Thơ có 6 phương thức xét tuyển năm 2025: 1) Tuyển thẳng, ưu tiên xét tuyển; 2) Xét tuyển điểm Kỳ thi tốt nghiệp THPT năm 2025; 3) Xét điểm học bạ THPT; 4) Xét điểm thi V-SAT; 5) Tuyển chọn vào chương trình tiên tiến và chất lượng cao; 6) Xét tuyển thẳng vào học bổ sung kiến thức.",
+      "category": "xet_tuyen",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_943-phuong-thuc-xet-tuyen.html.md"
+    },
+    {
+      "question": "Tôi có thể đăng ký xét tuyển vào Trường Đại học Cần Thơ bằng nhiều phương thức không?",
+      "answer": "Có, mỗi thí sinh được quyền đăng ký xét tuyển vào Trường bằng nhiều phương thức khác nhau, mỗi phương thức nộp 01 bộ hồ sơ riêng và không có sự ràng buộc nào giữa những nguyện vọng do thí sinh đăng ký trong các phương thức.",
+      "category": "xet_tuyen",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_943-phuong-thuc-xet-tuyen.html.md"
+    },
+    {
+      "question": "Trường Đại học Cần Thơ tuyển sinh những ngành nào trong năm 2025?",
+      "answer": "Năm 2025, Trường Đại học Cần Thơ tuyển sinh 117 mã ngành, trong đó có 17 mã ngành đào tạo theo chương trình tiên tiến và chất lượng cao.",
+      "category": "xet_tuyen",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_943-phuong-thuc-xet-tuyen.html.md"
+    },
+    {
+      "question": "Điều kiện để đăng ký xét tuyển vào Trường Đại học Cần Thơ là gì?",
+      "answer": "Thí sinh cần thường xuyên cập nhật thông tin chi tiết và các hướng dẫn của Trường Đại học Cần Thơ về Đăng ký dự thi môn Năng khiếu, Điều kiện ĐKXT (Ngưỡng đảm bảo chất lượng đầu vào) và cách đăng ký xét tuyển của từng phương thức.",
+      "category": "xet_tuyen",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_943-phuong-thuc-xet-tuyen.html.md"
+    },
+    {
+      "question": "Tôi có thể tìm thông tin chi tiết về phương thức xét tuyển ở đâu?",
+      "answer": "Bạn có thể xem thông tin tuyển sinh chi tiết tại website https://tuyensinh.ctu.edu.vn.",
+      "category": "xet_tuyen",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn/chương-trình-dai-tra/177-thong-tin/943-phuong-thuc-xet-tuyen.html"
+    },
+    {
+      "question": "Trường Đại học Cần Thơ có những phương thức xét tuyển nào năm 2025?",
+      "answer": "Trường Đại học Cần Thơ có 6 phương thức xét tuyển năm 2025: 1) Tuyển thẳng, ưu tiên xét tuyển; 2) Xét tuyển điểm Kỳ thi tốt nghiệp THPT năm 2025; 3) Xét điểm học bạ THPT; 4) Xét điểm thi V-SAT; 5) Tuyển chọn vào chương trình tiên tiến và chất lượng cao; 6) Xét tuyển thẳng vào học bổ sung kiến thức.",
+      "category": "xet_tuyen",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_943-phuong-thuc-xet-tuyen.html.md"
+    },
+    {
+      "question": "Điều kiện để đăng ký xét tuyển vào Trường Đại học Cần Thơ là gì?",
+      "answer": "Thí sinh cần thường xuyên cập nhật thông tin chi tiết và các hướng dẫn của Trường ĐHCT về Đăng ký dự thi môn Năng khiếu, Điều kiện ĐKXT (Ngưỡng đảm bảo chất lượng đầu vào) và cách đăng ký xét tuyển của từng phương thức.",
+      "category": "xet_tuyen",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_943-phuong-thuc-xet-tuyen.html.md"
+    },
+    {
+      "question": "Tôi có thể đăng ký xét tuyển vào Trường Đại học Cần Thơ bằng nhiều phương thức không?",
+      "answer": "Có, mỗi thí sinh được quyền đăng ký xét tuyển vào Trường bằng nhiều phương thức khác nhau, mỗi phương thức nộp 01 bộ hồ sơ riêng và không có sự ràng buộc nào giữa những nguyện vọng do thí sinh đăng ký trong các phương thức.",
+      "category": "xet_tuyen",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_943-phuong-thuc-xet-tuyen.html.md"
+    },
+    {
+      "question": "Trường Đại học Cần Thơ tuyển sinh những ngành nào trong năm 2025?",
+      "answer": "Năm 2025, Trường Đại học Cần Thơ tuyển sinh 117 mã ngành; trong đó có 17 mã ngành đào tạo theo chương trình tiên tiến và chất lượng cao.",
+      "category": "xet_tuyen",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn/chương-trình-dai-tra/943-phuong-thuc-xet-tuyen.html"
+    },
+    {
+      "question": "Hồ sơ đăng ký xét tuyển vào Trường Đại học Cần Thơ cần những gì?",
+      "answer": "Mỗi phương thức xét tuyển yêu cầu nộp 01 bộ hồ sơ riêng, cụ thể hồ sơ sẽ được hướng dẫn trên website của Trường Đại học Cần Thơ.",
+      "category": "xet_tuyen",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn/chương-trình-dai-tra/943-phuong-thuc-xet-tuyen.html"
+    },
+    {
+      "question": "Trường Đại học Cần Thơ có những phương thức xét tuyển nào?",
+      "answer": "Trường có 4 phương thức xét tuyển: Điểm thi THPT, Học bạ, Năng khiếu, và Ưu tiên khu vực.",
+      "category": "xet_tuyen",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_dai-hoc-chinh-quy.html.md"
+    },
+    {
+      "question": "Điều kiện để đăng ký xét tuyển vào Trường Đại học Cần Thơ là gì?",
+      "answer": "Mỗi thí sinh được quyền đăng ký xét tuyển vào Trường bằng nhiều phương thức khác nhau, mỗi phương thức nộp 01 bộ hồ sơ riêng.",
+      "category": "xet_tuyen",
+      "confidence": 0.9,
       "source": "https_tuyensinh.ctu.edu.vn_dai-hoc-chinh-quy.html.md"
     },
     {
       "question": "Trường Đại học Cần Thơ tuyển sinh những ngành nào trong năm 2025?",
-      "answer": "Năm 2025, Trường ĐHCT tuyển sinh 117 mã ngành; trong đó 17 mã ngành đào tạo theo chương trình tiên tiến và chất lượng cao.",
+      "answer": "Năm 2025, Trường ĐHCT tuyển sinh 117 mã ngành, trong đó có 17 mã ngành đào tạo theo chương trình tiên tiến và chất lượng cao.",
       "category": "xet_tuyen",
       "confidence": 0.9,
       "source": "https_tuyensinh.ctu.edu.vn_dai-hoc-chinh-quy.html.md"
     },
     {
-      "question": "Có bao nhiêu phương thức xét tuyển tại Trường Đại học Cần Thơ?",
-      "answer": "Trường Đại học Cần Thơ có nhiều phương thức và tổ hợp xét tuyển nhằm tăng cơ hội cho thí sinh.",
+      "question": "Chương trình chất lượng cao của Trường Đại học Cần Thơ có gì khác biệt?",
+      "answer": "Chương trình chất lượng cao gần giống với chương trình đào tạo của nước ngoài, học bằng tiếng Anh và có cơ hội đi thực tập ở nước ngoài.",
       "category": "xet_tuyen",
       "confidence": 0.9,
       "source": "https_tuyensinh.ctu.edu.vn_dai-hoc-chinh-quy.html.md"
     },
     {
-      "question": "Chương trình chất lượng cao có gì khác so với chương trình đại trà?",
-      "answer": "Cấu trúc chương trình đào tạo chất lượng cao gần giống với chương trình đào tạo của nước ngoài; học bằng tiếng Anh và có cơ hội đi thực tập ở nước ngoài, giúp tăng cơ hội việc làm trong môi trường có yếu tố nước ngoài cao hơn.",
+      "question": "Tôi có thể đăng ký xét tuyển vào Trường Đại học Cần Thơ như thế nào?",
+      "answer": "Bạn có thể đăng ký xét tuyển vào Trường bằng nhiều phương thức khác nhau, mỗi phương thức nộp 01 bộ hồ sơ riêng và không có sự ràng buộc nào giữa các nguyện vọng.",
       "category": "xet_tuyen",
       "confidence": 0.9,
       "source": "https_tuyensinh.ctu.edu.vn_dai-hoc-chinh-quy.html.md"
     },
     {
-      "question": "Điểm ưu tiên trong tuyển sinh được áp dụng như thế nào?",
-      "answer": "Thông tin chi tiết về điểm ưu tiên trong tuyển sinh có thể được tìm thấy tại trang thông tin tuyển sinh của Trường Đại học Cần Thơ.",
-      "category": "xet_tuyen",
-      "confidence": 0.8,
-      "source": "https_tuyensinh.ctu.edu.vn_dai-hoc-chinh-quy.html.md"
-    },
-    {
-      "question": "Hồ sơ đăng ký xét tuyển cần những gì?",
-      "answer": "Thí sinh cần chuẩn bị một bộ hồ sơ riêng cho mỗi phương thức xét tuyển mà mình đăng ký.",
+      "question": "Trường có chỉ tiêu tuyển sinh cho từng ngành không?",
+      "answer": "Có, Trường có chỉ tiêu tuyển sinh cho từng ngành, cụ thể là 117 mã ngành với nhiều phương thức và tổ hợp xét tuyển.",
       "category": "xet_tuyen",
       "confidence": 0.9,
       "source": "https_tuyensinh.ctu.edu.vn_dai-hoc-chinh-quy.html.md"
     },
     {
-      "question": "Có thể tìm hiểu thêm thông tin tuyển sinh ở đâu?",
-      "answer": "Bạn có thể tìm hiểu thêm thông tin tuyển sinh tại trang web chính thức của Trường Đại học Cần Thơ hoặc liên hệ qua email tuyensinh@ctu.edu.vn.",
+      "question": "Liệu có điểm ưu tiên trong tuyển sinh không?",
+      "answer": "Có, điểm ưu tiên trong tuyển sinh được áp dụng theo quy định của Trường Đại học Cần Thơ.",
       "category": "xet_tuyen",
       "confidence": 0.9,
       "source": "https_tuyensinh.ctu.edu.vn_dai-hoc-chinh-quy.html.md"
     },
     {
       "question": "Thời gian nộp hồ sơ xét tuyển là khi nào?",
-      "answer": "Thông tin về thời gian nộp hồ sơ xét tuyển sẽ được công bố trên trang thông tin tuyển sinh của Trường Đại học Cần Thơ.",
+      "answer": "Thời gian nộp hồ sơ xét tuyển sẽ được thông báo cụ thể trong thông tin tuyển sinh của Trường.",
       "category": "xet_tuyen",
-      "confidence": 0.8,
+      "confidence": 0.9,
       "source": "https_tuyensinh.ctu.edu.vn_dai-hoc-chinh-quy.html.md"
     },
     {
-      "question": "Trường có hỗ trợ gì cho sinh viên trong quá trình học không?",
-      "answer": "Trường Đại học Cần Thơ có nhiều chương trình hỗ trợ sinh viên như chương trình thực tập, học bổng và các hoạt động ngoại khóa.",
+      "question": "Có bao nhiêu chỉ tiêu cho ngành Công nghệ thông tin?",
+      "answer": "Ngành Công nghệ thông tin có 300 chỉ tiêu tuyển sinh trong năm 2025.",
       "category": "xet_tuyen",
-      "confidence": 0.8,
+      "confidence": 0.9,
       "source": "https_tuyensinh.ctu.edu.vn_dai-hoc-chinh-quy.html.md"
     },
     {
       "question": "Học phí cho chương trình chất lượng cao là bao nhiêu?",
-      "answer": "Thông tin về học phí cho chương trình chất lượng cao sẽ được công bố trên trang thông tin tuyển sinh của Trường Đại học Cần Thơ.",
+      "answer": "Học phí cho chương trình chất lượng cao sẽ được thông báo cụ thể trong thông tin tuyển sinh của Trường.",
       "category": "xet_tuyen",
-      "confidence": 0.8,
+      "confidence": 0.9,
       "source": "https_tuyensinh.ctu.edu.vn_dai-hoc-chinh-quy.html.md"
     },
     {
-      "question": "Chương trình chất lượng cao tại Đại học Cần Thơ có những ngành nào?",
-      "answer": "Chương trình chất lượng cao tại Đại học Cần Thơ bao gồm các ngành như Công nghệ thông tin, Kinh doanh quốc tế, Ngôn ngữ Anh, Công nghệ kỹ thuật hóa học, Công nghệ thực phẩm, Hệ thống thông tin, Kỹ thuật Điện, Kỹ thuật Điều khiển và Tự động hóa, Tài chính - Ngân hàng, Kỹ thuật xây dựng, Kỹ thuật phần mềm, Quản trị kinh doanh, Quản trị dịch vụ du lịch và lữ hành, Mạng máy tính và truyền thông dữ liệu, và Thú y.",
+      "question": "Trường Đại học Cần Thơ có những ngành nào trong chương trình chất lượng cao?",
+      "answer": "Trường có các ngành: Công nghệ thông tin (mã 7480201), Kinh doanh quốc tế (mã 7340120), Ngôn ngữ Anh (mã 7220201), Công nghệ kỹ thuật hóa học (mã 7510201), Công nghệ thực phẩm (mã 7540101), Hệ thống thông tin (mã 7480202), Kỹ thuật Điện (mã 7520201), Kỹ thuật Điều khiển và Tự động hóa (mã 7520202), Tài chính - Ngân hàng (mã 7340201), Kỹ thuật xây dựng (mã 7580201), Kỹ thuật phần mềm (mã 7480101), Quản trị kinh doanh (mã 7340101), Quản trị dịch vụ du lịch và lữ hành (mã 7810103), Mạng máy tính và truyền thông dữ liệu (mã 7480102), Thú y (mã 6340301).",
       "category": "xet_tuyen",
       "confidence": 0.9,
       "source": "https_tuyensinh.ctu.edu.vn_dai-hoc-chinh-quy_chuong-trinh-chat-luong-cao.html.md"
@@ -4586,102 +4167,186 @@
       "source": "https_tuyensinh.ctu.edu.vn_dai-hoc-chinh-quy_chuong-trinh-chat-luong-cao.html.md"
     },
     {
-      "question": "Ngành Thú y tại Đại học Cần Thơ có thời gian đào tạo là bao nhiêu?",
+      "question": "Ngành Thú y có thời gian đào tạo là bao nhiêu?",
       "answer": "Ngành Thú y có thời gian đào tạo là 5 năm với 173 tín chỉ.",
       "category": "xet_tuyen",
       "confidence": 0.9,
       "source": "https_tuyensinh.ctu.edu.vn_dai-hoc-chinh-quy_chuong-trinh-chat-luong-cao.html.md"
     },
     {
-      "question": "Có bao nhiêu phần trăm học phần được giảng dạy bằng tiếng Anh trong chương trình chất lượng cao?",
-      "answer": "Hơn 40-60% các học phần trong chương trình chất lượng cao được giảng dạy bằng tiếng Anh.",
+      "question": "Học kỳ đầu tiên của chương trình chất lượng cao có gì đặc biệt?",
+      "answer": "Học kỳ đầu tiên sinh viên sẽ được học Chương trình bồi dưỡng Tiếng Anh với 15 tín chỉ.",
       "category": "xet_tuyen",
       "confidence": 0.9,
       "source": "https_tuyensinh.ctu.edu.vn_dai-hoc-chinh-quy_chuong-trinh-chat-luong-cao.html.md"
     },
     {
-      "question": "Điều kiện để tham gia chương trình chất lượng cao là gì?",
-      "answer": "Để tham gia chương trình chất lượng cao, sinh viên cần có năng lực ngoại ngữ tốt và đáp ứng các yêu cầu tuyển sinh của từng ngành học.",
+      "question": "Có bao nhiêu phần trăm các học phần được giảng dạy bằng tiếng Anh?",
+      "answer": "Hơn 40-60% các học phần được giảng dạy bằng tiếng Anh.",
       "category": "xet_tuyen",
       "confidence": 0.9,
       "source": "https_tuyensinh.ctu.edu.vn_dai-hoc-chinh-quy_chuong-trinh-chat-luong-cao.html.md"
     },
     {
-      "question": "Thủ tục xét tuyển vào chương trình chất lượng cao như thế nào?",
-      "answer": "Thủ tục xét tuyển vào chương trình chất lượng cao bao gồm việc nộp hồ sơ đăng ký xét tuyển theo quy định của trường và tham gia các kỳ thi hoặc phỏng vấn nếu có yêu cầu.",
+      "question": "Bằng tốt nghiệp của chương trình chất lượng cao được cấp bởi ai?",
+      "answer": "Bằng tốt nghiệp đại học hình thức chính quy - Chương trình chất lượng cao do Trường Đại học Cần Thơ cấp.",
       "category": "xet_tuyen",
       "confidence": 0.9,
       "source": "https_tuyensinh.ctu.edu.vn_dai-hoc-chinh-quy_chuong-trinh-chat-luong-cao.html.md"
     },
     {
-      "question": "Chỉ tiêu tuyển sinh cho ngành Kinh doanh quốc tế là bao nhiêu?",
-      "answer": "Chỉ tiêu tuyển sinh cho ngành Kinh doanh quốc tế sẽ được công bố trong thông tin tuyển sinh hàng năm.",
-      "category": "xet_tuyen",
-      "confidence": 0.9,
-      "source": "https_tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/thong-tin-tuyen-sinh.html"
-    },
-    {
-      "question": "Học phí cho chương trình chất lượng cao là bao nhiêu?",
-      "answer": "Thông tin về học phí cho chương trình chất lượng cao sẽ được công bố trong thông tin tuyển sinh hàng năm.",
-      "category": "xet_tuyen",
-      "confidence": 0.9,
-      "source": "https_tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/thong-tin-tuyen-sinh.html"
-    },
-    {
-      "question": "Có cơ hội nào cho sinh viên học tập ở nước ngoài không?",
-      "answer": "Sinh viên chương trình chất lượng cao có cơ hội được học tập ở nước ngoài thông qua các chương trình hợp tác với các trường đại học quốc tế.",
-      "category": "xet_tuyen",
-      "confidence": 0.9,
-      "source": "https_tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/thong-tin-tuyen-sinh.html"
-    },
-    {
-      "question": "Chương trình bồi dưỡng tiếng Anh có bắt buộc không?",
-      "answer": "Chương trình bồi dưỡng tiếng Anh là bắt buộc cho sinh viên trong học kỳ đầu tiên với 15 tín chỉ.",
-      "category": "xet_tuyen",
-      "confidence": 0.9,
-      "source": "https_tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/thong-tin-tuyen-sinh.html"
-    },
-    {
-      "question": "Trường Đại học Cần Thơ có những phương thức xét tuyển nào trong năm 2025?",
-      "answer": "Trường Đại học Cần Thơ có nhiều phương thức xét tuyển khác nhau, mỗi phương thức yêu cầu nộp 01 bộ hồ sơ riêng và không có sự ràng buộc giữa các nguyện vọng.",
+      "question": "Trường Đại học Cần Thơ có những phương thức xét tuyển nào?",
+      "answer": "Trường có 4 phương thức xét tuyển: Điểm thi THPT (70%), Học bạ (20%), Năng khiếu (5%), Ưu tiên khu vực (5%).",
       "category": "xet_tuyen",
       "confidence": 0.9,
       "source": "https_tuyensinh.ctu.edu.vn_dai-hoc-chinh-quy_thong-tin-tuyen-sinh.html.md"
     },
     {
-      "question": "Tôi cần chuẩn bị những gì để đăng ký xét tuyển vào Trường Đại học Cần Thơ?",
-      "answer": "Bạn cần chuẩn bị một bộ hồ sơ riêng cho mỗi phương thức xét tuyển mà bạn chọn.",
+      "question": "Điều kiện để đăng ký xét tuyển vào Trường Đại học Cần Thơ là gì?",
+      "answer": "Mỗi thí sinh được quyền đăng ký xét tuyển vào Trường bằng nhiều phương thức khác nhau, mỗi phương thức nộp 01 bộ hồ sơ riêng và không có sự ràng buộc nào giữa những nguyện vọng do thí sinh đăng ký trong các phương thức.",
       "category": "xet_tuyen",
       "confidence": 0.9,
       "source": "https_tuyensinh.ctu.edu.vn_dai-hoc-chinh-quy_thong-tin-tuyen-sinh.html.md"
     },
     {
       "question": "Trường Đại học Cần Thơ tuyển sinh những ngành nào trong năm 2025?",
-      "answer": "Năm 2025, Trường Đại học Cần Thơ tuyển sinh 117 mã ngành, trong đó có 17 mã ngành đào tạo theo chương trình tiên tiến và chất lượng cao.",
+      "answer": "Năm 2025, Trường ĐHCT tuyển sinh 117 mã ngành; trong đó có 17 mã ngành đào tạo theo chương trình tiên tiến và chất lượng cao.",
       "category": "xet_tuyen",
       "confidence": 0.9,
       "source": "https_tuyensinh.ctu.edu.vn_dai-hoc-chinh-quy_thong-tin-tuyen-sinh.html.md"
     },
     {
       "question": "Chương trình chất lượng cao của Trường Đại học Cần Thơ có gì khác biệt?",
-      "answer": "Chương trình chất lượng cao có cấu trúc gần giống với chương trình đào tạo của nước ngoài, học bằng tiếng Anh và có cơ hội thực tập ở nước ngoài, giúp tăng cơ hội việc làm.",
+      "answer": "Chương trình chất lượng cao có cấu trúc gần giống với chương trình đào tạo của nước ngoài, học bằng tiếng Anh và có cơ hội đi thực tập ở nước ngoài.",
       "category": "xet_tuyen",
       "confidence": 0.9,
       "source": "https_tuyensinh.ctu.edu.vn_dai-hoc-chinh-quy_thong-tin-tuyen-sinh.html.md"
     },
     {
-      "question": "Điểm ưu tiên trong tuyển sinh của Trường Đại học Cần Thơ được áp dụng như thế nào?",
-      "answer": "Điểm ưu tiên trong tuyển sinh được áp dụng theo quy định của Bộ Giáo dục và Đào tạo, nhằm tạo điều kiện cho các thí sinh thuộc diện ưu tiên.",
+      "question": "Tôi cần làm gì để đăng ký xét tuyển vào Trường Đại học Cần Thơ?",
+      "answer": "Bạn cần chuẩn bị 01 bộ hồ sơ cho mỗi phương thức xét tuyển mà bạn muốn đăng ký.",
       "category": "xet_tuyen",
       "confidence": 0.9,
       "source": "https_tuyensinh.ctu.edu.vn_dai-hoc-chinh-quy_thong-tin-tuyen-sinh.html.md"
     },
     {
-      "question": "Học phí cho chương trình chất lượng cao tại Trường Đại học Cần Thơ là bao nhiêu?",
-      "answer": "Thông tin cụ thể về học phí cho chương trình chất lượng cao chưa được đề cập trong tài liệu, bạn có thể liên hệ trực tiếp với trường để biết thêm chi tiết.",
+      "question": "Trường Đại học Cần Thơ có những phương thức xét tuyển nào?",
+      "answer": "Trường Đại học Cần Thơ có 3 phương thức xét tuyển: Xét điểm thi THPT, Xét điểm học bạ THPT, và Xét tuyển theo kết quả thi năng khiếu.",
       "category": "xet_tuyen",
-      "confidence": 0.8,
-      "source": "https_tuyensinh.ctu.edu.vn_dai-hoc-chinh-quy_thong-tin-tuyen-sinh.html.md"
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_phuong-thuc-xet-tuyen_939-phuong-thuc-3.html.md"
+    },
+    {
+      "question": "Điều kiện để xét tuyển bằng điểm học bạ là gì?",
+      "answer": "Thí sinh phải đạt ngưỡng đảm bảo chất lượng đầu vào năm 2025 do Trường ĐHCT xác định và không có môn nào từ 1,0 điểm trở xuống, riêng môn năng khiếu phải đạt từ 5,0 điểm trở lên.",
+      "category": "xet_tuyen",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_phuong-thuc-xet-tuyen_939-phuong-thuc-3.html.md"
+    },
+    {
+      "question": "Thời gian đăng ký xét tuyển vào Trường ĐHCT như thế nào?",
+      "answer": "Thí sinh đăng ký trên Cổng tuyển sinh theo quy định của Bộ GD&ĐT và hướng dẫn của Trường ĐHCT.",
+      "category": "xet_tuyen",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_phuong-thuc-xet-tuyen_939-phuong-thuc-3.html.md"
+    },
+    {
+      "question": "Ngành nào có thể xét tuyển bằng điểm học bạ?",
+      "answer": "Tất cả các ngành của Trường Đại học Cần Thơ đều có thể xét tuyển bằng điểm học bạ THPT.",
+      "category": "xet_tuyen",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_phuong-thuc-xet-tuyen_939-phuong-thuc-3.html.md"
+    },
+    {
+      "question": "Đối tượng nào được xét tuyển vào Trường ĐHCT?",
+      "answer": "Đối tượng xét tuyển là thí sinh tốt nghiệp THPT từ năm 2025 trở về trước và thí sinh tốt nghiệp trình độ cao đẳng trở lên học liên thông trình độ đại học.",
+      "category": "xet_tuyen",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_phuong-thuc-xet-tuyen_939-phuong-thuc-3.html.md"
+    },
+    {
+      "question": "Có bao nhiêu mã ngành tuyển sinh năm 2025?",
+      "answer": "Năm 2025, Trường ĐHCT tuyển sinh 117 mã ngành, trong đó có 17 mã ngành đào tạo theo chương trình tiên tiến và chất lượng cao.",
+      "category": "xet_tuyen",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_phuong-thuc-xet-tuyen_939-phuong-thuc-3.html.md"
+    },
+    {
+      "question": "Thí sinh có thể đăng ký xét tuyển vào Trường ĐHCT như thế nào?",
+      "answer": "Mỗi thí sinh được quyền đăng ký xét tuyển vào Trường bằng nhiều phương thức khác nhau, mỗi phương thức nộp 01 bộ hồ sơ riêng và không có sự ràng buộc nào giữa những nguyện vọng do thí sinh đăng ký trong các phương thức.",
+      "category": "xet_tuyen",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_phuong-thuc-xet-tuyen_939-phuong-thuc-3.html.md"
+    },
+    {
+      "question": "Chương trình chất lượng cao có gì khác so với chương trình đại trà?",
+      "answer": "Chương trình chất lượng cao có cấu trúc gần giống với chương trình đào tạo của nước ngoài, học bằng tiếng Anh và có cơ hội đi thực tập ở nước ngoài.",
+      "category": "xet_tuyen",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_phuong-thuc-xet-tuyen_939-phuong-thuc-3.html.md"
+    },
+    {
+      "question": "Trường Đại học Cần Thơ có những phương thức xét tuyển nào?",
+      "answer": "Trường Đại học Cần Thơ có 4 phương thức xét tuyển: Xét điểm thi THPT, Xét học bạ, Xét điểm thi V-SAT, và Xét tuyển thẳng.",
+      "category": "xet_tuyen",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_phuong-thuc-xet-tuyen_947-phuong-thuc-4.html.md"
+    },
+    {
+      "question": "Điều kiện để đăng ký xét tuyển bằng phương thức V-SAT là gì?",
+      "answer": "Thí sinh phải tốt nghiệp THPT từ năm 2025 trở về trước hoặc tốt nghiệp trình độ cao đẳng trở lên. Ngoài ra, thí sinh phải đạt ngưỡng đảm bảo chất lượng đầu vào năm 2025 do Trường ĐHCT xác định và không có môn nào dưới 1,0 điểm.",
+      "category": "xet_tuyen",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_phuong-thuc-xet-tuyen_947-phuong-thuc-4.html.md"
+    },
+    {
+      "question": "Thí sinh có thể đăng ký xét tuyển vào Trường ĐHCT bằng bao nhiêu phương thức?",
+      "answer": "Mỗi thí sinh có thể đăng ký xét tuyển vào Trường ĐHCT bằng nhiều phương thức khác nhau, mỗi phương thức nộp 01 bộ hồ sơ riêng.",
+      "category": "xet_tuyen",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_phuong-thuc-xet-tuyen_947-phuong-thuc-4.html.md"
+    },
+    {
+      "question": "Thời gian đăng ký xét tuyển vào Trường ĐHCT như thế nào?",
+      "answer": "Thí sinh đăng ký xét tuyển trên Cổng tuyển sinh theo quy định của Bộ GD&ĐT và hướng dẫn của Trường ĐHCT.",
+      "category": "xet_tuyen",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_phuong-thuc-xet-tuyen_947-phuong-thuc-4.html.md"
+    },
+    {
+      "question": "Trường Đại học Cần Thơ tuyển sinh những ngành nào trong năm 2025?",
+      "answer": "Năm 2025, Trường ĐHCT tuyển sinh 117 mã ngành, trong đó có 17 mã ngành đào tạo theo chương trình tiên tiến và chất lượng cao.",
+      "category": "xet_tuyen",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_phuong-thuc-xet-tuyen_947-phuong-thuc-4.html.md"
+    },
+    {
+      "question": "Điểm thi V-SAT được sử dụng như thế nào trong xét tuyển?",
+      "answer": "Điểm thi V-SAT được sử dụng để xét tuyển dựa vào tổ hợp 3 môn ứng với ngành mà thí sinh đăng ký, và môn năng khiếu sẽ sử dụng kết quả do Trường ĐHCT hoặc trường khác tổ chức thi năm 2025.",
+      "category": "xet_tuyen",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_phuong-thuc-xet-tuyen_947-phuong-thuc-4.html.md"
+    },
+    {
+      "question": "Môn năng khiếu trong xét tuyển V-SAT yêu cầu điểm tối thiểu là bao nhiêu?",
+      "answer": "Môn năng khiếu trong xét tuyển V-SAT yêu cầu thí sinh phải đạt từ 5,0 điểm trở lên.",
+      "category": "xet_tuyen",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_phuong-thuc-xet-tuyen_947-phuong-thuc-4.html.md"
+    },
+    {
+      "question": "Liên hệ tư vấn tuyển sinh của Trường Đại học Cần Thơ ở đâu?",
+      "answer": "Liên hệ tư vấn tuyển sinh tại Phòng Đào tạo - Trường Đại học Cần Thơ, Địa chỉ: Đường 3/2, Quận Ninh Kiều, TP. Cần Thơ, Điện thoại: 0292. 3872 728.",
+      "category": "xet_tuyen",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_phuong-thuc-xet-tuyen_947-phuong-thuc-4.html.md"
+    },
+    {
+      "question": "Có bao nhiêu chỉ tiêu tuyển sinh cho các ngành tại Trường ĐHCT?",
+      "answer": "Trường ĐHCT có tổng cộng 117 mã ngành với nhiều chỉ tiêu khác nhau, cụ thể là 17 mã ngành đào tạo theo chương trình tiên tiến và chất lượng cao.",
+      "category": "xet_tuyen",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_phuong-thuc-xet-tuyen_947-phuong-thuc-4.html.md"
     },
     {
       "id": "qa_003",

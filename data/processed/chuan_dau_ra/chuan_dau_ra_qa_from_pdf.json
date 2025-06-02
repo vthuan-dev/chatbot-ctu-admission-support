@@ -1,0 +1,107 @@
+{
+  "intent": "chuan_dau_ra",
+  "description": "Chuẩn đầu ra của chương trình",
+  "count": 16,
+  "qa_pairs": [
+    {
+      "question": "Chương trình đào tạo ngành Giáo dục thể chất tại Trường Đại học Cần Thơ yêu cầu sinh viên tích lũy bao nhiêu tín chỉ để tốt nghiệp?",
+      "answer": "Sinh viên cần tích lũy đủ 141 tín chỉ theo quy định của chương trình đào tạo để đủ điều kiện tốt nghiệp.",
+      "category": "chuan_dau_ra",
+      "confidence": 0.9
+    },
+    {
+      "question": "Điều kiện tốt nghiệp của sinh viên ngành Giáo dục thể chất là gì?",
+      "answer": "Sinh viên phải tích lũy đủ các học phần và số tín chỉ quy định, có điểm trung bình chung tích lũy từ 2,0 trở lên theo thang điểm 4, đạt chuẩn đầu ra chương trình đào tạo, hoàn thành các học phần điều kiện và không bị kỷ luật ở mức đình chỉ học tập.",
+      "category": "chuan_dau_ra",
+      "confidence": 0.9
+    },
+    {
+      "question": "Sinh viên ngành Giáo dục thể chất có thể làm việc ở đâu sau khi tốt nghiệp?",
+      "answer": "Sinh viên có khả năng làm công tác giảng dạy môn Giáo dục thể chất tại các trường học, làm việc trong các cơ quan quản lý nhà nước về thể dục thể thao, hoặc tổ chức hướng dẫn hoạt động thể dục thể thao tại các đơn vị thể thao cơ sở và câu lạc bộ thể thao.",
+      "category": "chuan_dau_ra",
+      "confidence": 0.9
+    },
+    {
+      "question": "Chuẩn đầu ra về kiến thức của sinh viên ngành Giáo dục thể chất bao gồm những gì?",
+      "answer": "Sinh viên cần trình bày và vận dụng các lý thuyết cơ bản về giáo dục thể chất, giáo dục quốc phòng và an ninh, cũng như kiến thức nền tảng về khoa học giáo dục, tâm lý học thể dục thể thao và các nguyên tắc trong thiết kế chương trình môn học.",
+      "category": "chuan_dau_ra",
+      "confidence": 0.9
+    },
+    {
+      "question": "Sinh viên ngành Giáo dục thể chất cần đạt trình độ ngoại ngữ nào để tốt nghiệp?",
+      "answer": "Sinh viên cần đạt trình độ tiếng Anh hoặc tiếng Pháp bậc 3 (B1) theo khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam.",
+      "category": "chuan_dau_ra",
+      "confidence": 0.9
+    },
+    {
+      "question": "Những phẩm chất nào được hình thành cho sinh viên ngành Giáo dục thể chất?",
+      "answer": "Sinh viên sẽ được hình thành phẩm chất cá nhân, phẩm chất nghề nghiệp và phẩm chất xã hội phù hợp với chuẩn nghề nghiệp giáo viên hiện hành, bao gồm phẩm chất đạo đức nghề nghiệp và khả năng thích ứng với môi trường đa văn hóa.",
+      "category": "chuan_dau_ra",
+      "confidence": 0.9
+    },
+    {
+      "question": "Sinh viên ngành Giáo dục thể chất có thể học lên trình độ nào sau khi tốt nghiệp?",
+      "answer": "Sinh viên có thể tiếp tục học sau đại học (thạc sĩ, tiến sĩ) thuộc đúng chuyên ngành hoặc học chuyển đổi chương trình đào tạo để học chuyên ngành khác trong khối ngành thể dục thể thao.",
+      "category": "chuan_dau_ra",
+      "confidence": 0.9
+    },
+    {
+      "question": "Các kỹ năng cứng mà sinh viên ngành Giáo dục thể chất cần có là gì?",
+      "answer": "Sinh viên cần có khả năng tổ chức giảng dạy và kiểm tra đánh giá môn Giáo dục thể chất, hướng dẫn và tổ chức thực hành, huấn luyện thi đấu các môn thể thao, và tham gia nghiên cứu khoa học trong lĩnh vực giáo dục thể chất.",
+      "category": "chuan_dau_ra",
+      "confidence": 0.9
+    },
+    {
+      "question": "Các kỹ năng mềm nào được yêu cầu đối với sinh viên ngành Giáo dục thể chất?",
+      "answer": "Sinh viên cần có khả năng tự chủ trong xây dựng và thực hiện kế hoạch học tập, sáng tạo trong giải quyết vấn đề, và đạt trình độ chuẩn kỹ năng sử dụng công nghệ thông tin cơ bản theo quy định.",
+      "category": "chuan_dau_ra",
+      "confidence": 0.9
+    },
+    {
+      "question": "Sinh viên ngành Giáo dục thể chất cần tuân thủ những quy định nào trong công việc?",
+      "answer": "Sinh viên cần tuân thủ Hiến pháp và pháp luật, tôn trọng nội quy, quy chế làm việc của ngành giáo dục, và tích cực tham gia công tác bồi dưỡng chuyên môn.",
+      "category": "chuan_dau_ra",
+      "confidence": 0.9
+    },
+    {
+      "question": "Mục tiêu chung của chương trình đào tạo ngành Giáo dục thể chất là gì?",
+      "answer": "Mục tiêu chung là đào tạo sinh viên trở thành giáo viên Giáo dục thể chất có năng lực giảng dạy, quản lý và nghiên cứu khoa học, đáp ứng nhu cầu phát triển kinh tế - xã hội và có trách nhiệm trong công tác bảo vệ quốc phòng, an ninh.",
+      "category": "chuan_dau_ra",
+      "confidence": 0.9
+    },
+    {
+      "question": "Khối kiến thức giáo dục đại cương trong chương trình đào tạo bao gồm những gì?",
+      "answer": "Khối kiến thức giáo dục đại cương bao gồm các kiến thức cơ bản về khoa học chính trị, khoa học tự nhiên, khoa học xã hội và pháp luật.",
+      "category": "chuan_dau_ra",
+      "confidence": 0.9
+    },
+    {
+      "question": "Khối kiến thức cơ sở ngành trong chương trình đào tạo ngành Giáo dục thể chất có những nội dung gì?",
+      "answer": "Khối kiến thức cơ sở ngành bao gồm kiến thức nền tảng về khoa học giáo dục GDTC, tâm lý học TDTT, các xu hướng dạy học hiện đại và nguyên tắc trong thiết kế chương trình môn học GDTC.",
+      "category": "chuan_dau_ra",
+      "confidence": 0.9
+    },
+    {
+      "question": "Chuẩn đầu ra về mức độ tự chủ và trách nhiệm cá nhân của sinh viên ngành Giáo dục thể chất là gì?",
+      "answer": "Sinh viên cần có trách nhiệm trong công việc, tuân thủ các quy định về đạo đức nhà giáo và tích cực tham gia công tác bồi dưỡng chuyên môn.",
+      "category": "chuan_dau_ra",
+      "confidence": 0.9
+    },
+    {
+      "question": "Sinh viên ngành Giáo dục thể chất cần đạt những kỹ năng nào trong việc giảng dạy?",
+      "answer": "Sinh viên cần thành thạo kỹ - chiến thuật và phương pháp giảng dạy - huấn luyện, tổ chức thi đấu và phương pháp trọng tài ở một số môn thể thao phổ biến.",
+      "category": "chuan_dau_ra",
+      "confidence": 0.9
+    },
+    {
+      "question": "Chương trình đào tạo ngành Giáo dục thể chất có thời gian đào tạo là bao lâu?",
+      "answer": "Thời gian đào tạo chương trình ngành Giáo dục thể chất là 4 năm.",
+      "category": "chuan_dau_ra",
+      "confidence": 0.9
+    }
+  ],
+  "source": "pdf_markdown",
+  "source_file": "pdf_extracted.md",
+  "created_date": "2025-01-27",
+  "last_updated": "2025-01-27"
+}

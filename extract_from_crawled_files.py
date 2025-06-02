@@ -208,7 +208,7 @@ class CrawledFilesExtractor:
             print(f"Error extracting Q&A from {filename}: {e}")
             return []
     
-    async def process_crawled_files(self, crawled_dir: str = "output/crawled_pages_level4"):
+    async def process_crawled_files(self, crawled_dir: str = "output/crawled_ctu_admission_pages"):
         """Xử lý tất cả file markdown đã cào"""
         crawled_path = Path(crawled_dir)
         

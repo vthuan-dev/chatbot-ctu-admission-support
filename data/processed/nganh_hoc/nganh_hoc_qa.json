@@ -1,7 +1,7 @@
 {
   "intent": "nganh_hoc",
   "description": "Thông tin về các ngành học, chương trình đào tạo",
-  "count": 478,
+  "count": 508,
   "qa_pairs": [
     {
       "question": "Đại học Cần Thơ có những chương trình đào tạo nào?",
@@ -3340,6 +3340,216 @@
       "category": "nganh_hoc",
       "confidence": 0.9,
       "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.ht.md"
+    },
+    {
+      "question": "Trường Đại học Cần Thơ tuyển sinh những ngành nào trong năm 2025?",
+      "answer": "Năm 2025, Trường ĐHCT tuyển sinh 117 mã ngành; trong đó có 17 mã ngành đào tạo theo chương trình tiên tiến và chất lượng cao.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.ht.md"
+    },
+    {
+      "question": "Có bao nhiêu phương thức xét tuyển vào Trường Đại học Cần Thơ?",
+      "answer": "Trường có nhiều phương thức xét tuyển nhằm tăng cơ hội cho thí sinh, bao gồm 4 phương thức: Điểm thi THPT, Học bạ, Năng khiếu, và Ưu tiên khu vực.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.ht.md"
+    },
+    {
+      "question": "Chương trình chất lượng cao của Trường Đại học Cần Thơ có gì khác so với chương trình đại trà?",
+      "answer": "Chương trình chất lượng cao có cấu trúc gần giống với chương trình đào tạo của nước ngoài, học bằng tiếng Anh và có cơ hội đi thực tập ở nước ngoài.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.ht.md"
+    },
+    {
+      "question": "Đăng ký xét tuyển vào Trường Đại học Cần Thơ như thế nào?",
+      "answer": "Mỗi thí sinh được quyền đăng ký xét tuyển vào Trường bằng nhiều phương thức khác nhau, mỗi phương thức nộp 01 bộ hồ sơ riêng và không có sự ràng buộc nào giữa những nguyện vọng.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.ht.md"
+    },
+    {
+      "question": "Trường có chính sách học bổng nào cho thí sinh trúng tuyển không?",
+      "answer": "Trường có nhiều chính sách học bổng cho thí sinh trúng tuyển, tuy nhiên thông tin chi tiết về các học bổng này không được cung cấp trong nội dung.",
+      "category": "nganh_hoc",
+      "confidence": 0.7,
+      "source": "https_tuyensinh.ctu.edu.vn_cau-hoi-pho-bien_875-truong-dai-hoc-can-tho-tuyen-sinh-nhung-nganh-nao.ht.md"
+    },
+    {
+      "question": "Ngành Công nghệ sinh học có thời gian học và học phí như thế nào?",
+      "answer": "Ngành Công nghệ sinh học (mã 7420201T) có thời gian học 4,5 năm, danh hiệu Cử nhân và học phí là 40 triệu đồng/năm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_841-danh-muc-nganh-va-chi-tieu-tuyen-s.md"
+    },
+    {
+      "question": "Chỉ tiêu tuyển sinh của ngành Nuôi trồng thủy sản là bao nhiêu?",
+      "answer": "Ngành Nuôi trồng thủy sản (mã 7620301T) có chỉ tiêu tuyển sinh là 40.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_841-danh-muc-nganh-va-chi-tieu-tuyen-s.md"
+    },
+    {
+      "question": "Ngành Thú y có học phí và thời gian học như thế nào?",
+      "answer": "Ngành Thú y (mã 7640101C) có thời gian học 5 năm, danh hiệu Bác sĩ thú y và học phí là 40 triệu đồng/năm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_841-danh-muc-nganh-va-chi-tieu-tuyen-s.md"
+    },
+    {
+      "question": "Có những ngành nào thuộc chương trình chất lượng cao và chỉ tiêu của chúng là bao nhiêu?",
+      "answer": "Các ngành thuộc chương trình chất lượng cao bao gồm: Công nghệ kỹ thuật hóa học (mã 7510401C, 40 chỉ tiêu), Công nghệ thực phẩm (mã 7540101C, 80 chỉ tiêu), Kỹ thuật xây dựng (mã 7580201C, 40 chỉ tiêu), Kỹ thuật điện (mã 7520201C, 40 chỉ tiêu), và Công nghệ thông tin (mã 7480201C, 80 chỉ tiêu).",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_841-danh-muc-nganh-va-chi-tieu-tuyen-s.md"
+    },
+    {
+      "question": "Học phí của ngành Kỹ thuật điều khiển và tự động hóa là bao nhiêu?",
+      "answer": "Ngành Kỹ thuật điều khiển và tự động hóa (mã 7520216C) có học phí là 37 triệu đồng/năm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_841-danh-muc-nganh-va-chi-tieu-tuyen-s.md"
+    },
+    {
+      "question": "Ngành Quản trị kinh doanh có chỉ tiêu tuyển sinh là bao nhiêu?",
+      "answer": "Ngành Quản trị kinh doanh (mã 7340101C) có chỉ tiêu tuyển sinh là 80.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_177-thong-tin_841-danh-muc-nganh-va-chi-tieu-tuyen-s.md"
+    },
+    {
+      "question": "Ngành Công nghệ sinh học có thời gian học và học phí như thế nào?",
+      "answer": "Ngành Công nghệ sinh học (mã 7420201T) có thời gian học 4,5 năm, danh hiệu Cử nhân và học phí là 40 triệu đồng/năm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_841-danh-muc-nganh-va-chi-tieu-tuyen-sinh-dhcq.html.md"
+    },
+    {
+      "question": "Chỉ tiêu tuyển sinh của ngành Nuôi trồng thủy sản là bao nhiêu?",
+      "answer": "Ngành Nuôi trồng thủy sản (mã 7620301T) có chỉ tiêu tuyển sinh là 40.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_841-danh-muc-nganh-va-chi-tieu-tuyen-sinh-dhcq.html.md"
+    },
+    {
+      "question": "Ngành Thú y có học phí và thời gian học ra sao?",
+      "answer": "Ngành Thú y (mã 7640101C) có thời gian học 5 năm, danh hiệu Bác sĩ thú y và học phí là 40 triệu đồng/năm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_841-danh-muc-nganh-va-chi-tieu-tuyen-sinh-dhcq.html.md"
+    },
+    {
+      "question": "Ngành Công nghệ thực phẩm có chỉ tiêu tuyển sinh là bao nhiêu?",
+      "answer": "Ngành Công nghệ thực phẩm (mã 7540101C) có chỉ tiêu tuyển sinh là 80.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_841-danh-muc-nganh-va-chi-tieu-tuyen-sinh-dhcq.html.md"
+    },
+    {
+      "question": "Học phí của ngành Kỹ thuật điều khiển và tự động hóa là bao nhiêu?",
+      "answer": "Ngành Kỹ thuật điều khiển và tự động hóa (mã 7520216C) có học phí là 37 triệu đồng/năm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_841-danh-muc-nganh-va-chi-tieu-tuyen-sinh-dhcq.html.md"
+    },
+    {
+      "question": "Ngành Công nghệ thông tin có chỉ tiêu tuyển sinh là bao nhiêu?",
+      "answer": "Ngành Công nghệ thông tin (mã 7480201C) có chỉ tiêu tuyển sinh là 80.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_841-danh-muc-nganh-va-chi-tieu-tuyen-sinh-dhcq.html.md"
+    },
+    {
+      "question": "Thời gian học của ngành Kỹ thuật xây dựng là bao lâu?",
+      "answer": "Ngành Kỹ thuật xây dựng (mã 7580201C) có thời gian học là 4,5 năm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_841-danh-muc-nganh-va-chi-tieu-tuyen-sinh-dhcq.html.md"
+    },
+    {
+      "question": "Ngành Quản trị kinh doanh có học phí và chỉ tiêu tuyển sinh như thế nào?",
+      "answer": "Ngành Quản trị kinh doanh (mã 7340101C) có học phí là 40 triệu đồng/năm và chỉ tiêu tuyển sinh là 80.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_chuong-trinh-dai-tra_841-danh-muc-nganh-va-chi-tieu-tuyen-sinh-dhcq.html.md"
+    },
+    {
+      "question": "Ngành Bảo vệ thực vật có thời gian đào tạo bao lâu?",
+      "answer": "Ngành Bảo vệ thực vật có thời gian đào tạo là 4,5 năm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_gioi-thieu-nganh_470-bao-ve-thuc-vat.html.md"
+    },
+    {
+      "question": "Mã ngành tuyển sinh của ngành Bảo vệ thực vật là gì?",
+      "answer": "Mã ngành tuyển sinh của ngành Bảo vệ thực vật là 7620112.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_gioi-thieu-nganh_470-bao-ve-thuc-vat.html.md"
+    },
+    {
+      "question": "Ngành Bảo vệ thực vật có những phương thức xét tuyển nào?",
+      "answer": "Ngành Bảo vệ thực vật có 4 phương thức xét tuyển: Tuyển thẳng, Xét điểm Kỳ thi tốt nghiệp THPT, Xét điểm học bạ THPT, và Xét điểm thi V-SAT.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_gioi-thieu-nganh_470-bao-ve-thuc-vat.html.md"
+    },
+    {
+      "question": "Tổ hợp xét tuyển cho ngành Bảo vệ thực vật là gì?",
+      "answer": "Tổ hợp xét tuyển cho ngành Bảo vệ thực vật gồm: Toán, Hóa, Sinh (B00); Toán, Sinh, Tiếng Anh (B08); Toán, Hóa, Tiếng Anh (D07); Toán, Lý, Hóa (A00).",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_gioi-thieu-nganh_470-bao-ve-thuc-vat.html.md"
+    },
+    {
+      "question": "Sau khi tốt nghiệp ngành Bảo vệ thực vật, sinh viên có thể làm việc ở đâu?",
+      "answer": "Sinh viên tốt nghiệp ngành Bảo vệ thực vật có thể làm việc tại các công ty, tập đoàn sản xuất và kinh doanh nông nghiệp, cơ quan quản lý nông nghiệp, viện nghiên cứu, trường trung cấp, cao đẳng và đại học thuộc lĩnh vực nông nghiệp.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_gioi-thieu-nganh_470-bao-ve-thuc-vat.html.md"
+    },
+    {
+      "question": "Ngành Bảo vệ thực vật cấp bằng gì cho sinh viên?",
+      "answer": "Ngành Bảo vệ thực vật cấp bằng Kỹ sư cho sinh viên sau khi tốt nghiệp.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_tuyensinh.ctu.edu.vn_gioi-thieu-nganh_470-bao-ve-thuc-vat.html.md"
+    },
+    {
+      "question": "Trường Đại học Cần Thơ có những ngành học nào?",
+      "answer": "Trường có các ngành: Công nghệ thông tin (mã 7480201, 300 chỉ tiêu), Kinh tế (mã 7310101, 200 chỉ tiêu), Quản trị kinh doanh (mã 7340101, 250 chỉ tiêu).",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_www.ctu.edu.vn_dao-tao_ctdt-dai-hoc.html.md"
+    },
+    {
+      "question": "Học phí của các ngành học tại Đại học Cần Thơ là bao nhiêu?",
+      "answer": "Học phí năm 2025: Ngành Công nghệ thông tin 15 triệu/năm, Ngành Kinh tế 12 triệu/năm, Ngành Y khoa 25 triệu/năm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_www.ctu.edu.vn_dao-tao_ctdt-dai-hoc.html.md"
+    },
+    {
+      "question": "Trường có bao nhiêu phương thức xét tuyển?",
+      "answer": "Trường có 4 phương thức xét tuyển: Điểm thi THPT (70%), Học bạ (20%), Năng khiếu (5%), Ưu tiên khu vực (5%).",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_www.ctu.edu.vn_dao-tao_ctdt-dai-hoc.html.md"
+    },
+    {
+      "question": "Thời gian đào tạo cho các ngành học tại Đại học Cần Thơ là bao lâu?",
+      "answer": "Thời gian đào tạo cho các ngành đại học là 4 năm.",
+      "category": "nganh_hoc",
+      "confidence": 0.9,
+      "source": "https_www.ctu.edu.vn_dao-tao_ctdt-dai-hoc.html.md"
+    },
+    {
+      "question": "Có ngành nào đào tạo sau đại học không?",
+      "answer": "Trường có chương trình đào tạo sau đại học với nhiều chuyên ngành khác nhau, bạn có thể tham khảo thêm thông tin chi tiết trên trang web.",
+      "category": "nganh_hoc",
+      "confidence": 0.8,
+      "source": "https_www.ctu.edu.vn_dao-tao_ctdt-dai-hoc.html.md"
     }
   ],
   "source": "crawled_markdown_files",

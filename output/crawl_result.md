@@ -46,12 +46,12 @@ Tin mới:
 
 Tìm kiếm
 ### Thông tin tuyển sinh
-[Phương thức 6: Xét tuyển thẳng vào học bổ sung kiến thức](https://tuyensinh.ctu.edu.vn/phuong-thuc-xet-tuyen/940-phuong-thuc-6.html)
 [Thông tin tuyển sinh CTCLC](https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/chuong-trinh-chat-luong-cao.html)
 [Thông tin tuyển sinh CTTT](https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/chuong-trinh-tien-tien.html)
 [Dự kiến Ngành và chỉ tiêu tuyển sinh đại học chính quy năm 2025](https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/177-thong-tin/841-danh-muc-nganh-va-chi-tieu-tuyen-sinh-dhcq.html)
 [Ký túc xá](https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/177-thong-tin/897-ky-tuc-xa.html)
 [Thông tin Tuyển sinh năm 2025](https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy.html)
+[Phương thức 4: Xét điểm thi V-SAT](https://tuyensinh.ctu.edu.vn/phuong-thuc-xet-tuyen/947-phuong-thuc-4.html)
 [» Xem thêm... ](https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/thong-tin-tuyen-sinh.html)
   * ![icon](https://tuyensinh.ctu.edu.vn/images/tab-icon3.png) Đại học chính quy 
   * ![icon](https://tuyensinh.ctu.edu.vn/images/tab-icon1.png) Tiên tiến & Chất lượng cao 
@@ -134,7 +134,6 @@ Giá trị cốt lõi: ĐỒNG THUẬN - TẬN TÂM - CHUẨN MỰC - SÁNG TẠ
 ### Liên hệ tư vấn tuyển sinh đại học chính quy
 Phòng Đào tạo - Trường Đại học Cần Thơ- Địa chỉ: Đường 3/2, Quận Ninh Kiều, TP. Cần Thơ- Điện thoại: 0292. 3872 728- Email: tuyensinh@ctu.edu.vn - Mobile/Zalo/Viber: 0886889922
 - Kênh tư vấn: [https://www.facebook.com/ctu.tvts](https://www.facebook.com/ctu.tvts/)
-> [Facebook](https://www.facebook.com/ctu.tvts/)
   * ####  Đăng ký xét tuyển vào Trường ĐHCT như thế nào? +
 Mỗi thí sinh được quyền đăng ký xét tuyển vào Trường bằng nhiều phương thức khác nhau, mỗi phương thức nộp 01 bộ hồ sơ riêng và không có sự ràng buộc nào giữa những nguyện vọng do thí sinh đăng ký trong các phương thức. [→ Xem chi tiết](https://tuyensinh.ctu.edu.vn/cau-hoi-pho-bien/874-dang-ky-xet-tuyen-vao-dai-hoc-can-tho.html)
   * ####  Trường Đại học Cần Thơ tuyển sinh những ngành nào? +
@@ -160,19 +159,19 @@ Cấu trúc chương trình đào tạo chất lượng cao gần giống với 
 ### Tham khảo
 [Chương trình đào tạo đại học](https://www.ctu.edu.vn/dao-tao/ctdt-dai-hoc.html)
 ### Lượt truy cập
-16299542
+16300417
 Hôm nay
 Hôm qua
 Tuần này
 Tháng này
 Năm này
 Tất cả
-6998
+7873
 13560
-20558
-317383
-1203767
-16299542
+21433
+318258
+1204642
+16300417
 ### Giới thiệu
 Your browser does not support HTML5 video. 
 ![](https://tuyensinh.ctu.edu.vn/images/upload/qr-code.png)
